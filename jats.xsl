@@ -29,9 +29,7 @@
   <xsl:template name="separator">
     <xsl:param name="n" />
     <xsl:if test="$n &gt; 0">
-      <xsl:text>
- --- |
-</xsl:text>
+      <xsl:text> --- |</xsl:text>
       <xsl:call-template name="separator">
         <xsl:with-param name="n" select="$n - 1" />
       </xsl:call-template>
@@ -59,21 +57,15 @@
     <!-- why do we have different ways of doing this? -->
     <xsl:value-of select="//journal-meta/journal-title-group/journal-title" />
     <xsl:value-of select="../journal-meta/journal-title" />
-    <xsl:text>
- 
-</xsl:text>
+    <xsl:text> </xsl:text>
     <xsl:if test="//article-meta/pub-date/day">
       <xsl:value-of select="//article-meta/pub-date/day" />
-      <xsl:text>
- 
-</xsl:text>
+      <xsl:text> </xsl:text>
     </xsl:if>
     <xsl:if test="//article-meta/pub-date/month">
       <xsl:choose>
         <xsl:when test="//article-meta/pub-date/month = 1">
-          <xsl:text>
-January
-</xsl:text>
+          <xsl:text>January</xsl:text>
         </xsl:when>
         <xsl:when test="//article-meta/pub-date/month = 2">
           <xsl:text>
@@ -141,31 +133,21 @@ December
 </xsl:text>
     <xsl:value-of select="//article-meta/volume" />
     <xsl:if test="//article-meta/issue">
-      <xsl:text>
-(
-</xsl:text>
+      <xsl:text>(</xsl:text>
       <xsl:value-of select="//article-meta/issue" />
-      <xsl:text>
-)
-</xsl:text>
+      <xsl:text>)</xsl:text>
     </xsl:if>
-    <xsl:text>
-: 
-</xsl:text>
+    <xsl:text>: </xsl:text>
     <xsl:if test="//article-meta/fpage">
       <xsl:value-of select="//article-meta/fpage" />
-      <xsl:text>
--
-</xsl:text>
+      <xsl:text>-</xsl:text>
       <xsl:value-of select="//article-meta/lpage" />
     </xsl:if>
     <xsl:if test="//article-meta/elocation-id">
       <xsl:value-of select="//article-meta/elocation-id" />
     </xsl:if>
     <br />
-    <xsl:text>
-# 
-</xsl:text>
+    <xsl:text># </xsl:text>
     <xsl:value-of select="//article-title" />
     <br />
     <xsl:apply-templates select="//contrib-group" />
@@ -175,32 +157,20 @@ December
   <xsl:template match="article-id">
     <xsl:choose>
       <xsl:when test="@pub-id-type='doi'">
-        <xsl:text>
-- 
-</xsl:text>
-        <xsl:text>
-DOI:
-</xsl:text>
+        <xsl:text>- </xsl:text>
+        <xsl:text>DOI:</xsl:text>
         <xsl:value-of select="." />
         <br />
       </xsl:when>
       <xsl:when test="@pub-id-type='pmid'">
-        <xsl:text>
-- 
-</xsl:text>
-        <xsl:text>
-PMID:
-</xsl:text>
+        <xsl:text>- </xsl:text>
+        <xsl:text>PMID:</xsl:text>
         <xsl:value-of select="." />
         <br />
       </xsl:when>
       <xsl:when test="@pub-id-type='pmc'">
-        <xsl:text>
-- 
-</xsl:text>
-        <xsl:text>
-PMC
-</xsl:text>
+        <xsl:text>- </xsl:text>
+        <xsl:text>PMC</xsl:text>
         <xsl:value-of select="." />
         <br />
       </xsl:when>
@@ -209,9 +179,7 @@ PMC
   </xsl:template>
   <!-- ZooBank LSID for article -->
   <xsl:template match="//self-uri[@content-type='lsid']">
-    <xsl:text>
-- 
-</xsl:text>
+    <xsl:text>- </xsl:text>
     <xsl:value-of select="." />
   </xsl:template>
   <!-- authors -->
@@ -224,14 +192,10 @@ PMC
     <xsl:if test="position() != 1">
       <xsl:choose>
         <xsl:when test="position() = last()">
-          <xsl:text>
- and 
-</xsl:text>
+          <xsl:text> and </xsl:text>
         </xsl:when>
         <xsl:otherwise>
-          <xsl:text>
-, 
-</xsl:text>
+          <xsl:text>, </xsl:text>
         </xsl:otherwise>
       </xsl:choose>
     </xsl:if>
@@ -256,21 +220,24 @@ PMC
   </xsl:template>
   <!-- basic elements -->
   <xsl:template match="p">
-    <br />
-    <xsl:apply-templates />
+     <xsl:apply-templates />
     <br />
   </xsl:template>
-  <xsl:template match="italic">_
-  <xsl:apply-templates />_</xsl:template>
-  <xsl:template match="bold">**
-  <xsl:apply-templates />**</xsl:template>
+  <xsl:template match="italic">
+  <xsl:text> _</xsl:text>
+  <xsl:apply-templates />
+  <xsl:text>_ </xsl:text>
+  </xsl:template>
+  <xsl:template match="bold">
+  <xsl:text>**</xsl:text>
+  <xsl:apply-templates />
+  <xsl:text>**</xsl:text>
+  </xsl:template>
   <xsl:template match="list">
     <xsl:apply-templates />
   </xsl:template>
   <xsl:template match="list-item">
-    <xsl:text>
-- 
-</xsl:text>
+    <xsl:text>- </xsl:text>
     <xsl:if test="label">
       <xsl:value-of select="label" />
     </xsl:if>
@@ -285,9 +252,7 @@ PMC
       <xsl:when test="@ref-type='bibr'">
         <a>
           <xsl:attribute name="href">
-            <xsl:text>
-#
-</xsl:text>
+            <xsl:text>#</xsl:text>
             <xsl:value-of select="@rid" />
           </xsl:attribute>
           <xsl:apply-templates />
@@ -355,49 +320,47 @@ PMC
     </xsl:choose>
   </xsl:template>
   <!-- label -->
-  <xsl:template match="label">**
-  <xsl:apply-templates />**</xsl:template>
+  <xsl:template match="label">
+  <xsl:text>**</xsl:text>
+  <!-- <xsl:apply-templates /> -->
+  <xsl:value-of select="normalize-space()"/>
+  <xsl:text>**</xsl:text>
+  </xsl:template>
   <!-- title -->
   <xsl:template match="sec/title">
     <!-- heading level based on depth of sec tag -->
     <xsl:choose>
       <xsl:when test="count(ancestor-or-self::sec)=1">
         <br />
-        <xsl:text>
-## 
-</xsl:text>
+        <xsl:text>## </xsl:text>
         <xsl:apply-templates />
         <br />
       </xsl:when>
       <xsl:when test="count(ancestor-or-self::sec)=2">
         <br />
-        <xsl:text>
-### 
-</xsl:text>
+        <xsl:text>### </xsl:text>
         <xsl:apply-templates />
         <br />
       </xsl:when>
       <xsl:when test="count(ancestor-or-self::sec)=3">
         <br />
-        <xsl:text>
-#### 
-</xsl:text>
+        <xsl:text>#### </xsl:text>
         <xsl:apply-templates />
         <br />
       </xsl:when>
       <xsl:otherwise>
         <br />
-        <xsl:text>
-#### 
-</xsl:text>
+        <xsl:text>#### </xsl:text>
         <xsl:apply-templates />
         <br />
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
   <!-- <xsl:template match="ack/title"><h2><xsl:apply-templates /></h2></xsl:template> -->
-  <xsl:template match="title">**
-  <xsl:apply-templates />**</xsl:template>
+  <xsl:template match="title">
+  <xsl:text>**</xsl:text>
+  <xsl:apply-templates />
+  <xsl:text>**</xsl:text></xsl:template>
   <!-- table -->
   <xsl:template match="table-wrap">
     <br />
@@ -436,25 +399,17 @@ PMC
   </xsl:template>
   <xsl:template match="th">
     <xsl:if test="not(preceding-sibling::th)">
-      <xsl:text>
-| 
-</xsl:text>
+      <xsl:text>| </xsl:text>
     </xsl:if>
     <xsl:apply-templates />
-    <xsl:text>
- |
-</xsl:text>
+    <xsl:text> |</xsl:text>
   </xsl:template>
   <xsl:template match="td">
     <xsl:if test="not(preceding-sibling::td)">
-      <xsl:text>
-| 
-</xsl:text>
+      <xsl:text>| </xsl:text>
     </xsl:if>
     <xsl:apply-templates />
-    <xsl:text>
- |
-</xsl:text>
+    <xsl:text> |</xsl:text>
   </xsl:template>
   <!-- tp -->
   <!--
@@ -525,12 +480,8 @@ PMC
   <!-- figure -->
   <xsl:template match="fig">
     <br />
-    <xsl:text>
-![]
-</xsl:text>
-    <xsl:text>
-(
-</xsl:text>
+    <xsl:text>![]</xsl:text>
+    <xsl:text>(</xsl:text>
     <!--            <xsl:text>https://journals.plos.org/plosone/article/figure/image?size=large&amp;id=</xsl:text> 
                 <xsl:value-of select="graphic/@xlink:href" /> -->
     <xsl:choose>
@@ -550,18 +501,14 @@ PMC
         <xsl:value-of select="graphic/@xlink:href" />
       </xsl:otherwise>
     </xsl:choose>
-    <xsl:text>
-)
-</xsl:text>
+    <xsl:text>)</xsl:text>
     <br />
     <xsl:apply-templates />
     <br />
   </xsl:template>
   <!-- references -->
   <xsl:template match="ref-list">
-    <xsl:text>
-## 
-</xsl:text>
+    <xsl:text>## </xsl:text>
     <xsl:value-of select="title" />
     <br />
     <!-- Kew JATS is broken and has ref-list twice(!) -->
@@ -569,9 +516,7 @@ PMC
   </xsl:template>
   <!-- Reference list -->
   <xsl:template match="ref">
-    <xsl:text>
-- 
-</xsl:text>
+    <xsl:text>- </xsl:text>
     <a>
       <xsl:attribute name="name">
         <xsl:value-of select="@id" />
@@ -592,53 +537,35 @@ PMC
   </xsl:template>
   <xsl:template match="name">
     <xsl:if test="position() != 1">
-      <xsl:text>
-, 
-</xsl:text>
+      <xsl:text>, </xsl:text>
     </xsl:if>
     <xsl:value-of select="surname" />
-    <xsl:text>
-, 
-</xsl:text>
+    <xsl:text>, </xsl:text>
     <xsl:value-of select="given-names" />
   </xsl:template>
   <xsl:template match="article-title">
-    <xsl:text>
-**
-</xsl:text>
+    <xsl:text>**</xsl:text>
     <xsl:value-of select="." />
-    <xsl:text>
-**
-</xsl:text>
+    <xsl:text>**</xsl:text>
   </xsl:template>
   <xsl:template match="chapter-title">
-    <xsl:text>
-**
-</xsl:text>
+    <xsl:text>**</xsl:text>
     <xsl:value-of select="." />
-    <xsl:text>
-**
-</xsl:text>
+    <xsl:text>**</xsl:text>
   </xsl:template>
   <xsl:template match="source">
     <xsl:apply-templates />
-    <xsl:text>
-, 
-</xsl:text>
+    <xsl:text>, </xsl:text>
   </xsl:template>
   <xsl:template match="volume">
     <xsl:value-of select="." />
-    <xsl:text>
-: 
-</xsl:text>
+    <xsl:text>: </xsl:text>
   </xsl:template>
   <xsl:template match="fpage">
     <xsl:value-of select="." />
   </xsl:template>
   <xsl:template match="lpage">
-    <xsl:text>
--
-</xsl:text>
+    <xsl:text>-</xsl:text>
     <xsl:value-of select="." />
   </xsl:template>
   <xsl:template match="publisher-name">
