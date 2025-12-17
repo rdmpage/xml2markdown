@@ -489,16 +489,24 @@ December
       <xsl:when test="contains(graphic/@xlink:href, 'journal.pone')">
         <xsl:value-of select="concat('https://journals.plos.org/plosone/article/figure/image?size=large&amp;id=', graphic/@xlink:href)" />
       </xsl:when>
+
       <!-- Wellcome -->
       <xsl:when test="contains(graphic/@xlink:href, 'wellcomeopenresearch.s3.eu-west-1.amazonaws.com')">
         <xsl:value-of select="concat( substring-before(graphic/@xlink:href, 'wellcomeopenresearch.s3.eu-west-1.amazonaws.com'), 'wellcomeopenresearch-files.f1000.com', substring-after(graphic/@xlink:href, 'wellcomeopenresearch.s3.eu-west-1.amazonaws.com') )" />
       </xsl:when>
+ 
       <!-- Pensoft -->
       <xsl:when test="contains(graphic/@xlink:href, 'ZooKeys')">
         <xsl:value-of select="graphic/uri" />
       </xsl:when>
+      
+      <!-- PMC -->
+      <xsl:when test="//article-id[@pub-id-type='pmc']">
+        <xsl:value-of select="concat('PMC', //article-id[@pub-id-type='pmc'], '/', graphic/@xlink:href, '.jpg')" /> 
+      </xsl:when>
+      
       <xsl:otherwise>
-        <xsl:value-of select="graphic/@xlink:href" />
+       <xsl:value-of select="graphic/@xlink:href" />
       </xsl:otherwise>
     </xsl:choose>
     <xsl:text>)</xsl:text>
