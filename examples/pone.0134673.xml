@@ -1,0 +1,1812 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="3.0" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0134673</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-15-16482</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>The Evolution of Epigean and Stygobitic Species of <italic>Koonunga</italic> Sayce, 1907 (Syncarida: Anaspidacea) in Southern Australia, with the Description of Three New Species</article-title>
+<alt-title alt-title-type="running-head">Evolution of <italic>Koonunga</italic></alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes" xlink:type="simple">
+<name name-style="western">
+<surname>Leijs</surname>
+<given-names>Remko</given-names>
+</name>
+<xref rid="aff001" ref-type="aff"><sup>1</sup></xref>
+<xref rid="aff002" ref-type="aff"><sup>2</sup></xref>
+<xref rid="aff003" ref-type="aff"><sup>3</sup></xref>
+<xref rid="cor001" ref-type="corresp">*</xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Bradford</surname>
+<given-names>Tessa</given-names>
+</name>
+<xref rid="aff001" ref-type="aff"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Mitchell</surname>
+<given-names>James G.</given-names>
+</name>
+<xref rid="aff001" ref-type="aff"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Humphreys</surname>
+<given-names>William F.</given-names>
+</name>
+<xref rid="aff003" ref-type="aff"><sup>3</sup></xref>
+<xref rid="aff004" ref-type="aff"><sup>4</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Cooper</surname>
+<given-names>Steven J. B.</given-names>
+</name>
+<xref rid="aff002" ref-type="aff"><sup>2</sup></xref>
+<xref rid="aff003" ref-type="aff"><sup>3</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Goonan</surname>
+<given-names>Peter</given-names>
+</name>
+<xref rid="aff005" ref-type="aff"><sup>5</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>King</surname>
+<given-names>Rachael A.</given-names>
+</name>
+<xref rid="aff002" ref-type="aff"><sup>2</sup></xref>
+<xref rid="aff003" ref-type="aff"><sup>3</sup></xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>School of Biological Sciences, Flinders University of South Australia, Bedford Park, Adelaide, Australia</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>South Australian Museum, North Terrace, Adelaide, Australia</addr-line></aff>
+<aff id="aff003"><label>3</label> <addr-line>School of Biological Sciences and Australian Centre for Evolutionary Biology and Biodiversity, The University of Adelaide, Adelaide, Australia</addr-line></aff>
+<aff id="aff004"><label>4</label> <addr-line>Western Australian Museum, Welshpool, Australia and School of Animal Biology, University of Western Australia, Perth, Australia</addr-line></aff>
+<aff id="aff005"><label>5</label> <addr-line>South Australian Environment Protection Authority, Adelaide, Australia</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple">
+<name name-style="western">
+<surname>Bruce</surname>
+<given-names>Niel L.</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1"/>
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Queensland Museum, AUSTRALIA</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<fn fn-type="con" id="contrib001">
+<p>Conceived and designed the experiments: RL RAK. Performed the experiments: RL RAK. Analyzed the data: RL RAK TB. Contributed reagents/materials/analysis tools: JGM WFH. Wrote the paper: RL RAK TB JGM SJBC WFH PG.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email xlink:type="simple">Remko.Leijs@samuseum.sa.gov.au</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>26</day>
+<month>8</month>
+<year>2015</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2015</year>
+</pub-date>
+<volume>10</volume>
+<issue>8</issue>
+<elocation-id>e0134673</elocation-id>
+<history>
+<date date-type="received">
+<day>20</day>
+<month>4</month>
+<year>2015</year>
+</date>
+<date date-type="accepted">
+<day>13</day>
+<month>7</month>
+<year>2015</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2015</copyright-year>
+<copyright-holder>Leijs et al</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pone.0134673" xlink:type="simple"/>
+<abstract>
+<p>Three new species of <italic>Koonunga</italic> were discovered in surface and subterranean waters in southern Australia, and were defined using mtDNA analyses and morphology. The new species are: <italic>Koonunga hornei</italic> Leijs &amp; King; <italic>K</italic>. <italic>tatiaraensis</italic> Leijs &amp; King and <italic>K</italic>. <italic>allambiensis</italic> Leijs &amp; King. Molecular clock analyses indicate that the divergence times of the species are older than the landscape that they currently inhabit. Different scenarios explaining this apparent discrepancy are discussed in the context of the palaeography of the area. A freshwater epigean origin for <italic>Koonunga</italic> is considered the most likely hypothesis, whereby some lineages made the transition to the subterranean environment within the last few million years influenced by significant climatic cooling/drying. We discuss the possibility that one stygobitic lineage secondarily regained some of its body pigmentation as adaptation to increased photic conditions after cave collapse and forming of cenotes during the last glacial maximum.</p>
+</abstract>
+<funding-group>
+<funding-statement>This research was supported by Australian Research Council grant, <ext-link ext-link-type="uri" xlink:href="http://www.arc.gov.au" xlink:type="simple">www.arc.gov.au</ext-link>, LP-00776478 to JGM and an ABRS Bush Blitz Tactical Taxonomy Grant, <ext-link ext-link-type="uri" xlink:href="http://www.environment.gov.au/science/abrs/grants" xlink:type="simple">www.environment.gov.au/science/abrs/grants</ext-link>, TTC211-07 to RL. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="15"/>
+<table-count count="4"/>
+<page-count count="35"/>
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability" xlink:type="simple">
+<meta-name>Data Availability</meta-name>
+<meta-value>DNA sequences are submitted to GenBank: accession numbers KR131635-KR131709. Other data (species descriptions and drawings) are available in the publication.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec001" sec-type="intro">
+<title>Introduction</title>
+<p>The order Anaspidacea Calman, 1904 [<xref rid="pone.0134673.ref001" ref-type="bibr">1</xref>] (Crustacea, Malacostraca, Syncarida) is an ancient taxon, as evidenced by numerous Permian fossils from northern and southern hemisphere marine habitats [<xref rid="pone.0134673.ref002" ref-type="bibr">2</xref>, <xref rid="pone.0134673.ref003" ref-type="bibr">3</xref>] as well as a single Australian Triassic fossil from the Hawkesbury Sandstone (<italic>Anaspidites antiquus</italic> Chilton 1929) [<xref rid="pone.0134673.ref004" ref-type="bibr">4</xref>]. The latter has a remarkably similar morphology to extant <italic>Anaspides</italic> Thomson, 1894 [<xref rid="pone.0134673.ref005" ref-type="bibr">5</xref>] species [<xref rid="pone.0134673.ref006" ref-type="bibr">6</xref>]. Presently, three of the four families within the Anaspidacea (Anaspididae Thomson, 1983 [<xref rid="pone.0134673.ref007" ref-type="bibr">7</xref>], Koonungidae Sayce, 1907 [<xref rid="pone.0134673.ref008" ref-type="bibr">8</xref>] and Psammaspididae Schminke, 1974 [<xref rid="pone.0134673.ref009" ref-type="bibr">9</xref>]) are endemic to south-east Australia (New South Wales, Victoria, Tasmania and South Australia) and are found in fresh surface water and subterranean habitats [<xref rid="pone.0134673.ref010" ref-type="bibr">10</xref>], while species belonging to the fourth family Stygocarididae Noodt, 1963 [<xref rid="pone.0134673.ref011" ref-type="bibr">11</xref>] occur in South America, as well as in Australia, and are found exclusively in subterranean waters [<xref rid="pone.0134673.ref012" ref-type="bibr">12</xref>]. Here we focus on the species within the family Koonungidae that currently contains two genera: <italic>Micraspides</italic> Nicholls, l93l [<xref rid="pone.0134673.ref013" ref-type="bibr">13</xref>] and <italic>Koonunga</italic> Sayce, 1907 [<xref rid="pone.0134673.ref008" ref-type="bibr">8</xref>]. <italic>Micraspides</italic> is monotypic and its species inhabits freshwater crayfish burrows in western Tasmania, while <italic>Koonunga</italic> currently comprises two species. <italic>Koonunga cursor</italic> Sayce, 1907 [<xref rid="pone.0134673.ref008" ref-type="bibr">8</xref>], is reported to occur in southern Victoria and north-western Tasmania [<xref rid="pone.0134673.ref014" ref-type="bibr">14</xref>, <xref rid="pone.0134673.ref015" ref-type="bibr">15</xref>] in small permanent to semi-permanent wetlands and pools in irregularly flowing creeks. <italic>Koonunga crenarum</italic> Zeidler, 1985 [<xref rid="pone.0134673.ref016" ref-type="bibr">16</xref>] was described from cenotes (sinkholes) and caves in the Mount Gambier area of South Australia. Several additional undescribed species of <italic>Koonunga</italic> have been reported to occur in Victoria [<xref rid="pone.0134673.ref014" ref-type="bibr">14</xref>], King Island and north-west Tasmania [<xref rid="pone.0134673.ref017" ref-type="bibr">17</xref>]. During a three year project (2008–2011) that aimed to survey South Australian subsurface groundwater dependent ecosystems, new species of <italic>Koonunga</italic> were found in the south-east of South Australia (<xref rid="pone.0134673.g001" ref-type="fig">Fig 1</xref>).The habitat in which the new species of <italic>Koonunga</italic> were collected consists of a large semi-continuous unconfined aquifer in the Tertiary Gambier Limestone with a low salinity, total dissolved solids were &lt; 1500 mg/L [<xref rid="pone.0134673.ref018" ref-type="bibr">18</xref>].</p>
+<fig id="pone.0134673.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0134673.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Map of the distribution of the <italic>Koonunga</italic> species treated in this paper.</title>
+<p>Locality numbers refer to data in <xref rid="pone.0134673.t001" ref-type="table">Table 1</xref>. Open circle: <italic>K</italic>. <italic>crenarum</italic>; closed circles <italic>K</italic>. <italic>hornei</italic> sp. nov.; closed diamonds <italic>K</italic>. <italic>tatiaraensis</italic> sp. nov.; open diamonds <italic>K</italic>. <italic>allambiensis</italic> sp. nov..</p>
+</caption>
+<graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0134673.g001" position="float" xlink:type="simple"/>
+</fig>
+<p>The palaeogeographic history of south-east South Australia helps to understand the evolution and the current distribution of the different <italic>Koonunga</italic> species. The Mount Gambier coastal plain, defined by the current coastline and the Kanawinka Escarpment (<xref rid="pone.0134673.g001" ref-type="fig">Fig 1</xref>) in the north-east is less than 1.1 My old [<xref rid="pone.0134673.ref019" ref-type="bibr">19</xref>] and was formed by a general and gradual uplift of the area which in turn caused a marine regression. Periodic cycles (100ka) of sea level changes, caused by fluctuations of global ice volume and temperature change [<xref rid="pone.0134673.ref020" ref-type="bibr">20</xref>, <xref rid="pone.0134673.ref021" ref-type="bibr">21</xref>] deposited a number of parallel calcareous sand dune formations (Bridgewater formation) of decreasing age towards the coast. These sand dune formations roughly indicate past historical coastline positions. The underlying geology of relevance in terms of understanding the distribution of the <italic>Koonunga</italic> species mainly consists of a thick layer of Gambier Limestone, up to 400 m thick in places, which was formed in the Murray and Otway Basins in the Late Miocene-Late Pliocene, &gt; 15 Mya [<xref rid="pone.0134673.ref022" ref-type="bibr">22</xref>].</p>
+<p>The flat topography and porous nature of the limestone from Mount Gambier towards the coast means there is no natural surface drainage network, apart from permanent coastal springs and their short drainages [<xref rid="pone.0134673.ref023" ref-type="bibr">23</xref>]. The only surface water in the area is found in cenotes (large collapsed caves), from which the majority of the <italic>K</italic>. <italic>crenarum</italic> specimens were collected. In the northern part of the area surface water is restricted to a number of lagoons with fluctuating water levels due to variable groundwater inflows and rainfall inputs. Especially in the southern part of the area karstification of the Gambier limestone resulted in the forming of caves and cenotes. This karstification may have been accelerated by volcanogenic CO<sub>2</sub> emissions associated with the Late Pleistocene Mount Gambier eruption around 28ka [<xref rid="pone.0134673.ref023" ref-type="bibr">23</xref>]. Cenotes, caused by ceiling collapses of larger cavities, probably occurred during the Last Glacial Maximum (20 ka) when the sea-level was circa 120 m below the current level [<xref rid="pone.0134673.ref024" ref-type="bibr">24</xref>], which would have greatly reduced groundwater levels [<xref rid="pone.0134673.ref023" ref-type="bibr">23</xref>]. Strontium isotope analyses of stromatolites in the cenotes suggest they flooded with the sea level rise circa 8000 years ago [<xref rid="pone.0134673.ref023" ref-type="bibr">23</xref>].</p>
+<p>In this paper we use molecular and morphological data to delineate and describe three new species of <italic>Koonunga</italic>. Species divergence time estimates are obtained from molecular data, and together with historical data on geology and geography, we discuss scenarios for the evolution of these <italic>Koonunga</italic> species.</p>
+</sec>
+<sec id="sec002" sec-type="materials|methods">
+<title>Materials and Methods</title>
+<sec id="sec003">
+<title>Specimen collection and taxa examined</title>
+<p><italic>Koonunga</italic> specimens were collected from the south-east of South Australia in an area that encompassed Keith in the north to Port MacDonnell in the south (<xref rid="pone.0134673.g001" ref-type="fig">Fig 1</xref>), as part of a three-year project to study the biodiversity of groundwater in South Australia. In addition, groundwater sampling in the Keith-Bordertown area was done in collaboration with the South Australian Environment Protection Authority. Furthermore, specimens were also collected during a Bush Blitz Survey (Australian Biological Resources Study, Department of Environment, Canberra) in the Lake Condah area of Victoria. Observation bores were sampled with the permission of the Department of Water, Land and Biodiversity Conservation, Adelaide. Sinkholes, caves and wells were sampled with the permission of the landowners. No specific ethics approval was needed for this invertebrate group. The field studies did not involve endangered or protected species. <italic>Koonunga</italic> specimens were collected from surface waters such as creeks, spring fed wetlands and cenotes using a 1 mm mesh sieve and from groundwater using variable diameter weighted plankton nets (mesh size 0.1 mm) that fit groundwater observation wells. These weighted plankton nets were used to filter the water column in the wells repeatedly, dislodging material and fauna from the bottom and walls. Mop traps were used to attract specimens. These traps consisted of a few strands of cotton fibre from a mop that provided a surface for biofilms that subsequently attracted species of higher trophic levels in the ecosystem. These traps were left <italic>in situ</italic> for days to several months. Additionally the Bou-Rouch [<xref rid="pone.0134673.ref025" ref-type="bibr">25</xref>] method of pumping and filtering 50–100 litres of water from 0.5–1 m below the surface was used for collecting from gravel in springs and cave debris. Samples were sorted within a few hours and specimens were preserved in absolute ethanol.</p>
+<p>The holotype (SAMA C13286) and additional material of <italic>Koonunga crenarum</italic> present in the collections of the South Australian Museum (SAMA C3990-C3992) were examined for comparative purposes. Sayce (1908) did not designate holotype material of <italic>K</italic>. <italic>cursor</italic>, which he collected from Mullum Creek in Ringwood, near Melbourne. However, syntype specimens collected by Sayce from this locality (NMV J1046), were loaned and examined from the collections at Museum Victoria.</p>
+<p>Water quality parameters of groundwater wells were recorded using a Hach Hydrolab MS5 water quality sonde. Parameters measured were: Temperature (°C), Specific Conductance (mS/cm), Salinity (ppt), pH (units) and Dissolved Oxygen saturation DO (% saturation).</p>
+</sec>
+<sec id="sec004">
+<title>Molecular methods</title>
+<p>Genomic DNA was extracted from ethanol preserved specimens and frozen specimens of the Australian Biological Tissue Collection, South Australian Museum. DNA was extracted from pereopods (thoracopods), or from the entire body of small specimens using DNAzol (Molecular Research Center, Cincinnati, Ohio) [<xref rid="pone.0134673.ref026" ref-type="bibr">26</xref>] with the following modifications. Before extraction, ethanol preserved material was completely desiccated, and prior to centrifugation the homogenate was incubated at room temperature for two hours with proteinase K (400 μg/mL; Sigma, St. Louis, MO) after which DNA was precipitated overnight at -20°C with 100% ethanol.</p>
+<p>A 658 bp region of the mitochondrial Cytochrome oxidase subunit 1 (COI) gene was PCR-amplified using a combination of universal primers: M414 (forward, 5’-GGT CAA CAA ATC ATA AAG ATA TTG G-3’, alias LCO1490, [<xref rid="pone.0134673.ref027" ref-type="bibr">27</xref>]), M423 (reverse, 5’-TAA ACT TCA GGG TGA CCA AAA AAT CA-3’, alias LCO2198, [<xref rid="pone.0134673.ref027" ref-type="bibr">27</xref>]). PCR amplifications were carried out in 25- μL volumes with approximately 100 ng genomic DNA, 4 mM MgCl<sub>2</sub>, 0.20 mM dNTPs, 1 × PCR buffer (Applied Biosystems), 6 pmol of each primer (Geneworks) and 0.5 U of Ampli <italic>Taq</italic> Gold (Applied Biosystems). PCR amplification was performed under the following conditions: 94° C for 9 min, then 34 cycles of 94°C for 45 s; annealing 48°C for 45 s; 72°C for 60 s; with a final elongation step at 72°C for 6 min. Sequence data were obtained by sending 50μL PCR products to Macrogen, Korea, for purification and Sanger sequencing on both strands using the same primers that were used for PCR amplification. ChromasPro version 1.34 (Technelysium Pty Ltd.) was used to edit chromatogram files, to determine a consensus sequence from both strands, and to align sequences. MEGA [<xref rid="pone.0134673.ref028" ref-type="bibr">28</xref>] was used for analyses of amino acids.</p>
+</sec>
+<sec id="sec005">
+<title>Molecular analyses</title>
+<p>Sequence data were obtained for up to five specimens per locality. Phylogenetic analyses of aligned sequence data were carried out using the program PAUP* version 4.0b8 [<xref rid="pone.0134673.ref029" ref-type="bibr">29</xref>], MrBayes ver. 3.2.4 [<xref rid="pone.0134673.ref030" ref-type="bibr">30</xref>] and BEAST version 1.7.2 [<xref rid="pone.0134673.ref031" ref-type="bibr">31</xref>]. <italic>Anaspides tasmaniae</italic> (GenBank accession DQ310660) was used as an outgroup in the analyses. PAUP* was used for neighbour joining analyses of uncorrected sequence divergence. BEAST was used to enable estimates of divergence times to be derived using relaxed molecular clock methods. As fossils are not known for <italic>Koonunga</italic>, a mean rate of 0.0105 substitutions per site per million years [<xref rid="pone.0134673.ref032" ref-type="bibr">32</xref>] was used as a prior in analyses with an uncorrelated log-linear relaxed molecular clock. This rate replaces the often used invertebrate clock rate of Brower [<xref rid="pone.0134673.ref033" ref-type="bibr">33</xref>] and should be considered as a better estimate, because it is based on more independent data and improved models of sequence evolution. We are aware of the limitations of using a ‘borrowed’ clock rate, but because it is the average of a number of independent rate calibrations, for the moment, we consider it the best option to use for our divergence estimates. We used a Yule process of speciation for analyses of species relationships and a coalescence model with constant population size for separate analyses of relationships within the individual species. The analyses were performed applying unlinked data partitions for each of the codons for the COI gene and using a general time-reversible model [<xref rid="pone.0134673.ref034" ref-type="bibr">34</xref>], with a proportion of invariant sites and unequal rates among sites [<xref rid="pone.0134673.ref035" ref-type="bibr">35</xref>], modelled with a gamma distribution (GTR + I + G). Tracer v1.5[<xref rid="pone.0134673.ref036" ref-type="bibr">36</xref>] was used to check that the effective sample size (ESS) of the parameters after the MrBayes and BEAST runs were larger than 100 and to check for convergence among multiple runs. Bayesian analyses were run for 5 million generations, with two independent runs. Results were combined after removing the first 25 percent (relative burnin) of the generated data.</p>
+</sec>
+<sec id="sec006">
+<title>Morphological methods</title>
+<p>For the taxonomic descriptions, alcohol preserved specimens were softened in glycerol for 1–2 days before dissection of appendages along the left side of the body. Illustrations were produced using a drawing tube attachment to a Nikon Eclipse 80i microscope. Type material has been lodged with the South Australian Museum (SAMA) and Museum Victoria (NMV) (Lake Condah species).</p>
+<p>For the classification of the setae we used Garm [<xref rid="pone.0134673.ref037" ref-type="bibr">37</xref>].</p>
+</sec>
+<sec id="sec007">
+<title>Nomenclatural acts</title>
+<p>The electronic edition of this article conforms to the requirements of the amended International Code of Zoological Nomenclature, and hence the new names contained herein are available under that Code from the electronic edition of this article. This published work and the nomenclatural acts it contains have been registered in ZooBank, the online registration system for the ICZN. The ZooBank LSIDs (Life Science Identifiers) can be resolved and the associated information viewed through any standard web browser by appending the LSID to the prefix "<ext-link ext-link-type="uri" xlink:href="http://zoobank.org/" xlink:type="simple">http://zoobank.org/</ext-link>". The LSID for this publication is: urn:lsid:zoobank.org:pub: CC0523AC-3D0B-412A-95E3-6CBCE6122A73. The electronic edition of this work was published in a journal with an ISSN, and has been archived and is available from the following digital repositories: PubMed Central, LOCKSS.</p>
+</sec>
+</sec>
+<sec id="sec008" sec-type="results">
+<title>Results</title>
+<sec id="sec009">
+<title>Molecular phylogeny</title>
+<p>A 658 bp fragment of the COI gene was sequenced from 75 specimens collected from 27 localities (<xref rid="pone.0134673.t001" ref-type="table">Table 1</xref>). Bayesian phylogenetic analyses using MrBayes clearly indicate four well separated lineages (<xref rid="pone.0134673.g002" ref-type="fig">Fig 2</xref>) that we consider represent four different species, among which three species are recognised as new. The uncorrected pairwise sequence divergence analysed using PAUP* among these species varied from 10.3–17.7%, while the maximum <italic>intra</italic>-specific pairwise sequence divergence measured for the four species ranged from 2.9 to 6.7% (<xref rid="pone.0134673.t002" ref-type="table">Table 2</xref>). Amino-acid translations indicate that these species have a number of fixed amino-acid substitutions that are diagnostic for each species (<xref rid="pone.0134673.t003" ref-type="table">Table 3</xref>). Results of Bayesian analyses show that the phylogenetic relationships between the species are strongly supported (pp&gt;0.99: <xref rid="pone.0134673.g002" ref-type="fig">Fig 2</xref>). <italic>Koonunga crenarum</italic> appears as the sister species of the remaining three species (<italic>K</italic>. <italic>allambiensis</italic> sp. nov., <italic>K</italic>. <italic>tatiaraensis</italic> sp. nov., and <italic>K</italic>. <italic>hornei</italic> sp. nov.). Some of the species (eg. <italic>K</italic>. <italic>tatiaraensis and allambiensis</italic>) show well supported (pp = 1: <xref rid="pone.0134673.g002" ref-type="fig">Fig 2</xref>) phylogenetic structure which relates to geographical isolation. However, there were no obvious morphological differences among these specimens to warrant recognition of additional species. Estimates of the divergence times of the nodes in the phylogenetic tree show speciation times of 10.7–22.3 [5.38–33.799 (95% interval)] Mya, while haplotype divergence times of the species varied from 1.13–2.70 [0.29–5.47 (95% interval)] Mya (<xref rid="pone.0134673.t004" ref-type="table">Table 4</xref>).</p>
+<fig id="pone.0134673.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0134673.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>Bayesian phylogenetic tree estimated using MrBayes.</title>
+<p>Node support values (posterior probabilities) larger than 0.50 are shown at the nodes. Nodes marked with numbers in circles refer to those used in <xref rid="pone.0134673.t004" ref-type="table">Table 4</xref>.</p>
+</caption>
+<graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0134673.g002" position="float" xlink:type="simple"/>
+</fig>
+<table-wrap id="pone.0134673.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0134673.t001</object-id>
+<label>Table 1</label> <caption><title>Data on sampling localities, DNA extractions, SAMA collection numbers and GenBank accession numbers.</title> <p>An asterix at a SAMA C-number indicates that the specimen is a DNA-voucher. Holotypes are incated in bold and underlined. Locality numbers refer to <xref rid="pone.0134673.g001" ref-type="fig">Fig 1</xref>.</p></caption>
+<alternatives>
+<graphic id="pone.0134673.t001g" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0134673.t001" xlink:type="simple"/>
+<table>
+<colgroup span="1">
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left" rowspan="1" colspan="1"/>
+<th align="left" rowspan="1" colspan="1">DNA extraction no.</th>
+<th align="left" rowspan="1" colspan="1">Coll. no.</th>
+<th align="left" rowspan="1" colspan="1">SAMA</th>
+<th align="center" rowspan="1" colspan="1">M</th>
+<th align="center" rowspan="1" colspan="1">F</th>
+<th align="center" rowspan="1" colspan="1">juv.</th>
+<th align="center" rowspan="1" colspan="1"/>
+<th align="left" rowspan="1" colspan="1">locality</th>
+<th align="left" rowspan="1" colspan="1">feature</th>
+<th align="center" rowspan="1" colspan="1">dec latitude</th>
+<th align="center" rowspan="1" colspan="1">dec longitude</th>
+<th align="center" rowspan="1" colspan="1">collecting date</th>
+<th align="left" rowspan="1" colspan="1">GenBank</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="2" align="left" rowspan="1"><italic>Koonunga crenarum</italic></td>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"><bold>ST760</bold></td>
+<td align="left" rowspan="1" colspan="1">RL013</td>
+<td align="left" rowspan="1" colspan="1">C8393*</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="left" rowspan="1" colspan="1">Fossil Cave, SA</td>
+<td align="left" rowspan="1" colspan="1">sinkhole</td>
+<td align="char" char="." rowspan="1" colspan="1">-37.73195</td>
+<td align="char" char="." rowspan="1" colspan="1">140.53094</td>
+<td align="right" rowspan="1" colspan="1">1-Sep-04</td>
+<td align="left" rowspan="1" colspan="1">KR131636</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"><bold>ST766-767</bold></td>
+<td align="left" rowspan="1" colspan="1">RL017</td>
+<td align="left" rowspan="1" colspan="1">C8394*</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">2</td>
+<td align="center" rowspan="1" colspan="1">2</td>
+<td align="left" rowspan="1" colspan="1">Benara sinkhole, SA</td>
+<td align="left" rowspan="1" colspan="1">sinkhole</td>
+<td align="char" char="." rowspan="1" colspan="1">-37.85323</td>
+<td align="char" char="." rowspan="1" colspan="1">140.71113</td>
+<td align="right" rowspan="1" colspan="1">02-Sep-04</td>
+<td align="left" rowspan="1" colspan="1">KR131637-8</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"><bold>ST793-797</bold></td>
+<td align="left" rowspan="1" colspan="1">RL1185</td>
+<td align="left" rowspan="1" colspan="1">C8395</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">4</td>
+<td align="center" rowspan="1" colspan="1">4</td>
+<td align="center" rowspan="1" colspan="1">3</td>
+<td align="left" rowspan="1" colspan="1">Bottlebrush sinkhole, SA</td>
+<td align="left" rowspan="1" colspan="1">sinkhole</td>
+<td align="char" char="." rowspan="1" colspan="1">-37.96951</td>
+<td align="char" char="." rowspan="1" colspan="1">140.85690</td>
+<td align="right" rowspan="1" colspan="1">02-Dec-08</td>
+<td align="left" rowspan="1" colspan="1">KR131639-43</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"><bold>ST799-801</bold></td>
+<td align="left" rowspan="1" colspan="1">RL1190</td>
+<td align="left" rowspan="1" colspan="1">C8396</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">4</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">4</td>
+<td align="left" rowspan="1" colspan="1">L215 Daves Cave, SA</td>
+<td align="left" rowspan="1" colspan="1">cave</td>
+<td align="char" char="." rowspan="1" colspan="1">-37.96675</td>
+<td align="char" char="." rowspan="1" colspan="1">140.58894</td>
+<td align="right" rowspan="1" colspan="1">03-Dec-08</td>
+<td align="left" rowspan="1" colspan="1">KR131644-6</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"><bold>ST803</bold></td>
+<td align="left" rowspan="1" colspan="1">RL1204</td>
+<td align="left" rowspan="1" colspan="1">C8397</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="center" rowspan="1" colspan="1">5</td>
+<td align="left" rowspan="1" colspan="1">L279 Quarry Cave, SA</td>
+<td align="left" rowspan="1" colspan="1">cave</td>
+<td align="char" char="." rowspan="1" colspan="1">-37.92204</td>
+<td align="char" char="." rowspan="1" colspan="1">140.57876</td>
+<td align="right" rowspan="1" colspan="1">04-Dec-08</td>
+<td align="left" rowspan="1" colspan="1">KR131647</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"><bold>ST804-5</bold></td>
+<td align="left" rowspan="1" colspan="1">RL1207</td>
+<td align="left" rowspan="1" colspan="1">C8398</td>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">6</td>
+<td align="left" rowspan="1" colspan="1">Aberfoyls' Cave, SA</td>
+<td align="left" rowspan="1" colspan="1">cave</td>
+<td align="char" char="." rowspan="1" colspan="1">-37.91819</td>
+<td align="char" char="." rowspan="1" colspan="1">140.57891</td>
+<td align="right" rowspan="1" colspan="1">04-Dec-08</td>
+<td align="left" rowspan="1" colspan="1">KR131648-9</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"><bold>ST164-5,ST810-2</bold></td>
+<td align="left" rowspan="1" colspan="1">RL156</td>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="left" rowspan="1" colspan="1">Fossil Cave, SA</td>
+<td align="left" rowspan="1" colspan="1">sinkhole</td>
+<td align="char" char="." rowspan="1" colspan="1">-37.73195</td>
+<td align="char" char="." rowspan="1" colspan="1">140.53094</td>
+<td align="right" rowspan="1" colspan="1">25-Jun-05</td>
+<td align="left" rowspan="1" colspan="1">KR131650-2</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"><bold>ST813</bold></td>
+<td align="left" rowspan="1" colspan="1">RL951</td>
+<td align="left" rowspan="1" colspan="1">C8399</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="center" rowspan="1" colspan="1">7</td>
+<td align="left" rowspan="1" colspan="1">The Pines sinkhole, SA</td>
+<td align="left" rowspan="1" colspan="1">sinkhole</td>
+<td align="char" char="." rowspan="1" colspan="1">-37.75521</td>
+<td align="char" char="." rowspan="1" colspan="1">140.54637</td>
+<td align="right" rowspan="1" colspan="1">21-Jan-08</td>
+<td align="left" rowspan="1" colspan="1">KR131653</td>
+</tr>
+<tr>
+<td colspan="2" align="left" rowspan="1"><italic>Koonunga allambiensis</italic></td>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"><bold>ST761-765</bold></td>
+<td align="left" rowspan="1" colspan="1">RL003</td>
+<td align="left" rowspan="1" colspan="1">C8400</td>
+<td align="center" rowspan="1" colspan="1">3</td>
+<td align="center" rowspan="1" colspan="1">2</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">8</td>
+<td align="left" rowspan="1" colspan="1">Port MacDonnell, SA</td>
+<td align="left" rowspan="1" colspan="1">pastoral well</td>
+<td align="char" char="." rowspan="1" colspan="1">-38.05451</td>
+<td align="char" char="." rowspan="1" colspan="1">140.76014</td>
+<td align="right" rowspan="1" colspan="1">31-Aug-04</td>
+<td align="left" rowspan="1" colspan="1">KR131705-9</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"><bold>ST162-3</bold></td>
+<td align="left" rowspan="1" colspan="1">RL151</td>
+<td align="left" rowspan="1" colspan="1">C8401</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">2</td>
+<td align="center" rowspan="1" colspan="1">9</td>
+<td align="left" rowspan="1" colspan="1">Douglas Downs, SA</td>
+<td align="left" rowspan="1" colspan="1">spring fed wetland</td>
+<td align="char" char="." rowspan="1" colspan="1">-37.98431</td>
+<td align="char" char="." rowspan="1" colspan="1">140.59487</td>
+<td align="right" rowspan="1" colspan="1">03-Sep-04</td>
+<td align="left" rowspan="1" colspan="1">KR131690-1</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">RL1683</td>
+<td align="left" rowspan="1" colspan="1">C8402</td>
+<td align="center" rowspan="1" colspan="1">5</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">10</td>
+<td align="left" rowspan="1" colspan="1">Allambie, VIC</td>
+<td align="left" rowspan="1" colspan="1">pastoral well</td>
+<td align="char" char="." rowspan="1" colspan="1">-38.03628</td>
+<td align="char" char="." rowspan="1" colspan="1">141.82909</td>
+<td align="right" rowspan="1" colspan="1">22-Mar-11</td>
+<td align="left" rowspan="1" colspan="1"/>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"><bold>ST1772</bold></td>
+<td align="left" rowspan="1" colspan="1">RL1683</td>
+<td align="left" rowspan="1" colspan="1">C8403*</td>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">Allambie, VIC</td>
+<td align="left" rowspan="1" colspan="1">pastoral well</td>
+<td align="char" char="." rowspan="1" colspan="1">-38.03628</td>
+<td align="char" char="." rowspan="1" colspan="1">141.82909</td>
+<td align="right" rowspan="1" colspan="1">22-Mar-11</td>
+<td align="left" rowspan="1" colspan="1">KR131698</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"><bold>ST1773</bold></td>
+<td align="left" rowspan="1" colspan="1">RL1683</td>
+<td align="left" rowspan="1" colspan="1">C8404*</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">Allambie, VIC</td>
+<td align="left" rowspan="1" colspan="1">pastoral well</td>
+<td align="char" char="." rowspan="1" colspan="1">-38.03628</td>
+<td align="char" char="." rowspan="1" colspan="1">141.82909</td>
+<td align="right" rowspan="1" colspan="1">22-Mar-11</td>
+<td align="left" rowspan="1" colspan="1">KR131699</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">RL1686</td>
+<td align="left" rowspan="1" colspan="1"><underline><bold>C8443</bold></underline></td>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">10</td>
+<td align="left" rowspan="1" colspan="1">Allambie, VIC</td>
+<td align="left" rowspan="1" colspan="1">sinkhole</td>
+<td align="char" char="." rowspan="1" colspan="1">-38.03253</td>
+<td align="char" char="." rowspan="1" colspan="1">141.84837</td>
+<td align="right" rowspan="1" colspan="1">22-Mar-11</td>
+<td align="left" rowspan="1" colspan="1"/>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">RL1686</td>
+<td align="left" rowspan="1" colspan="1">C8405</td>
+<td align="center" rowspan="1" colspan="1">4</td>
+<td align="center" rowspan="1" colspan="1">12</td>
+<td align="center" rowspan="1" colspan="1">2</td>
+<td align="center" rowspan="1" colspan="1">11</td>
+<td align="left" rowspan="1" colspan="1">Allambie, VIC</td>
+<td align="left" rowspan="1" colspan="1">sinkhole</td>
+<td align="char" char="." rowspan="1" colspan="1">-38.03253</td>
+<td align="char" char="." rowspan="1" colspan="1">141.84837</td>
+<td align="right" rowspan="1" colspan="1">23-Mar-11</td>
+<td align="left" rowspan="1" colspan="1"/>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"><bold>ST1774</bold></td>
+<td align="left" rowspan="1" colspan="1">RL1686</td>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">Allambie, VIC</td>
+<td align="left" rowspan="1" colspan="1">sinkhole</td>
+<td align="char" char="." rowspan="1" colspan="1">-38.03253</td>
+<td align="char" char="." rowspan="1" colspan="1">141.84837</td>
+<td align="right" rowspan="1" colspan="1">22-Mar-11</td>
+<td align="left" rowspan="1" colspan="1">KR131700</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"><bold>ST1775</bold></td>
+<td align="left" rowspan="1" colspan="1">RL1686</td>
+<td align="left" rowspan="1" colspan="1">C8406*</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">Allambie, VIC</td>
+<td align="left" rowspan="1" colspan="1">sinkhole</td>
+<td align="char" char="." rowspan="1" colspan="1">-38.03253</td>
+<td align="char" char="." rowspan="1" colspan="1">141.84837</td>
+<td align="right" rowspan="1" colspan="1">22-Mar-11</td>
+<td align="left" rowspan="1" colspan="1">KR131701</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"><bold>ST1776</bold></td>
+<td align="left" rowspan="1" colspan="1">RL1686</td>
+<td align="left" rowspan="1" colspan="1">C8407*</td>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">Allambie, VIC</td>
+<td align="left" rowspan="1" colspan="1">sinkhole</td>
+<td align="char" char="." rowspan="1" colspan="1">-38.03253</td>
+<td align="char" char="." rowspan="1" colspan="1">141.84837</td>
+<td align="right" rowspan="1" colspan="1">22-Mar-11</td>
+<td align="left" rowspan="1" colspan="1">KR131692</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">RL1690</td>
+<td align="left" rowspan="1" colspan="1">C8408</td>
+<td align="center" rowspan="1" colspan="1">2</td>
+<td align="center" rowspan="1" colspan="1">5</td>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="center" rowspan="1" colspan="1">11</td>
+<td align="left" rowspan="1" colspan="1">Muldoons, VIC</td>
+<td align="left" rowspan="1" colspan="1">spring</td>
+<td align="char" char="." rowspan="1" colspan="1">-38.08231</td>
+<td align="char" char="." rowspan="1" colspan="1">141.78772</td>
+<td align="right" rowspan="1" colspan="1">23-Mar-11</td>
+<td align="left" rowspan="1" colspan="1"/>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"><bold>ST1769</bold></td>
+<td align="left" rowspan="1" colspan="1">RL1690</td>
+<td align="left" rowspan="1" colspan="1">C8409*</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">Muldoons, VIC</td>
+<td align="left" rowspan="1" colspan="1">spring</td>
+<td align="char" char="." rowspan="1" colspan="1">-38.08231</td>
+<td align="char" char="." rowspan="1" colspan="1">141.78772</td>
+<td align="right" rowspan="1" colspan="1">23-Mar-11</td>
+<td align="left" rowspan="1" colspan="1">KR131694</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"><bold>ST1770</bold></td>
+<td align="left" rowspan="1" colspan="1">RL1690</td>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">Muldoons, VIC</td>
+<td align="left" rowspan="1" colspan="1">spring</td>
+<td align="char" char="." rowspan="1" colspan="1">-38.08231</td>
+<td align="char" char="." rowspan="1" colspan="1">141.78772</td>
+<td align="right" rowspan="1" colspan="1">23-Mar-11</td>
+<td align="left" rowspan="1" colspan="1">KR131696</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"><bold>ST1771</bold></td>
+<td align="left" rowspan="1" colspan="1">RL1690</td>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">Muldoons, VIC</td>
+<td align="left" rowspan="1" colspan="1">spring</td>
+<td align="char" char="." rowspan="1" colspan="1">-38.08231</td>
+<td align="char" char="." rowspan="1" colspan="1">141.78772</td>
+<td align="right" rowspan="1" colspan="1">23-Mar-11</td>
+<td align="left" rowspan="1" colspan="1">KR131697</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">RL1695</td>
+<td align="left" rowspan="1" colspan="1">C8410</td>
+<td align="center" rowspan="1" colspan="1">3</td>
+<td align="center" rowspan="1" colspan="1">8</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">11</td>
+<td align="left" rowspan="1" colspan="1">Muldoons, near sinkhole, VIC</td>
+<td align="left" rowspan="1" colspan="1">in lava flow crack</td>
+<td align="char" char="." rowspan="1" colspan="1">-38.08093</td>
+<td align="char" char="." rowspan="1" colspan="1">141.79311</td>
+<td align="right" rowspan="1" colspan="1">23-Mar-11</td>
+<td align="left" rowspan="1" colspan="1"/>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"><bold>ST1766</bold></td>
+<td align="left" rowspan="1" colspan="1">RL1695</td>
+<td align="left" rowspan="1" colspan="1">C8411*</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">Muldoons, near sinkhole, VIC</td>
+<td align="left" rowspan="1" colspan="1">in lava flow crack</td>
+<td align="char" char="." rowspan="1" colspan="1">-38.08093</td>
+<td align="char" char="." rowspan="1" colspan="1">141.79311</td>
+<td align="right" rowspan="1" colspan="1">23-Mar-11</td>
+<td align="left" rowspan="1" colspan="1">KR131702</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"><bold>ST1767</bold></td>
+<td align="left" rowspan="1" colspan="1">RL1695</td>
+<td align="left" rowspan="1" colspan="1">C8412*</td>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">Muldoons, near sinkhole, VIC</td>
+<td align="left" rowspan="1" colspan="1">in lava flow crack</td>
+<td align="char" char="." rowspan="1" colspan="1">-38.08093</td>
+<td align="char" char="." rowspan="1" colspan="1">141.79311</td>
+<td align="right" rowspan="1" colspan="1">23-Mar-11</td>
+<td align="left" rowspan="1" colspan="1">KR131693</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"><bold>ST1768</bold></td>
+<td align="left" rowspan="1" colspan="1">RL1695</td>
+<td align="left" rowspan="1" colspan="1">C8413*</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">Muldoons, near sinkhole, VIC</td>
+<td align="left" rowspan="1" colspan="1">in lava flow crack</td>
+<td align="char" char="." rowspan="1" colspan="1">-38.08093</td>
+<td align="char" char="." rowspan="1" colspan="1">141.79311</td>
+<td align="right" rowspan="1" colspan="1">23-Mar-11</td>
+<td align="left" rowspan="1" colspan="1">KR131694</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">RL1706</td>
+<td align="left" rowspan="1" colspan="1">C8414</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">12</td>
+<td align="left" rowspan="1" colspan="1">Tyrendarra, Fitzroy Rv, VIC</td>
+<td align="left" rowspan="1" colspan="1">surface water</td>
+<td align="char" char="." rowspan="1" colspan="1">-38.19827</td>
+<td align="char" char="." rowspan="1" colspan="1">141.75957</td>
+<td align="right" rowspan="1" colspan="1">24-Mar-11</td>
+<td align="left" rowspan="1" colspan="1"/>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"><bold>ST1777</bold></td>
+<td align="left" rowspan="1" colspan="1">RL1706</td>
+<td align="left" rowspan="1" colspan="1">C8415*</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">Tyrendarra, Fitzroy Rv, VIC</td>
+<td align="left" rowspan="1" colspan="1">surface water</td>
+<td align="char" char="." rowspan="1" colspan="1">-38.19827</td>
+<td align="char" char="." rowspan="1" colspan="1">141.75957</td>
+<td align="right" rowspan="1" colspan="1">24-Mar-11</td>
+<td align="left" rowspan="1" colspan="1">KR131703</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"><bold>ST1778</bold></td>
+<td align="left" rowspan="1" colspan="1">RL1706</td>
+<td align="left" rowspan="1" colspan="1">C8416*</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">Tyrendarra, Fitzroy Rv, VIC</td>
+<td align="left" rowspan="1" colspan="1">surface water</td>
+<td align="char" char="." rowspan="1" colspan="1">-38.19827</td>
+<td align="char" char="." rowspan="1" colspan="1">141.75957</td>
+<td align="right" rowspan="1" colspan="1">24-Mar-11</td>
+<td align="left" rowspan="1" colspan="1">KR131704</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">RL1689</td>
+<td align="left" rowspan="1" colspan="1">C8417</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">8</td>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">Muldoons, spring, VIC</td>
+<td align="left" rowspan="1" colspan="1">spring</td>
+<td align="char" char="." rowspan="1" colspan="1">-38.08231</td>
+<td align="char" char="." rowspan="1" colspan="1">141.78772</td>
+<td align="right" rowspan="1" colspan="1">23-Mar-11</td>
+<td align="left" rowspan="1" colspan="1"/>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">RL1691</td>
+<td align="left" rowspan="1" colspan="1">C8418</td>
+<td align="center" rowspan="1" colspan="1">2</td>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="center" rowspan="1" colspan="1">6</td>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">Muldoons, spring, VIC</td>
+<td align="left" rowspan="1" colspan="1">spring</td>
+<td align="char" char="." rowspan="1" colspan="1">-38.08231</td>
+<td align="char" char="." rowspan="1" colspan="1">141.78772</td>
+<td align="right" rowspan="1" colspan="1">23-Mar-11</td>
+<td align="left" rowspan="1" colspan="1"/>
+</tr>
+<tr>
+<td colspan="2" align="left" rowspan="1"><italic>Koonunga tatiaraensis</italic></td>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"><bold>ST769-771</bold></td>
+<td align="left" rowspan="1" colspan="1">RL1074</td>
+<td align="left" rowspan="1" colspan="1">C8419</td>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="center" rowspan="1" colspan="1">2</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">13</td>
+<td align="left" rowspan="1" colspan="1">MAR 2, SA</td>
+<td align="left" rowspan="1" colspan="1">observation bore</td>
+<td align="char" char="." rowspan="1" colspan="1">-36.60861</td>
+<td align="char" char="." rowspan="1" colspan="1">140.38614</td>
+<td align="right" rowspan="1" colspan="1">21-Jul-08</td>
+<td align="left" rowspan="1" colspan="1">KR131683-4</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">RL2138</td>
+<td align="left" rowspan="1" colspan="1">C8420</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">2</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">14</td>
+<td align="left" rowspan="1" colspan="1">WRG110 near Keith, SA</td>
+<td align="left" rowspan="1" colspan="1">observation bore</td>
+<td align="char" char="." rowspan="1" colspan="1">-36.29325</td>
+<td align="char" char="." rowspan="1" colspan="1">140.59500</td>
+<td align="right" rowspan="1" colspan="1">04-May-12</td>
+<td align="left" rowspan="1" colspan="1"/>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"><bold>ST1779</bold></td>
+<td align="left" rowspan="1" colspan="1">RL2138</td>
+<td align="left" rowspan="1" colspan="1">C8421*</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">WRG110 near Keith, SA</td>
+<td align="left" rowspan="1" colspan="1">observation bore</td>
+<td align="char" char="." rowspan="1" colspan="1">-36.29325</td>
+<td align="char" char="." rowspan="1" colspan="1">140.59500</td>
+<td align="right" rowspan="1" colspan="1">04-May-12</td>
+<td align="left" rowspan="1" colspan="1">KR131677</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"><bold>ST1780</bold></td>
+<td align="left" rowspan="1" colspan="1">RL2138</td>
+<td align="left" rowspan="1" colspan="1"><underline><bold>C8422*</bold></underline></td>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">WRG110 near Keith, SA</td>
+<td align="left" rowspan="1" colspan="1">observation bore</td>
+<td align="char" char="." rowspan="1" colspan="1">-36.29325</td>
+<td align="char" char="." rowspan="1" colspan="1">140.59500</td>
+<td align="right" rowspan="1" colspan="1">04-May-12</td>
+<td align="left" rowspan="1" colspan="1">KR131678</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"><bold>ST817-8</bold></td>
+<td align="left" rowspan="1" colspan="1">RL979</td>
+<td align="left" rowspan="1" colspan="1">C8423</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">15</td>
+<td align="left" rowspan="1" colspan="1">PAR 43, SA</td>
+<td align="left" rowspan="1" colspan="1">observation bore</td>
+<td align="char" char="." rowspan="1" colspan="1">-36.56081</td>
+<td align="char" char="." rowspan="1" colspan="1">140.45334</td>
+<td align="right" rowspan="1" colspan="1">28-Apr-08</td>
+<td align="left" rowspan="1" colspan="1">KR131685-6</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"><bold>ST819</bold></td>
+<td align="left" rowspan="1" colspan="1">RL984</td>
+<td align="left" rowspan="1" colspan="1">C8424</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">16</td>
+<td align="left" rowspan="1" colspan="1">MAR 29, SA</td>
+<td align="left" rowspan="1" colspan="1">observation bore</td>
+<td align="char" char="." rowspan="1" colspan="1">-36.56893</td>
+<td align="char" char="." rowspan="1" colspan="1">140.40433</td>
+<td align="right" rowspan="1" colspan="1">28-Apr-08</td>
+<td align="left" rowspan="1" colspan="1">KR131687</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"><bold>ST820</bold></td>
+<td align="left" rowspan="1" colspan="1">RL985</td>
+<td align="left" rowspan="1" colspan="1">C8425</td>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">17</td>
+<td align="left" rowspan="1" colspan="1">GLE 103, SA</td>
+<td align="left" rowspan="1" colspan="1">observation bore</td>
+<td align="char" char="." rowspan="1" colspan="1">-36.61239</td>
+<td align="char" char="." rowspan="1" colspan="1">140.50965</td>
+<td align="right" rowspan="1" colspan="1">28-Apr-08</td>
+<td align="left" rowspan="1" colspan="1">KR131688</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"><bold>ST821</bold></td>
+<td align="left" rowspan="1" colspan="1">RL989</td>
+<td align="left" rowspan="1" colspan="1">C8426</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">18</td>
+<td align="left" rowspan="1" colspan="1">GLE 100, SA</td>
+<td align="left" rowspan="1" colspan="1">observation bore</td>
+<td align="char" char="." rowspan="1" colspan="1">-36.67100</td>
+<td align="char" char="." rowspan="1" colspan="1">140.55858</td>
+<td align="right" rowspan="1" colspan="1">28-Apr-08</td>
+<td align="left" rowspan="1" colspan="1">KR131689</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"><bold>ST1781-2</bold></td>
+<td align="left" rowspan="1" colspan="1">RL2128</td>
+<td align="left" rowspan="1" colspan="1">C8427</td>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="center" rowspan="1" colspan="1">19</td>
+<td align="left" rowspan="1" colspan="1">STR120 near Keith, SA</td>
+<td align="left" rowspan="1" colspan="1">observation bore</td>
+<td align="char" char="." rowspan="1" colspan="1">-36.11148</td>
+<td align="char" char="." rowspan="1" colspan="1">140.31156</td>
+<td align="right" rowspan="1" colspan="1">02-May-12</td>
+<td align="left" rowspan="1" colspan="1">KR131679-80</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"><bold>ST1783-4</bold></td>
+<td align="left" rowspan="1" colspan="1">RL2132</td>
+<td align="left" rowspan="1" colspan="1">C8428</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">2</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">20</td>
+<td align="left" rowspan="1" colspan="1">STR117 near Keith, SA</td>
+<td align="left" rowspan="1" colspan="1">observation bore</td>
+<td align="char" char="." rowspan="1" colspan="1">-36.17438</td>
+<td align="char" char="." rowspan="1" colspan="1">140.39802</td>
+<td align="right" rowspan="1" colspan="1">02-May-12</td>
+<td align="left" rowspan="1" colspan="1">KR131681-2</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">RL2133</td>
+<td align="left" rowspan="1" colspan="1">C8429</td>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">STR117 near Keith, SA</td>
+<td align="left" rowspan="1" colspan="1">observation bore</td>
+<td align="char" char="." rowspan="1" colspan="1">-36.17438</td>
+<td align="char" char="." rowspan="1" colspan="1">140.39802</td>
+<td align="right" rowspan="1" colspan="1">02-May-12</td>
+<td align="left" rowspan="1" colspan="1"/>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">RL2141</td>
+<td align="left" rowspan="1" colspan="1">C8430</td>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">WRG109 near Keith, SA</td>
+<td align="left" rowspan="1" colspan="1">observation bore</td>
+<td align="char" char="." rowspan="1" colspan="1">-36.2700</td>
+<td align="char" char="." rowspan="1" colspan="1">140.4572</td>
+<td align="right" rowspan="1" colspan="1">4-May-12</td>
+<td align="left" rowspan="1" colspan="1"/>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">RL2143</td>
+<td align="left" rowspan="1" colspan="1">C8431</td>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">STR113 near Keith, SA</td>
+<td align="left" rowspan="1" colspan="1">observation bore</td>
+<td align="char" char="." rowspan="1" colspan="1">-36.2204</td>
+<td align="char" char="." rowspan="1" colspan="1">140.3825</td>
+<td align="right" rowspan="1" colspan="1">4-May-12</td>
+<td align="left" rowspan="1" colspan="1"/>
+</tr>
+<tr>
+<td colspan="2" align="left" rowspan="1"><italic>Koonunga hornei</italic></td>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="right" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"><bold>ST787-789</bold></td>
+<td align="left" rowspan="1" colspan="1">RL1079</td>
+<td align="left" rowspan="1" colspan="1">C8432</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">2</td>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="center" rowspan="1" colspan="1">21</td>
+<td align="left" rowspan="1" colspan="1">KLE 11, SA</td>
+<td align="left" rowspan="1" colspan="1">observation bore</td>
+<td align="char" char="." rowspan="1" colspan="1">-37.20127</td>
+<td align="char" char="." rowspan="1" colspan="1">140.76815</td>
+<td align="right" rowspan="1" colspan="1">23-Jul-08</td>
+<td align="left" rowspan="1" colspan="1">KR131667-9</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"><bold>ST790</bold></td>
+<td align="left" rowspan="1" colspan="1">RL1087</td>
+<td align="left" rowspan="1" colspan="1">C8433</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">22</td>
+<td align="left" rowspan="1" colspan="1">"middle bore", SA</td>
+<td align="left" rowspan="1" colspan="1">observation bore</td>
+<td align="char" char="." rowspan="1" colspan="1">-37.28860</td>
+<td align="char" char="." rowspan="1" colspan="1">140.83274</td>
+<td align="right" rowspan="1" colspan="1">23-Jul-08</td>
+<td align="left" rowspan="1" colspan="1">KR131670</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"><bold>ST772-776</bold></td>
+<td align="left" rowspan="1" colspan="1">RL1089</td>
+<td align="left" rowspan="1" colspan="1">C8434</td>
+<td align="center" rowspan="1" colspan="1">2</td>
+<td align="center" rowspan="1" colspan="1">2</td>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="center" rowspan="1" colspan="1">23</td>
+<td align="left" rowspan="1" colspan="1">MTM 60, SA</td>
+<td align="left" rowspan="1" colspan="1">observation bore</td>
+<td align="char" char="." rowspan="1" colspan="1">-37.57350</td>
+<td align="char" char="." rowspan="1" colspan="1">140.32042</td>
+<td align="right" rowspan="1" colspan="1">04-May-12</td>
+<td align="left" rowspan="1" colspan="1">KR131655-9</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">RL1089</td>
+<td align="left" rowspan="1" colspan="1"><underline><bold>C8435*</bold></underline></td>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">MTM 60, SA</td>
+<td align="left" rowspan="1" colspan="1">observation bore</td>
+<td align="char" char="." rowspan="1" colspan="1">-37.57350</td>
+<td align="char" char="." rowspan="1" colspan="1">140.32042</td>
+<td align="right" rowspan="1" colspan="1">04-May-12</td>
+<td align="left" rowspan="1" colspan="1"/>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"><bold>ST791-2</bold></td>
+<td align="left" rowspan="1" colspan="1">RL1180</td>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="center" rowspan="1" colspan="1">24</td>
+<td align="left" rowspan="1" colspan="1">CAR 42, SA</td>
+<td align="left" rowspan="1" colspan="1">observation bore</td>
+<td align="char" char="." rowspan="1" colspan="1">-37.92097</td>
+<td align="char" char="." rowspan="1" colspan="1">140.91146</td>
+<td align="right" rowspan="1" colspan="1">02-Dec-08</td>
+<td align="left" rowspan="1" colspan="1">KR131671-2</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"><bold>ST780-6</bold></td>
+<td align="left" rowspan="1" colspan="1">RL871</td>
+<td align="left" rowspan="1" colspan="1">C8436</td>
+<td align="center" rowspan="1" colspan="1">3</td>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="center" rowspan="1" colspan="1">2</td>
+<td align="center" rowspan="1" colspan="1">25</td>
+<td align="left" rowspan="1" colspan="1">GAM 78, SA</td>
+<td align="left" rowspan="1" colspan="1">observation bore</td>
+<td align="char" char="." rowspan="1" colspan="1">-37.89655</td>
+<td align="char" char="." rowspan="1" colspan="1">140.92252</td>
+<td align="right" rowspan="1" colspan="1">16-Oct-07</td>
+<td align="left" rowspan="1" colspan="1">KR131660-6</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"><bold>ST166,ST768</bold></td>
+<td align="left" rowspan="1" colspan="1">RL028</td>
+<td align="left" rowspan="1" colspan="1">C8437</td>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="center" rowspan="1" colspan="1">26</td>
+<td align="left" rowspan="1" colspan="1">Allandale, SA</td>
+<td align="left" rowspan="1" colspan="1">observation bore</td>
+<td align="char" char="." rowspan="1" colspan="1">-38.00463</td>
+<td align="char" char="." rowspan="1" colspan="1">140.70677</td>
+<td align="right" rowspan="1" colspan="1">02-Sep-04</td>
+<td align="left" rowspan="1" colspan="1">KR131654</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"><bold>ST798,802</bold></td>
+<td align="left" rowspan="1" colspan="1">RL1190</td>
+<td align="left" rowspan="1" colspan="1">C8438</td>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="center" rowspan="1" colspan="1">4</td>
+<td align="left" rowspan="1" colspan="1">L215 Daves Cave, SA</td>
+<td align="left" rowspan="1" colspan="1">cave</td>
+<td align="char" char="." rowspan="1" colspan="1">-37.96675</td>
+<td align="char" char="." rowspan="1" colspan="1">140.58894</td>
+<td align="right" rowspan="1" colspan="1">03-Dec-08</td>
+<td align="left" rowspan="1" colspan="1">KR131673-4</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"><bold>ST816</bold></td>
+<td align="left" rowspan="1" colspan="1">RL962</td>
+<td align="left" rowspan="1" colspan="1">C8439</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">27</td>
+<td align="left" rowspan="1" colspan="1">Allandale Sinkhole, SA</td>
+<td align="left" rowspan="1" colspan="1">cave</td>
+<td align="char" char="." rowspan="1" colspan="1">-38.00509</td>
+<td align="char" char="." rowspan="1" colspan="1">140.70840</td>
+<td align="right" rowspan="1" colspan="1">23-Jan-08</td>
+<td align="left" rowspan="1" colspan="1">KR131676</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"><bold>ST814</bold></td>
+<td align="left" rowspan="1" colspan="1">RL951</td>
+<td align="left" rowspan="1" colspan="1">C8399*</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">7</td>
+<td align="left" rowspan="1" colspan="1">The Pines sinkhole, SA</td>
+<td align="left" rowspan="1" colspan="1">sinkhole</td>
+<td align="char" char="." rowspan="1" colspan="1">-37.75521</td>
+<td align="char" char="." rowspan="1" colspan="1">140.54637</td>
+<td align="right" rowspan="1" colspan="1">21-Jan-08</td>
+<td align="left" rowspan="1" colspan="1">KR131675</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">RL994</td>
+<td align="left" rowspan="1" colspan="1">C8440</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">GAM 78, SA</td>
+<td align="left" rowspan="1" colspan="1">observation bore</td>
+<td align="char" char="." rowspan="1" colspan="1">-37.89655</td>
+<td align="char" char="." rowspan="1" colspan="1">140.92252</td>
+<td align="right" rowspan="1" colspan="1">30-Apr-08</td>
+<td align="left" rowspan="1" colspan="1"/>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">RL947</td>
+<td align="left" rowspan="1" colspan="1">C8441</td>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">1</td>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">GAM 78, SA</td>
+<td align="left" rowspan="1" colspan="1">observation bore</td>
+<td align="char" char="." rowspan="1" colspan="1">-37.89655</td>
+<td align="char" char="." rowspan="1" colspan="1">140.92252</td>
+<td align="right" rowspan="1" colspan="1">21-Jan-08</td>
+<td align="left" rowspan="1" colspan="1"/>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<table-wrap id="pone.0134673.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0134673.t002</object-id>
+<label>Table 2</label> <caption><title>Uncorrected pairwise distances, minimum and maximum <italic>intra</italic>- (diagonal) and <italic>inter-</italic> specific values.</title></caption>
+<alternatives>
+<graphic id="pone.0134673.t002g" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0134673.t002" xlink:type="simple"/>
+<table>
+<colgroup span="1">
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left" rowspan="1" colspan="1"/>
+<th colspan="2" align="left" rowspan="1"><italic>K</italic>. <italic>alambieensis</italic></th>
+<th colspan="2" align="left" rowspan="1"><italic>K</italic>. <italic>tatiaraensis</italic></th>
+<th colspan="2" align="left" rowspan="1"><italic>K</italic>. <italic>hornei</italic></th>
+<th colspan="2" align="left" rowspan="1"><italic>K</italic>. <italic>crenarum</italic></th>
+</tr>
+<tr>
+<th align="left" rowspan="1" colspan="1">species</th>
+<th align="right" rowspan="1" colspan="1">min</th>
+<th align="right" rowspan="1" colspan="1">max</th>
+<th align="right" rowspan="1" colspan="1">min</th>
+<th align="right" rowspan="1" colspan="1">max</th>
+<th align="right" rowspan="1" colspan="1">min</th>
+<th align="right" rowspan="1" colspan="1">max</th>
+<th align="right" rowspan="1" colspan="1">min</th>
+<th align="right" rowspan="1" colspan="1">max</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>K</italic>. <italic>alambieensis sp</italic>. <italic>nov</italic>.</td>
+<td align="right" rowspan="1" colspan="1">0</td>
+<td align="char" char="." rowspan="1" colspan="1">0.029</td>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="char" char="." rowspan="1" colspan="1"/>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>K</italic>. <italic>tatiaraensis</italic> sp. nov.</td>
+<td align="right" rowspan="1" colspan="1">0.103</td>
+<td align="char" char="." rowspan="1" colspan="1">0.129</td>
+<td align="right" rowspan="1" colspan="1">0</td>
+<td align="char" char="." rowspan="1" colspan="1">0.052</td>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="char" char="." rowspan="1" colspan="1"/>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>K</italic>. <italic>hornei</italic> sp. nov.</td>
+<td align="right" rowspan="1" colspan="1">0.105</td>
+<td align="char" char="." rowspan="1" colspan="1">0.155</td>
+<td align="right" rowspan="1" colspan="1">0.119</td>
+<td align="char" char="." rowspan="1" colspan="1">0.142</td>
+<td align="right" rowspan="1" colspan="1">0</td>
+<td align="char" char="." rowspan="1" colspan="1">0.04</td>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="char" char="." rowspan="1" colspan="1"/>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>K</italic>. <italic>crenarum</italic></td>
+<td align="right" rowspan="1" colspan="1">0.126</td>
+<td align="char" char="." rowspan="1" colspan="1">0.167</td>
+<td align="right" rowspan="1" colspan="1">0.142</td>
+<td align="char" char="." rowspan="1" colspan="1">0.177</td>
+<td align="right" rowspan="1" colspan="1">0.118</td>
+<td align="char" char="." rowspan="1" colspan="1">0.173</td>
+<td align="right" rowspan="1" colspan="1">0</td>
+<td align="char" char="." rowspan="1" colspan="1">0.067</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<table-wrap id="pone.0134673.t003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0134673.t003</object-id>
+<label>Table 3</label> <caption><title>Overview of fixed amino acid substitutions relative to <italic>K</italic>. <italic>crenarum</italic>.</title> <p>Highlighted amino acids show species specific sites. Amino acid positions are relative to the first amino acid upstream of the forward primer, and relative to <italic>K</italic>. <italic>crenarum</italic> (a dash indicates same amino-acid as in <italic>K</italic>. <italic>crenarum</italic>).</p></caption>
+<alternatives>
+<graphic id="pone.0134673.t003g" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0134673.t003" xlink:type="simple"/>
+<table>
+<colgroup span="1">
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+</colgroup>
+<thead>
+<tr>
+<th align="right" rowspan="1" colspan="1">amino-acid site</th>
+<th align="right" rowspan="1" colspan="1"/>
+<th align="right" rowspan="1" colspan="1"/>
+<th align="right" rowspan="1" colspan="1"/>
+<th align="right" rowspan="1" colspan="1"/>
+<th align="right" rowspan="1" colspan="1"/>
+<th align="right" rowspan="1" colspan="1"/>
+<th align="right" rowspan="1" colspan="1">1</th>
+<th align="right" rowspan="1" colspan="1">1</th>
+<th align="right" rowspan="1" colspan="1">1</th>
+<th align="right" rowspan="1" colspan="1">1</th>
+<th align="right" rowspan="1" colspan="1">1</th>
+<th align="right" rowspan="1" colspan="1">1</th>
+<th align="right" rowspan="1" colspan="1">1</th>
+<th align="right" rowspan="1" colspan="1">1</th>
+</tr>
+<tr>
+<th align="right" rowspan="1" colspan="1"/>
+<th align="right" rowspan="1" colspan="1">1</th>
+<th align="right" rowspan="1" colspan="1">1</th>
+<th align="right" rowspan="1" colspan="1">2</th>
+<th align="right" rowspan="1" colspan="1">3</th>
+<th align="right" rowspan="1" colspan="1">4</th>
+<th align="right" rowspan="1" colspan="1">9</th>
+<th align="right" rowspan="1" colspan="1">0</th>
+<th align="right" rowspan="1" colspan="1">1</th>
+<th align="right" rowspan="1" colspan="1">1</th>
+<th align="right" rowspan="1" colspan="1">2</th>
+<th align="right" rowspan="1" colspan="1">5</th>
+<th align="right" rowspan="1" colspan="1">6</th>
+<th align="right" rowspan="1" colspan="1">6</th>
+<th align="right" rowspan="1" colspan="1">6</th>
+</tr>
+<tr>
+<th align="left" rowspan="1" colspan="1">Species</th>
+<th align="right" rowspan="1" colspan="1">2</th>
+<th align="right" rowspan="1" colspan="1">5</th>
+<th align="right" rowspan="1" colspan="1">3</th>
+<th align="right" rowspan="1" colspan="1">0</th>
+<th align="right" rowspan="1" colspan="1">8</th>
+<th align="right" rowspan="1" colspan="1">4</th>
+<th align="right" rowspan="1" colspan="1">1</th>
+<th align="right" rowspan="1" colspan="1">8</th>
+<th align="right" rowspan="1" colspan="1">9</th>
+<th align="right" rowspan="1" colspan="1">0</th>
+<th align="right" rowspan="1" colspan="1">2</th>
+<th align="right" rowspan="1" colspan="1">1</th>
+<th align="right" rowspan="1" colspan="1">5</th>
+<th align="right" rowspan="1" colspan="1">9</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>K</italic>. <italic>crenarum</italic></td>
+<td align="center" rowspan="1" colspan="1">M</td>
+<td align="center" rowspan="1" colspan="1">T</td>
+<td align="center" rowspan="1" colspan="1">T</td>
+<td align="center" rowspan="1" colspan="1">S</td>
+<td align="center" rowspan="1" colspan="1">I</td>
+<td align="center" rowspan="1" colspan="1">T</td>
+<td align="center" rowspan="1" colspan="1">M</td>
+<td align="center" rowspan="1" colspan="1">A</td>
+<td align="center" rowspan="1" colspan="1">G</td>
+<td align="center" rowspan="1" colspan="1">I</td>
+<td align="center" rowspan="1" colspan="1">I</td>
+<td align="center" rowspan="1" colspan="1">T</td>
+<td align="center" rowspan="1" colspan="1">I</td>
+<td align="center" rowspan="1" colspan="1">A</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>K</italic>. <italic>hornei</italic> sp. nov.</td>
+<td align="center" rowspan="1" colspan="1">-</td>
+<td align="center" rowspan="1" colspan="1">-</td>
+<td align="center" rowspan="1" colspan="1">A</td>
+<td align="center" rowspan="1" colspan="1">-</td>
+<td align="center" rowspan="1" colspan="1">V</td>
+<td align="center" rowspan="1" colspan="1">V</td>
+<td align="center" rowspan="1" colspan="1">L</td>
+<td align="center" rowspan="1" colspan="1">S</td>
+<td align="center" rowspan="1" colspan="1">S</td>
+<td align="center" rowspan="1" colspan="1">V</td>
+<td align="center" rowspan="1" colspan="1">-</td>
+<td align="center" rowspan="1" colspan="1">K</td>
+<td align="center" rowspan="1" colspan="1">-</td>
+<td align="center" rowspan="1" colspan="1">V</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>K</italic>. <italic>tatiaraensis</italic> sp. nov</td>
+<td align="center" rowspan="1" colspan="1">L</td>
+<td align="center" rowspan="1" colspan="1">S</td>
+<td align="center" rowspan="1" colspan="1">A</td>
+<td align="center" rowspan="1" colspan="1">N</td>
+<td align="center" rowspan="1" colspan="1">-</td>
+<td align="center" rowspan="1" colspan="1">V</td>
+<td align="center" rowspan="1" colspan="1">-</td>
+<td align="center" rowspan="1" colspan="1">-</td>
+<td align="center" rowspan="1" colspan="1">-</td>
+<td align="center" rowspan="1" colspan="1">V</td>
+<td align="center" rowspan="1" colspan="1">V</td>
+<td align="center" rowspan="1" colspan="1">S</td>
+<td align="center" rowspan="1" colspan="1">V</td>
+<td align="center" rowspan="1" colspan="1">V</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>K</italic>. <italic>allambiensis</italic> sp. nov.</td>
+<td align="center" rowspan="1" colspan="1">L</td>
+<td align="center" rowspan="1" colspan="1">-</td>
+<td align="center" rowspan="1" colspan="1">A</td>
+<td align="center" rowspan="1" colspan="1">-</td>
+<td align="center" rowspan="1" colspan="1">-</td>
+<td align="center" rowspan="1" colspan="1">V</td>
+<td align="center" rowspan="1" colspan="1">-</td>
+<td align="center" rowspan="1" colspan="1">-</td>
+<td align="center" rowspan="1" colspan="1">-</td>
+<td align="center" rowspan="1" colspan="1">-</td>
+<td align="center" rowspan="1" colspan="1">-</td>
+<td align="center" rowspan="1" colspan="1">K</td>
+<td align="center" rowspan="1" colspan="1">-</td>
+<td align="center" rowspan="1" colspan="1">V</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<table-wrap id="pone.0134673.t004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0134673.t004</object-id>
+<label>Table 4</label> <caption><title>Estimates of divergence times from BEAST analyses using a mean uncorrelated lognormal clock rate prior of 0.0105/My.</title> <p>The node numbers refer to <xref rid="pone.0134673.g002" ref-type="fig">Fig 2</xref>.</p></caption>
+<alternatives>
+<graphic id="pone.0134673.t004g" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0134673.t004" xlink:type="simple"/>
+<table>
+<colgroup span="1">
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left" rowspan="1" colspan="1">Node</th>
+<th align="left" rowspan="1" colspan="1">mean age</th>
+<th align="left" rowspan="1" colspan="1">95% interval</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">node 1 (ingroup)</td>
+<td align="char" char="." rowspan="1" colspan="1">22.29</td>
+<td align="left" rowspan="1" colspan="1">12.66–33.78</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">node 2</td>
+<td align="char" char="." rowspan="1" colspan="1">16.07</td>
+<td align="left" rowspan="1" colspan="1">9.00–24.36</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">node 3</td>
+<td align="char" char="." rowspan="1" colspan="1">10.07</td>
+<td align="left" rowspan="1" colspan="1">5.38–15.60</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">node 4 (<italic>K</italic>. <italic>crenarum</italic>)</td>
+<td align="char" char="." rowspan="1" colspan="1">2.49</td>
+<td align="left" rowspan="1" colspan="1">1.07–5.47</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">node 5 (<italic>K</italic>. <italic>hornei</italic> sp. nov.)</td>
+<td align="char" char="." rowspan="1" colspan="1">2.52</td>
+<td align="left" rowspan="1" colspan="1">0.89–4.73</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">node 6 (<italic>K</italic>. <italic>tatiaraensis</italic> sp. nov.)</td>
+<td align="char" char="." rowspan="1" colspan="1">2.70</td>
+<td align="left" rowspan="1" colspan="1">1.09–4.75</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">node 7 (<italic>K</italic>. <italic>allambiensis</italic> sp. nov.)</td>
+<td align="char" char="." rowspan="1" colspan="1">1.13</td>
+<td align="left" rowspan="1" colspan="1">0.29–2.25</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+</sec>
+<sec id="sec010">
+<title>Geographical distribution of the species</title>
+<p>There is interesting geographical and ecological separation of the species. <italic>K</italic>. <italic>tatiaraensis</italic> sp. nov. has only been found in groundwater monitoring bores in the northern part of the Mount Gambier aquifer near Keith and Padthaway, while its sister species, <italic>K</italic>. <italic>allambiensis</italic> sp. nov. occurs in coastal surface waters, such as spring fed swamps and rivers between Douglas Downs, SA and the Tyrendera River, VIC. (<xref rid="pone.0134673.g001" ref-type="fig">Fig 1</xref>). The distribution of <italic>K</italic>. <italic>crenarum</italic>, the largest species, seems to be restricted to the surface water of the many cenotes around Mount Gambier, however numerous specimens have been collected by cave divers at depths up to 40 m and far from the sinkhole entrances [<xref rid="pone.0134673.ref016" ref-type="bibr">16</xref>]. The distribution of the third new species, <italic>K</italic>. <italic>hornei</italic> sp. nov., partly overlaps with <italic>K</italic>. <italic>crenarum</italic>, but it also occurs as far north as Penola. Contrary to <italic>K</italic>. <italic>crenarum</italic>, this species is mainly collected from groundwater monitoring bores, but occasionally has been found sympatric with <italic>K</italic>. <italic>crenarum</italic> in some caves, e.g. The Pines sinkhole and L215 Dave’s Cave (<xref rid="pone.0134673.g001" ref-type="fig">Fig 1</xref>, <xref rid="pone.0134673.t001" ref-type="table">Table 1</xref>).</p>
+</sec>
+<sec id="sec011">
+<title>Key to the currently known species of <italic>Koonunga</italic></title>
+<p>Note: this key is useful to identify the species from the area depicted in <xref rid="pone.0134673.g001" ref-type="fig">Fig 1</xref> with the addition of <italic>K</italic>. <italic>cursor</italic> known from the Melbourne area. It is very likely that southeastern Australia (Victoria, Tasmania and southern New South Wales) contains additional undescribed species.</p>
+<list list-type="simple">
+<list-item><p><bold>1.</bold> Eye absent (no eye pigment) or undefined (with diffused pigment present across the anterior margin of the head); sternal process in males without posterior projection (Figs <xref rid="pone.0134673.g010" ref-type="fig">10B</xref>, <xref rid="pone.0134673.g014" ref-type="fig">14B</xref>) .......... <bold>2</bold></p></list-item>
+<list-item><p>—Defined eye present (with concentrated spot of pigment); sternal process in males with posterior projection (<xref rid="pone.0134673.g006" ref-type="fig">Fig 6B</xref>) .................................................................... <bold>4</bold></p></list-item>
+<list-item><p><bold>2.</bold>Adult body size exceeding 14 mm; antennule length 3/4 body length .......................... <bold><italic>K</italic>. <italic>crenarum</italic></bold></p></list-item>
+<list-item><p>—Adult body size less than 10 mm; antennule length 1/2 body length ............................. <bold>3</bold></p></list-item>
+<list-item><p><bold>3.</bold> Adult body size 5–10 mm; robust setae on last pleonite flanked with a smaller seta medially (<xref rid="pone.0134673.g015" ref-type="fig">Fig 15B</xref>); male with sensory scale on antennule ............................ <bold><italic>K</italic>. <italic>hornei</italic> sp. nov.</bold></p></list-item>
+<list-item><p>—Adult body size less than 5 mm; robust setae on last pleonite flanked with a smaller seta laterally (<xref rid="pone.0134673.g011" ref-type="fig">Fig 11B</xref>); male without sensory scale on antennule ....................... <bold><italic>K</italic>. <italic>tatiaraensis</italic> sp. nov.</bold></p></list-item>
+<list-item><p><bold>4.</bold> Antennule length 1/2 body length; last pleonite with a single robust seta dorsolaterally</p></list-item>
+<list-item><p>...................................................................................... <bold><italic>K</italic>. <italic>cursor</italic></bold></p></list-item>
+<list-item><p>—Antennule length 2/5 body length; last pleonite with two robust setae dorsolaterally, flanked by smaller ones on each side (<xref rid="pone.0134673.g007" ref-type="fig">Fig 7B</xref>) ....................................... <bold><italic>K</italic></bold>. <bold><italic>allambiensis</italic> sp. nov.</bold></p></list-item>
+</list>
+</sec>
+<sec id="sec012">
+<title>Systematics</title>
+<p><bold>Syncarida Packard, 1885</bold>[<xref rid="pone.0134673.ref038" ref-type="bibr">38</xref>]</p>
+<p><bold>Anaspidacea Calman, 1904</bold>[<xref rid="pone.0134673.ref001" ref-type="bibr">1</xref>]</p>
+<p><bold>Koonungidae Sayce, 1907</bold>[<xref rid="pone.0134673.ref008" ref-type="bibr">8</xref>]</p>
+<p><bold>Diagnosis (Modified after Poore [<xref rid="pone.0134673.ref010" ref-type="bibr">10</xref>]):</bold> Rostrum broad. Eyes sessile or absent. Mandible with palp. Maxilla 1 with palp. Maxilliped (thoracopod 1) of 7 articles, with tubular exopod and epipod. Pereonite 1 fused with the head, pereonites 2–8 free, pereonites of similar lengths to pleonites. Pleonites 1–6 free, pleonite 6 without row of long spines along posterior margin. Pleopods, with multiarticulate exopod; without endopod except in adult males where pleopods 1–2 endopodites modified to form complex copulatory structures (petasma), directed anteriorly against sternal surface between the last pair of pereopods. Uropods with rami of 1 article. Telson subtriangular, forming tail-fan with uropods. Seminal receptacle present in female.</p>
+<p><bold>Remarks:</bold> The publication date for <italic>Koonunga</italic> and Koonungidae is often given as 1908, based on the paper published in the Annals but, but this paper was a reproduction of the 1907 paper originally published in the Victorian Naturalist. Thus, the correct date of publication of the names is 1907. Family diagnoses in Poore [<xref rid="pone.0134673.ref010" ref-type="bibr">10</xref>] stated that the differences between the Anaspididae and the Koonungidae included “thoracopod 1 of 8 articles and forming maxilliped in Anaspididae” and “…of 7 articles and not forming a maxilliped” in Koonungidae, and antenna with scaphocerite in Anaspididae and without scaphocerite in Koonungidae. We find that thoracopod 1 in taxa of both families is similar, of 7 articles and forms a maxilliped.</p>
+<p><bold><italic>Koonunga</italic> Sayce, 1907</bold> [<xref rid="pone.0134673.ref008" ref-type="bibr">8</xref>]</p>
+<p><bold>Composition:</bold> <italic>K</italic>. <italic>allambiensis</italic> sp. nov., <italic>K</italic>. <italic>crenarum</italic>, <italic>K</italic>. <italic>cursor</italic>, <italic>K</italic>. <italic>hornei</italic> sp. nov., <italic>K</italic>. <italic>tatiaraensis</italic> sp. nov.</p>
+<p><bold>Diagnosis (After Sayce [<xref rid="pone.0134673.ref008" ref-type="bibr">8</xref>]; Zeidler, 1985[<xref rid="pone.0134673.ref016" ref-type="bibr">16</xref>]):</bold> Head (including fused pereonite 1) about equal in length to following 2–3 pereonites, with anterolateral incision above attachment of antenna, dorsally with pronounced short mid-lateral transverse sulcus. Antennule in males with or without oval-shaped sensory organ on the second article of the outer flagellum (lacking only in <italic>K</italic>. <italic>tatiarensis</italic> sp. nov.). Maxilliped (thoracopod 1) and pereopods 1–5 (thoracopods 2–6) with exopod, pereopods 6–7 (thoracopods 7–8) without exopod. All pereopods flexed between merus and carpus and in backward position except pereopod 6 which flexes inwards and pereopod 7 which flexes forwards. Pleopods 1–2 endopod in adult males modified to form a petasma. Male with median sternal process situated at the base of the second pleopods.</p>
+<p><bold><italic>Koonunga allambiensis</italic> Leijs &amp; King</bold>, <bold>sp</bold>. <bold>nov</bold>.</p>
+<p>(Figs <xref rid="pone.0134673.g003" ref-type="fig">3</xref>–<xref rid="pone.0134673.g007" ref-type="fig">7</xref>)</p>
+<fig id="pone.0134673.g003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0134673.g003</object-id>
+<label>Fig 3</label>
+<caption>
+<title><italic>Koonunga allambiensis</italic> sp. nov. habitus (Photo Julian Finn, Victorian Museum)</title>
+</caption>
+<graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0134673.g003" position="float" xlink:type="simple"/>
+</fig>
+<fig id="pone.0134673.g004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0134673.g004</object-id>
+<label>Fig 4</label>
+<caption>
+<title><italic>Koonunga allambiensis</italic> sp. nov., holotype male, 5.95 mm, SAMA C8443: A, antennule; B, antenna; C, maxilla 1; D, maxilla 2; E, maxilliped; F, mandible.</title>
+</caption>
+<graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0134673.g004" position="float" xlink:type="simple"/>
+</fig>
+<fig id="pone.0134673.g005" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0134673.g005</object-id>
+<label>Fig 5</label>
+<caption>
+<title><italic>Koonunga allambiensis</italic> sp. nov., holotype male, 5.95 mm, SAMA C8443: A, pereopod 1; B, pereopod 2; C, pereopod 3; D, pereopod 4; E, pereopod 5; F, pereopod 6; G, pereopod 7.</title>
+</caption>
+<graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0134673.g005" position="float" xlink:type="simple"/>
+</fig>
+<fig id="pone.0134673.g006" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0134673.g006</object-id>
+<label>Fig 6</label>
+<caption>
+<title><italic>Koonunga allambiensis</italic> sp. nov., holotype male, 5.95 mm, SAMA C8443: A, pleopod 1; B, endopod (petasma) ventral view; C, pleopod 2</title>
+</caption>
+<graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0134673.g006" position="float" xlink:type="simple"/>
+</fig>
+<fig id="pone.0134673.g007" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0134673.g007</object-id>
+<label>Fig 7</label>
+<caption>
+<title><italic>Koonunga allambiensis</italic> sp. nov., holotype male, 5.95 mm, SAMA C8443: A, uropod; B, telson.</title>
+</caption>
+<graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0134673.g007" position="float" xlink:type="simple"/>
+</fig>
+<p>LSID urn:lsid:zoobank.org:act:44FDF054-DE95-4175-8A03-545962296EBE</p>
+<p><bold>Material examined:</bold> <italic>Holotype</italic>. SAMA C8443, male, 5.95 mm, Allambie, VIC, sinkhole, 22-Mar-2011, -38.03253°S, 141.84837°E, coll. R. Leijs. <italic>Paratypes</italic>. SAMA C8405, SAMA 8406, 4 males, 13 females, 2 juveniles, collected with holotype.</p>
+<p><bold>Additional material examined:</bold> see <xref rid="pone.0134673.t001" ref-type="table">Table 1</xref>.</p>
+<p><bold>Molecular diagnosis:</bold> Molecular diagnostic characters: five fixed amino acid differences relative to <italic>K</italic>. <italic>crenarum</italic>. Amino acid positions are relative to the first amino acid downstream of the M414 primer site: L at position 12; A at position 23, V at positions 94 and169, and K at position 161. (<xref rid="pone.0134673.t003" ref-type="table">Table 3</xref>).</p>
+<p><bold>Description:</bold> Holotype male (SAMA C8443)</p>
+<p>Length 5.95 mm. Antennule length 2.41 mm. Antenna length 1.53 mm. Head length 0.93 mm. Pereon length 2.39 mm. Pleon length 2.29 mm. Telson length 0.34 mm. Pleon length (excluding telson) 0.39mm.</p>
+<p>Head rectangular, with short pointed rostrum. Defined eye present, with pigment.</p>
+<p>Antennule (<xref rid="pone.0134673.g004" ref-type="fig">Fig 4A</xref>) length 0.4 times body length; peduncle with 3 articles, basal article as long as following two combined, articles 1 and 2 outer margins with small plumose setae, simple setae and type 5 setae, inner margins with 5–8 setae, of which distal setae most robust; outer flagellum with 25 articles, about 2.8 times the length of inner flagellum, sensory organ present on article 2, with aesthetascs present on all articles; inner flagellum with 8 articles.</p>
+<p>Antenna (<xref rid="pone.0134673.g004" ref-type="fig">Fig 4B</xref>) length slightly more than 0.62 of antennule length; peduncle with 4 articles, basal article very short, articles 2–4 elongate and rectangular shaped, article 3 longest, articles distally with 3–4 type 5 setae; flagellum with 16 articles, type 5 setae on every second article.</p>
+<p>Mandible (<xref rid="pone.0134673.g004" ref-type="fig">Fig 4F</xref>) palp with 3 articles; article 2 greatly enlarged, about 3.3 times length article 1, with 7 plumose setae along inner margin; article 3 small, rounded, with plumose setae apically. Base of mandible stout, ending in well-developed molar and incisor process. Molar process with small grinding surface surrounded by numerous spiniform setae. Incisor process of left mandible with five denticles. No evidence of secondary cutting plate or spine row.</p>
+<p>First maxilla (<xref rid="pone.0134673.g004" ref-type="fig">Fig 4C</xref>) two lobed; outer lobe with small one segmented palp (not illustrated as it was missing on the animal) with three robust plumose setae, extremity of outer lobe obliquely truncated with 10 setulate robust setae, some stouter than others and 1 smaller setulate seta near outer (aboral) surface; Inner lobe about ½ width of outer lobe with 2 robust setulate setae near inner (oral) surface surrounded by 3 smaller setulate setae.</p>
+<p>Second maxilla (<xref rid="pone.0134673.g004" ref-type="fig">Fig 4D</xref>) smaller than first maxilla, consisting of four lobes, inner lobe smallest with the others increasing successively in length and width; inner lobe covered with fine simple setae, with 3 plumose setae distally; outer lobes with more numerous (3–6) slightly longer setae (third lobe damaged).</p>
+<p>Maxilliped (<xref rid="pone.0134673.g004" ref-type="fig">Fig 4E</xref>) (thoracopod 1) stout, of 7 articles flexed posteriorly between articles 4 and 5; article 1 (coxa) shorter and wider than following articles with 2 epipodites near outer aboral corner; article 2 (basis) with exopodite of 2 articles resembling epipodites, exopodite reaching past article 3, aboral margin with several simple setae near distal oral margin; article 3 (ischium) slightly expanded on outer distal corner, slightly wider and longer than article 2, with several long fine plumose setae on inner margin and a single long plumose seta on outer aboral corner; article 4 (merus) inflated proximally, longer than any other segment, only slightly narrower than article 1; article 5 (carpus) small, with row of long setae along distal, inner margin for inner half and on oral and aboral outer distal margin; article 6 (propodus) robust, slightly shorter than article 4, with two oblique rows of setulate setae on oral surface and row of long setae aboral distal corner; article 7 (dactylus) small, rounded, with 5 strong claw-like robust setae (two large, three small) and long setae near inner margin.</p>
+<p>Pereopods 1–7 (thoracopods 2–8) (<xref rid="pone.0134673.g005" ref-type="fig">Fig 5A–5G</xref>) similar in structure to maxilliped, progressively becoming more slender with all articles more elongate. Pereopods 1–6 slightly shorter than maxilliped, pereopods 5 and 6 shortest overall, pereopod 7 longest overall. Pereopods 1–6 coxa with two unequal epipodites as in maxilliped. Pereopods 1–5 bases with multi-segmented exopodite consisting of large basal segment reaching well past ischium (exopodite not illustrated in <xref rid="pone.0134673.g004" ref-type="fig">Fig 4E</xref>). Pereopod 6 basis without exopodite. Pereopod 7 without epipodite or exopodite. Pereopods 6–7 carpus distal margin with a row of strong plumose setae. Pereopods 1–7 dactylus with 3 claw-like robust setae, similar to maxilliped.</p>
+<p>Pleopods 1–2 (<xref rid="pone.0134673.g006" ref-type="fig">Fig 6A and 6C</xref>) with endopodites modified to form complex copulatory structure (petasma). Pleopod 1 endopodite of one article and joined by coupling hooks on a lobe on the inner margin (<xref rid="pone.0134673.g006" ref-type="fig">Fig 6A</xref>). Pleopod 2 endopodite of two articles of about equal length, each as long as endopodite of pleopod 1; basal article with coupling hooks on inner margin on small pad near at mid length (<xref rid="pone.0134673.g006" ref-type="fig">Fig 6C</xref>); distal article apically pointed, hollowed out distally, inner margin forming a concave depression directed towards body. Pleopods 3–5 of similar structure (not illustrated), lacking endopodites but with multi-segmented exopodites consisting of basal article and flagellum of seven articles, each bearing two long plumose setae. Sternal process (<xref rid="pone.0134673.g006" ref-type="fig">Fig 6B</xref>) anterior median lobe broadly rounded, posterior median lobe long and spiniform, lateral lobes longer than median lobe.</p>
+<p>Uropod with peduncle stout (<xref rid="pone.0134673.g007" ref-type="fig">Fig 7A</xref>), rectangular about 1.6 times as long as wide, and slightly shorter than rami, with 4 strong setulate setae on dorsal surface and near outer margin; outer ramus slightly longer than inner ramus, with around 20 long plumose setae along inner and outer margins and row of 8 short strong upturned setulate setae near outer dorsal margin; inner ramus with around 18 long plumose setae along outer and proximal margin; inner proximal margin with three dorsally directed terminal robust setulate setae, the two smaller setae ~2/3 length of terminal seta; dorsal inner margin with row of 14 strong upturned curved setulate setae for about proximal 2/3 length, steadily increasing in size followed by a row of four smaller tridentate setae ending at first terminal seta; dorsal outer margin on inner ramus with row of often paired type 5 setae.</p>
+<p>Telson (<xref rid="pone.0134673.g007" ref-type="fig">Fig 7B</xref>) triangular with narrow rounded apex, length (excluding spines) slightly less than width, margins with three arrangements of spines (in order dorsal to ventral): 12 posterodorsally directed robust setulate setae interspersed with simple setae medially, 16 posteroventrally directed robust setulate setae, ~ 46 posteriorly directed short setae about 1/3 in length of posteroventrally directed setae with two pairs of 3 tridentate setae subapically.</p>
+<p><bold>Distribution:</bold> South-east South Australia and south-west Victoria (<xref rid="pone.0134673.g001" ref-type="fig">Fig 1</xref>), coastal, in groundwater fed marshlands and creeks.</p>
+<p><bold>Etymology:</bold> Named after the type locality: Allambie, Victoria.</p>
+<p><bold>Remarks:</bold> <italic>K</italic>. <italic>allambiensis</italic> sp. nov. is the most easily recognised of the three new species described here by its possession of a defined pigmented eye and male sternal process with a posterior projection (lacking in <italic>K</italic>. <italic>hornei</italic> sp. nov. and <italic>K</italic>. <italic>tatiaraensis</italic> sp. nov.). It can also be distinguished from <italic>K</italic>. <italic>crenarum</italic> by its possession of a defined eye and male sternal process morphology. <italic>K</italic>. <italic>allambiensis</italic> sp. nov. is very similar to <italic>K</italic>. <italic>cursor</italic> in uropod and pleopod morphology, however, it can be distinguished by the telson shape, which is more acute posteriorly, not as rounded as in <italic>K</italic>. <italic>cursor</italic> and in the setation of the last pleonite which possesses 2–3 robust setae dorsolaterally (vs only 1 robust seta in <italic>K</italic>. <italic>cursor</italic>) (see Zeidler (1985) [<xref rid="pone.0134673.ref016" ref-type="bibr">16</xref>] for additional illustrations).</p>
+<p><bold><italic>Koonunga crenarum</italic> Zeidler</bold>, <bold>1985[<xref rid="pone.0134673.ref016" ref-type="bibr">16</xref>]</bold></p>
+<p><bold><italic>Koonunga crenarum</italic> Zeidler</bold>, <bold>1985: 63–75, Figs <xref rid="pone.0134673.g002" ref-type="fig">2</xref>–<xref rid="pone.0134673.g008" ref-type="fig">8</xref></bold>.</p>
+<fig id="pone.0134673.g008" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0134673.g008</object-id>
+<label>Fig 8</label>
+<caption>
+<title><italic>Koonunga hornei</italic> sp. nov., holotype male, 6.66 mm, SAMA C8435: A, antennule; B, antenna; C, maxilla 1; D, maxilla 2; E, maxilliped; F, mandible.</title>
+</caption>
+<graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0134673.g008" position="float" xlink:type="simple"/>
+</fig>
+<p><italic>Material examined</italic>: SAMA C3989, dissected holotype female, Fossil Cave sinkhole, SA, approx. 3.3 km SE of Tantanoola Caves, 1-Mar-1982, coll. W. Zeidler. SAMA C3990, dissected allotype male, same locality of holotype, 8-Mar-1981, coll. P. Horne. SAMA 3991, paratype female, same locality of holotype, 1-Mar-1982, coll. W. Zeidler. SAMA 3992, paratype male, same locality of holotype, 8-Mar-1981, coll. P. Horne.</p>
+<p><italic>Additional material examined</italic>: see <xref rid="pone.0134673.t001" ref-type="table">Table 1</xref>.</p>
+<p><bold><italic>Koonunga cursor</italic> Sayce</bold>, <bold>1907[<xref rid="pone.0134673.ref008" ref-type="bibr">8</xref>]</bold></p>
+<p><bold><italic>Koonunga cursor</italic> Sayce</bold>, <bold>1907: 117–120.—Zeidler, 1985 (in part): 73, Figs <xref rid="pone.0134673.g005" ref-type="fig">5</xref> and <xref rid="pone.0134673.g006" ref-type="fig">6</xref></bold>.</p>
+<p><bold>Material examined:</bold> NMV J1046, 1 dissected syntype and 1 co-type male (type data as on original labels), Mullum Creek, Ringwood, VIC. SAMA C4016, 6 individuals, Railway drain, Bayswater, VIC, 16-Jul-1980, coll. F.H. Drummond.</p>
+<p><bold><italic>Koonunga hornei</italic> Leijs &amp; King, sp. nov</bold>.</p>
+<p>(Figs <xref rid="pone.0134673.g008" ref-type="fig">8</xref>–<xref rid="pone.0134673.g011" ref-type="fig">11</xref>)</p>
+<fig id="pone.0134673.g009" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0134673.g009</object-id>
+<label>Fig 9</label>
+<caption>
+<title><italic>Koonunga hornei</italic> sp. nov., holotype male, 6.66 mm, SAMA C8435: A, pereopod 1; B, pereopod 2; C, pereopod 3; D, pereopod 4; E, pereopod 5; F, pereopod 6; G, missing.</title>
+</caption>
+<graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0134673.g009" position="float" xlink:type="simple"/>
+</fig>
+<fig id="pone.0134673.g010" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0134673.g010</object-id>
+<label>Fig 10</label>
+<caption>
+<title><italic>Koonunga hornei</italic> sp. nov., holotype male, 6.66 mm, SAMA C8435: A, pleopod 1; B, endopod (petasma) ventral view; C, pleopod 2.</title>
+</caption>
+<graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0134673.g010" position="float" xlink:type="simple"/>
+</fig>
+<fig id="pone.0134673.g011" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0134673.g011</object-id>
+<label>Fig 11</label>
+<caption>
+<title><italic>Koonunga hornei</italic> sp. nov., holotype male, 6.66 mm, SAMA C8435: A, uropod; B, telson.</title>
+</caption>
+<graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0134673.g011" position="float" xlink:type="simple"/>
+</fig>
+<p>LSID urn:lsid:zoobank.org:act:2D218816-9AD5-4399-8DD5-72BCB5F6EDFE</p>
+<p><bold>Material examined:</bold> <italic>Holotype</italic>. SAM C8435, male, 6.61 mm, near Millicent, SA, observation bore, 04-May-2012, 37.5735°S, 140.32042°E, coll. R. Leijs, <italic>Paratypes</italic>. SAM C8434, 2 males, 2 females, 1 juvenile, collected with holotype.</p>
+<p><bold>Additional material examined:</bold> see <xref rid="pone.0134673.t001" ref-type="table">Table 1</xref>.</p>
+<p><bold>Molecular diagnosis:</bold> Molecular diagnostic characters: nine fixed amino acid differences relative to <italic>K</italic>. <italic>crenarum</italic>, four are unique for the species. Amino acid positions are relative to the first amino acid downstream of the M414 primer site: A at positions 23; V at position 48; L at position 101; S at positions 118, 119 (<xref rid="pone.0134673.t003" ref-type="table">Table 3</xref>).</p>
+<p><bold>Description:</bold> Holotype male (SAMA C8435)</p>
+<p>Length 6.61 mm. Antennule length 3.34 mm. Antenna length 2.1 mm. Head length 0.97 mm. Pereon length 2.61 mm. Pleon length 2.58 mm. Telson length 0.45 mm. Pleon length (excluding telson) 0.37 mm.</p>
+<p>Head rectangular, with short pointed rostrum. Defined eyes absent, pigment present and diffuse across the anterior margin of the head.</p>
+<p>Antennule (<xref rid="pone.0134673.g008" ref-type="fig">Fig 8A</xref>) length 0.5 times body length; peduncle with 3 articles, basal article slightly longer than following two combined, articles 1 and 2 on outer margins with small plumose setae, simple setae and 2–3 type 5 setae, inner margins with 5–8 setae, of which distal setae most robust; outer flagellum with 21 articles, about 2.9 times the length of inner flagellum, sensory organ present on article 2, aesthetascs present on all articles; inner flagellum with 6 articles.</p>
+<p>Antenna (<xref rid="pone.0134673.g008" ref-type="fig">Fig 8B</xref>) length slightly more than 0.62 of antennule length; peduncle with 4 articles, basal article very short, articles 2–4 elongate and rectangular shaped, article 3 longest, articles distally with 3–4 type 5 setae; flagellum with 16 articles, type 5 setae on almost every second article.</p>
+<p>Mandible (<xref rid="pone.0134673.g008" ref-type="fig">Fig 8F</xref>) palp with 3 articles; article 2 greatly enlarged, about 4.6 times length article 1, with 5 plumose setae along inner margin; article 3 small, rounded, with plumose setae apically. Base of mandible stout, ending in well-developed molar and incisor process. Molar process with small grinding surface surrounded by numerous spiniform setae. Incisor process of left mandible with six denticles. No evidence of secondary cutting plate or spine row.</p>
+<p>First maxilla (<xref rid="pone.0134673.g008" ref-type="fig">Fig 8C</xref>) two lobed; outer lobe with small one segmented palp, with three robust plumose setae, extremity of outer lobe obliquely truncated with 9 setulate robust setae, some stouter than others and 1 smaller setulate seta near outer (aboral) surface; inner lobe about ½ width of outer lobe with 2 robust setulate setae near inner (oral) surface surrounded by 2 smaller setulate setae.</p>
+<p>Second maxilla (<xref rid="pone.0134673.g008" ref-type="fig">Fig 8D</xref>) smaller than first maxilla, consisting of four lobes, inner lobe smallest with the others increasing successively in length and width; inner lobe covered with fine simple setae, with 3 plumose setae distally; outer lobes with more numerous (3–4) similar but little longer setae.</p>
+<p>Maxilliped (<xref rid="pone.0134673.g008" ref-type="fig">Fig 8E</xref>) (thoracopod 1) stout, of 7 articles flexed posteriorly between articles 4 and 5; article 1 (coxa) shorter and wider than following articles with 2 epipodites near outer aboral corner; article 2 (basis) with exopodite of 2 articles resembling epipodites, exopodite reaching past article 3, aboral margin with several simple setae near distal oral margin; article 3 (ischium) slightly expanded on outer distal corner, slightly wider and longer than article 2, with several long fine plumose setae on inner margin and a single long plumose seta on outer aboral corner; article 4 (merus) inflated proximally, longer than any other segment, only slightly narrower than article 1; article 5 (carpus) small, with row of long setae along distal, inner margin for inner half and on oral and aboral outer distal margin; article 6 (propodus) robust, slightly shorter than article 4, with oblique setulate setae on oral surface and row of long setae aboral distal corner; article 7 (dactylus) small, rounded, with 4 strong claw-like robust setae (one large, three small) and long setae near inner margin.</p>
+<p>Pereopods 1–7 (thoracopods 2–8) (<xref rid="pone.0134673.g009" ref-type="fig">Fig 9A–9F</xref>) similar in structure to maxilliped, progressively becoming more slender with all articles more elongate. Pereopod 1 slightly longer than maxilliped (longest pereopod), pereopods 2–6 slightly shorter than maxilliped, pereopods 5 and 6 shortest overall. Pereopod 7 not dissected. Pereopods 1–6 coxa with two unequal epipodites as in maxilliped. Pereopods 1–5 bases with multi-segmented exopodite consisting of large basal segment reaching well past ischium. Pereopod 6 basis without exopodite. Pereopod 6 carpus distal margin with a row of strong plumose setae. Pereopods 1–6 dactylus with 3–4 claw-like robust setae, similar to maxilliped.</p>
+<p>Pleopods 1–2 (<xref rid="pone.0134673.g010" ref-type="fig">Fig 10A–10C</xref>) with endopodites modified to form complex copulatory structure (petasma). Pleopod 1 endopodite of one article and joined by coupling hooks on a lobe on the inner margin (<xref rid="pone.0134673.g010" ref-type="fig">Fig 10A</xref>). Pleopod 2 endopodite of two articles of about equal length, each as long as endopodite of pleopod 1; basal article with coupling hooks on inner margin on small pad at less than half length (<xref rid="pone.0134673.g010" ref-type="fig">Fig 10C</xref>); distal article apically flattened and rounded, hollowed out distally, inner margin forming a concave depression directed towards body, with tuft of fine setae at mid length. Pleopods 3–5 of similar structure (not illustrated), lacking endopodites but with multi-segmented exopodites consisting of basal article and flagellum of five to six articles, each bearing two long plumose setae. Sternal process (<xref rid="pone.0134673.g010" ref-type="fig">Fig 10B</xref>) anterior median lobe dome shaped, no posterior median lobe, lateral lobes shorter than median lobe.</p>
+<p>Uropod with peduncle stout (<xref rid="pone.0134673.g011" ref-type="fig">Fig 11A</xref>) rectangular, about 1.4 times as long as wide, and slightly shorter than rami, with three robust setulate setae on dorsal surface and near outer margin; outer ramus slightly longer than inner ramus, with around 20 long plumose setae along inner and outer margins and row of seven short strong upturned setae near outer dorsal margin; inner ramus with around 15 long plumose setae along outer and proximal margin; inner proximal margin with three dorsally directed terminal robust setulate setae, the two smaller setae less than ½ length of terminal seta; dorsal inner margin with row of seven strong upturned curved setae for about proximal 2/3 length steadily increasing in size followed by a row of six smaller tridentate setae, ceasing at first terminal seta; dorsal outer margin on inner ramus with row of often paired type 5 setae.</p>
+<p>Telson (<xref rid="pone.0134673.g011" ref-type="fig">Fig 11B</xref>) triangular, with narrow rounded apex and slightly convex lateral margins, length (excluding spines) slightly less than width, margins with three arrangements of spines (in order dorsal to ventral): eight posterodorsally directed robust setulate setae interspersed with simple setae medially, 12 posteroventrally directed robust setulate setae, 24 posteriorly directed short setae about 1/3 in length of posteroventrally directed setae with two pairs of two tridentate setae sub-apically.</p>
+<p><bold>Variation:</bold> In some individuals a small concentration of pigment is present above the antero-lateral incision.</p>
+<p><bold>Remarks:</bold> <italic>K</italic>. <italic>hornei</italic> sp. nov. is most similar to <italic>K</italic>. <italic>tatiaraensis</italic> sp. nov., in that individuals are small (generally &lt;10 mm), with no defined eyes, sparse body pigment concentrated around the head and posterior pleonites, possess short antennae (~1/2 body length) and in males the sternal process lacks a posterior projection. Adult <italic>K</italic>. <italic>hornei</italic> sp. nov. individuals were generally larger than <italic>K</italic>. <italic>tatiaraensis</italic> sp. nov. (~7 mm vs ~4 mm), and the male individual described for <italic>K</italic>. <italic>tatiaraensis</italic> sp. nov., which showed adult morphology for pleopods 1–2, did not possess a sensory scale on the antennule (<xref rid="pone.0134673.g012" ref-type="fig">Fig 12A and 12B</xref>). As well as some setal differences on the last pleonite, the habitats of the two species are seemingly different with <italic>K</italic>. <italic>hornei</italic> sp. nov. collected widely from caves, sinkholes and bores between Penola and Mount Gambier, South Australia and <italic>K</italic>. <italic>tatiaraensis</italic> sp. nov. restricted to groundwater systems between Keith and Padthaway, South Australia (<xref rid="pone.0134673.g001" ref-type="fig">Fig 1</xref>).</p>
+<fig id="pone.0134673.g012" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0134673.g012</object-id>
+<label>Fig 12</label>
+<caption>
+<title><italic>Koonunga tatiaraensis</italic>, sp. nov., holotype male, 3.67 mm, SAMA C C8422: A, antennule; B, antenna; C, maxilla 1; D, maxilla 2; E, maxilliped; F, mandible.</title>
+</caption>
+<graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0134673.g012" position="float" xlink:type="simple"/>
+</fig>
+<p>Water chemistry measured in groundwater observation wells (GAM 078, KLE 011, "middle bore", MTM 060 (obswell numbers) presented as avg±SE): Temperature 15.8–0.11°C, Specific Conductance- 1174.5–91.56 mS/cm, Salinity 0.61–0.049 ppt, pH 7.5–0.08, Dissolved Oxygen 28.4–6.64% saturation (for raw data see <xref rid="pone.0134673.s001" ref-type="supplementary-material">S1 Table</xref>).</p>
+<p><bold>Distribution:</bold> South-east South Australia (<xref rid="pone.0134673.g001" ref-type="fig">Fig 1</xref>), found in caves, sinkholes and groundwater observation bores.</p>
+<p><bold>Etymology:</bold> Named after Peter Horne in honour of his extensive efforts in diving and specimen collection in caves and sinkholes in the Mount Gambier area, which has contributed a substantial number of <italic>Koonunga</italic> specimens to the collections of the South Australian Museum.</p>
+<p><bold><italic>Koonunga tatiaraensis</italic> Leijs &amp; King, sp. nov</bold>.</p>
+<p>(Figs <xref rid="pone.0134673.g012" ref-type="fig">12</xref>–<xref rid="pone.0134673.g015" ref-type="fig">15</xref>)</p>
+<fig id="pone.0134673.g013" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0134673.g013</object-id>
+<label>Fig 13</label>
+<caption>
+<title><italic>Koonunga tatiaraensis</italic>, sp. nov., holotype male, 3.67 mm, SAMA C8422: A, pereopod 1; B, pereopod 2; C, pereopod 3; D, pereopod 4; E, pereopod 5; F, pereopod 6; G, pereopod 7.</title>
+</caption>
+<graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0134673.g013" position="float" xlink:type="simple"/>
+</fig>
+<fig id="pone.0134673.g014" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0134673.g014</object-id>
+<label>Fig 14</label>
+<caption>
+<title><italic>Koonunga tatiaraensis</italic>, sp. nov., holotype male, 3.67 mm, SAMA C C8422: A, pleopod 1; B, endopod (petasma) ventral view; C, pleopod 2.</title>
+</caption>
+<graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0134673.g014" position="float" xlink:type="simple"/>
+</fig>
+<fig id="pone.0134673.g015" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0134673.g015</object-id>
+<label>Fig 15</label>
+<caption>
+<title><italic>Koonunga tatiaraensis</italic>, sp. nov., holotype male, 3.67 mm, SAMA C C8422: A, uropod; B, telson.</title>
+</caption>
+<graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0134673.g015" position="float" xlink:type="simple"/>
+</fig>
+<p>LSID urn:lsid:zoobank.org:act:09208FC5-EBFA-4822-886C-728D0CA84647</p>
+<p><bold>Material examined:</bold> <italic>Holotype</italic>. SAMA C8422, 1 male, WRG110 near Keith, SA, observation bore, 04-May-2012, 36.29325°S, 140.595°E, coll. R. Leijs. <italic>Paratypes</italic>. SAMA C8420, SAMA C8421, 3 females, collected with holotype.</p>
+<p><bold>Additional material examined:</bold> see <xref rid="pone.0134673.t001" ref-type="table">Table 1</xref>.</p>
+<p><bold>Molecular diagnosis:</bold> Molecular diagnostic characters: ten fixed amino acid differences relative to <italic>K</italic>. <italic>crenarum</italic>, five are unique for the species. Amino acid positions are relative to the first amino acid downstream of the M414 primer site S at positions 15, 161; N at position 30; V at positions 94, 120, 152, 169 (<xref rid="pone.0134673.t003" ref-type="table">Table 3</xref>).</p>
+<p><bold>Description:</bold> Holotype male (SAMA C8422)</p>
+<p>Length 3.67 mm. Antennule length 1.94 mm. Antenna length 1.41 mm. Head length 0.57 mm. Pereon length 1.56 mm. Pleon length 1.32 mm. Telson length 0.21 mm. Pleon (excluding telson) 0.37mm.</p>
+<p>Head rectangular, with short pointed rostrum. Defined eyes absent, pigment present and diffuse across the anterior margin of the head near antero-lateral.</p>
+<p>Antennule (<xref rid="pone.0134673.g012" ref-type="fig">Fig 12A</xref>) as long as 0.53 times body length; peduncle with 3 articles, basal article as long as following two combined, articles 1 and 2 outer margins with small plumose setae, simple setae and type 5 setae, inner margins with 5–7 setae, of which distal setae most robust; outer flagellum with 16 articles, about 3.5 times the length of inner flagellum, sensory organ not present on article 2, with aesthetascs present on every second article; inner flagellum with 5 articles</p>
+<p>Antenna (<xref rid="pone.0134673.g012" ref-type="fig">Fig 12B</xref>) length slightly more than 0.7 of antennule length; peduncle with 4 articles (basal article not dissected), basal article very short, articles 2–4 elongate and rectangular shaped, article 3 longest, articles distally with 2–3 type 5 setae; flagellum with 11 articles, type 5 setae on every second article.</p>
+<p>Mandible (<xref rid="pone.0134673.g012" ref-type="fig">Fig 12F</xref>) palp with 3 articles; article 2 greatly enlarged, about 2 times length article 1, with 5 (LHS) and 3 (RHS) plumose setae along inner margin; article 3 small, rounded, with 4 (LHS) and 6 (RHS) plumose setae apically. Base of mandible stout, ending in well-developed molar and incisor process. Molar process with small grinding surface surrounded by numerous spiniform setae. Incisor process of left mandible with six denticles, denticle nearest molar reduced. Incisor process of right mandible with five denticles. No evidence of secondary cutting plate or spine row.</p>
+<p>First maxilla (<xref rid="pone.0134673.g012" ref-type="fig">Fig 12C</xref>) two lobed; outer lobe with small one segmented palp with three robust plumose setae, extremity of outer lobe obliquely truncated with 9 setulate robust setae, some stouter than others and 1–2 smaller setulate setae near outer (aboral) surface; inner lobe about ½ width of outer lobe with 1 robust seta near inner (oral) surface surrounded by 4 smaller setulate setae.</p>
+<p>Second maxilla (<xref rid="pone.0134673.g012" ref-type="fig">Fig 12D</xref>) smaller than first maxilla, consisting of four lobes; inner lobe smallest with others increasing successively in length and width; inner lobe covered with fine simple setae, with 3 plumose setae distally; outer lobes with more numerous (4–6) slightly longer setae.</p>
+<p>Maxilliped (<xref rid="pone.0134673.g012" ref-type="fig">Fig 12E</xref>) (thoracopod 1) stout, of 7 segments flexed posteriorly between articles 4 and 5; article 1 (coxa) shorter and wider than following segments with 2 epipodites near outer aboral corner; article 2 (basis) with exopodite of 2 joints resembling epipodites, exopodite not reaching past article 3, aboral margin with several simple setae near distal oral margin; article 3 (ischium) slightly expanded on outer distal corner, slightly wider and longer than article 2, with several long, fine plumose setae on inner margin and a single long plumose seta on outer aboral corner; article 4 (merus) inflated proximally, longer than any other segment, only slightly narrower than article 1; article 5 (carpus), small, with row of long setae along distal inner margin for inner half and on oral and aboral outer distal margin; article 6 (propodus) robust, slightly shorter than article 4, with 3 robust setulate setae on inner surface and row of long setae on aboral distal corner; article 7 (dactylus) small, rounded, with 4 strong claw-like robust setae (one large and three small) and long setae near inner margin.</p>
+<p>Pereopods 1–7 (thoracopods 2–8) (<xref rid="pone.0134673.g013" ref-type="fig">Fig 13A–13G</xref>) similar in structure to maxilliped, progressively becoming more slender with all articles more elongate. Pereopods 1–6 slightly shorter than maxilliped, pereopods 5 and 6 shortest overall, pereopod 1 longest overall. Pereopods 1–6 coxa with two unequal epipodites as in maxilliped (not fully illustrated in <xref rid="pone.0134673.g013" ref-type="fig">Fig 13B, 13E and 13F</xref>). Pereopods 1–5 bases with multi-segmented exopodite consisting of large basal segment reaching well past ischium. Pereopod 6 basis without exopodite. Pereopod 7 without epipodite or exopodite. Pereopods 6–7 carpus distal margin with a row of strong plumose setae. Pereopods 1–7 dactylus with 3 claw-like robust setae, similar to maxilliped.</p>
+<p>Pleopods 1–2 (<xref rid="pone.0134673.g014" ref-type="fig">Fig 14A–14C</xref>) with endopodites modified to form complex copulatory structure (petasma). Pleopod 1 endopodite of one article and joined by coupling hooks on lobe on inner margin (<xref rid="pone.0134673.g014" ref-type="fig">Fig 14A</xref>). Pleopod 2 endopodite of two articles of about equal length, each as long as endopodite of pleopod 1; basal article with coupling hooks on small pad at mid length (<xref rid="pone.0134673.g014" ref-type="fig">Fig 14C</xref>); Distal segment apically pointed, hollowed out on distal, inner margin to form a concave depression directed towards body; Sternal process anterior median lobe dome shaped; Sternal process posterior median lobe absent; Sternal process lateral lobes shorter than median lobe; PL3-5 of similar structure, lacking endopodites but with multi-segmented exopodites consisting of basal segment and flagellum of 4-6segments, each bearing 2 long plumose setae.</p>
+<p>Uropod with peduncle stout (<xref rid="pone.0134673.g015" ref-type="fig">Fig 15A</xref>), rectangular, about 1.4 times as long as wide, and slightly shorter than rami, with 3 robust setulate setae and 1 smaller seta on dorsal surface and near outer margin; outer ramus slightly longer than inner ramus, with around 12 long plumose setae along inner and outer margins and row of 5 short strong upturned setulate setae near outer dorsal margin; inner ramus with around 8 long plumose setae along outer and proximal margin; inner proximal margin with 3 dorsally directed terminal robust setae, the two smaller setae ½ length of terminal seta; dorsal inner margin with row of 8 strong upturned curved setulate setae for about proximal 2/3 length steadily increasing in size followed by a row of 5 smaller tridentate setae ending at first terminal seta; dorsal outer margin on inner ramus with row of often paired type 5 setae.</p>
+<p>Telson (<xref rid="pone.0134673.g015" ref-type="fig">Fig 15B</xref>) triangular, with narrow rounded apex and slightly convex lateral margins, length (excluding spines) slightly less than width, margins with three arrangements of spines (in order dorsal to ventral): 8 posterodorsally directed robust setulate setae, 12 posteroventrally directed setulate robust setae, ~24 posteriorly directed short setae about 1/3 in length of middle posteroventrally directed setae and with two pairs of 3 tridentate setae subapically.</p>
+<p><bold>Remarks:</bold> See morphology remarks for <italic>K</italic>. <italic>hornei</italic> sp. nov. None of the <italic>K</italic>. <italic>tatiaraensis</italic> sp. nov. males examined possessed an antennular organ. Zeidler [<xref rid="pone.0134673.ref016" ref-type="bibr">16</xref>] described the development of the antennular organ in <italic>K</italic>. <italic>crenarum</italic> as size dependent so it is possible that we have not examined large enough males, however Zeidler [<xref rid="pone.0134673.ref016" ref-type="bibr">16</xref>] noted that in <italic>K</italic>. <italic>crenarum</italic> males with developed pleopodal petasmata also possessed an obvious antennular organ and all male <italic>K</italic>. <italic>tatiaraensis</italic> sp. nov. individuals examined here had fully developed pleopodal petasma.</p>
+<p>Water chemistry measured in groundwater observation wells (PAR 043, MAR 029, GLE 103, GLE 100, MAR 002 (obswell numbers) presented as avg ± SE): Temperature 17.6–0.15°C, Specific Conductance- 3060.8–336.60 mS/cm, Salinity 1.6–0.18ppt, pH 7.0–0.07, Dissolved Oxygen 45.9–5.87% saturation (for raw data see <xref rid="pone.0134673.s001" ref-type="supplementary-material">S1 Table</xref>).</p>
+<p><bold>Distribution:</bold> South-east South Australia (<xref rid="pone.0134673.g001" ref-type="fig">Fig 1</xref>), found only in groundwater observation bores between Keith and Padthaway.</p>
+<p><bold>Etymology:</bold> Named after the district of the type locality.</p>
+</sec>
+</sec>
+<sec id="sec013" sec-type="conclusions">
+<title>Discussion</title>
+<p>This paper recognised three new species of <italic>Koonunga</italic> from a relatively large and more or less continuous aquifer in the south-east of South Australia. The species are diagnosed using molecular analyses and morphology. Interestingly, the species distributions partly overlap, they vary with respect to the amount of body pigmentation, and presence or absence of eyes. The well supported phylogeny of the species, combined with molecular dating analyses and the morphological variation (in body pigmentation and presence or absence of eyes), and potentially restricted dispersal capabilities of the stygobitc species <italic>K</italic>. <italic>hornei</italic> and <italic>K</italic>. <italic>tatiaraensis</italic> in particular, enables correlation with palaeo-geographic and climatic data to infer plausible scenario(s) for the evolution of these species in the area.</p>
+<p>Strikingly, our molecular clock analyses suggest that species divergence times, (<xref rid="pone.0134673.t004" ref-type="table">Table 4</xref>, nodes 1–3) estimated at 10.7–22.3 Mya (5.38–33.80: 95% interval), and their distributions do not correlate with the age of the landscape, which is estimated to have been above sea level less than 1.1 Mya [<xref rid="pone.0134673.ref019" ref-type="bibr">19</xref>]. This is a conundrum because the Anaspidacea (which includes <italic>Koonunga</italic>) are freshwater organisms. Multiple scenarios might offer an explanation to this problem.</p>
+<p>First, our molecular clock calibration may not be appropriate for <italic>Koonunga</italic>. For the time calibration of our molecular phylogeny we implemented an uncorrelated log-linear relaxed clock rate prior of 0.0105 substitutions per site per million years [<xref rid="pone.0134673.ref032" ref-type="bibr">32</xref>] which was based on a large number of independent rate estimates. We also calibrated our tree using a prior of 1.1 Mya on the root node to explore whether average rates in the phylogeny would be within an expected range for this crustacean genus. The outcome of a mean rate of 0.062 substitutions per site per million years is far beyond any of the values used for calculation of the invertebrate clock rate in Papadopoulou et al [<xref rid="pone.0134673.ref032" ref-type="bibr">32</xref>]. There are also no plausible reasons to suspect such an increased molecular rate. We therefore suggest that time calibration in our analyses would not be an issue.</p>
+<p>Second, the simplest explanation is that an ancestral species inhabited the marine environment, and that speciation occurred there. These species then all independently and more or less passively colonised the freshwater as a result of a marine regression that progressively occurred in the area since about 1.1 Mya [<xref rid="pone.0134673.ref019" ref-type="bibr">19</xref>]. This scenario reflects the two-step model of stygofauna evolution in connection with marine regressions [<xref rid="pone.0134673.ref039" ref-type="bibr">39</xref>, <xref rid="pone.0134673.ref040" ref-type="bibr">40</xref>, <xref rid="pone.0134673.ref041" ref-type="bibr">41</xref>], whereby marine benthic species colonise marine interstitials and then subsequently get stranded and adapt to freshwater as consequence of marine regressions. The problems with this model for <italic>Koonunga</italic> are twofold. Currently all species within the Anaspidacea are found in freshwater environments and there are no good reasons implying extinctions as recent as &lt; 1Mya of <italic>Koonunga</italic> from the marine environment. Additionally, with a progressive marine regression and subsequent stranding of species one would expect that this would be reflected in the phylogeny: those species that stranded first (<italic>K</italic>. <italic>tatiaraensis</italic>) would take the position as a sister lineage to all other species. The species phylogeny (<xref rid="pone.0134673.g002" ref-type="fig">Fig 2</xref>), however, shows a pattern that is opposite to what is expected under this model, namely the coastal species, e.g. <italic>K</italic>. <italic>crenarum</italic>, in a basal position and <italic>K</italic>. <italic>tatiaraensis</italic> in a proximal position. Therefore, an evolutionary scenario based on marine ancestral species is not plausible.</p>
+<p>Third, we propose a scenario that assumes the species evolved from a freshwater epigean-adapted <italic>Koonunga</italic> ancestor that inhabited creeks, rivers and lacustrine habitats. The major speciation period for <italic>Koonunga</italic> estimated here at 10.7–22.3 Mya (<xref rid="pone.0134673.t004" ref-type="table">Table 4</xref>) coincides with a period of dramatic regional landscape changes. Concisely, it involved the marine Murray Basin in which thick deposits of limestone were laid down (Murray Basin/Mount Gambier Limestone, &gt; 10 Mya [<xref rid="pone.0134673.ref019" ref-type="bibr">19</xref>]); these limestone deposits form the aquifer matrix in which three of the <italic>Koonunga</italic> species occur. Subsequently a marine regression occurred, with the ancestral Murray River flowing through the Lake Hindmarsh area and draining out to sea through the Glenelg River. Uplift cut off the drainage of the Murray River and formed Lake Bungunnia, 1.2–2.4 Mya [<xref rid="pone.0134673.ref042" ref-type="bibr">42</xref>, <xref rid="pone.0134673.ref019" ref-type="bibr">19</xref>], which was an extensive freshwater habitat that would have been suitable for <italic>Koonunga</italic>. Breeching of the tectonic dam east of the Mount Lofty Ranges formed the present flow path of the Murray River and combined with considerable drying of the climate, circa 0.9 Mya, caused the end of Lake Bungunnia. Currently, apart from the River Murray, there is no permanent fresh surface water in the wider area that would support <italic>Koonunga</italic>.</p>
+<p>The Western Highlands, situated to the south-east of the Murray Basin (<xref rid="pone.0134673.g001" ref-type="fig">Fig 1</xref>) has been a much more palaeographically stable environment in which permanent flowing creeks and rivers draining inland, east and south would have provided suitable habitat for <italic>Koonunga</italic> for a long period. The current distribution of the <italic>Koonunga</italic> species is south and west of the Western Highlands. For a freshwater epigean origin of <italic>Koonunga</italic> we suppose that diversification happened in the Western Highlands area and that isolation within drainages could have led to the formation of one or more endemic species, similar to paramelitid amphipod species in the Pilbara region of Australia [<xref rid="pone.0134673.ref043" ref-type="bibr">43</xref>]. Prior to significant drying of the climate which started around 1 Mya [<xref rid="pone.0134673.ref044" ref-type="bibr">44</xref>], the inland lakes and rivers (possibly including the Murray River) could have supported epigean species of <italic>Koonunga</italic>. During the aridification of inland Australia that had extremes during Pleistocene glacial maxima [<xref rid="pone.0134673.ref044" ref-type="bibr">44</xref>], inland epigean species may have become extinct as surface waters became more ephemeral, unless they were able to colonise and find refugia in subterranean environments. Suitable subterranean environments were probably provided by the underlying Murray Basin/Mount Gambier Limestones which were likely to have contained a more or less continuous freshwater karst aquifer. Numerous ‘run-away’ holes, which are depressions in the landscape or even creeks that disappear in the limestone, are still present in the Tatiara district near Keith and Bordertown and these may have assisted passive colonisation of the aquifer by ancestors of <italic>K</italic>. <italic>tatiaraensis</italic> during heavy rainfall and major aquifer recharge events. Further south, south east of Penola (<xref rid="pone.0134673.g001" ref-type="fig">Fig 1</xref>) the flat landscape, which includes numerous lagoons associated with high groundwater tables, which still exist today, could have forced ancestors of <italic>K</italic>. <italic>hornei</italic> and <italic>K</italic>. <italic>crenarum</italic> underground during severe dry spells.</p>
+<p>The effects of aridificaction in the south of the Western Highlands almost certainly were not as severe as more inland areas and permanent water would have ensured survival of epigean lineages such as <italic>K</italic>.<italic>cursor</italic> and <italic>K</italic>. <italic>allambiensis</italic>.</p>
+<p>In summary, in this third scenario we propose that ancestral lineages of the <italic>Koonunga</italic> species, distributed in catchments of the Western Highlands were all epigean and that due to severe aridification in the last 1 My some of the species independently made the transition to the subterranean environment and subsequently lost their pigment and eyes.</p>
+<p>Regressive evolution of pigment and eyes is a process that may happen in the course of a few generations [<xref rid="pone.0134673.ref045" ref-type="bibr">45</xref>, <xref rid="pone.0134673.ref046" ref-type="bibr">46</xref>] and could be irreversible, as has been suggested for an eye pigment gene in stygobitic diving beetles [<xref rid="pone.0134673.ref047" ref-type="bibr">47</xref>]. With respect to regressive evolution, the species <italic>K</italic>. <italic>hornei</italic> and <italic>K</italic>. <italic>crenarum</italic> are interesting because they have overlapping distributions (<xref rid="pone.0134673.g001" ref-type="fig">Fig 1</xref>), but differ in size and in expression of stygobitic characters. <italic>K</italic>. <italic>hornei</italic> is a small stygobitic species without body pigment and eyes while <italic>K</italic>. <italic>crenarum</italic> is large, has some body pigment, but no eyes. The difference in size may be explained by ecological niche differentiation as has been shown for amphipods [<xref rid="pone.0134673.ref048" ref-type="bibr">48</xref>], whereby <italic>K</italic>. <italic>crenarum</italic> occupies the larger cavities in the Mount Gambier limestone karst aquifer and <italic>K</italic>. <italic>hornei</italic> also occupies the smaller fissures. The difference in the amount of body pigment, however, requires a different explanation. <italic>K</italic>. <italic>crenarum</italic> is most commonly found in the cenotes, large water filled collapsed caves which are exposed to daylight, and that were only formed after the Last Glacial Maximum (20ka) [<xref rid="pone.0134673.ref014" ref-type="bibr">14</xref>, <xref rid="pone.0134673.ref015" ref-type="bibr">15</xref>]. It is plausible that <italic>K</italic>. <italic>crenarum</italic> and <italic>K</italic>. <italic>hornei</italic> colonised the aquifer at a similar time during the first major marine regression and climatic cooling/drying about 780 kya [<xref rid="pone.0134673.ref049" ref-type="bibr">49</xref>] and subsequently both species lost their eyes and body pigment. However, <italic>K</italic>. <italic>crenarum</italic> could have regained some of its body pigments, but significantly less than the epigean species <italic>K</italic>. <italic>allambiensis</italic> and <italic>cursor</italic> after the formation of the cenotes, as an adaptation to the more photic habitat, but not its eyes.</p>
+<p>Alternatively, <italic>K</italic>. <italic>crenarum</italic> may never completely have lost its body pigmentation, perhaps due to an absence of chance destructive mutations in the genetic pathway leading to pigmentation. However, there are numerous observations of epigean crustacean species that partly inhabit the dark zone of springs or subterranean streams whereby the majority of the individuals in these habitats show an absence of body pigmentation, but they still have functional eyes, although there is tendency for eye reduction and eye colour to change from black to red and white (eg., <italic>Asellus aquaticus</italic> Say, 1818 [<xref rid="pone.0134673.ref050" ref-type="bibr">50</xref>], <italic>Gammarus minus</italic> (Linnaeus, 1758) [<xref rid="pone.0134673.ref051" ref-type="bibr">51</xref>] [<xref rid="pone.0134673.ref045" ref-type="bibr">45</xref>, <xref rid="pone.0134673.ref046" ref-type="bibr">46</xref>]). Such species show a clear gradient in body pigmentation, eye colour and size, where these characters decrease with increased distance from the photic zone. This suggests that at least the phenotypic expression of loss of body pigmentation is a faster process than the complete loss of eyes.</p>
+<p>For <italic>Koonunga</italic>, currently the genetics of body pigmentation and eyes is not known. Protas et al. [<xref rid="pone.0134673.ref045" ref-type="bibr">45</xref>] used <italic>Asellus aquaticus</italic>, a freshwater isopod that lives in caves as well in surface waters, as a model species to study the genetic basis of eye and pigment loss and found that eye loss is associated with a single gene, while eye reduction and body pigment involves multiple genes. If the genetic basis for these characters is similar in <italic>Koonunga</italic> then it is possible that mixing of unrelated lineages in <italic>K</italic>. <italic>crenarum</italic> could have led to the recovery, in part, of body pigmentation. Studying regressive evolution of pigment and eye genes in this group would be worthwhile to further elucidate the mechanism of eye and pigment evolution and to test the validity of the above presented evolutionary scenarios.</p>
+<p>To conclude, molecular phylogenetic analyses combined with palaeogeographic and climatic reconstructions have shown that ancestral <italic>Koonunga</italic> species were most likely living in epigean habitats and that some of these lineages passively made transitions to subterranean habitats driven by climatic drying and cooling less than 1 Mya. The cenotes that formed after the Last Glacial Maximum resulted in a dramatic change in photic conditions from a completely dark cave environment to that of an epigean freshwater lake environment, in which <italic>K</italic>. <italic>crenarum</italic>, as an adaptation to the presence of light, may have regained some of its body pigmentation. Cenotes are therefore potentially ideal environments to study the possibility of bi-directionality of regressive evolution in cave adaptation.</p>
+</sec>
+<sec id="sec014">
+<title>Supporting Information</title>
+<supplementary-material id="pone.0134673.s001" xlink:href="info:doi/10.1371/journal.pone.0134673.s001" mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" position="float" xlink:type="simple">
+<label>S1 Table</label>
+<caption>
+<title>Water Chemistry of groundwater wells.</title>
+<p>(XLSX)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ack>
+<p>Ben Roudnew (Flinders University) and Robyn Hill (South Australian Environmental Protection Agency) are acknowledged for their assistance during the groundwater sampling. Julian Finn (Museum Victoria) is thanked for making available the habitus image of <italic>K</italic>. <italic>allambiensis</italic>.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0134673.ref001"><label>1</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Calman</surname> <given-names>WT</given-names></name>. <article-title>On the classification of the Crustacea Malacostraca</article-title>. <source>The Annals and Magazine of Natural History</source> <year>1904</year>; <volume>7</volume>: <fpage>144</fpage>–<lpage>158</lpage>.</mixed-citation></ref>
+<ref id="pone.0134673.ref002"><label>2</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Brooks</surname> <given-names>HK</given-names></name>. <article-title>On the fossil Anaspidacea, with a revision of the classification of the Syncarida</article-title>. <source>Crustaceana</source> <year>1962</year>; <volume>4</volume>: <fpage>229</fpage>–<lpage>242</lpage>.</mixed-citation></ref>
+<ref id="pone.0134673.ref003"><label>3</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jarman</surname> <given-names>SN</given-names></name>, <name name-style="western"><surname>Elliott</surname> <given-names>NG</given-names></name>. <article-title>DNA evidence for morphological and cryptic Cenozoic speciations in the Anaspididae, `living fossils' from the Triassic</article-title>. <source>Journal of Evolutionary Biology</source> <year>2002</year>; <volume>13</volume>: <fpage>624</fpage>–<lpage>633</lpage>.</mixed-citation></ref>
+<ref id="pone.0134673.ref004"><label>4</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chilton</surname> <given-names>C</given-names></name>. <article-title>Notes on a fossil shrimp from Hawkesbury sandstones</article-title>. <source>Journal of the Royal Society New South Wales</source> <year>1929</year>; <volume>62</volume>: <fpage>366</fpage>–<lpage>368</lpage>.</mixed-citation></ref>
+<ref id="pone.0134673.ref005"><label>5</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Thomson</surname> <given-names>GM</given-names></name>. <article-title>On a freshwater schizopod from Tasmania</article-title>. <source>Transactions of the Linnean Society London (Zoology)</source><year>1894</year>; <volume>6</volume>: <fpage>285</fpage>–<lpage>303</lpage>.</mixed-citation></ref>
+<ref id="pone.0134673.ref006"><label>6</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Schram</surname> <given-names>FR</given-names></name>. <article-title>Fossil Syncarida</article-title>. <source>Transactions of the San Diego Society of Natural History</source> <year>1984</year>; <volume>20</volume>: <fpage>189</fpage>–<lpage>246</lpage>.</mixed-citation></ref>
+<ref id="pone.0134673.ref007"><label>7</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Thomson</surname> <given-names>GM</given-names></name>. <article-title>Notes on Tasmanian Crustacea, with descriptions of new species</article-title>. <source>Proceedings of the Royal Society Tasmania</source> <year>1893</year>; <volume>1</volume>: <volume>45</volume> <fpage>76</fpage>.</mixed-citation></ref>
+<ref id="pone.0134673.ref008"><label>8</label><mixed-citation publication-type="other" xlink:type="simple">Sayce OA. Description of a remarkable new crustacean with primitive malacostracan characters. Victorian Naturalist 1907; xxiv. No. 7, pp. 117–120, 1907. Reprinted (1908) Annals and Magazine of Natural History, 8: 350–355.</mixed-citation></ref>
+<ref id="pone.0134673.ref009"><label>9</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Schminke</surname> <given-names>HK</given-names></name>. <article-title><italic>Psammaspides williamsi</italic> gen. n. sp. n. ein Vertreter einer neuen Familie mesopsammaler Anaspidacea (Crustacea, Syncarida)</article-title> <year>1974</year>; <source>Zoologica Scripta</source> <volume>3</volume>: <fpage>177</fpage>–<lpage>183</lpage>.</mixed-citation></ref>
+<ref id="pone.0134673.ref010"><label>10</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Poore</surname> <given-names>GCB</given-names></name>. <chapter-title>Crustacea: Malacostraca: Syncarida, Peracarida: Isopoda, Tanaidacea, Mictacea, Thermosbaenacea, Spelaeogriphacea</chapter-title>. In, <name name-style="western"><surname>Houston</surname></name>, <name name-style="western"><surname>W.W.K.</surname></name> &amp; <name name-style="western"><surname>Beesley</surname> <given-names>P.L.</given-names></name> (eds) <source>Zoological Catalogue of Australia</source> <year>2002</year>; Vol <volume>19.2A</volume>. <publisher-loc>Melbourne</publisher-loc>: <publisher-name>CSIRO Publishing, Australia</publisher-name> xii 434pp.</mixed-citation></ref>
+<ref id="pone.0134673.ref011"><label>11</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Noodt</surname> <given-names>W</given-names></name>. <article-title>Estudios sobre crustaceos de aguas subterraneas III, Crustacea Syncarida de Chile central 1963; Investigaciones Zoológicas Chilenas</article-title><volume>10</volume>: <fpage>151</fpage>–<lpage>167</lpage>.</mixed-citation></ref>
+<ref id="pone.0134673.ref012"><label>12</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Camacho</surname> <given-names>AI</given-names></name>, <name name-style="western"><surname>Valdecasas</surname> <given-names>AG</given-names></name>. <article-title>Global diversity of syncarids (Syncarida; Crustacea) in freshwater</article-title>. <source>Hydrobiologia</source> <year>2008</year>; <volume>595</volume>:<fpage>257</fpage>–<lpage>266</lpage>.</mixed-citation></ref>
+<ref id="pone.0134673.ref013"><label>13</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Nicholls</surname> <given-names>GE</given-names></name>. <article-title><italic>Micraspides calmani</italic>, a new syncaridan from the west coast of Tasmania</article-title> <year>1931</year>; <source>Journal of the Linnean Society London (Zoology)</source> <volume>37</volume>: <fpage>473</fpage>–<lpage>488</lpage>.</mixed-citation></ref>
+<ref id="pone.0134673.ref014"><label>14</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Drummond</surname> <given-names>FH</given-names></name>. <article-title>The syncarid Crustacea, a living link with remote geological ages</article-title>. <source>Australian Museum Magazine</source> <year>1959</year>; <volume>13</volume>: <fpage>63</fpage>–<lpage>64</lpage>.</mixed-citation></ref>
+<ref id="pone.0134673.ref015"><label>15</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>De Dekker</surname> <given-names>P</given-names></name>. <article-title>New records of <italic>Koonunga cursor</italic> Sayce, 1908 (Syncarida, Anaspidacea)</article-title>. <source>Transactions of the Royal Society of South Australia</source><year>1980</year>; <volume>104</volume>: <fpage>21</fpage>–<lpage>25</lpage>.</mixed-citation></ref>
+<ref id="pone.0134673.ref016"><label>16</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zeidler</surname> <given-names>W</given-names></name>. <article-title>A new species of crustacean (Syncarida: Anaspidacea: Koonungidae) from sinkholes and caves in the south-east of South Australia</article-title>. <source>Transactions of the Royal Society of South Australia</source> <year>1985</year>; <volume>109</volume>: <fpage>63</fpage>–<lpage>75</lpage>.</mixed-citation></ref>
+<ref id="pone.0134673.ref017"><label>17</label><mixed-citation publication-type="other" xlink:type="simple">Williams WD. Freshwater Crustacea. Pp.63-111. <italic>In</italic> Williams, W.D. (ed.) “Biography and Ecology in Tasmania”, Monographiae Biologicae. 1974; 25.</mixed-citation></ref>
+<ref id="pone.0134673.ref018"><label>18</label><mixed-citation publication-type="other" xlink:type="simple">Mustafa S, Lawson JS. Review of Tertiary Gambier Limestone Aquifer Properties, Lower South-east. Department of Water, Land and Biodiversity Conservation Report South Australia. 2002; 86 pp, Adelaide.</mixed-citation></ref>
+<ref id="pone.0134673.ref019"><label>19</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>McLaren</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Wallace</surname> <given-names>MW</given-names></name>, <name name-style="western"><surname>Gallagher</surname> <given-names>SJ</given-names></name>, <name name-style="western"><surname>Miranda</surname> <given-names>JA</given-names></name>, <name name-style="western"><surname>Holdgate</surname> <given-names>GR</given-names></name>, <name name-style="western"><surname>Gow</surname> <given-names>LJ</given-names></name>, <etal>et al</etal>. <article-title>Palaeogeographic, climatic and tectonic change in southeastern Australia: the Late Neogene evolution of the Murray Basin</article-title>. <source>Quaternary Science Reviews</source> <year>2011</year>; <volume>30</volume>: <fpage>1086</fpage>–<lpage>1111</lpage>.</mixed-citation></ref>
+<ref id="pone.0134673.ref020"><label>20</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Imbrie</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Hays</surname> <given-names>JD</given-names></name>, <name name-style="western"><surname>Martinson</surname> <given-names>DG</given-names></name>, <name name-style="western"><surname>McIntyre</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Mix</surname> <given-names>AC</given-names></name>, <name name-style="western"><surname>Morley</surname> <given-names>JJ</given-names></name>, <etal>et al</etal>. <chapter-title>The orbital theory of Pleistocene climate: support from a revised chronology of the marine δ18O record</chapter-title>. <italic>In</italic>: <name name-style="western"><surname>Berger</surname> <given-names>A.L.</given-names></name>, <etal>et al</etal>. (Ed.), <source>Milankovitch and Climate, Part I</source>. <publisher-name>D. Reidel</publisher-name>, <publisher-loc>Dordrecht</publisher-loc>, <year>1984</year>; pp. <fpage>269</fpage>–<lpage>305</lpage>.</mixed-citation></ref>
+<ref id="pone.0134673.ref021"><label>21</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Murray‐Wallace</surname> <given-names>CV</given-names></name>, <name name-style="western"><surname>Brooke</surname> <given-names>BP</given-names></name>, <name name-style="western"><surname>Cann</surname> <given-names>JH</given-names></name>, <name name-style="western"><surname>Belperio</surname> <given-names>AP</given-names></name>, <article-title>Bourman, RP. Whole‐rock aminostratigraphy of the Coorong coastal plain, South Australia: towards a 1 million year record of sea‐level highstands</article-title>. <source>Journal of the Geological Society</source>, London <year>2001</year>; <volume>158</volume>, <fpage>111</fpage>‐<lpage>124</lpage>.</mixed-citation></ref>
+<ref id="pone.0134673.ref022"><label>22</label><mixed-citation publication-type="other" xlink:type="simple">Australian Stratigraphic Units Database. Available: <ext-link ext-link-type="uri" xlink:href="http://dbforms.ga.gov.au/pls/www/geodx.strat_units" xlink:type="simple">http://dbforms.ga.gov.au/pls/www/geodx.strat_units</ext-link>. Accessed 12 May 2014.</mixed-citation></ref>
+<ref id="pone.0134673.ref023"><label>23</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Webb</surname> <given-names>JA</given-names></name>, <name name-style="western"><surname>Grimes</surname> <given-names>KG</given-names></name>, <name name-style="western"><surname>Lewis</surname> <given-names>ID</given-names></name>. <article-title>Volcanogenic origin of cenotes near Mt Gambier, southeastern Australia</article-title>. <source>Geomorphology</source> <year>2010</year>; <volume>119</volume>: <fpage>23</fpage>–<lpage>35</lpage>.</mixed-citation></ref>
+<ref id="pone.0134673.ref024"><label>24</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Peltier</surname> <given-names>WR</given-names></name>, <name name-style="western"><surname>Fairbanks</surname> <given-names>RG</given-names></name>. <article-title>Global glacial ice volume and Last Glacial Maximum duration from an extended Barbados sea level record</article-title>. <source>Quaternary Science Reviews</source> <year>2006</year>; <volume>25</volume>: <fpage>3322</fpage>–<lpage>3337</lpage>.</mixed-citation></ref>
+<ref id="pone.0134673.ref025"><label>25</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bou</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Rouch</surname> <given-names>R</given-names></name>. <article-title>Un nouveau champ de recherche sur la faune aquatique souteraine</article-title>. <source>Comptes-Rendus de l’Académie des Sciences de Paris</source> <year>1967</year>; <volume>265</volume>: <fpage>369</fpage>–<lpage>370</lpage>.</mixed-citation></ref>
+<ref id="pone.0134673.ref026"><label>26</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chomczynski</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Mackey</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Drews</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Wilfinger</surname> <given-names>W</given-names></name>. <article-title>DNAzol: a reagent for the rapid isolation of genomic DNA</article-title>. <source>Biotechniques</source>, <year>1997</year>; <volume>22</volume>: <fpage>550</fpage>–<lpage>3</lpage>. <object-id pub-id-type="pmid">9067036</object-id></mixed-citation></ref>
+<ref id="pone.0134673.ref027"><label>27</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Folmer</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Black</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Hoeh</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Lutz</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Vrijenhoek</surname> <given-names>R</given-names></name>. <article-title>DNA primers for the amplification of mitochondrial cytochrome <italic>c</italic> oxidase subunit I from metazoan invertebrates</article-title>. <source>Molecular Marine Biology and Biotechnology</source> <year>1994</year>; <volume>3</volume>, <fpage>294</fpage>–<lpage>299</lpage>. <object-id pub-id-type="pmid">7881515</object-id></mixed-citation></ref>
+<ref id="pone.0134673.ref028"><label>28</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tamura</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Dudley</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Nei</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Kumar</surname> <given-names>S</given-names></name>. <article-title>MEGA4: Molecular Evolutionary Genetics Analysis (MEGA) software version 4.0</article-title>. <source>Molecular Biology and Evolution</source> <year>2007</year>; <volume>24</volume>: <fpage>1596</fpage>–<lpage>1599</lpage>. <object-id pub-id-type="pmid">17488738</object-id></mixed-citation></ref>
+<ref id="pone.0134673.ref029"><label>29</label><mixed-citation publication-type="other" xlink:type="simple">Swofford DL. ‘PAUP*: Phylogenetic Analysis Using Parsimony (* and other methods). Version 4.0b8. 2001. (Sinauer: Sunderland, MA.).</mixed-citation></ref>
+<ref id="pone.0134673.ref030"><label>30</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ronquist</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Teslenko</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>van der Mark</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Ayres</surname> <given-names>DL</given-names></name>, <name name-style="western"><surname>Darling</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Höhna</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title>MrBayes 3.2: efficient Bayesian phylogenetic inference and model choice across a large model space</article-title>. <source>Systematic Biology</source><year>2012</year>; <volume>61</volume>: <fpage>539</fpage>–<lpage>42</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/sysbio/sys029" xlink:type="simple">10.1093/sysbio/sys029</ext-link></comment> <object-id pub-id-type="pmid">22357727</object-id></mixed-citation></ref>
+<ref id="pone.0134673.ref031"><label>31</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Drummond</surname> <given-names>AJ</given-names></name>, <name name-style="western"><surname>Rambaut</surname> <given-names>A</given-names></name>. <article-title>BEAST: Bayesian evolutionary analysis by sampling trees</article-title>. <source>BMC Evolutionary Biology</source> <year>2007</year>; <volume>7</volume>, <fpage>214</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1186/1471-2148-7-214" xlink:type="simple">10.1186/1471-2148-7-214</ext-link></comment> <object-id pub-id-type="pmid">17996036</object-id></mixed-citation></ref>
+<ref id="pone.0134673.ref032"><label>32</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Papadopoulou</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Anastasiou</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Vogler</surname> <given-names>AP</given-names></name>. <article-title>Revisiting the Insect Mitochondrial Molecular Clock: The Mid-Aegean Trench Calibration</article-title>. <source>Molecular Biology and Evolution</source> <year>2010</year>; <volume>27</volume>: <fpage>1659</fpage>–<lpage>1672</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/molbev/msq051" xlink:type="simple">10.1093/molbev/msq051</ext-link></comment> <object-id pub-id-type="pmid">20167609</object-id></mixed-citation></ref>
+<ref id="pone.0134673.ref033"><label>33</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Brower</surname> <given-names>A</given-names></name>. <article-title>Rapid morphological radiation and convergence among races of the butterfly <italic>Heliconius erato</italic> inferred from patterns of mitochondrial DNA evolution</article-title>. <source>Proceedings of the National Academy of Sciences USA</source> <year>1994</year>; <volume>91</volume>: <fpage>6491</fpage>–<lpage>6495</lpage>.</mixed-citation></ref>
+<ref id="pone.0134673.ref034"><label>34</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rodríguez</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Oliver</surname> <given-names>JF</given-names></name>, <name name-style="western"><surname>Marín</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Medina</surname> <given-names>JR</given-names></name>. <article-title>The general stochastic model of nucleotide substitutions</article-title>. <source>Journal of Theoretical Biology</source> <year>1990</year>; <volume>142</volume>: <fpage>485</fpage>–<lpage>501</lpage>. <object-id pub-id-type="pmid">2338834</object-id></mixed-citation></ref>
+<ref id="pone.0134673.ref035"><label>35</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Yang</surname> <given-names>Z</given-names></name>. <article-title>Among-site rate variation and its impact on phylogenetic analyses</article-title>. <source>Trends in Ecology and Evolution</source>, <year>1996</year>; <volume>11</volume>: <fpage>367</fpage>–<lpage>372</lpage>. <object-id pub-id-type="pmid">21237881</object-id></mixed-citation></ref>
+<ref id="pone.0134673.ref036"><label>36</label><mixed-citation publication-type="other" xlink:type="simple">Rambaut A, Drummond A J. Tracer v1.4. 2007; Available: <ext-link ext-link-type="uri" xlink:href="http://beast.bio.ed.ac.uk/Tracer" xlink:type="simple">http://beast.bio.ed.ac.uk/Tracer</ext-link>. [verified November 2013].</mixed-citation></ref>
+<ref id="pone.0134673.ref037"><label>37</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Garm</surname> <given-names>A</given-names></name>. <article-title>Revising the definition of the crustacean seta and setal classification systems based on examinations of the mouthparts setae of seven species of decapods</article-title>. <source>Zoological Journal of the Linnean Society</source> <year>2004</year>; <volume>142</volume>: <fpage>233</fpage>–<lpage>252</lpage>.</mixed-citation></ref>
+<ref id="pone.0134673.ref038"><label>38</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Packard</surname> <given-names>AS</given-names></name>. <article-title>The Syncarida, a group of Carboniferous Crustacea</article-title>. <source>American Naturalist</source> <year>1885</year>; <volume>19</volume>: <fpage>700</fpage>–<lpage>703</lpage>.</mixed-citation></ref>
+<ref id="pone.0134673.ref039"><label>39</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Notenboom</surname> <given-names>J</given-names></name>. <article-title>Marine Regressions and the Evolution of Groundwater Dwelling Amphipods</article-title>. <source>Journal of Biogeography</source> <year>1991</year>; <volume>18</volume>: <fpage>437</fpage>–<lpage>454</lpage>.</mixed-citation></ref>
+<ref id="pone.0134673.ref040"><label>40</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Boutin</surname> <given-names>C.</given-names></name>, <name name-style="western"><surname>Coineau</surname> <given-names>N.</given-names></name>. <year>1990</year>. <article-title>Regression Model, Modèle biphase d’évolution et origine des micro-organismes stygobies interstitiels continentaux</article-title>. <source>Revue de Micropaléontologie</source> <volume>33</volume> (<issue>3/4</issue>): <fpage>303</fpage>–<lpage>322</lpage>.</mixed-citation></ref>
+<ref id="pone.0134673.ref041"><label>41</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Coineau</surname> <given-names>N.</given-names></name>, <name name-style="western"><surname>Boutin</surname> <given-names>C.</given-names></name>. <year>1992</year>. <chapter-title>Biological processes in space and time. Colonization, evolution and speciation in interstitial stygobionts</chapter-title>. In <name name-style="western"><surname>Camacho</surname> <given-names>A.I.</given-names></name> ed., <source>The natural History of Biospeleology</source>. <publisher-name>Museo Nacional de Ciencias Naturales, CSIC</publisher-name> Ed., <publisher-loc>Madrid, Monografias</publisher-loc> <volume>7</volume>: <fpage>423</fpage>–<lpage>451</lpage>.</mixed-citation></ref>
+<ref id="pone.0134673.ref042"><label>42</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Stephenson</surname> <given-names>AE</given-names></name>. <article-title>Lake Bungunnia–a Plio-Pleistocene megalake in southern Australia</article-title>. <source>Palaeogeography, Palaeoclimatology, Palaeoecology</source> <year>1986</year>; <volume>57</volume>, <fpage>137</fpage>–<lpage>156</lpage>.</mixed-citation></ref>
+<ref id="pone.0134673.ref043"><label>43</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Finston</surname> <given-names>TL</given-names></name>, <name name-style="western"><surname>Johnson</surname> <given-names>MS</given-names></name>, <name name-style="western"><surname>Humphreys</surname> <given-names>WF</given-names></name>, <name name-style="western"><surname>Eberhard</surname> <given-names>SM</given-names></name>, <name name-style="western"><surname>Halse</surname> <given-names>SE</given-names></name>. <article-title>Cryptic speciation in two widespread subterranean amphipod genera reflects historical drainage patterns in an ancient landscape</article-title>. <source>Molecular Ecology</source> <year>2007</year>; <volume>16</volume>, <fpage>355</fpage>–<lpage>365</lpage>. <object-id pub-id-type="pmid">17217350</object-id></mixed-citation></ref>
+<ref id="pone.0134673.ref044"><label>44</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Byrne</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Yeates</surname> <given-names>DK</given-names></name>, <name name-style="western"><surname>Joseph</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Kearney</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Bowler</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Williams</surname> <given-names>MAJ</given-names></name>, <etal>et al</etal>. <article-title>Birth of a biome: insights into the assembly and maintenance of the Australian arid zone biota</article-title>. <source>Molecular Ecology</source> <year>2008</year>; <volume>17</volume>, <fpage>4398</fpage>–<lpage>4417</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1365-294X.2008.03899.x" xlink:type="simple">10.1111/j.1365-294X.2008.03899.x</ext-link></comment> <object-id pub-id-type="pmid">18761619</object-id></mixed-citation></ref>
+<ref id="pone.0134673.ref045"><label>45</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Protas</surname> <given-names>ME</given-names></name>, <name name-style="western"><surname>Trontelj</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Nipam H Patel</surname> <given-names>NH</given-names></name>.<article-title>Genetic basis of eye and pigment loss in the cave crustacean, <italic>Asellus aquaticus</italic></article-title>. <source>Proceedings of the National Academy of Sciences</source> <year>2011</year>; <volume>108</volume>: <fpage>5702</fpage>–<lpage>5707</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1073/pnas.1013850108" xlink:type="simple">10.1073/pnas.1013850108</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0134673.ref046"><label>46</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Carlini</surname> <given-names>DB</given-names></name>, <name name-style="western"><surname>Manning</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Sullivan</surname> <given-names>PG</given-names></name>, <name name-style="western"><surname>Fong</surname> <given-names>DW</given-names></name>. <article-title>Molecular genetic variation and population structure in morphologically differentiated cave and surface populations of the freshwater amphipod <italic>Gammarus minus</italic></article-title>. <source>Molecular Ecology</source> <year>2009</year>; <volume>18</volume>, <fpage>1932</fpage>–<lpage>1945</lpage> <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1365-294X.2009.04161.x" xlink:type="simple">10.1111/j.1365-294X.2009.04161.x</ext-link></comment> <object-id pub-id-type="pmid">19434810</object-id></mixed-citation></ref>
+<ref id="pone.0134673.ref047"><label>47</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Leys</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Cooper</surname> <given-names>SJB</given-names></name>, <name name-style="western"><surname>Strecker</surname> <given-names>U</given-names></name>, <name name-style="western"><surname>Wilkens</surname> <given-names>H</given-names></name>. <article-title>Regressive evolution of an eye pigment gene in independently evolved eyeless subterranean diving beetles</article-title>. <source>Biology Letters 2005</source>; <volume>1</volume>: <fpage>496</fpage>–<lpage>499</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1098/rsbl.2005.0358" xlink:type="simple">10.1098/rsbl.2005.0358</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0134673.ref048"><label>48</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Fišer</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Blejec</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Trontelj</surname> <given-names>P</given-names></name>. <article-title>Niche-based mechanisms operating within extreme habitats: a case study of subterranean amphipod communities</article-title>. <source>Biology Letters 2012</source>; <volume>8</volume>: <fpage>578</fpage>–<lpage>581</lpage>, <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1098/rsbl.2012.0125" xlink:type="simple">10.1098/rsbl.2012.0125</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0134673.ref049"><label>49</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sandiford</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Quigley</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>De Broekert</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Kakica</surname> <given-names>S</given-names></name>. <article-title>Tectonic framework for the Cenozoic cratonic basins of Australia</article-title>. <source>Australian Journal of Earth Sciences</source> <year>2009</year>; <volume>56</volume>: <fpage>S5</fpage>–<lpage>S18</lpage>.</mixed-citation></ref>
+<ref id="pone.0134673.ref050"><label>50</label><mixed-citation publication-type="other" xlink:type="simple">Linnaeus C. Systema Naturae, Ed 10, vol I 1758; 824 pp. Salvii, Holmiae.</mixed-citation></ref>
+<ref id="pone.0134673.ref051"><label>51</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Say</surname> <given-names>T</given-names></name>. <article-title>An account of the crustacea of the United States</article-title> <source>Journal of the Academy of Natural Sciences of Philadelphia</source><year>1818</year>; <volume>1</volume>: <fpage>374</fpage>–<lpage>457</lpage>.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

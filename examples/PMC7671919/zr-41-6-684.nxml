@@ -1,0 +1,672 @@
+<!DOCTYPE article
+PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">Zool Res</journal-id><journal-id journal-id-type="iso-abbrev">Zool Res</journal-id><journal-id journal-id-type="publisher-id">ZR</journal-id><journal-title-group><journal-title>Zoological Research</journal-title></journal-title-group><issn pub-type="ppub">2095-8137</issn><publisher><publisher-name>Science Press</publisher-name><publisher-loc>16 Donghuangchenggen Beijie, Beijing 100717, China</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">33058572</article-id><article-id pub-id-type="pmc">7671919</article-id><article-id pub-id-type="publisher-id">zr-41-6-684</article-id><article-id pub-id-type="doi">10.24272/j.issn.2095-8137.2020.214</article-id><article-categories><subj-group subj-group-type="heading"><subject>Articles</subject></subj-group></article-categories><title-group><article-title>Taxonomic notes on Leptonetidae (Arachnida, Araneae) from China, with descriptions of one new genus and eight new species</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Wang</surname><given-names>Chun-Xia</given-names></name><xref ref-type="aff" rid="aff1">1</xref></contrib><contrib contrib-type="author"><name><surname>Li</surname><given-names>Shu-Qiang</given-names></name><xref ref-type="aff" rid="aff2">2</xref><xref ref-type="corresp" rid="cor1">*</xref><email>lisq@ioz.ac.cn</email></contrib><contrib contrib-type="author"><name><surname>Zhu</surname><given-names>Wen-Hui</given-names></name><xref ref-type="aff" rid="aff3">3</xref></contrib></contrib-group><aff id="aff1">
+<label>1</label>
+<addr-line>Hebei Key Laboratory of Animal Diversity, College of Life Science, Langfang Normal University, Langfang, Hebei 065000, China</addr-line>
+</aff><aff id="aff2">
+<label>2</label>
+<addr-line>Institute of Zoology, Chinese Academy of Sciences, Beijing 100101, China</addr-line>
+</aff><aff id="aff3">
+<label>3</label>
+<addr-line>Life Science College, Shenyang Normal University, Shenyang, Liaoning 110034, China</addr-line>
+</aff><author-notes><corresp id="cor1">E-mail:
+<email>lisq@ioz.ac.cn</email></corresp></author-notes><pub-date pub-type="ppub"><day>18</day><month>11</month><year>2020</year></pub-date><volume>41</volume><issue>6</issue><fpage>684</fpage><lpage>704</lpage><history><date date-type="received"><day>2</day><month>8</month><year>2020</year></date><date date-type="accepted"><day>10</day><month>10</month><year>2020</year></date></history><permissions><copyright-statement>Editorial Office of Zoological Research, Kunming Institute of Zoology, Chinese Academy of Sciences</copyright-statement><copyright-year>2020</copyright-year><copyright-holder>Editorial Office of Zoological Research, Kunming Institute of Zoology, Chinese Academy of Sciences</copyright-holder><license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by-nc/4.0/"><license-p><!--CREATIVE COMMONS-->This is an open-access article distributed under the terms of the Creative Commons Attribution Non-Commercial License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc/4.0/">http://creativecommons.org/licenses/by-nc/4.0/</ext-link>), which permits unrestricted non-commercial use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><abstract><p>Species of the spider family Leptonetidae <xref rid="bSimon1890" ref-type="bibr">Simon, 1890</xref> from China are revised based on molecular and morphological data analyses. A new genus, <italic>Jingneta</italic> Wang &#x00026; Li <bold>gen. nov</bold>., is erected, with <italic>Leptoneta cornea</italic>
+<xref rid="bTong2008" ref-type="bibr">Tong &#x00026; Li, 2008</xref> as the type species. Twenty-two Chinese species previously assigned to the genus <italic>Leptoneta</italic> Simon, 1872 are revised, with eight transferred to <italic>Falcileptoneta</italic>
+<xref rid="bKomatsu1970" ref-type="bibr">Komatsu, 1970</xref>, seven transferred to <italic>Jingneta</italic>
+<bold>gen. nov</bold>., five transferred to <italic>Leptonetela</italic> Kratochv&#x000ed;l, 1978, and one species each transferred to <italic>Longileptoneta</italic>
+<xref rid="bSeo2015" ref-type="bibr">Seo, 2015</xref> and <italic>Masirana</italic> Kishida, 1942. Eight new species are described: i.e., <italic>Falcileptoneta shuanglong</italic> Wang &#x00026; Li <bold>sp. nov</bold>. (&#x02642;), <italic>Jingneta caoxian</italic> Wang &#x00026; Li <bold>sp. nov</bold>. (&#x02642;&#x02640;), <italic>J. jingdong</italic> Wang &#x00026; Li <bold>sp. nov</bold>. (&#x02642;&#x02640;), <italic>Longileptoneta gutan</italic> Wang &#x00026; Li <bold>sp. nov</bold>. (&#x02642;&#x02640;), <italic>L. huangshan</italic> Wang &#x00026; Li <bold>sp. nov</bold>. (&#x02642;&#x02640;), <italic>L. shenxian</italic> Wang &#x00026; Li <bold>sp. nov</bold>. (&#x02642;&#x02640;), <italic>L. yeren</italic> Wang &#x00026; Li <bold>sp. nov</bold>. (&#x02642;), and <italic>L. zhuxian</italic> Wang &#x00026; Li <bold>sp. nov</bold>. (&#x02642;&#x02640;). In total, 127 leptonetid species from six genera are documented from China: nine species of <italic>Falcileptoneta</italic>, nine species of <italic>Jingneta</italic>
+<bold>gen. nov</bold>., 101 species of <italic>Leptonetela</italic>, six species of <italic>Longileptoneta</italic>, one species of <italic>Masirana</italic>, and one species of <italic>Rhyssoleptoneta</italic>
+<xref rid="bTong2007" ref-type="bibr">Tong &#x00026; Li, 2007</xref>.
+</p></abstract><kwd-group kwd-group-type="author-created"><kwd>Asia</kwd><kwd>Morphology</kwd><kwd>New combination</kwd><kwd>Taxonomy</kwd></kwd-group><funding-group><funding-statement>This study was supported by the National Natural Science Foundation of China to S.Q.L. (NSFC-31530067)</funding-statement></funding-group></article-meta></front><body><sec id="s01"><label/><title>INTRODUCTION</title><p>Spiders of the family Leptonetidae <xref rid="bSimon1890" ref-type="bibr">Simon, 1890</xref> include 21 genera and 353 species from North America, the Mediterranean, and East and Southeast Asia (<xref rid="bLi2020" ref-type="bibr">Li, 2020</xref>), of which 65 species in nine genera are recognized from North America, 71 species in eight genera are recognized from the Mediterranean, and 217 species from six genera are described from East and Southeast Asia (i.e., <italic>Falcileptoneta</italic>
+<xref rid="bKomatsu1970" ref-type="bibr">Komatsu, 1970</xref>, <italic>Leptoneta</italic> Simon, 1872, <italic>Leptonetela</italic>
+<xref rid="d39e4726" ref-type="bibr">Kratochv&#x000ed;l, 1978</xref>, <italic>Longileptoneta</italic>
+<xref rid="bSeo2015" ref-type="bibr">Seo, 2015</xref>, <italic>Masirana</italic> Kishida, 1942, and <italic>Rhyssoleptoneta</italic>
+<xref rid="bTong2007" ref-type="bibr">Tong &#x00026; Li, 2007</xref>).
+</p><p>The first study of Chinese leptonetids was conducted by <xref rid="bChen1982" ref-type="bibr">Chen et al. (1982)</xref> with the description of <italic>Leptoneta huanglongensis</italic>
+<xref rid="bChen1982" ref-type="bibr">Chen, Zhang &#x00026; Song, 1982</xref> from Southeast China. In subsequent years, more than 20 species have been described from China. Despite clear differences in the genitalic morphology between the European and Asian species, all have been placed in the European genus <italic>Leptoneta</italic> (<xref rid="bLe2011" ref-type="bibr">Le Peru, 2011</xref>). <xref rid="bTong2007" ref-type="bibr">Tong &#x00026; Li (2007)</xref> erected the genus <italic>Rhyssoleptoneta</italic>, with one species from North China as the type species. In a series of recent papers, <xref rid="bLin2010" ref-type="bibr">Lin &#x00026; Li (2010)</xref>, <xref rid="bChen2010" ref-type="bibr">Chen et al. (2010)</xref>, <xref rid="bWang2011" ref-type="bibr">Wang &#x00026; Li (2011)</xref>, <xref rid="bWang2017" ref-type="bibr">Wang et al. (2017)</xref>, and <xref rid="bHe2019" ref-type="bibr">He et al. (2019)</xref> have reported 96 species from Southwest China and transferred three Chinese species from <italic>Leptoneta</italic> to the genus <italic>Leptonetela</italic>. The disjunct distribution of <italic>Leptonetela</italic> in Eurasia has been discussed in <xref rid="bWang2017" ref-type="bibr">Wang et al. (2017)</xref> using phylogenetic analyses.
+</p><p>Despite the historical attention and the distinct morphological differences in male genitalia, the generic limits of 22 <italic>Leptoneta</italic> species from Southeast and North China have never been quantitatively tested. In this study, a phylogenetic assessment of leptonetids from China is presented based on molecular data from three nuclear genes and two mitochondrial genes using Bayesian inference (BI) and maximum-likelihood (ML) analyses. The genera from Asia, North America, and Europe, including the type species of <italic>Leptoneta</italic>, <italic>Leptonetela</italic>, <italic>Longileptoneta</italic>, and <italic>Rhyssoleptoneta</italic>, are included in our analyses. A dichotomous key for East and Southeast Asian genera is provided, along with comparative images for each genus. Eight new species from China are described and illustrated. This study provides a framework for understanding the evolutionary relationships of Asian Leptonetidae.
+</p></sec><sec id="s02"><label/><title>MATERIALS AND METHODS</title><sec id="s02.01"><label/><title>Morphological observation</title><p>All specimens collected were preserved and further studied in 95% ethanol solution. All terminology follows <xref rid="bTong2008" ref-type="bibr">Tong &#x00026; Li (2008)</xref> and taxonomy procedures follow <xref rid="bWang2011" ref-type="bibr">Wang &#x00026; Li (2011)</xref>.
+</p></sec><sec id="s02.02"><label/><title>Molecular phylogenetic analyses</title><p>We analyzed data from 91 leptonetid individuals belonging to 57 species (including 13 taxa downloaded from GenBank, see Supplementary Table S1). One species of <italic>Hickmania</italic> (Araneae: Austrochilidae) was used as the outgroup, as Austrochilidae is considered as a sister lineage to leptonetids (<xref rid="d39e4593" ref-type="bibr">Fern&#x000e1;ndez et al., 2018</xref>). In total, 92 taxa were included in our molecular dataset.
+</p><p>Genomic DNA was extracted from leg and cephalothorax tissue using a TIANamp Genomic DNA Kit (Tiangen Co., China) following the manufacturer&#x02019;s protocols. Five genes were selectively amplified, including mitochondrial genes cytochrome oxidase subunit I (<italic>COI</italic>) and 16S rDNA and nuclear genes histone 3 (<italic>H3</italic>), 28S rDNA, and 18S rDNA. The primers used are reported in Supplementary Table S2, and the reaction conditions follow <xref rid="bZhang2014" ref-type="bibr">Zhang &#x00026; Li (2014)</xref>. Raw sequences were edited and assembled using DNAMAN (Lynnon BioSoft, Canada). Sequence alignment was performed using MAFFT v.7.0 (<xref rid="bKatoh2013" ref-type="bibr">Katoh &#x00026; Standley, 2013</xref>) (http://mafft.cbrc.jp/alignment/server/) with the G-INS-i algorithm for <italic>COI</italic> and <italic>H3</italic>, and DNAMAN for <italic>16S</italic>, <italic>18S</italic>, and <italic>28S</italic>. The protein coding genes <italic>COI</italic> and <italic>H3</italic> were translated into amino acid sequences to check for stop codons using ClustalW in MEGA 5 (<xref rid="bTamura2011" ref-type="bibr">Tamura et al., 2011</xref>).
+</p><p>ML analysis was performed in RAxML v.8.0 (<xref rid="bStamatakis2014" ref-type="bibr">Stamatakis, 2014</xref>) using the default rapid hill-climbing algorithm and the GTRGAMMA model to search for the best tree. Clade support was assessed using 1 000 rapid bootstrap replicates. BI was performed in MrBayes v.3.2.6 (<xref rid="bRonquist2012" ref-type="bibr">Ronquist et al., 2012</xref>) using the best partitioning scheme and model selected by PartitionFinder v.1.1.1 (<xref rid="bLanfear2012" ref-type="bibr">Lanfear et al., 2012</xref>) based on the Akaike information criterion (AIC). The partitioning scheme and best-fit DNA substitution models are reported in Supplementary Table S3. BI analysis was run for 20 million generations, with sampling every 1 000 generations, and was checked to ensure the average standard deviation of split frequencies was less than 0.01. Stationarity was checked with Tracer v.1.6 (<xref rid="bRambaut2014" ref-type="bibr">Rambaut et al., 2014</xref>), and the first 25% of trees were removed as burn-in.
+</p><p>References to figures from cited papers are listed in lowercase (figure or figures); figures from this paper are noted with an initial capital (Figure or Figures).</p></sec></sec><sec id="s03"><label/><title>RESULTS</title><sec id="s03.01"><label/><title>Molecular analysis</title><p><bold>Sequence data:</bold> For the 91 leptonetid taxa and one outgroup, 85, 84, 54, 83, and 74 sequences were complete for <italic>COI</italic>, <italic>16S</italic>, <italic>18S</italic>, <italic>28S</italic>, and <italic>H3</italic>, respectively; others exhibited varying degrees of missing data. In total, a 4 000 bp concatenated dataset was analyzed using all 92 taxa, including 760 bp of <italic>COI</italic>, 392 bp of <italic>16S</italic>, 1 665 bp of <italic>18S</italic>, 488 bp of <italic>28S</italic>, and 265 bp of <italic>H3</italic>. All sequences were submitted to GenBank (accession Nos. are shown in Supplementary Table S1).
+</p><p>Our results showed that the topology of both the BI (<xref ref-type="fig" rid="Figure1">Figure 1</xref>) and ML (Supplementary Figure S1) trees is consistent at the genus level, but most interior nodes are not well supported, and branch lengths are long, indicating distinct genetic divergence of each lineage. Thus, these results suggest that Chinese leptonetids comprise eight major clades.
+</p><fig id="Figure1" orientation="portrait" position="float"><label>Figure 1</label><caption><p>Bayesian phylogenetic tree of 57 taxa of Leptonetidae</p></caption><abstract abstract-type="note"><p><italic>Hickmania</italic> was used as the outgroup. Posterior probabilities &#x0003c;0.95 are not shown. Asterisk indicates type species of corresponding genus.
+</p></abstract><graphic xlink:href="zr-41-6-684-1"/></fig><p>A <italic>Leptonetela</italic> clade is recovered with high support (bootstrap (BS)=88, posterior probability (PP=0.99)) and includes nine species from China and six species from Europe. The Chinese species <italic>L. lianhua</italic>
+<xref rid="bWang2017" ref-type="bibr">Wang &#x00026; Li, 2017</xref> is located at the base of the clade, and the type species <italic>L. kanellisi</italic> (Deeleman-Reinhold, 1971), two Asian species, <italic>L</italic>. <italic>flabellaris</italic>
+<xref rid="bWang2011" ref-type="bibr">Wang &#x00026; Li, 2011</xref> and <italic>L. pungitia</italic>
+<xref rid="bWang2011" ref-type="bibr">Wang &#x00026; Li, 2011</xref>, and European species <italic>L.</italic>
+<italic>arvanitidisi</italic> Wang &#x00026; Li, 2016, <italic>L. paragamiani</italic> Wang &#x00026; Li, 2016, <italic>L. penevi</italic> Wang &#x00026; Li, 2016, <italic>L. thracia</italic> Gasparo, 2005, and <italic>L. chiosensis</italic>
+<xref rid="bWang2011" ref-type="bibr">Wang &#x00026; Li, 2011</xref> form a clade (PP=0.97), indicating that the disjunct distribution of the genus is not an artifact of misplaced taxa.
+</p><p>The monophyly of Chinese <italic>Rhyssoleptoneta</italic> is strongly supported (BS=100, PP=1). This clade includes the type species <italic>R.</italic>
+<italic>latitarsa</italic>
+<xref rid="bTong2007" ref-type="bibr">Tong &#x00026; Li, 2007</xref> and one cave species.
+</p><p>No species from China cluster with <italic>Leptoneta convexa</italic> Simon, 1872, the type species of the genus. Five species from Southeast China (Zhejiang) are recovered in a clade (BS=67, PP=0.99) with 10 species of <italic>Falcileptoneta</italic>, one species of <italic>Longileptoneta</italic>, and one species of <italic>Leptoneta</italic> from Korea. Considering the type species of the genus <italic>Longileptoneta</italic>, and that <italic>Leptoneta</italic> species are not included in this clade and morphological characters differ (male palpal femur lacking spine and tibia having spine-like apophysis), <italic>Leptoneta anocellata</italic>
+<xref rid="bChen1986" ref-type="bibr">Chen, Zhang &#x00026; Song, 1986</xref>, <italic>L. lingqiensis</italic>
+<xref rid="bChen1984" ref-type="bibr">Chen, Shen &#x00026; Gao, 1984</xref>, and <italic>L. taizhensis</italic>
+<xref rid="bChen1993" ref-type="bibr">Chen &#x00026; Zhang, 1993</xref> are transferred to <italic>Falcileptoneta</italic>. One new species is described and illustrated (<xref ref-type="fig" rid="Figure3">Figures 3</xref>, <xref ref-type="fig" rid="Figure4">4</xref>). We have no adult specimens for taxa W89 and W254, thus they are not described here.
+</p><fig id="Figure3" orientation="portrait" position="float"><label>Figure 3</label><caption><p><italic>Falcileptoneta shuanglong</italic>
+<bold>sp. nov</bold>., male holotype
+</p></caption><abstract abstract-type="note"><p>A: Habitus, dorsal view; B: Palpal bulb, ventral view; C: Palp, prolateral view; D: Palp, retrolateral view. PS: Prolateral sclerite; E: Embolus; MS: Median sclerite.</p></abstract><graphic xlink:href="zr-41-6-684-3"/></fig><fig id="Figure4" orientation="portrait" position="float"><label>Figure 4</label><caption><p><italic>Jingneta caoxian</italic>
+<bold>sp. nov.,</bold> male holotype
+</p></caption><abstract abstract-type="note"><p>A: Habitus, dorsal view; B: Palpal bulb, ventral view; C: Palp, prolateral view; D: Palp, retrolateral view. PS: Prolateral sclerite; E: Embolus; MS: Median sclerite.</p></abstract><graphic xlink:href="zr-41-6-684-4"/></fig><p>Species from North China (Beijing, Hebei, Henan), <italic>Leptoneta cornea</italic>
+<xref rid="bTong2008" ref-type="bibr">Tong &#x00026; Li, 2008</xref>, <italic>L. exilocula</italic>
+<xref rid="bTong2008" ref-type="bibr">Tong &#x00026; Li, 2008</xref>, <italic>L. foliiformis</italic>
+<xref rid="bTong2008" ref-type="bibr">Tong &#x00026; Li, 2008</xref>, <italic>L. setulifera</italic>
+<xref rid="bTong2008" ref-type="bibr">Tong &#x00026; Li, 2008</xref>, and <italic>L. wangae</italic>
+<xref rid="bTong2008" ref-type="bibr">Tong &#x00026; Li, 2008</xref>, and two new species are recovered as monophyletic (PP=0.99). A new genus, <italic>Jingneta</italic>
+<bold>gen. nov.</bold>, is erected for the species in this clade, with <italic>Leptoneta cornea</italic>
+<xref rid="bTong2008" ref-type="bibr">Tong &#x00026; Li, 2008</xref> as the type species.
+</p><p>Ten new species from South China (Anhui, Jiangxi) form a sister clade (BS=96, PP=1) to the lineage (BS=100, PP=0.99), with two <italic>Longileptoneta</italic> species and one <italic>Leptoneta</italic> from Korea, including <italic>L. songniensis</italic>
+<xref rid="bSeo2015" ref-type="bibr">Seo, 2015</xref>, the type species of the genus <italic>Longileptoneta</italic>
+<xref rid="bSeo2015" ref-type="bibr">Seo, 2015</xref>. Considering the high support (BS=98, PP=0.92) and morphology (male palpal femur with strong spines, tibia with columnar apophysis distally), the new species from South China (Anhui, Jiangxi) are transferred to the genus <italic>Longileptoneta</italic>, and five are described and illustrated herein (<xref ref-type="fig" rid="Figure8">Figures 8</xref>&#x02013;<xref ref-type="fig" rid="Figure16">16</xref>).
+</p><fig id="Figure8" orientation="portrait" position="float"><label>Figure 8</label><caption><p><italic>Longileptoneta gutan</italic>
+<bold>sp. nov.</bold>, male holotype
+</p></caption><abstract abstract-type="note"><p>A: Habitus, dorsal view; B: Palpal bulb, ventral view; C: Palp, prolateral view; D: Palp, retrolateral view. PS: Prolateral sclerite; E: Embolus; MS: Median sclerite.</p></abstract><graphic xlink:href="zr-41-6-684-8"/></fig><fig id="Figure9" orientation="portrait" position="float"><label>Figure 9</label><caption><p><italic>Longileptoneta gutan</italic>
+<bold>sp. nov.</bold>, female paratype
+</p></caption><abstract abstract-type="note"><p>A: Habitus, dorsal view; B: Habitus, ventral view; C: Internal genitalia, dorsal view. At: Atrium; SS: Spermathecae stalk; SH: Spermathecae.</p></abstract><graphic xlink:href="zr-41-6-684-9"/></fig><fig id="Figure10" orientation="portrait" position="float"><label>Figure 10</label><caption><p><italic>Longileptoneta huangshan</italic>
+<bold>sp. nov</bold>., male holotype
+</p></caption><abstract abstract-type="note"><p>A: Habitus, dorsal view B: Palpal bulb, ventral view C: Palp, prolateral view D: Palp, retrolateral view. PS: Prolateral sclerite; E: Embolus; MS: Median sclerite.</p></abstract><graphic xlink:href="zr-41-6-684-10"/></fig><fig id="Figure11" orientation="portrait" position="float"><label>Figure 11</label><caption><p><italic>Longileptoneta huangshan</italic>
+<bold>sp. nov</bold>., female paratype
+</p></caption><abstract abstract-type="note"><p>A: Habitus, dorsal view; B: Habitus, ventral view; C: Internal genitalia, dorsal view. At: Atrium; SS: Spermathecae stalk; SH: Spermathecae.</p></abstract><graphic xlink:href="zr-41-6-684-11"/></fig><fig id="Figure12" orientation="portrait" position="float"><label>Figure 12</label><caption><p><italic>Longileptoneta shenxian</italic>
+<bold>sp. nov</bold>., male holotype
+</p></caption><abstract abstract-type="note"><p>A: Habitus, dorsal view; B: Palpal bulb, ventral view; C: Palp, prolateral view; D: Palp, retrolateral view. PS: Prolateral sclerite; E: Embolus; MS: Median sclerite.</p></abstract><graphic xlink:href="zr-41-6-684-12"/></fig><fig id="Figure13" orientation="portrait" position="float"><label>Figure 13</label><caption><p><italic>Longileptoneta shenxian</italic>
+<bold>sp. nov</bold>., female paratype
+</p></caption><abstract abstract-type="note"><p>A: Habitus, dorsal view; B: Habitus, ventral view; C: Internal genitalia, dorsal view. At: Atrium; SS: Spermathecae stalk; SH: Spermathecae.</p></abstract><graphic xlink:href="zr-41-6-684-13"/></fig><fig id="Figure14" orientation="portrait" position="float"><label>Figure 14</label><caption><p><italic>Longileptoneta yeren</italic>
+<bold>sp. nov</bold>., male holotype
+</p></caption><abstract abstract-type="note"><p>A: Habitus, dorsal view; B: Palpal bulb, ventral view; C: Palp, prolateral view; D: Palp, retrolateral view. PS: Prolateral sclerite; E: Embolus; MS: Median sclerite.</p></abstract><graphic xlink:href="zr-41-6-684-14"/></fig><fig id="Figure15" orientation="portrait" position="float"><label>Figure 15</label><caption><p><italic>Longileptoneta zhuxian</italic>
+<bold>sp. nov</bold>., male holotype
+</p></caption><abstract abstract-type="note"><p>A: Habitus, dorsal view; B: Palpal bulb, ventral view; C: Palp, prolateral view; D: Palp, retrolateral view. PS: Prolateral sclerite; E: Embolus; MS: Median sclerite.</p></abstract><graphic xlink:href="zr-41-6-684-15"/></fig><p>New species W186 from Taiwan, China, and W202 from Henan, North China, each form a clade, respectively. Two new species, W204 and W205 from Henan, North China, form a well-supported clade (BS=93, PP=0.96). Due to the absence of adult specimens, these probable new species are not described here.</p><p>The genera <italic>Masirana</italic> Kishida, 1942, <italic>Longileptoneta</italic>, and <italic>Falcileptoneta</italic> are not recovered as monophyletic. <italic>Falcileptoneta</italic> is rendered polyphyletic by the inclusion of <italic>Longileptoneta gayaensis</italic> Seo, 2016 and <italic>Leptoneta hogyegulensis</italic> Seo, 2016 from Korea (BS=98, PP=1.00), and <italic>F. juwangensis</italic>
+<xref rid="bSeo2015" ref-type="bibr">Seo, 2015</xref> and <italic>F. usihanana</italic> (Komatsu, 1961) cluster with species of <italic>Masirana</italic> (BS=88, PP=0.98). Within the <italic>Longileptoneta</italic> clade, <italic>Leptoneta kwangreungensis</italic> Kim, Jung, Kim &#x00026; Lee, 2004 is sister to <italic>Longileptoneta weolakensis</italic> Seo, 2016.
+</p></sec><sec id="s03.02"><label/><title>Taxonomy</title><sec id="s03.02.01"><label/><title>Family Leptonetidae <xref rid="bSimon1890" ref-type="bibr">Simon, 1890</xref>
+</title><p>Leptonetidae <xref rid="bSimon1890" ref-type="bibr">Simon, 1890</xref>: 80
+</p><p>Key to genera of Leptonetidae occurring in East and Southeast Asia &#x02013; males only (<xref ref-type="fig" rid="Figure2">Figure 2</xref>)
+</p><fig id="Figure2" orientation="portrait" position="float"><label>Figure 2</label><caption><p>Key to leptonetid genera occurring in East and Southeast Asia</p></caption><graphic xlink:href="zr-41-6-684-2"/></fig><p>1 Palpal femur with strong spines............................................2</p><p>&#x02014;Palpal femur lacking strong spines......................................4</p><p>2(1) Palpal tibia with two distal apophyses of different type; bristle-like, hooked, fan-shaped, or transparent and cone-like...............................................................................<italic>Masirana</italic>
+</p><p>&#x02014;Palpal tibia apically with two apophyses of same type, or only one&#x02026;&#x02026;&#x02026;&#x02026;&#x02026;&#x02026;&#x02026;&#x02026;&#x02026;&#x02026;&#x02026;&#x02026;&#x02026;......&#x02026;&#x02026;&#x02026;.....&#x02026;&#x02026;....3</p><p>3(2) Palpal tibia with 1&#x02013;2 horn-like apophyses, bulb with two sclerites, prolateral sclerite absent...................................................................................................................<italic>Jingneta</italic>
+<bold>gen</bold>. <bold>nov</bold>.
+</p><p>&#x02014;Palpal tibia with one columnar apophysis, apophysis tip with one spine; in some species, apophysis absent, tibia curved prolaterally, cymbium with spines prolaterally, bulb with three sclerites&#x02026;&#x02026;&#x02026;&#x02026;&#x02026;&#x02026;&#x02026;&#x02026;&#x02026;&#x02026;&#x02026;&#x02026;&#x02026;&#x02026;&#x02026;&#x02026;&#x02026;<italic>Longileptoneta</italic>
+</p><p>4(1) Palpal tibia with strong spines or apophyses ............5</p><p>&#x02014;Palpal tibia lacking strong spines or apophyses...................6</p><p>5(4) Palpal tibia with row of retrolateral spines ......................................................................................<italic>Leptonetela</italic>
+</p><p>&#x02014;Palpal tibia with spine-like apophysis distally.....................................................................................................<italic>Falcileptoneta</italic>
+</p><p>6(4) Cymbium with one small apophysis prolaterally, medially without transverse depression......................<italic>Rhyssoleptoneta</italic>
+</p><p>&#x02014;Cymbium with deep transverse depression medially, and one strip-shaped apophysis near depression..........................................................................................<italic>Leptoneta</italic>
+</p></sec><sec id="s03.02.02"><label/><title>Genus <italic>Falcileptoneta</italic>
+<xref rid="bKomatsu1970" ref-type="bibr">Komatsu, 1970</xref>
+</title><p><italic>Falcileptoneta</italic>
+<xref rid="bKomatsu1970" ref-type="bibr">Komatsu, 1970</xref>: 1
+</p><p><bold>Type species:</bold>
+<italic>Leptoneta striata</italic> Oi, 1952 from Japan.
+</p><p><bold>Diagnosis:</bold> This genus is similar to <italic>Masirana</italic> but can be distinguished by male palpal femur lacking spines and tibia with 1&#x02013;2 spine-like apophyses (vs. femur with strong spines, curved spine-like apophysis, and funnel-shaped apophysis in <italic>Masirana</italic>); <italic>Falcileptoneta</italic> can be distinguished from <italic>Jingneta</italic>
+<bold>gen. nov.</bold> and <italic>Longileptoneta</italic> by <italic>Falcileptoneta</italic> lacking spines on palpal femur, and can be distinguished from <italic>Leptonetela</italic>, <italic>Rhyssoleptoneta</italic>, and <italic>Leptoneta</italic> by male palpal tibia with 1&#x02013;2 spine-like apophyses distally (vs. tibia with row of retrolateral spines in <italic>Leptonetela</italic>, tibia without spines in <italic>Rhyssoleptoneta</italic> and <italic>Leptoneta</italic>).
+</p><p><bold>Description:</bold> Male palp: palpal femur without spines or apophyses. Patella with one slender spine apically. Tibia with three trichobothria and apically with 1&#x02013;2 spine-like apophyses dorsolaterally. Rarely, represented by only one seta. In some species, middle part of tibia contains feathery bristle, ventral apophysis missing. Cymbium with retrolateral branch and weak transverse depression. Bulb with sickle-like embolus apically.
+</p><p><bold>Female</bold>: Vulva: spermathecae short, not coiled.
+</p><p><bold>Composition:</bold> Before this study, 50 species were documented in Japan and Korea.
+</p><p><bold>Distribution:</bold> China, Japan, Korea.
+</p></sec><sec id="s03.02.03"><label/><title><italic>Falcileptoneta anocellata</italic> (<xref rid="bChen1986" ref-type="bibr">Chen, Zhang &#x00026; Song, 1986</xref>) comb. nov.
+</title><p><italic>Leptoneta anocellata</italic>
+<xref rid="bChen1986" ref-type="bibr">Chen et al., 1986</xref>: 40, figures 1&#x02013;4; <xref rid="bSong1987" ref-type="bibr">Song, 1987</xref>: 98, figure 61; <xref rid="bChen1991" ref-type="bibr">Chen &#x00026; Zhang, 1991</xref>: 60, figures 51.1&#x02013;4; <xref rid="bSong1999" ref-type="bibr">Song et al., 1999</xref>: 50, figure 20I, T
+</p><p><bold>Type material: Holotype</bold> &#x02640; (Institute of Zoology, Chinese Academy of Sciences, Beijing, China, originally named Institute of Zoology, Academia Sinica, IZCAS), cave in Jinhua (N29&#x000ba;10&#x02032;, E119&#x000ba;35&#x02032;), Zhejiang, China, 10 July 1983. <bold>Paratypes</bold> 2&#x02642;1&#x02640; (IZCAS), same data as holotype, examined.
+</p><p><bold>Other material examined:</bold> 1&#x02642;2&#x02640; (IZCAS), Shuanglong Cave (N29&#x000ba;20&#x02032;, E119&#x000ba;63&#x02032;, elevation <italic>ca.</italic> 700 m a.s.l.), Jinhua City, Zhejiang, China, 9 August 2018, collectors (coll.) Ming-Jie Xu and Zi-Yi Wang.
+</p><p><bold>Description:</bold>
+<bold>Male</bold>: Eyes lacking. Chelicerae with nine promarginal teeth and eight slender retromarginal teeth. Abdomen oval, yellowish. Male palpal femur with row of nine long setae, tibia with one short, stick-shaped apophysis distally, tip of apophysis with one slender spine; bulb with sickle-like embolus, and three sclerites: S-shaped prolateral sclerite and transparent median and retrolateral sclerites.
+</p><p><bold>Female</bold>: Eyes lacking. Chelicerae with nine promarginal teeth and nine slender retromarginal teeth. Vulva with sinuous spermathecae. For figures and detailed information, see <xref rid="bChen1986" ref-type="bibr">Chen et al. (1986)</xref>.
+</p><p><bold>Comments</bold>: This species is transferred to <italic>Falcileptoneta</italic> based on molecular analysis and tibia with one short, stick-shaped apophysis, tip of apophysis with one spine.
+</p><p><bold>Distribution:</bold> China (Zhejiang).
+</p></sec><sec id="s03.02.04"><label/><title><italic>Falcileptoneta</italic>
+<italic>arquata</italic> (<xref rid="bSong1991" ref-type="bibr">Song &#x00026; Kim, 1991</xref>) comb. nov.
+</title><p><italic>Leptoneta arquata</italic>
+<xref rid="bSong1991" ref-type="bibr">Song &#x00026; Kim, 1991</xref>: 20, figures 1&#x02013;3; <xref rid="bSong1999" ref-type="bibr">Song et al., 1999</xref>: 50, figure 20J
+</p><p><bold>Type material: Holotype</bold> &#x02640; (IZCAS), Laodian, Mount West Tianmu (N30&#x000ba;18&#x02032;, E119&#x000ba;24&#x02032;), Zhejiang, China, May 1987, examined.
+</p><p><bold>Description:</bold>
+<bold>Female</bold>: Eyes six. Chelicerae with eight small promarginal teeth and four small retromarginal denticles. Abdomen oval, yellowish. Vulva with pair of sperm ducts and sinuous spermathecae. For figures and detailed information, see <xref rid="bSong1999" ref-type="bibr">Song et al. (1999)</xref>.
+</p><p><bold>Male</bold>: Unknown.
+</p><p><bold>Comments:</bold> This species is transferred to <italic>Falcileptoneta</italic> based on short, sinuous spermathecae.
+</p><p><bold>Distribution:</bold> China (Zhejiang).
+</p></sec><sec id="s03.02.05"><label/><title><italic>Falcileptoneta</italic>
+<italic>huisunica</italic> (<xref rid="bZhu2002" ref-type="bibr">Zhu &#x00026; Tso, 2002</xref>) comb. nov.
+</title><p><italic>Leptoneta huisunica</italic>
+<xref rid="bZhu2002" ref-type="bibr">Zhu &#x00026; Tso, 2002</xref>: 565, figures 6&#x02013;9, 22
+</p><p><bold>Type material</bold>: <bold>Holotype</bold> &#x02642; (National Museum of Natural Science, Taichung, China, NMNS-THU), Huisun Experimental Forest Station, Nantou County, Taiwan, China, April 1998, coll. Sheng-Hai Wu. <bold>Paratypes</bold> 4&#x02642; (NMNS-THU), same locality as holotype but collected at December 1997, April 1998, and February 1998, coll. Hai-Yin Wu, not examined.
+</p><p><bold>Description:</bold>
+<bold>Male</bold>: Eyes six. Chelicerae light yellow brown, with seven small promarginal teeth and five retromarginal teeth. Palpal femur lacking spines, patella with one short spine dorsally, tibia with one hook-like lateral apophysis distally; cymbium with two distal branches. For figures and detailed information, see <xref rid="bZhu2002" ref-type="bibr">Zhu &#x00026; Tso (2002)</xref>.
+</p><p><bold>Female</bold>: Unknown.
+</p><p><bold>Comments:</bold> This species is transferred to <italic>Falcileptoneta</italic> based on male palpal femur lacking spines and tibia with one hook-like apophysis apically.
+</p><p><bold>Distribution:</bold> China (Taiwan).
+</p></sec><sec id="s03.02.06"><label/><title><italic>Falcileptoneta lingqiensis</italic> (<xref rid="bChen1984" ref-type="bibr">Chen, Shen &#x00026; Gao, 1984</xref>) comb. nov.
+</title><p><italic>Leptoneta lingqiensis</italic>
+<xref rid="bChen1984" ref-type="bibr">Chen et al., 1984</xref>: 9, figure 7&#x02013;15; <xref rid="bSong1987" ref-type="bibr">Song, 1987</xref>: 100, figure 64; <xref rid="bChen1991" ref-type="bibr">Chen &#x00026; Zhang, 1991</xref>: 59, figure 50.1&#x02013;6; <xref rid="bSong1999" ref-type="bibr">Song et al., 1999</xref>: 50, figure 6C, 20M, 21A, B
+</p><p><bold>Type material: Holotype</bold> &#x02642; (Zhejiang Museum of Natural History, Hangzhou, China, depository institution changed, originally in Hangzhou Normal College, ZMNH), Lingxi Cave, Jiande County, Zhejiang, China, 14 May 1984, coll. Yong-Chang Shen. <bold>Paratypes</bold> 9&#x02642;13&#x02640; (ZMNH), Jiande County, 11 June 1984, not examined.
+</p><p><bold>Other material examined:</bold> 1&#x02642; (IZCAS), Lingqi Cave (N29&#x000ba;36', E119&#x000ba;08', elevation <italic>ca.</italic> 260 m a.s.l.), Jiande City, Zhejiang, China, 30 July 2018, coll. Ming-Jie Xu and Zi-Yi Wang.
+</p><p><bold>Description:</bold>
+<bold>Male</bold>: Eyes six. Chelicerae yellow, fang brown, with eight small promarginal teeth and six retromarginal teeth. Abdomen oval, grayish yellow. Palpal femur lacking spines, patella with one horn-shaped apophysis dorsally, tibia with one cylindrical apophysis, apophysis with two short, curved spines at tip. Bulb with dark, triangular embolus and three sclerites: spine-like prolateral sclerite, wide, cuneiform median sclerite, and transparent retrolateral sclerite.
+</p><p><bold>Female</bold>: Similar to male in coloration and general features but larger and with longer legs. Vulva with copulatory ducts and spermathecae. For figures and detailed information, see <xref rid="bChen1984" ref-type="bibr">Chen et al. (1984)</xref>.
+</p><p><bold>Comments:</bold> This species is transferred to <italic>Falcileptoneta</italic> based on molecular analysis, and male palpal femur lacking spines, tibia with one apophysis apically, and tip of apophysis with two arcuate spines.
+</p><p><bold>Distribution:</bold> China (Zhejiang).
+</p></sec><sec id="s03.02.07"><label/><title><italic>Falcileptoneta monodactyla</italic> (<xref rid="bYin1984" ref-type="bibr">Yin, Wang &#x00026; Wang, 1984</xref>) comb. nov.
+</title><p><italic>Leptoneta monodactyla</italic>
+<xref rid="bYin1984" ref-type="bibr">Yin et al., 1984</xref>: 366, figure 2a&#x02013;d; <xref rid="bSong1987" ref-type="bibr">Song, 1987</xref>: 104, figure 67; <xref rid="bSong1999" ref-type="bibr">Song et al., 1999</xref>: 51, figure 21H&#x02013;I; <xref rid="bYin2012" ref-type="bibr">Yin et al., 2012</xref>: 156, figure 26a&#x02013;d
+</p><p><bold>Type material: Holotype</bold> &#x02642; (Hunan Normal University, Changsha, China, originally named Hunan Normal College, HNU), Yanling County (originally named Lingxian), Hunan, China, 5 December 1982, coll. Jia-Fu Wang, collected under stone, not examined.
+</p><p><bold>Description:</bold>
+<bold>Male</bold>: Eyes six. Chelicerae with five small promarginal teeth and no retromarginal teeth. Abdomen orange, with tan stripes. Palpal femur lacking spines, tibia with one long, finger-shaped apophysis and one slender spine apically. For figures and detailed information, see <xref rid="bYin1984" ref-type="bibr">Yin et al. (1984)</xref>.
+</p><p><bold>Female</bold>: Unknown.
+</p><p><bold>Comments:</bold> This species is transferred to <italic>Falcileptoneta</italic> based on male palpal femur lacking spines and tibia with one finger-shaped apophysis and one slender spine apically.
+</p><p><bold>Distribution:</bold> China (Hunan).
+</p></sec><sec id="s03.02.08"><label/><title><italic>Falcileptoneta nigrabdomina</italic> (<xref rid="bZhu2002" ref-type="bibr">Zhu &#x00026; Tso, 2002</xref>) comb. nov.
+</title><p><italic>Leptoneta nigrabdomina</italic>
+<xref rid="bZhu2002" ref-type="bibr">Zhu &#x00026; Tso, 2002</xref>: 567, figure 10&#x02013;13, 23
+</p><p><bold>Type material: Holotype</bold> &#x02642; (NMNS-THU), Huisun Experimental Forest Station, Nantou County, Taiwan, China, April 1998, coll. Hai-Yin Wu, not examined.
+</p><p><bold>Description:</bold>
+<bold>Male</bold>: Eyes six. Chelicerae light yellow brown, with seven promarginal teeth and five retromarginal teeth. Abdomen elliptical, with scattered, thin, white setae, dorsum black brown, with several yellow patches, venter and spinnerets light yellow. Palpal femur lacking spines, tibia with two apophyses distolaterally, one spine-like and one horn-shaped; cymbium unbranched. For figures and detailed information, see <xref rid="bZhu2002" ref-type="bibr">Zhu &#x00026; Tso (2002)</xref>.
+</p><p><bold>Female:</bold> Unknown.
+</p><p><bold>Comments:</bold> This species is transferred to <italic>Falcileptoneta</italic> based on male palpal femur lacking spines and tibia with one spine and one horn-shaped apophysis apically.
+</p><p><bold>Distribution:</bold> China (Taiwan).
+</p></sec><sec id="s03.02.09"><label/><title><italic>Falcileptoneta taiwanensis</italic> (<xref rid="bZhu2002" ref-type="bibr">Zhu &#x00026; Tso, 2002</xref>) comb. nov.
+</title><p><italic>Leptoneta taiwanensis</italic>
+<xref rid="bZhu2002" ref-type="bibr">Zhu &#x00026; Tso, 2002</xref>: 568, figure 14&#x02013;17, 20, 21
+</p><p><bold>Type material: Holotype</bold> &#x02642; (NMNS-THU), Huisun Experimental Forest Station, Nantou County, Taiwan, China, February 1998, coll. Hai-Yin Wu, not examined.
+</p><p><bold>Description:</bold>
+<bold>Male</bold>: Eyes six. Chelicerae light orange, with eight promarginal teeth and five retromarginal teeth. Abdomen oval, dorsum yellow, with one light yellow brown rectangular patch behind epigastric fold. Palpal femur and tibia lacking spines, tibia with one spine-shaped apophysis distally, cymbium with two branches distally. For figures and detailed information, see <xref rid="bZhu2002" ref-type="bibr">Zhu &#x00026; Tso (2002)</xref>.
+</p><p><bold>Female</bold>: Unknown.
+</p><p><bold>Comments:</bold> This species is transferred to <italic>Falcileptoneta</italic> based on male palp lacking femoral spines and tibia having one spine-like apophysis distally.
+</p><p><bold>Distribution:</bold> China (Taiwan).
+</p></sec><sec id="s03.02.10"><label/><title><italic>Falcileptoneta taizhensis</italic> (<xref rid="bChen1993" ref-type="bibr">Chen &#x00026; Zhang, 1993</xref>) comb. nov.
+</title><p><italic>Leptoneta taizhensis</italic>
+<xref rid="bChen1993" ref-type="bibr">Chen &#x00026; Zhang, 1993</xref>: 218, figure 2A&#x02013;F; <xref rid="bSong1999" ref-type="bibr">Song et al., 1999</xref>: 51, figure 20Q, 21J, K
+</p><p><bold>Type material: Holotype</bold> &#x02640; (ZMNH), Taizhen Cave, Quzhou City, Zhejiang, China, 7 August 1991, coll. Zhang-Fu Chen. <bold>Paratypes</bold> 8&#x02642;8&#x02640; (ZMNH), same data as holotype, not examined.
+</p><p><bold>Other material examined:</bold> 1&#x02642; (IZCAS), Taizhen Cave (N28&#x000ba;11&#x02032;, E118&#x000ba;08&#x02032;, elevation <italic>ca.</italic> 680 m a.s.l.), Quzhou City, Zhejiang, China, 19 July 2018, coll. Ming-Jie Xu and Zi-Yi Wang.
+</p><p><bold>Description:</bold>
+<bold>Male</bold>: Eyes absent. Chelicerae orange, with eight promarginal teeth and eight small retromarginal denticles. Abdomen taupe, covered with long setae. Palpal femur lacking spines, tibia with one strong, spine-like apophysis with curved tip. Bulb with dark, hook-like embolus and three sclerites: spine-like prolateral sclerite, wide and shoehorn-shaped median sclerite, and transparent retrolateral sclerite.
+</p><p><bold>Female:</bold> Similar to male in coloration and general features but smaller and with shorter legs. Vulva with sperm ducts and reniform-shaped spermathecae. For figures and detailed information, see <xref rid="bChen1993" ref-type="bibr">Chen &#x00026; Zhang (1993)</xref>.
+</p><p><bold>Comments:</bold> This species is transferred to <italic>Falcileptoneta</italic> based on molecular analysis, as well as male palpal femur lacking spines and tibia with one strong, spine-like apophysis apically with curved tip.
+</p><p><bold>Distribution:</bold> China (Zhejiang).
+</p></sec><sec id="s03.02.11"><label/><title><italic>Falcileptoneta shuanglong</italic> Wang &#x00026; Li sp. nov.
+</title><p><xref ref-type="fig" rid="Figure3">Figures 3</xref>, <xref ref-type="fig" rid="Figure17">17</xref>.
+</p><fig id="Figure17" orientation="portrait" position="float"><label>Figure 17</label><caption><p>Distribution records of eight new species in Leptonetidae from China</p></caption><abstract abstract-type="note"><p>1: <italic>Falcileptoneta shuanglong</italic>
+<bold>sp. nov</bold>.; 2: <italic>Falcileptoneta yeren</italic>
+<bold>sp. nov</bold>.; 3: <italic>Longileptoneta gutan</italic>
+<bold>sp. nov</bold>.; 4: <italic>Longileptoneta huangshan</italic>
+<bold>sp. nov</bold>.; 5: <italic>Longileptoneta shenxian</italic>
+<bold>sp. nov</bold>.; 6: <italic>Longileptoneta zhuxian</italic>
+<bold>sp. nov</bold>.; 7: <italic>Jingneta caoxian</italic>
+<bold>sp. nov</bold>.; 8: <italic>Jingneta jingdong</italic>
+<bold>sp.</bold>
+<bold>nov</bold>.
+</p></abstract><graphic xlink:href="zr-41-6-684-17"/></fig><p><bold>Type material: Holotype</bold> &#x02642; (IZCAS), Shuanglong Cave, Jinhua City (N29&#x000b0;12', E119&#x000b0;38', elevation <italic>ca.</italic> 670 m a.s.l.), Zhejiang, China. 6 August 2018, coll. Ming-Jie Xu and Zi-Yi Wang. <bold>Paratype</bold> 1&#x02642; (IZCAS), same data as holotype.
+</p><p><bold>Etymology:</bold> The specific name is a noun in apposition and refers to the type locality.
+</p><p><bold>Diagnosis:</bold> This new species is similar to <italic>Falcileptoneta odaesanensis</italic> Xu, Kim, Yoo, Nam &#x00026; Li, 2019, <italic>F. geumdaensis</italic> Seo, 2016, and <italic>F. juwangensis</italic> but can be separated by male palpal tibia with one apophysis distally, apophysis with short, curved spines at tip (<xref ref-type="fig" rid="Figure3">Figure 3D</xref>) (vs. three spine-like apophyses distally on tibia in <italic>F. odaesanensis</italic>, two spur-like apophyses distally on tibia in <italic>F. geumdaensis</italic>, and two transparent apophyses distally on tibia in <italic>F. juwangensis</italic>).
+</p><p><bold>Description: Male (holotype):</bold> Total length 2.24, prosoma 0.96 long, 0.83 wide. Opisthosoma 1.28 long, 0.96 wide (<xref ref-type="fig" rid="Figure3">Figure 3A</xref>). Leg measurements: I 9.35 (2.56, 0.32, 2.88, 2.24, 1.35); II 7.57 (2.31, 0.26, 2.24, 1.67, 1.09); III 6.54 (1.67, 0.32, 1.99, 1.47, 1.09); IV 8.20 (2.44, 0.38, 2.31, 1.92, 1.15). Prosoma brown. Eyes six. Median groove, cervical grooves, and radial furrows distinct. Opisthosoma dark brown, ovoid. Palp as in <xref ref-type="fig" rid="Figure3">Figure 3B</xref>&#x02013;<xref ref-type="fig" rid="Figure3">D</xref>: femur lacking spines; patella with one short, strong dorsal spine; tibia with one apophysis distally, apophysis with short, curved spines at tip; bulb with triangular, transparent embolus and three sclerites: ribbon-like prolateral sclerite, willow leaf-shaped median sclerite in ventral view, and transparent retrolateral sclerite.
+</p><p><bold>Female:</bold> Unknown.
+</p><p><bold>Distribution:</bold> China (Zhejiang).
+</p></sec><sec id="s03.02.12"><label/><title>Genus <italic>Jingneta</italic> Wang &#x00026; Li gen. nov.
+</title><p><bold>Type species:</bold>
+<italic>Leptoneta cornea</italic>
+<xref rid="bTong2008" ref-type="bibr">Tong &#x00026; Li, 2008</xref> from China.
+</p><p><bold>Etymology:</bold> The generic name is derived from the pinyin word &#x0201c;Jing&#x0201d;, referring to Beijing City (Jing is a short name for Beijing), where the genus is distributed, and &#x0201c;<italic>-neta</italic>&#x0201d; as part of the genus <italic>Leptoneta</italic>. The gender is feminine.
+</p><p><bold>Diagnosis:</bold>
+<italic>Jingneta</italic>
+<bold>gen. nov.</bold> males are similar to those in the genus <italic>Longileptoneta</italic>, by strong spines on femur of male palp but can be distinguished by tibia with one or two horn-shaped or spine-like apophyses; cymbium branched distally, lacking transverse depression; bulb with two sclerites, prolateral sclerite absent.
+</p><p><bold>Description: Male</bold>: Length 1.0&#x02013;3.0. Eyes six. Carapace brown and white. Median groove, cervical grooves, and radial furrows distinct, dark brown. Opisthosoma gray, oval. Male palp: Palpal femur with ventral and dorsal rows of strong spines, tibia with 1&#x02013;2 horn-shaped or spine-like apophyses in most species, and cymbium lacking transverse depression. Bulb with horn-like, leaf-shaped, or ribbon-like median sclerite, prolateral sclerite absent, and retrolateral sclerite transparent.
+</p><p><bold>Female</bold>: Similar to male in coloration and general features but larger and with shorter legs. Vulva contains pair of sperm ducts and sinuous spermathecae.
+</p></sec><sec id="s03.02.13"><label/><title><italic>Jingneta caoxian</italic> Wang &#x00026; Li sp. nov.
+</title><p><xref ref-type="fig" rid="Figure4">Figures 4</xref>, <xref ref-type="fig" rid="Figure5">5</xref>, <xref ref-type="fig" rid="Figure17">17</xref>
+</p><fig id="Figure5" orientation="portrait" position="float"><label>Figure 5</label><caption><p><italic>Jingneta caoxian</italic>
+<bold>sp. nov.</bold>, female paratype
+</p></caption><abstract abstract-type="note"><p>A: Habitus, dorsal view; B: Habitus, ventral view; C: Internal genitalia, dorsal view. At: Atrium; SS: Spermathecae stalk; SH: Spermathecae.</p></abstract><graphic xlink:href="zr-41-6-684-5"/></fig><p><bold>Type material: Holotype</bold> &#x02642; (IZCAS), Caoxian Cave, Mancheng Town (N39&#x000b0;01', E115&#x000b0;06'), Hebei, China, 22 September 2011, coll. Chun-Xia Wang. <bold>Paratype</bold> 1&#x02640; (IZCAS), same data as holotype.
+</p><p><bold>Etymology:</bold> The specific name is a noun in apposition and refers to the type locality.
+</p><p><bold>Diagnosis:</bold> This new species is similar to <italic>J. foliiformis</italic> but can be separated by a combination of the following characters: male palpal femur with seven retrolateral spines, median sclerite of palpal bulb shoehorn-shaped, and distal part transparent; in females, atrium oval (<xref ref-type="fig" rid="Figure4">Figures 4B</xref>&#x02013;<xref ref-type="fig" rid="Figure4">D</xref>, <xref ref-type="fig" rid="Figure5">5C</xref>) (vs. male palpal femur with four retrolateral spines, median sclerite of bulb sclerotized, S-shaped; in female, atrium sub-rectangular in <italic>J. foliiformis</italic>).
+</p><p><bold>Description: Male (holotype)</bold>: Total length 2.03. Prosoma 1.00 long, 0.63 wide. Opisthosoma 1.03 long, 0.78 wide (<xref ref-type="fig" rid="Figure4">Figure 4A</xref>). Leg measurements: I 6.86 (1.92, 0.32, 2.18, 1.54, 0.90); II 4.43 (1.09, 0.26, 1.35, 1.09, 0.64); III 3.90 (1.09, 0.19, 1.15, 0.96, 0.51); IV 5.31 (1.54, 0.38, 1.60, 1.15, 0.64). Prosoma brown. Eyes six. Median groove, cervical grooves, and radial furrows distinct. Opisthosoma dark brown, ovoid. Palp as in <xref ref-type="fig" rid="Figure4">Figure 4B</xref>&#x02013;<xref ref-type="fig" rid="Figure4">D</xref>: femur with row of seven strong retrolateral spines; tibia with one short ventral spine; cymbium branched distally. Bulb with triangular, transparent embolus, ribbon-like, distal transparent median sclerite, and transparent retrolateral sclerite.
+</p><p><bold>Female (paratype)</bold>: Total length 1.66. Prosoma 0.69 long, 0.72 wide. Opisthosoma 0.97 long, 0.88 wide (<xref ref-type="fig" rid="Figure5">Figure 5A</xref>, <xref ref-type="fig" rid="Figure5">B</xref>). Leg measurements: I 5.32 (1.41, 0.38, 1.60, 1.22, 0.71); II 4.16 (1.35, 0.32, 1.15, 0.83, 0.51); III - (0.96, 0.26, 0.90, 0.77, -); IV - (1.35, 0.26, -, -, -). Prosoma brown. Eyes six. Median groove, cervical grooves, and radial furrows distinct. Opisthosoma light brown, ovoid. Vulva with pair of sperm ducts and sinuous spermathecae, atrium oval, conspicuous (<xref ref-type="fig" rid="Figure5">Figure 5C</xref>).
+</p><p><bold>Distribution:</bold> China (Hebei).
+</p></sec><sec id="s03.02.14"><label/><title><italic>Jingneta cornea</italic> (<xref rid="bTong2008" ref-type="bibr">Tong &#x00026; Li, 2008</xref>) comb. nov.
+</title><p><italic>Leptoneta cornea</italic>
+<xref rid="bTong2008" ref-type="bibr">Tong &#x00026; Li, 2008</xref>: 375, figure 1A&#x02013;G
+</p><p><bold>Type material:</bold>
+<bold>Holotype</bold> &#x02642; (Mus&#x000e9;um national d&#x02019;Histoire naturelle, Paris, France, MNHN), Shenxian Cave, Shijiaying Town (N39&#x000b0;52&#x02032;, E115&#x000b0;41&#x02032;), Fangshan District, Beijing City, China. 06 March 2005, coll. Qian Wang and Yan-Yun Bi. <bold>Paratypes:</bold> 1&#x02642;5&#x02640; (IZCAS) and 2&#x02640; (MNHN), same data as holotype; 1&#x02642;5&#x02640; (IZCAS), Beijing City, Mentougou District (N39&#x000b0;52&#x02032;, E116&#x000b0;04&#x02032;), Guanyin Cave (near Jietaishi Temple), 28 April 2005, coll. Hai-Feng Chen and Xu Han; 2&#x02640; (MNHN), Beijing City, Mentougou District (N39&#x000b0;52&#x02032;, E116&#x000b0;04&#x02032;), Guanyin Cave (near Jietaishi Temple), 28 April 2005, coll. Hai-Feng Chen and Xu Han. All types in IZCAS examined, those in MNHN not examined.
+</p><p><bold>Other material examined:</bold> 1&#x02642;1&#x02640; (IZCAS), Sunbin Cave (N39&#x000ba;52&#x02032;, E116&#x000ba;04&#x02032;), near Jietaisi Temple, Mentougou District, Beijing City, China, 13 May 2011, coll. Chun-Xia Wang.
+</p><p><bold>Description:</bold>
+<bold>Male</bold>: Eyes six. Chelicerae light brown, with nine promarginal teeth and six small retromarginal teeth. Abdomen oval, pale yellow. Palpal femur with strong ventral spines, tibia with three long dorsal trichobothria and two strong dorsoretrolateral hook-like spines. Bulb with dark, short embolus, transparent, horn-shaped retrolateral sclerite, and spine-like median sclerite. Cymbium branched distally.
+</p><p><bold>Female</bold>: Similar to male in coloration and general features but larger and with shorter legs. Vulva with pair of sperm ducts and sinuous spermathecae, atrium semi-circular, conspicuous. For figures and detailed information, see <xref rid="bTong2008" ref-type="bibr">Tong &#x00026; Li (2008)</xref>.
+</p><p><bold>Distribution:</bold> China (Beijing).
+</p></sec><sec id="s03.02.15"><label/><title><italic>Jingneta exilocula</italic> (<xref rid="bTong2008" ref-type="bibr">Tong &#x00026; Li, 2008</xref>) comb. nov.
+</title><p><italic>Leptoneta exilocula</italic>
+<xref rid="bTong2008" ref-type="bibr">Tong and Li, 2008</xref>: 378, figure 2A&#x02013;H
+</p><p><bold>Type material:</bold>
+<bold>Holotype</bold> &#x02642; (MNHN), Bianfu Cave, Hebeizhen Town (N39&#x000b0;48', E115&#x000b0;54'), Fangshan District, Beijing City, China, coll. Hai-Feng Chen and Yan-Feng Tong. <bold>Paratypes</bold> 2&#x02642;2&#x02640; (IZCAS) and 2&#x02640; (MNHN), same data as holotype. All types in IZCAS examined, those in MNHN not examined.
+</p><p><bold>Other material examined:</bold> 1&#x02642;1&#x02640; (IZCAS), Bianfu Cave (N39&#x000ba;48&#x02032;, E115&#x000ba;54&#x02032;), Hebei Town, Fangshan District, Beijing City, China, 20 September 2011, coll. Chun-Xia Wang.
+</p><p><bold>Description:</bold>
+<bold>Male</bold>: Eyes six Chelicerae light brown, with eight promarginal teeth and six small retromarginal teeth. Abdomen oval, pale gray. Palpal femur with many long spines; tibia with three long dorsal trichobothria and one strong, short, hook-like spine distolaterally. Cymbium branched distally. Bulb with dark, curved embolus, transparent, wide, leaf-shaped retrolateral sclerite, and spine-like median sclerite.
+</p><p><bold>Female</bold>: Similar to male in coloration and general features but with shorter legs. Vulva with pair of sperm ducts and long, sinuous spermathecae. For figures and detailed information, see <xref rid="bTong2008" ref-type="bibr">Tong &#x00026; Li (2008)</xref>.
+</p><p><bold>Comments:</bold> This species is transferred to <italic>Jingneta</italic>
+<bold>gen. nov.</bold> based on male palpal femur with many long spines, tibia with one strong, short, hook-like spine distolaterally, and female with pair of sinuous spermathecae.
+</p><p><bold>Distribution:</bold> China (Beijing).
+</p></sec><sec id="s03.02.16"><label/><title><italic>Jingneta foliiformis</italic> (<xref rid="bTong2008" ref-type="bibr">Tong &#x00026; Li, 2008</xref>) comb. nov.
+</title><p><italic>Leptoneta foliiformis</italic>
+<xref rid="bTong2008" ref-type="bibr">Tong &#x00026; Li, 2008</xref>: 378, figure 3A&#x02013;G.
+</p><p><bold>Type material: Holotype</bold> &#x02642; (MNHN), Yunshui Cave, Shangfangshan Mountain (N39&#x000b0;39', E115&#x000b0;48'), Fangshan District, Beijing City, China, 22 January 2005, coll. Hai-Feng Chen and Xu Han. <bold>Paratypes:</bold> 3&#x02642;4&#x02640; (IZCAS) and 2&#x02642;2&#x02640; (MNHN), same data as holotype; 2&#x02642;1&#x02640; (IZCAS), same locality as holotype, 1 September 2005, coll. Yan-Feng Tong and Qian Wang; 7&#x02642;12&#x02640; (IZCAS), Hebei, Mancheng County, Caojiayu Village, Caoxian Cave (N39&#x000b0;03&#x02032;, E115&#x000b0;10&#x02032;), 9 June 2005, coll. Yan-Feng Tong and Qian Wang; 2&#x02642;2&#x02640; (MNHN), Hebei, Mancheng County, Caojiayu Village, Caoxian Cave (N39&#x000b0;03&#x02032;, E115&#x000b0;10&#x02032;), 9 June 2005, coll. Yan-Feng Tong and Qian Wang. All types in IZCAS examined, those in MNHN not examined.
+</p><p><bold>Other material examined:</bold> 1&#x02642;1&#x02640; (IZCAS), Yunshui Cave (N39&#x000ba;39&#x02032;, E115&#x000ba;48&#x02032;), Shangfang Mountain, Fangshan District, Beijing City, China, 12 May 2011, coll. Chun-Xia Wang.
+</p><p><bold>Description:</bold>
+<bold>Male</bold>: Eyes six. Chelicerae light brown, with seven promarginal teeth and four small retromarginal teeth. Abdomen oval, pale gray, no distinct pattern on dorsum. Palpal femur with some long ventral spines, tibia with three long dorsal trichobothria and two short, slender spines distally. Bulb with dark, short embolus, transparent, horn-shaped retrolateral sclerite, and spine-like median sclerite.
+</p><p><bold>Female</bold>: Similar to male in coloration and general features but legs shorter. Vulva with pair of sperm ducts and long, sinuous spermathecae. For figures and detailed information, see <xref rid="bTong2008" ref-type="bibr">Tong &#x00026; Li (2008)</xref>.
+</p><p><bold>Comments:</bold> This species is transferred to <italic>Jingneta</italic>
+<bold>gen. nov.</bold> based on molecular analysis, as well as male palpal femur with long spines and tibia with two short, slender spines distally, and female with pair of long, sinuous spermathecae.
+</p><p><bold>Distribution:</bold> China (Beijing).
+</p></sec><sec id="s03.02.17"><label/><title><italic>Jingneta jingdong</italic> Wang &#x00026; Li sp. nov.
+</title><p><xref ref-type="fig" rid="Figure6">Figures 6</xref>, <xref ref-type="fig" rid="Figure7">7</xref>, <xref ref-type="fig" rid="Figure17">17</xref>
+</p><fig id="Figure6" orientation="portrait" position="float"><label>Figure 6</label><caption><p><italic>Jingneta jingdong</italic>
+<bold>sp. nov.</bold>, male holotype
+</p></caption><abstract abstract-type="note"><p>A: Habitus, dorsal view; B: Palpal bulb, ventral view; C: Palp, prolateral view; D: Palp, retrolateral view. PS: Prolateral sclerite; E: Embolus; MS: Median sclerite.</p></abstract><graphic xlink:href="zr-41-6-684-6"/></fig><fig id="Figure7" orientation="portrait" position="float"><label>Figure 7</label><caption><p><italic>Jingneta jingdong</italic>
+<bold>sp</bold>. <bold>nov</bold>., female paratype
+</p></caption><abstract abstract-type="note"><p>A: Habitus, dorsal view; B: Habitus, ventral view; C: Internal genitalia, dorsal view. At: Atrium; SS: Spermathecae stalk; SH: Spermathecae.</p></abstract><graphic xlink:href="zr-41-6-684-7"/></fig><p><bold>Type material: Holotype</bold> &#x02642; (IZCAS), Jingdong Cave, Heidouyu Village (N40&#x000b0;12', E117&#x000b0;15', elevation <italic>ca.</italic> 142 m a.s.l.), Huangsongyu Town, Pinggu District, Beijing City, China, 7 January 2012, coll. Zu-Wei Zha and Zhi-Gang Chen. <bold>Paratype</bold> 1&#x02640; (IZCAS), same data as holotype.
+</p><p><bold>Etymology:</bold> The specific name is a noun in apposition and refers to the type locality.
+</p><p><bold>Diagnosis:</bold> This new species is similar to <italic>J. cornea</italic> and <italic>J. caoxian</italic>
+<bold>sp. nov.</bold> but can be separated based on shape of sclerites on palpal bulb: prolateral sclerite shoehorn-shaped, and median sclerite cone-shaped (<xref ref-type="fig" rid="Figure6">Figure 6B</xref>&#x02013;<xref ref-type="fig" rid="Figure6">D</xref>) (vs. prolateral sclerite hook-like, median sclerite spine-shaped, tibia with two strong, hook-like spines in <italic>J. cornea</italic>; prolateral sclerite stick-like, median sclerite ribbon-like, distally transparent, and tibia with one strong distal spine in <italic>J. caoxian</italic>
+<bold>sp. nov.</bold>). Males in <italic>J. jingdong</italic>
+<bold>sp. nov.</bold> can be separated from all other species of <italic>Jingneta</italic>
+<bold>gen. nov.</bold> by leaf-shaped, membranous apophysis distally on palpal tibia and spur-shaped embolus.
+</p><p><bold>Description: Male (holotype)</bold>: Total length 1.23. Prosoma 0.56 long, 0.50 wide. Opisthosoma 0.67 long, 0.46 wide (<xref ref-type="fig" rid="Figure6">Figure 6A</xref>). Leg measurements: I - (1.47, 0.19, -, -, -); II 3.81 (1.09, 0.18, 1.13, 0.78, 0.63); III 3.04 (0.94, 0.16, 0.78, 0.63, 0.53); IV 4.08 (1.09, 0.17, 1.25, 0.94, 0.63). Prosoma light brown. Eyes six. Median groove, cervical grooves, and radial furrows distinct. Opisthosoma yellowish, ovoid. Palp as in <xref ref-type="fig" rid="Figure6">Figure 6B</xref>&#x02013;<xref ref-type="fig" rid="Figure6">D</xref>: femur with rows of short spines dorsally and prolaterally; tibia with one leaf-shaped, membranous apophysis distally; cymbium unbranched distally. Bulb with spur-shaped embolus and two sclerites: underdeveloped, cone-shaped median sclerite and transparent retrolateral sclerite.
+</p><p><bold>Female (paratype)</bold>: Total length 1.92. Prosoma 0.71 long, 0.51 wide. Opisthosoma 1.21 long, 1.28 wide (<xref ref-type="fig" rid="Figure5">Figure 5A</xref>, <xref ref-type="fig" rid="Figure5">B</xref>). Leg measurements: I 10.83 (2.88, 0.45, 3.40, 2.56, 1.54); II 10.39 (2.69, 0.45, 3.21, 2.44, 1.60); III 6.22 (1.73, 0.38, 1.67, 1.41, 1.03); IV - (2.50, 0.32, -, -, -). Prosoma brown. Eyes six. Median groove, cervical grooves, and radial furrows distinct. Opisthosoma yellowish, ovoid. Vulva with pair of sinuous spermathecae and sperm ducts and conspicuous sub-rectangular atrium (<xref ref-type="fig" rid="Figure7">Figure 7C</xref>).
+</p><p><bold>Distribution:</bold> China (Beijing).
+</p></sec><sec id="s03.02.18"><label/><title><italic>Jingneta maculosa</italic> (<xref rid="bSong1986" ref-type="bibr">Song &#x00026; Xu, 1986</xref>) comb. nov.
+</title><p><italic>Leptoneta maculosus</italic>
+<xref rid="bSong1986" ref-type="bibr">Song and Xu, 1986</xref>: 84, figure 2A&#x02013;C
+</p><p><italic>Leptoneta maculosa</italic>
+<xref rid="bSong1987" ref-type="bibr">Song, 1987</xref>: 101, figure 65; <xref rid="bChen1991" ref-type="bibr">Chen &#x00026; Zhang, 1991</xref>: 56, figure 47.1&#x02013;3; <xref rid="bSong1999" ref-type="bibr">Song et al., 1999</xref>: 50, figure 20N, 21C
+</p><p><bold>Type material: Holotype</bold> &#x02642; (Huangshan University, Huangshan, China, originally named Huizhou Teachers College, HSU), Qiyun Mountain, Xiuning, Anhui, China, 24&#x02013;26 October 1983, under stones, coll. Ya-Jun Xu and Lin Wang. <bold>Paratypes</bold> 4&#x02642;6&#x02640; (HSU), same data as holotype, not examined.
+</p><p><bold>Description:</bold>
+<bold>Male</bold>: Eyes six. Chelicerae with 10 promarginal teeth and eight small retromarginal denticles. Abdomen with brown markings. Palpal femur with nine retroventral spines, eight slender dorsal spines, and seven smaller prolateral spines; patella with three short, blunt, curved spines, tibia with one long spine apically.
+</p><p><bold>Female</bold>: Similar to male in coloration and general features but legs shorter. Vulva with pair of sinuous spermathecae and sperm ducts. For figures and detailed information, see <xref rid="bSong1986" ref-type="bibr">Song &#x00026; Xu (1986)</xref>.
+</p><p><bold>Comments:</bold> This species is transferred to <italic>Jingneta</italic>
+<bold>gen. nov.</bold> based on long femoral spines of male palp, tibia with one distal spine, and vulva with pair of sinuous spermathecae.
+</p><p><bold>Distribution:</bold> China (Anhui).
+</p></sec><sec id="s03.02.19"><label/><title><italic>Jingneta setulifera</italic> (<xref rid="bTong2008" ref-type="bibr">Tong &#x00026; Li, 2008</xref>) comb. nov.
+</title><p><italic>Leptoneta setulifera</italic>
+<xref rid="bTong2008" ref-type="bibr">Tong &#x00026; Li, 2008</xref>: 380, figure 4A&#x02013;J
+</p><p><bold>Type material:</bold>
+<bold>Holotype</bold> &#x02642; (MNHN), Beipo Cave, Shidu Town (N39&#x000b0;42', E115&#x000b0;37'), Liuhe Village, Fangshan District, Beijing City, China, 11 May 2005, coll. Qian Wang. <bold>Paratypes</bold> 6&#x02642;25&#x02640; (IZCAS) and 3&#x02642;3&#x02640; (MNHN), same locality as holotype, 5 September 2006, coll. Shu-Qiang Li, Yu-Cheng Lin and Jin-Cheng Liu. All types in IZCAS examined, those in MNHN not examined.
+</p><p><bold>Other material examined:</bold> 1&#x02642;1&#x02640; (IZCAS), Beipo Cave (N39&#x000ba;42&#x02032;, E115&#x000ba;37&#x02032;), Liuhe Village, Shidu Town, Fangshan District, Beijing City, China, 12 May 2011, coll. Chun-Xia Wang.
+</p><p><bold>Description:</bold>
+<bold>Male</bold>: Eyes six. Chelicerae light brown, with seven promarginal teeth and five small retromarginal denticles. Abdomen oval, brown on dorsum, dark brown laterally and on venter. Palpal femur with many strong spines ventrally, tibia with three long, dorsal trichobothria and one single, hook-like apophysis distolaterally. Cymbium branched distally. Bulb with dark, short embolus, transparent, horn-shaped retrolateral sclerite, and spine-like median sclerite.
+</p><p><bold>Female</bold>: Similar to male in color and general features but legs shorter. Vulva with pair of sperm ducts and sinuous spermathecae. For figures and detailed information, see <xref rid="bTong2008" ref-type="bibr">Tong &#x00026; Li (2008)</xref>.
+</p><p><bold>Comments:</bold> This species is transferred to <italic>Jingneta</italic>
+<bold>gen. nov.</bold> based on molecular analysis, as well as male palp with strong femoral spines, tibia with one hook-like apophysis distally, and vulva with pair of sinuous spermathecae.
+</p><p><bold>Distribution:</bold> China (Beijing).
+</p></sec><sec id="s03.02.20"><label/><title><italic>Jingneta tunxiensis</italic> (<xref rid="bSong1986" ref-type="bibr">Song &#x00026; Xu, 1986</xref>) comb. nov.
+</title><p><italic>Leptoneta tunxiensis</italic>
+<xref rid="bSong1986" ref-type="bibr">Song and Xu, 1986</xref>: 84, figure 1A&#x02013;D; <xref rid="bSong1987" ref-type="bibr">Song, 1987</xref>: 106, figure 69; <xref rid="bSong1999" ref-type="bibr">Song et al., 1999</xref>: 51, figure 20S, 21N, O
+</p><p><bold>Type material: Holotype</bold> &#x02642; (HSU), Tunxi, Anhui, China, 18 December 1983, under stones, coll. Ya-Jun Xu, Wei-Guo He, Wei-Zheng Liu. <bold>Paratypes</bold> 3&#x02642;8&#x02640; (HSU), same data as holotype, not examined.
+</p><p><bold>Description:</bold>
+<bold>Male</bold>: Eyes six. Chelicerae with eight promarginal teeth and six small retromarginal denticles. Palpal femur with seven stout spines retroventrally, patella with three short, blunt, curved spines, tibia with two spines distolaterally, and patella longer than tibia.
+</p><p><bold>Female</bold>: Similar to male in color and general features but legs shorter. Vulva with pair of slender sperm ducts and sinuous spermathecae. For figures and detailed information, see <xref rid="bSong1986" ref-type="bibr">Song &#x00026; Xu (1986)</xref>.
+</p><p><bold>Comments:</bold> This species is transferred to <italic>Jingneta</italic>
+<bold>gen. nov.</bold> based on male palp with long femoral spines, tibia with two spines distolaterally, and vulva with pair of sinuous spermathecae.
+</p><p><bold>Distribution:</bold> China (Anhui).
+</p></sec><sec id="s03.02.21"><label/><title><italic>Jingneta wangae</italic> (<xref rid="bTong2008" ref-type="bibr">Tong &#x00026; Li, 2008</xref>) comb. nov.
+</title><p><italic>Leptoneta wangae</italic>
+<xref rid="bTong2008" ref-type="bibr">Tong and Li, 2008</xref>: 385, figure 6A&#x02013;J
+</p><p><bold>Type material: Holotype</bold> &#x02642; (MNHN), Zhizhu Cave, Beizhihe Village, Fangshan District, Xiayunling Town (N39&#x000b0;42', E115&#x000b0;44&#x02032;), Beijing City, China, 8 March 2005, coll. Qian Wang and Yan-Feng Tong. <bold>Paratypes</bold> 10&#x02642;8&#x02640; (IZCAS) and 2&#x02642;2&#x02640; (MNHN), same data as holotype. All types in IZCAS examined, those in MNHN not examined.
+</p><p><bold>Other material examined:</bold> 1&#x02642;1&#x02640; (IZCAS), Zhizhu Cave (N39&#x000ba;42&#x02032;, E115&#x000ba;44&#x02032;), Beizhihe Village, Xiayunling Town, Fangshan District, Beijing City, China, 13 May 2011, coll. Chun-Xia Wang.
+</p><p><bold>Description:</bold>
+<bold>Male</bold>: Eyes six, posterior median eye strongly reduced. Chelicerae light brown, with eight promarginal teeth and five small retromarginal denticles. Abdomen oval, pale yellow, venter brownish, no distinct pattern dorsally. Palpal femur with many long spines ventrally. Tibia with three long trichobothria dorsally and two short, hook-like lateral apophyses distally. Cymbium branched distally. Bulb with dark, short embolus, transparent, horn-shaped retrolateral sclerite, and spine-like median sclerite.
+</p><p><bold>Female</bold>: Similar to male in color and general features but legs shorter. Vulva with pair of sinuous spermathecae and sperm ducts. For figures and detailed information, see <xref rid="bTong2008" ref-type="bibr">Tong &#x00026; Li (2008)</xref>.
+</p><p><bold>Comments:</bold> This species is transferred to <italic>Jingneta</italic>
+<bold>gen. nov.</bold> based on molecular analysis, as well as male palp with long femoral spines, tibia with two hook-like lateral apophyses distally, and vulva with pair of sinuous spermathecae.
+</p><p><bold>Distribution:</bold> China (Beijing).
+</p></sec><sec id="s03.02.22"><label/><title>Genus <italic>Leptonetela</italic> Kratochv&#x000ed;l, 1978
+</title><p>Kratochv&#x000ed;l, 1978: 11</p><p><bold>Type species:</bold>
+<italic>Sulcia kanellisi</italic> Deeleman-Reinhold, 1971 from Greece.
+</p><p><bold>Diagnosis and Distribution:</bold> See <xref rid="bWang2017" ref-type="bibr">Wang &#x00026; Li, 2017</xref>.
+</p></sec><sec id="s03.02.23"><label/><title><italic>Leptonetela falcata</italic> (<xref rid="bChen2000" ref-type="bibr">Chen, Gao &#x00026; Zhu, 2000</xref>) comb. nov.
+</title><p><italic>Leptoneta falcata</italic>
+<xref rid="bChen2000" ref-type="bibr">Chen et al., 2000</xref>: 10, figure 1A&#x02013;F
+</p><p><bold>Type material: Holotype</bold> &#x02642; (Museum of Hebei University, Baoding, China, MHBU), Maolan (N24&#x000ba;30&#x02032;, E108&#x000ba;00'), Libo County, Guizhou, China, 15 August 1998, coll. Hui-Ming Chen. <bold>Paratype</bold> 1&#x02640; (MHBU), same data as holotype, not examined.
+</p><p><bold>Description:</bold>
+<bold>Male</bold>: Eyes six. Chelicerae with nine promarginal teeth and no retromarginal teeth. Abdomen yellow, with five yellow brown transverse bands dorsally. Palpal femur lacking spines, tibia with row of seven spines retrolaterally.
+</p><p><bold>Female</bold>: Chelicerae with eight promarginal teeth and five retromarginal teeth. Vulva with pair of sperm ducts and strongly twisted spermathecae. For figures and detailed information, see <xref rid="bChen2000" ref-type="bibr">Chen et al. (2000)</xref>.
+</p><p><bold>Comments:</bold> This species is transferred to <italic>Leptonetela</italic> based on male palpal femur lacking spines, tibia with row of seven spines retrolaterally, and vulva with pair of highly twisted spermathecae.
+</p><p><bold>Distribution:</bold> China (Guizhou).
+</p></sec><sec id="s03.02.24"><label/><title><italic>Leptonetela miaoshiensis</italic> (<xref rid="bChen1993" ref-type="bibr">Chen &#x00026; Zhang, 1993</xref>) comb. nov.
+</title><p><italic>Leptoneta miaoshiensis</italic>
+<xref rid="bChen1993" ref-type="bibr">Chen &#x00026; Zhang, 1993</xref>: 217, figure 1A&#x02013;F; <xref rid="bSong1999" ref-type="bibr">Song et al., 1999</xref>: 50, figure 20O, 21D, E
+</p><p><bold>Type material: Holotype</bold> &#x02640; (ZMNH), Xianren Cave, Chunan Town, Zhejiang, China, 11 May 1992, coll. Zhao-Ming Pan and Zhang-Fu Chen. <bold>Paratypes</bold> 3&#x02642;2&#x02640; (ZMNH), same data as holotype, not examined.
+</p><p><bold>Description:</bold>
+<bold>Male</bold>: Eyes two, reduced to white spots. Chelicerae with eight small promarginal teeth and seven small retromarginal denticles. Abdomen venter grayish, dorsum with taupe markings. Male palpal femur with setae dorsally and ventrally, tibia with one long retrolateral spine medially, and one long dorsal spine distally.
+</p><p><bold>Female</bold>: Similar to male in color and general features but legs shorter. Vulva with pair of sperm ducts and twisted spermathecae. For figures and detailed information, see <xref rid="bChen1993" ref-type="bibr">Chen &#x00026; Zhang (1993)</xref>.
+</p><p><bold>Comments:</bold> This species is transferred to <italic>Leptonetela</italic> based on male palpal tibia with one long retrolateral spine medially.
+</p><p><bold>Distribution:</bold> China (Zhejiang).
+</p></sec><sec id="s03.02.25"><label/><title><italic>Leptonetela trispinosa</italic> (<xref rid="bYin1984" ref-type="bibr">Yin, Wang &#x00026; Wang, 1984</xref>) comb. nov.
+</title><p><italic>Leptoneta trispinosa</italic>
+<xref rid="bYin1984" ref-type="bibr">Yin et al., 1984</xref>: 364, figure 1a&#x02013;f; <xref rid="bSong1987" ref-type="bibr">Song, 1987</xref>: 105, figure 68; <xref rid="bSong1999" ref-type="bibr">Song et al., 1999</xref>: 51, figure 20R, 21L, M; <xref rid="bYin2012" ref-type="bibr">Yin et al., 2012</xref>: 157, figure 27a&#x02013;f
+</p><p><bold>Type material: Holotype</bold> &#x02642; (NHU), Yuelu Mountain, Changsha City, Hunan, China, 15 May 1982, under stones near river, coll. Jia-Fu Wang. <bold>Paratypes</bold> 3&#x02642;3&#x02640; (NHU), same data as holotype, not examined.
+</p><p><bold>Description:</bold>
+<bold>Male</bold>: Eyes six. Chelicerae with nine promarginal teeth and four small retromarginal teeth. Abdomen inverted pear shape, brown. Male palp lacking femoral spines, patella with one short spine distally, base of tibia with row of three strong spines retrolaterally.
+</p><p><bold>Female</bold>: Similar to male in color and general features but larger. Vulva with pair of sperm ducts and twisted spermathecae. For figures and detailed information, see <xref rid="bYin1984" ref-type="bibr">Yin et al. (1984)</xref>.
+</p><p><bold>Comments:</bold> This species is transferred to <italic>Leptonetela</italic> based on male palp lacking femoral spines, base of tibia with row of three strong spines retrolaterally, and vulva with pair of highly twisted spermathecae.
+</p><p><bold>Distribution:</bold> China (Hunan).
+</p></sec><sec id="s03.02.26"><label/><title><italic>Leptonetela unispinosa</italic> (<xref rid="bYin1984" ref-type="bibr">Yin, Wang &#x00026; Wang, 1984</xref>) comb. nov.
+</title><p><italic>Leptoneta unispinosa</italic>
+<xref rid="bYin1984" ref-type="bibr">Yin et al., 1984</xref>: 368, figure 3a&#x02013;d; <xref rid="bSong1987" ref-type="bibr">Song, 1987</xref>: 107, figure 70; <xref rid="bSong1999" ref-type="bibr">Song et al., 1999</xref>: 51, figure 21P, Q; <xref rid="bYin2012" ref-type="bibr">Yin et al., 2012</xref>: 159, figure 28a&#x02013;d
+</p><p><bold>Type material: Holotype</bold> &#x02642; (NHU), Yuelu Mountain, Changsha City, Hunan, China, December 1980, under leaf litter, coll. Zhi-Tong Wang, not examined.
+</p><p><bold>Description:</bold>
+<bold>Male</bold>: Eyes six. Chelicerae with seven promarginal teeth and three slender retromarginal teeth. Abdomen oval, light brown. Male palp lacking femoral spines, and base of tibia with one long, strong spine retrolaterally. For figures and detailed information, see <xref rid="bYin1984" ref-type="bibr">Yin et al. (1984)</xref>.
+</p><p><bold>Female</bold>: Unknown.
+</p><p><bold>Comments:</bold> This species is transferred to <italic>Leptonetela</italic> based on male palp lacking femoral spines and tibia with one long, strong spine retrolaterally.
+</p><p><bold>Distribution:</bold> China (Hunan).
+</p></sec><sec id="s03.02.27"><label/><title><italic>Leptonetela xui</italic> (<xref rid="bChen2000" ref-type="bibr">Chen, Gao &#x00026; Zhu, 2000</xref>) comb. nov.
+</title><p><italic>Leptoneta xui</italic>
+<xref rid="bChen2000" ref-type="bibr">Chen et al., 2000</xref>: 10, figure 2A&#x02013;C
+</p><p><bold>Type material: Holotype</bold> &#x02642; (MHBU), Maolan (N24&#x000ba;30&#x02032;, E108&#x000ba;00'), Libo County, Guizhou, China, 15 August 1998, coll. Hui-Ming Chen. <bold>Paratype</bold> 1&#x02640; (MHBU), same data as holotype, not examined.
+</p><p><bold>Description:</bold>
+<bold>Male</bold>: Eyes six, reduced to white spots. Chelicerae with nine promarginal teeth and no retromarginal teeth. Abdomen yellow, without markings. Male palpal femur lacking spines, tibia with row of two spines retrolaterally, basal one long, distal one short and slender. For figures and detailed information, see <xref rid="bChen2000" ref-type="bibr">Chen et al. (2000)</xref>.
+</p><p><bold>Comments:</bold> This species is transferred to <italic>Leptonetela</italic> based on male palpal femur lacking spines and tibia with row of two spines retrolaterally.
+</p><p><bold>Distribution:</bold> China (Guizhou).
+</p></sec><sec id="s03.02.28"><label/><title>Genus <italic>Longileptoneta</italic>
+<xref rid="bSeo2015" ref-type="bibr">Seo, 2015</xref>
+</title><p><italic>Longileptoneta</italic>
+<xref rid="bSeo2015" ref-type="bibr">Seo, 2015</xref>: 306
+</p><p><bold>Type species:</bold>
+<italic>Longileptoneta songniensis</italic>
+<xref rid="bSeo2015" ref-type="bibr">Seo, 2015</xref> from Korea.
+</p><p><bold>Diagnosis:</bold> The genus <italic>Longileptoneta</italic> can be distinguished from <italic>Jingneta</italic>
+<bold>gen. nov.</bold> and <italic>Masirana</italic> by prolateral distal spur, prolateral curvature of cymbium, and bulb with ribbon-like prolateral and median sclerites; from <italic>Leptoneta</italic>, <italic>Leptonetela</italic>, and <italic>Falcileptoneta</italic> by male palpal femur with rows of strong retrolateral spines; and from <italic>Leptonetela</italic> by vulva with pair of sinuous spermathecae.
+</p><p><bold>Distribution:</bold> China, Japan, Korea.
+</p></sec><sec id="s03.02.29"><label/><title><italic>Longileptoneta gutan</italic> Wang &#x00026; Li sp. nov.
+</title><p><xref ref-type="fig" rid="Figure8">Figures 8</xref>, <xref ref-type="fig" rid="Figure9">9</xref>, <xref ref-type="fig" rid="Figure17">17</xref>
+</p><p><bold>Type material: Holotype</bold> &#x02642; (IZCAS), Lianhua Cave, Gutan Town, Wuyuan County (N29&#x000b0;29', E117&#x000b0;36', elevation <italic>ca.</italic> 352 m a.s.l.), Shangrao City, Jiangxi, China, 20 May 2013, coll. Yu-Fa Luo and Jin-Cheng Liu. <bold>Paratype</bold> 1&#x02640; (IZCAS), same data as holotype.
+</p><p><bold>Etymology:</bold> The specific name is a noun in apposition and refers to the type locality.
+</p><p><bold>Diagnosis:</bold> This new species is similar to <italic>Longileptoneta gayaensis</italic> and <italic>L. jangseongensis</italic> Seo, 2016 but can be distinguished by absence of eyes, tibia with three spines retrolaterally, and bulb with ribbon-like prolateral and median sclerites (<xref ref-type="fig" rid="Figure8">Figure 8B</xref>&#x02013;<xref ref-type="fig" rid="Figure8">D</xref>) (vs. eyes six, prolateral sclerite of bulb needle-like, and median sclerite shoehorn-shaped in <italic>L. gayaensis</italic>; eyes six, palpal tibia of male with one small apophysis, apophysis tip with one spine, prolateral sclerite of bulb absent, and median sclerite leaf-shaped in <italic>L. jangseongensis</italic>).
+</p><p><bold>Description: Male (holotype):</bold> Total length 1.40. Prosoma 0.60 long, 0.51 wide. Opisthosoma 0.80 long, 0.55 wide (<xref ref-type="fig" rid="Figure8">Figure 8A</xref>). Leg measurements: I 3.53 (0.94, 0.25, 0.99, 0.74, 0.61); II 2.97 (0.88, 0.23, 0.74, 0.62, 0.50); III 2.58 (0.66, 0.19, 0.68, 0.63, 0.42); IV 3.40 (0.98, 0.19, 1.00, 0.81, 0.42). Prosoma light brown. Eyes absent. Median groove, cervical grooves, and radial furrows indistinct. Clypeus brown and 0.15 high. Opisthosoma light gray, ovoid. Palp as in <xref ref-type="fig" rid="Figure8">Figure 8B</xref>&#x02013;<xref ref-type="fig" rid="Figure8">D</xref>: femur with rows of strong spines retrolaterally; patella with three short spines retrolaterally; tibia with one short, strong spine dorsally and three slender spines ventrally; cymbium with transverse depression medially, distal half bifurcated, with strong spines proximally. Bulb with triangular, transparent embolus and three sclerites: slender, ribbon-like prolateral and median sclerites and transparent retrolateral sclerite, bifurcated terminally.
+</p><p><bold>Female (paratype):</bold> Total length 1.47. Prosoma 0.66 long, 0.59 wide. Opisthosoma 0.81 long, 0.72 wide (<xref ref-type="fig" rid="Figure9">Figure 9A</xref>, <xref ref-type="fig" rid="Figure9">B</xref>). Leg measurements: I - (1.50, 0.28, -, -, -); II 3.82 (1.13, 0.16, 1.06, 0.72, 0.75); III - (0.91, 0.28, -, -, -); IV - (1.47, 0.22, -, -, -). Prosoma light gray. Eyes absent. Median groove, cervical grooves, and radial furrows distinct. Opisthosoma light gray, ovoid. Vulva with pair of sinuous spermathecae and sperm ducts (<xref ref-type="fig" rid="Figure9">Figure 9C</xref>).
+</p><p><bold>Distribution:</bold> China (Jiangxi).
+</p></sec><sec id="s03.02.30"><label/><title><italic>Longileptoneta</italic>
+<italic>huanglongensis</italic> (<xref rid="bChen1982" ref-type="bibr">Chen, Zhang &#x00026; Song, 1982</xref>) comb. nov.
+</title><p><italic>Leptoneta huanglongensis</italic>
+<xref rid="bChen1982" ref-type="bibr">Chen et al., 1982</xref>: 204, figure 1&#x02013;3; <xref rid="bHu1984" ref-type="bibr">Hu, 1984</xref>: 69, figure 63.1&#x02013;3; <xref rid="bSong1987" ref-type="bibr">Song, 1987</xref>: 100, figure 63; <xref rid="bChen1991" ref-type="bibr">Chen &#x00026; Zhang, 1991</xref>: 57, figure 48.1&#x02013;3; <xref rid="bSong1999" ref-type="bibr">Song et al., 1999</xref>: 50, figure 20L, W
+</p><p><bold>Type material: Holotype</bold> &#x02642; (ZMNH), Huanglong Cave, 4 May 1981, coll. Zhang-Fu Chen. <bold>Paratype</bold> &#x02640; (ZMNH), same data as holotype, not examined.
+</p><p><bold>Other material examined:</bold> 1&#x02642; (IZCAS), Huanglong Cave (N30&#x000ba;15&#x02032;, E120&#x000ba;13&#x02032;, elevation <italic>ca.</italic> 80 m a.s.l.), Hangzhou City, Zhejiang, China, 28 July 2018, coll. Ming-Jie Xu and Zi-Yi Wang.
+</p><p><bold>Description:</bold>
+<bold>Male</bold>: Eyes six. Abdomen oval, brown. Male palp with short, strong femoral spines; tibia with one long, columnar apophysis distally, tip of apophysis bifid. Bulb with dark, triangular embolus and three sclerites: spine-like prolateral sclerite, wide, cuneiform median sclerite, and transparent retrolateral sclerite.
+</p><p><bold>Female:</bold> Similar to male in color and general features but larger. Vulva with pair of sperm ducts and spermathecae. For figures and detailed information, see <xref rid="bChen1982" ref-type="bibr">Chen et al. (1982)</xref>.
+</p><p><bold>Comments:</bold> This species is transferred to <italic>Longileptoneta</italic> based on male palpal femur with short spines and tibia with one long, columnar apophysis apically, tip of apophysis bifid.
+</p><p><bold>Distribution:</bold> China (Zhejiang).
+</p></sec><sec id="s03.02.31"><label/><title><italic>Longileptoneta huangshan</italic> Wang &#x00026; Li sp. nov.
+</title><p><xref ref-type="fig" rid="Figure10">Figures 10</xref>, <xref ref-type="fig" rid="Figure11">11</xref>, <xref ref-type="fig" rid="Figure17">17</xref>
+</p><p><bold>Type material: Holotype</bold> &#x02642; (IZCAS), Huangshan Cave, Huangguan Village (N26&#x000b0;29', E115&#x000b0;54', elevation <italic>ca.</italic> 420 m a.s.l.), Ningdu County, Ganzhou City, Jiangxi, China, 29 April 2013, coll. Yu-Fa Luo and Jin-Cheng Liu. <bold>Paratype</bold> 1&#x02640; (IZCAS), same data as holotype.
+</p><p><bold>Etymology:</bold> The specific name is a noun in apposition and refers to the type locality.
+</p><p><bold>Diagnosis:</bold>
+<italic>Longileptoneta</italic>
+<italic>huangshan</italic>
+<bold>sp. nov</bold>. can be separated from all other <italic>Longileptoneta</italic> species by male palpal tibia with one long, curved, columnar apophysis distally, tip armed with one short spine. This new species is similar to <italic>L. shenxian</italic>
+<bold>sp. nov.</bold> but can be separated by slender, ribbon-like prolateral and ribbon-like median sclerites of male palpal bulb (<xref ref-type="fig" rid="Figure10">Figures 10B</xref>, <xref ref-type="fig" rid="Figure10">D</xref>, <xref ref-type="fig" rid="Figure11">11C</xref>) (vs. tibia retrolaterally with one short, columnar apophysis distally, apophysis tip armed with one long, curved spine, and prolateral sclerite bamboo leaf-shaped and median sclerite shovel-shaped, with transparent tip on bulb in <italic>L.</italic>
+<italic>shenxian</italic>
+<bold>sp. nov.</bold>).
+</p><p><bold>Description: Male (holotype)</bold>: Total length 1.58. Prosoma 0.71 long, 0.51 wide. Opisthosoma 0.82 long, 0.55 wide (<xref ref-type="fig" rid="Figure10">Figure 10A</xref>). Leg measurements: I 4.78 (1.47, 0.24, 1.45, 1.00, 0.62); II 3.58 (1.14, 0.22, 1.03, 0.68, 0.51); III 3.04 (0.96, 0.22, 0.87, 0.54, 0.45); IV 4.09 (1.28, 0.23, 1.18, 0.85, 0.55). Prosoma brown. Eyes six. Median groove, cervical grooves, and radial furrows distinct. Opisthosoma dark brown, ovoid. Palp as in <xref ref-type="fig" rid="Figure10">Figure 10B</xref>&#x02013;<xref ref-type="fig" rid="Figure10">D</xref>: femur with rows of strong spines; tibia with one long, curved, columnar apophysis distally, apophysis tip with one short spine; cymbium with transverse depression medially, distally bifurcated, with strong spines. Bulb with triangular, transparent embolus and three sclerites: prolateral and median sclerites slender and ribbon-like, and retrolateral sclerite transparent.
+</p><p><bold>Female (paratype):</bold> Total length 2.34. Prosoma 0.94 long, 0.91 wide. Opisthosoma 1.40 long, 1.31 wide (<xref ref-type="fig" rid="Figure11">Figure 11A</xref>, <xref ref-type="fig" rid="Figure11">B</xref>). Leg measurements: I 8.43 (2.25, 0.31, 2.59, 2.03, 1.25); II 6.35 (1.69, 0.31, 1.88, 1.41, 1.06); III 5.10 (1.44, 0.28, 1.41, 1.19, 0.78); IV 6.75 (1.88, 0.28, 2.03, 1.59, 0.97). Prosoma brown. Eyes six. Median groove, cervical grooves, and radial furrows distinct. Opisthosoma dark gray, ovoid. Vulva with pair of sinuous, tube-shaped spermathecae and sperm ducts, atrium ovoid. (<xref ref-type="fig" rid="Figure11">Figure 11C</xref>).
+</p><p><bold>Distribution:</bold> China (Jiangxi).
+</p></sec><sec id="s03.02.32"><label/><title><italic>Longileptoneta shenxian</italic> Wang &#x00026; Li sp. nov.
+</title><p><xref ref-type="fig" rid="Figure12">Figures 12</xref>, <xref ref-type="fig" rid="Figure13">13</xref>, <xref ref-type="fig" rid="Figure17">17</xref>
+</p><p><bold>Type material: Holotype</bold> &#x02642; (IZCAS), Shenxian Cave, Jiaoshan Village (N30&#x000b0;23', E118&#x000b0;14', elevation <italic>ca.</italic> 327 m a.s.l.), Huangshan City, Anhui, China, 21 October 2013, coll. Shu-Qiang Li. <bold>Paratype</bold> 1&#x02640; (IZCAS), same data as holotype.
+</p><p><bold>Etymology:</bold> The specific name is a noun in apposition and refers to the type locality.
+</p><p><bold>Diagnosis:</bold>
+<italic>Longileptoneta</italic>
+<italic>shenxian</italic>
+<bold>sp. nov</bold>., can be separated from all other <italic>Longileptoneta</italic> species by male palpal tibia retrolaterally with one columnar apophysis distally, apophysis tip armed with one long, curved spine, and patella retrolaterally with two spines distally. This new species is similar to <italic>L. huangshan</italic>
+<bold>sp. nov</bold>. but can be distinguished based on certain characters (see diagnosis for <italic>L. huangshan</italic>
+<bold>sp. nov</bold>.).
+</p><p><bold>Description: Male (holotype)</bold>: Total length 2.24. Prosoma 0.96 long, 0.83 wide. Opisthosoma 1.28 long, 0.96 wide (<xref ref-type="fig" rid="Figure12">Figure 12A</xref>). Leg measurements: I 9.35 (2.56, 0.32, 2.88, 2.24, 1.35); II 7.57 (2.31, 0.26, 2.24, 1.67, 1.09); III 6.54 (1.67, 0.32, 1.99, 1.47, 1.09); IV 8.20 (2.44, 0.38, 2.31, 1.92, 1.15). Prosoma brown. Eyes absent. Median groove, cervical grooves, and radial furrows distinct. Opisthosoma light brown, ovoid. Palp as in <xref ref-type="fig" rid="Figure12">Figure 12B</xref>&#x02013;<xref ref-type="fig" rid="Figure12">D</xref>: femur with many strong spines; patella with two strong spines retrolaterally; tibia with one columnar apophysis distally, apophysis tip armed with one long, curved spine; cymbium with slight transverse depression medially, bifurcate distally, with strong spines. Bulb with three sclerites: bamboo leaf-shaped prolateral sclerite, shovel-shaped median sclerite with transparent tip, and transparent retrolateral sclerite.
+</p><p><bold>Female (paratype):</bold> Total length 2.31. Prosoma 0.96 long, 0.94 wide. Opisthosoma 1.35 long, 0.96 wide (<xref ref-type="fig" rid="Figure13">Figure 13A</xref>, <xref ref-type="fig" rid="Figure13">B</xref>). Leg measurements: I 9.32 (2.66, 0.41, 2.81, 2.19, 1.25); II - (2.09, 0.31, 2.19, 1.34, -); III 6.10 (1.72, 0.31, 1.69, 1.44, 0.94); IV 8.27 (2.44, 0.28, 2.48, 1.88, 1.19). Prosoma brown. Eyes absent. Median groove, cervical grooves, and radial furrows distinct. Opisthosoma light brown, ovoid. Vulva with pair of sinuous, tube-shaped spermathecae and sperm ducts, atrium semi-circular (<xref ref-type="fig" rid="Figure13">Figure 13C</xref>).
+</p><p><bold>Distribution:</bold> China (Anhui).
+</p></sec><sec id="s03.02.33"><label/><title><italic>Longileptoneta yeren</italic> Wang &#x00026; Li sp. nov.
+</title><p><xref ref-type="fig" rid="Figure14">Figures 14</xref>, <xref ref-type="fig" rid="Figure17">17</xref>
+</p><p><bold>Type material: Holotype</bold> &#x02642; (IZCAS), Yeren Cave, Daping Village (N25&#x000b0;39', E115&#x000b0;12', elevation <italic>ca.</italic> 602 m a.s.l.), Gan County, Ganzhou City, Jiangxi, China, 21 September 2013, coll. Yu-Fa Luo and Jin-Cheng Liu. <bold>Paratype</bold> 1&#x02642; (IZCAS), same data as holotype.
+</p><p><bold>Etymology:</bold> The specific name is a noun in apposition and refers to the type locality.
+</p><p><bold>Diagnosis:</bold>
+<italic>Longileptoneta</italic>
+<italic>yeren</italic>
+<bold>sp. nov</bold>. can be separated from all other <italic>Longileptoneta</italic> species by femur with one hump ventrally, bearing row of four strong spines, basal one longest, tip curved, patella with one comb-shaped apophysis dorsally, bearing 10 teeth; tibia with one small apophysis distally, apophysis tip armed with one slender spine.
+</p><p><bold>Description: Male (holotype):</bold> Total length 1.75. Prosoma 0.69 long, 0.69 wide. Opisthosoma 1.06 long, 0.72 wide (<xref ref-type="fig" rid="Figure14">Figure 14A</xref>). Leg measurements: I 5.63 (1.56, 0.19, 1.75, 1.25, 0.88); II 4.20 (1.16, 0.22, 1.25, 0.88, 0.69); III 3.71 (1.06, 0.22, 1.03, 0.81, 0.59); IV 4.91 (1.38, 0.25, 1.44, 1.06, 0.78). Prosoma brown. Eyes six. Median groove, cervical grooves, and radial furrows distinct. Opisthosoma brown, ovoid. Palp as in <xref ref-type="fig" rid="Figure14">Figure 14B</xref>&#x02013;<xref ref-type="fig" rid="Figure14">D</xref>: femur with row of spines dorsally, and one hump ventrally, bearing row of four strong spines, basal one longest, tip curved; patella with one comb-shape apophysis dorsally, bearing 10 teeth; tibia with two slender spines dorsally, one long, slender ventral spine medially, and one small apophysis distally, apophysis armed with one slender spine; cymbium with weak medial transverse depression, distally bifurcate, armed with strong spines. Bulb with triangular, transparent embolus and three sclerites: prolateral and median sclerites slender and bamboo-leaf shaped, and transparent retrolateral sclerite.
+</p><p><bold>Female:</bold> Unknown.
+</p><p><bold>Distribution:</bold> China (Jiangxi).
+</p></sec><sec id="s03.02.34"><label/><title><italic>Longileptoneta zhuxian</italic> Wang &#x00026; Li sp. nov.
+</title><p><xref ref-type="fig" rid="Figure15">Figures 15</xref>&#x02013;<xref ref-type="fig" rid="Figure17">17</xref>
+</p><fig id="Figure16" orientation="portrait" position="float"><label>Figure 16</label><caption><p><italic>Longileptoneta zhuxian</italic>
+<bold>sp. nov</bold>., female paratype
+</p></caption><abstract abstract-type="note"><p>A: Habitus, dorsal view; B: Habitus, ventral view; C: Internal genitalia, dorsal view. At: Atrium; SS: Spermathecae stalk; SH: Spermathecae.</p></abstract><graphic xlink:href="zr-41-6-684-16"/></fig><p><bold>Type material: Holotype</bold> &#x02642; (IZCAS), Zhuxian Cave, Shouan Town (N29&#x000b0;12', E117&#x000b0;18', elevation <italic>ca.</italic> 191 m a.s.l.), Jingdezhen City, Jiangxi, China, 23 May 2013, coll. Yu-Fa Luo and Jin-Cheng Liu. <bold>Paratype</bold> 1&#x02640; (IZCAS), same data as holotype.
+</p><p><bold>Etymology:</bold> The specific name is a noun in apposition and refers to the type locality.
+</p><p><bold>Diagnosis:</bold> This new species is similar to <italic>L. gachangensis</italic> Seo, 2016 and <italic>L. gayaensis</italic> but can be separated by male palpal patella with row of slender spines retrolaterally and tibia with two slender retrolateral spines apically; prolateral sclerite bamboo leaf-shaped, and median sclerite ribbon-like (<xref ref-type="fig" rid="Figure15">Figure 15B</xref>, <xref ref-type="fig" rid="Figure15">D</xref>) (vs. palpal femur of male with row of tiny, hooked spines retrolaterally, patella with one dorsal spine distally in <italic>L. gachangensis</italic>; prolateral sclerite needle-like, and median sclerite shoehorn-shaped in <italic>L. gayaensis</italic>).
+</p><p><bold>Description: Male (holotype):</bold> Total length 1.48. Prosoma 0.69 long, 0.52 wide. Opisthosoma 0.78 long, 0.63 wide (<xref ref-type="fig" rid="Figure15">Figure 15A</xref>). Leg measurements: I 4.86 (1.44, 0.23, 1.52, 1.00, 0.67); II 4.24 (1.24, 0.23, 1.25, 0.91, 0.60); III 3.20 (1.00, 0.21, 0.88, 0.61, 0.50); IV 4.50 (1.35, 0.23, 1.36, 0.93, 0.63). Prosoma brown. Eyes six. Median groove, cervical grooves, and radial furrows distinct. Opisthosoma dark brown, ovoid. Palp as in <xref ref-type="fig" rid="Figure15">Figure 15B</xref>&#x02013;<xref ref-type="fig" rid="Figure15">D</xref>: femur with rows of strong spines ventrally and dorsally, ventral spines blunt; patella with row of short spines retrolaterally; tibia with three retrolateral spines distally; transverse depression of cymbium indistinct, cymbium distally slightly bifurcate, with strong spines. Bulb with triangular, transparent embolus and three sclerites: bamboo leaf-shaped prolateral sclerite, ribbon-like median sclerite, and slender, quadrangular, transparent retrolateral sclerite.
+</p><p><bold>Female (paratype):</bold> Total length 2.31. Prosoma 1.12 long, 0.84 wide. Opisthosoma 1.19 long, 0.88 wide (<xref ref-type="fig" rid="Figure16">Figure 16A</xref>, <xref ref-type="fig" rid="Figure16">B</xref>). Leg measurements: I - (2.19, 0.25, -, -, -); II 5.78 (1.59, 0.34, 1.63, 1.25, 0.97); III 4.66 (1.38, 0.25, 1.28, 0.94, 0.81); IV - (1.84, 0.31, -, -, -). Prosoma brown. Eyes six. Median groove, cervical grooves, and radial furrows distinct. Opisthosoma dark brown, ovoid. Vulva with pair of sinuous spermathecae and sperm ducts (<xref ref-type="fig" rid="Figure16">Figure 16C</xref>).
+</p><p><bold>Distribution:</bold> China (Jiangxi).
+</p></sec><sec id="s03.02.35"><label/><title>Genus <italic>Masirana</italic> Kishida, 1942
+</title><p><italic>Masirana</italic> Kishida, in <xref rid="bKomatsu1942" ref-type="bibr">Komatsu, 1942</xref>: 57
+</p><p><bold>Type species:</bold>
+<italic>Masirana cinevacea</italic> Kishida, 1942 from Japan.
+</p><p><bold>Diagnosis and Distribution.</bold> See <xref rid="bIrie2009" ref-type="bibr">Irie &#x00026; Ono, 2009</xref>.
+</p></sec><sec id="s03.02.36"><label/><title><italic>Masirana changlini</italic> (<xref rid="bZhu2002" ref-type="bibr">Zhu &#x00026; Tso, 2002</xref>) comb. nov.
+</title><p><italic>Leptoneta changlini</italic>
+<xref rid="bZhu2002" ref-type="bibr">Zhu &#x00026; Tso, 2002</xref>: 563, figure 1&#x02013;5, 18, 19
+</p><p><bold>Type material: Holotype</bold> &#x02642; (NMNS-THU), Huisun Experimental Forest Station, Nantou County, Taiwan, China, April 1998, coll. Hai-Yin Wu. <bold>Paratypes</bold> 3 &#x02642; (NMNS-THU), same locality as holotype but collected at December 1997 and April 1998, coll. Hai-Yin Wu, not examined.
+</p><p><bold>Description:</bold>
+<bold>Male:</bold> Eyes six. Chelicerae light yellow brown, fang furrow with seven promarginal teeth and six retrolateral teeth. Abdomen oval, light yellow, with light brown setae, dorsum with four light black brown transverse folds. Palpal femur and tibia with many long spines dorsally and ventrally, tibia with two apophyses distally, one leaf-like, one horn-shaped. For figures and detailed information, see <xref rid="bZhu2002" ref-type="bibr">Zhu &#x00026; Tso (2002)</xref>.
+</p><p><bold>Female</bold>: Unknown.
+</p><p><bold>Comments:</bold> This species is transferred to <italic>Masirana</italic> based on male palpal femur with long spines and tibia with two apophyses distally, one leaf-shaped, one horn-shaped.
+</p><p><bold>Distribution:</bold> China (Taiwan).
+</p></sec></sec></sec><sec id="s04"><label/><title>DISCUSSION</title><p>The type species of the genera <italic>Masirana</italic> and <italic>Falcileptoneta</italic> were not included in our molecular analyses. The genera <italic>Masirana</italic>, <italic>Longileptoneta</italic>, and <italic>Falcileptoneta</italic> were not monophyletic based on either ML or BI analyses. Thus, additional material is needed to make a complete revision of Asian leptonetids.
+</p><p>Before the current study, 22 species of the spider family Leptonetidae from China had been assigned to the genus <italic>Leptoneta</italic>. Based on comparative morphology and molecular phylogenetic analysis, eight species are transferred to <italic>Falcileptoneta</italic>, seven species are transferred to <italic>Jingneta</italic>
+<bold>gen. nov</bold>., one species is transferred to <italic>Longileptoneta</italic>, one species is transferred to <italic>Masirana</italic>, and five species are transferred to <italic>Leptonetela</italic>. Including the eight new species reported in this paper, there are six genera containing 127 leptonetid species from China. A checklist of Leptonetidae in China follows below. For a complete list of taxonomic references, see <xref rid="bWSC2020" ref-type="bibr">WSC (2020)</xref>.
+</p><sec id="s04.01"><label/><title>Genus <italic>Falcileptoneta</italic>
+<xref rid="bKomatsu1970" ref-type="bibr">Komatsu, 1970</xref>
+</title><p>1. <italic>Falcileptoneta anocellata</italic> (<xref rid="bChen1986" ref-type="bibr">Chen, Zhang &#x00026; Song, 1986</xref>) <bold>comb. nov.</bold></p><p>2. <italic>Falcileptoneta arquata</italic> (<xref rid="bSong1991" ref-type="bibr">Song &#x00026; Kim, 1991</xref>) <bold>comb. nov.</bold></p><p>3. <italic>Falcileptoneta huisunica</italic> (<xref rid="bZhu2002" ref-type="bibr">Zhu &#x00026; Tso, 2002</xref>) <bold>comb. nov.</bold></p><p>4. <italic>Falcileptoneta lingqiensis</italic> (<xref rid="bChen1984" ref-type="bibr">Chen, Shen &#x00026; Gao, 1984</xref>) <bold>comb. nov.</bold></p><p>5. <italic>Falcileptoneta monodactyla</italic> (<xref rid="bYin1984" ref-type="bibr">Yin, Wang &#x00026; Wang, 1984</xref>) <bold>comb. nov.</bold></p><p>6. <italic>Falcileptoneta nigrabdomina</italic> (<xref rid="bZhu2002" ref-type="bibr">Zhu &#x00026; Tso, 2002</xref>) <bold>comb. nov.</bold></p><p>7. <italic>Falcileptoneta shuanglong</italic> Wang &#x00026; Li <bold>sp. nov.</bold></p><p>8. <italic>Falcileptoneta taiwanensis</italic> (<xref rid="bZhu2002" ref-type="bibr">Zhu &#x00026; Tso, 2002</xref>) <bold>comb. nov.</bold></p><p>9. <italic>Falcileptoneta taizhensis</italic> (<xref rid="bChen1993" ref-type="bibr">Chen &#x00026; Zhang, 1993</xref>) <bold>comb. nov.</bold></p></sec><sec id="s04.02"><label/><title>Genus <italic>Jingneta</italic>, gen. nov.
+</title><p>10. <italic>Jingneta caoxian</italic> Wang &#x00026; Li <bold>sp. nov.</bold></p><p>11. <italic>Jingneta cornea</italic> (<xref rid="bTong2008" ref-type="bibr">Tong &#x00026; Li, 2008</xref>) <bold>comb. nov.</bold></p><p>12. <italic>Jingneta exilocula</italic> (<xref rid="bTong2008" ref-type="bibr">Tong &#x00026; Li, 2008</xref>) <bold>comb. nov.</bold></p><p>13. <italic>Jingneta foliiformis</italic> (<xref rid="bTong2008" ref-type="bibr">Tong &#x00026; Li, 2008</xref>) <bold>comb. nov.</bold></p><p>14. <italic>Jingneta jingdong</italic> Wang &#x00026; Li <bold>sp. nov.</bold></p><p>15. <italic>Jingneta maculosa</italic> (<xref rid="bSong1986" ref-type="bibr">Song &#x00026; Xu, 1986</xref>) <bold>comb. nov.</bold></p><p>16. <italic>Jingneta setulifera</italic> (<xref rid="bTong2008" ref-type="bibr">Tong &#x00026; Li, 2008</xref>) <bold>comb. nov.</bold></p><p>17. <italic>Jingneta tunxiensis</italic> (<xref rid="bSong1986" ref-type="bibr">Song &#x00026; Xu, 1986</xref>) <bold>comb. nov.</bold></p><p>18. <italic>Jingneta wangae</italic> (<xref rid="bTong2008" ref-type="bibr">Tong &#x00026; Li, 2008</xref>) <bold>comb. nov.</bold></p></sec><sec id="s04.03"><label/><title>Genus <italic>Leptonetela</italic> Kratochv&#x000ed;l, 1978
+</title><p>19. <italic>Leptonetela anshun</italic>
+<xref rid="bLin2010" ref-type="bibr">Lin &#x00026; Li, 2010</xref>
+</p><p>20. <italic>Leptonetela bama</italic>
+<xref rid="bLin2010" ref-type="bibr">Lin &#x00026; Li, 2010</xref>
+</p><p>21. <italic>Leptonetela biocellata</italic>
+<xref rid="bHe2019" ref-type="bibr">He, Liu, Xu, Yin &#x00026; Peng, 2019</xref>
+</p><p>22. <italic>Leptonetela chakou</italic>
+<xref rid="bWang2017" ref-type="bibr">Wang &#x00026; Li, 2017</xref>
+</p><p>23. <italic>Leptonetela changtu</italic>
+<xref rid="bWang2017" ref-type="bibr">Wang &#x00026; Li, 2017</xref>
+</p><p>24. <italic>Leptonetela chenjia</italic>
+<xref rid="bWang2017" ref-type="bibr">Wang &#x00026; Li, 2017</xref>
+</p><p>25. <italic>Leptonetela chuan</italic>
+<xref rid="bWang2017" ref-type="bibr">Wang &#x00026; Li, 2017</xref>
+</p><p>26. <italic>Leptonetela curvispinosa</italic>
+<xref rid="bLin2010" ref-type="bibr">Lin &#x00026; Li, 2010</xref>
+</p><p>27. <italic>Leptonetela dabian</italic>
+<xref rid="bWang2017" ref-type="bibr">Wang &#x00026; Li, 2017</xref>
+</p><p>28. <italic>Leptonetela danxia</italic>
+<xref rid="bLin2010" ref-type="bibr">Lin &#x00026; Li, 2010</xref>
+</p><p>29. <italic>Leptonetela dao</italic>
+<xref rid="bWang2017" ref-type="bibr">Wang &#x00026; Li, 2017</xref>
+</p><p>30. <italic>Leptonetela dashui</italic>
+<xref rid="bWang2017" ref-type="bibr">Wang &#x00026; Li, 2017</xref>
+</p><p>31. <italic>Leptonetela digitata</italic>
+<xref rid="bLin2010" ref-type="bibr">Lin &#x00026; Li, 2010</xref>
+</p><p>32. <italic>Leptonetela encun</italic>
+<xref rid="bWang2017" ref-type="bibr">Wang &#x00026; Li, 2017</xref>
+</p><p>33. <italic>Leptonetela erlong</italic>
+<xref rid="bWang2017" ref-type="bibr">Wang &#x00026; Li, 2017</xref>
+</p><p>34. <italic>Leptonetela falcata</italic> (<xref rid="bChen2000" ref-type="bibr">Chen, Gao &#x00026; Zhu, 2000</xref>) <bold>comb. nov.</bold></p><p>35. <italic>Leptonetela feilong</italic>
+<xref rid="bWang2017" ref-type="bibr">Wang &#x00026; Li, 2017</xref>
+</p><p>36. <italic>Leptonetela flabellaris</italic>
+<xref rid="bWang2011" ref-type="bibr">Wang &#x00026; Li, 2011</xref>
+</p><p>37. <italic>Leptonetela furcaspina</italic>
+<xref rid="bLin2010" ref-type="bibr">Lin &#x00026; Li, 2010</xref>
+</p><p>38. <italic>Leptonetela gang</italic>
+<xref rid="bWang2017" ref-type="bibr">Wang &#x00026; Li, 2017</xref>
+</p><p>39. <italic>Leptonetela geminispina</italic>
+<xref rid="bLin2010" ref-type="bibr">Lin &#x00026; Li, 2010</xref>
+</p><p>40. <italic>Leptonetela gigachela</italic> (<xref rid="bLin2010" ref-type="bibr">Lin &#x00026; Li, 2010</xref>)
+</p><p>41. <italic>Leptonetela grandispina</italic>
+<xref rid="bLin2010" ref-type="bibr">Lin &#x00026; Li, 2010</xref>
+</p><p>42. <italic>Leptonetela gubin</italic>
+<xref rid="bWang2017" ref-type="bibr">Wang &#x00026; Li, 2017</xref>
+</p><p>43. <italic>Leptonetela hamata</italic>
+<xref rid="bLin2010" ref-type="bibr">Lin &#x00026; Li, 2010</xref>
+</p><p>44. <italic>Leptonetela hangzhouensis</italic> (<xref rid="bChen1984" ref-type="bibr">Chen, Shen &#x00026; Gao, 1984</xref>)
+</p><p>45. <italic>Leptonetela hexacantha</italic>
+<xref rid="bLin2010" ref-type="bibr">Lin &#x00026; Li, 2010</xref>
+</p><p>46. <italic>Leptonetela huoyan</italic>
+<xref rid="bWang2017" ref-type="bibr">Wang &#x00026; Li, 2017</xref>
+</p><p>47. <italic>Leptonetela identica</italic> (<xref rid="bChen2010" ref-type="bibr">Chen, Jia &#x00026; Wang, 2010</xref>)
+</p><p>48. <italic>Leptonetela jiahe</italic>
+<xref rid="bWang2017" ref-type="bibr">Wang &#x00026; Li, 2017</xref>
+</p><p>49. <italic>Leptonetela jinsha</italic>
+<xref rid="bLin2010" ref-type="bibr">Lin &#x00026; Li, 2010</xref>
+</p><p>50. <italic>Leptonetela jiulong</italic>
+<xref rid="bLin2010" ref-type="bibr">Lin &#x00026; Li, 2010</xref>
+</p><p>51. <italic>Leptonetela kangsa</italic>
+<xref rid="bWang2017" ref-type="bibr">Wang &#x00026; Li, 2017</xref>
+</p><p>52. <italic>Leptonetela la</italic>
+<xref rid="bWang2017" ref-type="bibr">Wang &#x00026; Li, 2017</xref>
+</p><p>53. <italic>Leptonetela langdong</italic>
+<xref rid="bWang2017" ref-type="bibr">Wang &#x00026; Li, 2017</xref>
+</p><p>54. <italic>Leptonetela latapicalis</italic>
+<xref rid="bHe2019" ref-type="bibr">He, Liu, Xu, Yin &#x00026; Peng, 2019</xref>
+</p><p>55. <italic>Leptonetela liangfeng</italic>
+<xref rid="bWang2017" ref-type="bibr">Wang &#x00026; Li, 2017</xref>
+</p><p>56. <italic>Leptonetela lianhua</italic>
+<xref rid="bWang2017" ref-type="bibr">Wang &#x00026; Li, 2017</xref>
+</p><p>57. <italic>Leptonetela lihu</italic>
+<xref rid="bWang2017" ref-type="bibr">Wang &#x00026; Li, 2017</xref>
+</p><p>58. <italic>Leptonetela lineata</italic>
+<xref rid="bWang2011" ref-type="bibr">Wang &#x00026; Li, 2011</xref>
+</p><p>59. <italic>Leptonetela liping</italic>
+<xref rid="bLin2010" ref-type="bibr">Lin &#x00026; Li, 2010</xref>
+</p><p>60. <italic>Leptonetela liuguan</italic>
+<xref rid="bWang2017" ref-type="bibr">Wang &#x00026; Li, 2017</xref>
+</p><p>61. <italic>Leptonetela liuzhai</italic>
+<xref rid="bWang2017" ref-type="bibr">Wang &#x00026; Li, 2017</xref>
+</p><p>62. <italic>Leptonetela longli</italic>
+<xref rid="bWang2017" ref-type="bibr">Wang &#x00026; Li, 2017</xref>
+</p><p>63. <italic>Leptonetela longyu</italic>
+<xref rid="bWang2017" ref-type="bibr">Wang &#x00026; Li, 2017</xref>
+</p><p>64. <italic>Leptonetela lophacantha</italic> (<xref rid="bChen2010" ref-type="bibr">Chen, Jia &#x00026; Wang, 2010</xref>)
+</p><p>65. <italic>Leptonetela lujia</italic>
+<xref rid="bWang2017" ref-type="bibr">Wang &#x00026; Li, 2017</xref>
+</p><p>66. <italic>Leptonetela maxillacostata</italic>
+<xref rid="bLin2010" ref-type="bibr">Lin &#x00026; Li, 2010</xref>
+</p><p>67. <italic>Leptonetela mayang</italic>
+<xref rid="bWang2017" ref-type="bibr">Wang &#x00026; Li, 2017</xref>
+</p><p>68. <italic>Leptonetela megaloda</italic> (<xref rid="bChen2010" ref-type="bibr">Chen, Jia &#x00026; Wang, 2010</xref>)
+</p><p>69. <italic>Leptonetela meitan</italic>
+<xref rid="bLin2010" ref-type="bibr">Lin &#x00026; Li, 2010</xref>
+</p><p>70. <italic>Leptonetela meiwang</italic>
+<xref rid="bWang2017" ref-type="bibr">Wang &#x00026; Li, 2017</xref>
+</p><p>71. <italic>Leptonetela mengzongensis</italic>
+<xref rid="bWang2011" ref-type="bibr">Wang &#x00026; Li, 2011</xref>
+</p><p>72. <italic>Leptonetela miaoshiensis</italic> (<xref rid="bChen1993" ref-type="bibr">Chen &#x00026; Zhang, 1993</xref>) <bold>comb. nov.</bold></p><p>73. <italic>Leptonetela microdonta</italic> (Xu &#x00026; Song, 1983)
+</p><p>74. <italic>Leptonetela mita</italic>
+<xref rid="bWang2011" ref-type="bibr">Wang &#x00026; Li, 2011</xref>
+</p><p>75. <italic>Leptonetela nanmu</italic>
+<xref rid="bWang2017" ref-type="bibr">Wang &#x00026; Li, 2017</xref>
+</p><p>76. <italic>Leptonetela niubizi</italic>
+<xref rid="bWang2017" ref-type="bibr">Wang &#x00026; Li, 2017</xref>
+</p><p>77. <italic>Leptonetela notabilis</italic> (<xref rid="bLin2010" ref-type="bibr">Lin &#x00026; Li, 2010</xref>)
+</p><p>78. <italic>Leptonetela nuda</italic> (<xref rid="bChen2010" ref-type="bibr">Chen, Jia &#x00026; Wang, 2010</xref>)
+</p><p>79. <italic>Leptonetela oktocantha</italic>
+<xref rid="bLin2010" ref-type="bibr">Lin &#x00026; Li, 2010</xref>
+</p><p>80. <italic>Leptonetela palmata</italic>
+<xref rid="bLin2010" ref-type="bibr">Lin &#x00026; Li, 2010</xref>
+</p><p>81. <italic>Leptonetela panbao</italic>
+<xref rid="bWang2017" ref-type="bibr">Wang &#x00026; Li, 2017</xref>
+</p><p>82. <italic>Leptonetela parlonga</italic>
+<xref rid="bWang2011" ref-type="bibr">Wang &#x00026; Li, 2011</xref>
+</p><p>83. <italic>Leptonetela pentakis</italic>
+<xref rid="bLin2010" ref-type="bibr">Lin &#x00026; Li, 2010</xref>
+</p><p>84. <italic>Leptonetela qiangdao</italic>
+<xref rid="bWang2017" ref-type="bibr">Wang &#x00026; Li, 2017</xref>
+</p><p>85. <italic>Leptonetela quinquespinata</italic> (Chen &#x00026; Zhu, 2008)
+</p><p>86. <italic>Leptonetela reticulopecta</italic>
+<xref rid="bLin2010" ref-type="bibr">Lin &#x00026; Li, 2010</xref>
+</p><p>87. <italic>Leptonetela robustispina</italic> (<xref rid="bChen2010" ref-type="bibr">Chen, Jia &#x00026; Wang, 2010</xref>)
+</p><p>88. <italic>Leptonetela rudicula</italic>
+<xref rid="bWang2011" ref-type="bibr">Wang &#x00026; Li, 2011</xref>
+</p><p>89. <italic>Leptonetela rudong</italic>
+<xref rid="bWang2017" ref-type="bibr">Wang &#x00026; Li, 2017</xref>
+</p><p>90. <italic>Leptonetela sanchahe</italic>
+<xref rid="bWang2017" ref-type="bibr">Wang &#x00026; Li, 2017</xref>
+</p><p>91. <italic>Leptonetela sanyan</italic>
+<xref rid="bWang2017" ref-type="bibr">Wang &#x00026; Li, 2017</xref>
+</p><p>92. <italic>Leptonetela sexdentata</italic>
+<xref rid="bWang2011" ref-type="bibr">Wang &#x00026; Li, 2011</xref>
+</p><p>93. <italic>Leptonetela sexdigiti</italic> (<xref rid="bLin2010" ref-type="bibr">Lin &#x00026; Li, 2010</xref>)
+</p><p>94. <italic>Leptonetela shanji</italic>
+<xref rid="bWang2017" ref-type="bibr">Wang &#x00026; Li, 2017</xref>
+</p><p>95. <italic>Leptonetela shibingensis</italic> Guo, Yu &#x00026; Chen, 2016
+</p><p>96. <italic>Leptonetela shicheng</italic>
+<xref rid="bWang2017" ref-type="bibr">Wang &#x00026; Li, 2017</xref>
+</p><p>97. <italic>Leptonetela shuang</italic>
+<xref rid="bWang2017" ref-type="bibr">Wang &#x00026; Li, 2017</xref>
+</p><p>98. <italic>Leptonetela shuilian</italic>
+<xref rid="bWang2017" ref-type="bibr">Wang &#x00026; Li, 2017</xref>
+</p><p>99. <italic>Leptonetela suae</italic>
+<xref rid="bLin2010" ref-type="bibr">Lin &#x00026; Li, 2010</xref>
+</p><p>100. <italic>Leptonetela tangi</italic>
+<xref rid="bHe2019" ref-type="bibr">He, Liu, Xu, Yin &#x00026; Peng, 2019</xref>
+</p><p>101. <italic>Leptonetela tawo</italic>
+<xref rid="bWang2017" ref-type="bibr">Wang &#x00026; Li, 2017</xref>
+</p><p>102. <italic>Leptonetela tetracantha</italic>
+<xref rid="bLin2010" ref-type="bibr">Lin &#x00026; Li, 2010</xref>
+</p><p>103. <italic>Leptonetela tiankeng</italic>
+<xref rid="bWang2017" ref-type="bibr">Wang &#x00026; Li, 2017</xref>
+</p><p>104. <italic>Leptonetela tianxinensis</italic> (<xref rid="bTong2008" ref-type="bibr">Tong &#x00026; Li, 2008</xref>)
+</p><p>105. <italic>Leptonetela tianxingensis</italic>
+<xref rid="bWang2011" ref-type="bibr">Wang &#x00026; Li, 2011</xref>
+</p><p>106. <italic>Leptonetela tongzi</italic>
+<xref rid="bLin2010" ref-type="bibr">Lin &#x00026; Li, 2010</xref>
+</p><p>107. <italic>Leptonetela trispinosa</italic> (<xref rid="bYin1984" ref-type="bibr">Yin, Wang &#x00026; Wang, 1984</xref>) <bold>comb. nov.</bold></p><p>108. <italic>Leptonetela unispinosa</italic> (<xref rid="bYin1984" ref-type="bibr">Yin, Wang &#x00026; Wang, 1984</xref>) <bold>comb. nov.</bold></p><p>109. <italic>Leptonetela wangjia</italic>
+<xref rid="bWang2017" ref-type="bibr">Wang &#x00026; Li, 2017</xref>
+</p><p>110. <italic>Leptonetela wenzhu</italic>
+<xref rid="bWang2017" ref-type="bibr">Wang &#x00026; Li, 2017</xref>
+</p><p>111. <italic>Leptonetela wuming</italic>
+<xref rid="bWang2017" ref-type="bibr">Wang &#x00026; Li, 2017</xref>
+</p><p>112. <italic>Leptonetela xianren</italic>
+<xref rid="bWang2017" ref-type="bibr">Wang &#x00026; Li, 2017</xref>
+</p><p>113. <italic>Leptonetela xiaoyan</italic>
+<xref rid="bWang2017" ref-type="bibr">Wang &#x00026; Li, 2017</xref>
+</p><p>114. <italic>Leptonetela xinhua</italic>
+<xref rid="bWang2017" ref-type="bibr">Wang &#x00026; Li, 2017</xref>
+</p><p>115. <italic>Leptonetela xui</italic> (<xref rid="bChen2000" ref-type="bibr">Chen, Gao &#x00026; Zhu, 2000</xref>) <bold>comb. nov.</bold></p><p>116. <italic>Leptonetela yangi</italic>
+<xref rid="bLin2010" ref-type="bibr">Lin &#x00026; Li, 2010</xref>
+</p><p>117. <italic>Leptonetela yaoi</italic>
+<xref rid="bWang2011" ref-type="bibr">Wang &#x00026; Li, 2011</xref>
+</p><p>118. <italic>Leptonetela zakou</italic>
+<xref rid="bWang2017" ref-type="bibr">Wang &#x00026; Li, 2017</xref>
+</p><p>119. <italic>Leptonetela zhai</italic>
+<xref rid="bWang2011" ref-type="bibr">Wang &#x00026; Li, 2011</xref>
+</p></sec><sec id="s04.04"><label/><title>Genus <italic>Longileptoneta</italic>
+<xref rid="bSeo2015" ref-type="bibr">Seo, 2015</xref>
+</title><p>120. <italic>Longileptoneta gutan</italic> Wang &#x00026; Li <bold>sp. nov.</bold></p><p>121. <italic>Longileptoneta huanglongensis</italic> (<xref rid="bChen1982" ref-type="bibr">Chen, Zhang &#x00026; Song, 1982</xref>) <bold>comb. nov.</bold></p><p>122. <italic>Longileptoneta huangshan</italic> Wang &#x00026; Li <bold>sp. nov.</bold></p><p>123. <italic>Longileptoneta shenxian</italic> Wang &#x00026; Li <bold>sp. nov.</bold></p><p>124. <italic>Longileptoneta yeren</italic> Wang &#x00026; Li <bold>sp. nov.</bold></p><p>125. <italic>Longileptoneta zhuxian</italic> Wang &#x00026; Li <bold>sp. nov.</bold></p></sec><sec id="s04.05"><label/><title>Genus <italic>Masirana</italic> Kishida, 1942
+</title><p>126. <italic>Masirana changlini</italic> (<xref rid="bZhu2002" ref-type="bibr">Zhu &#x00026; Tso, 2002</xref>) <bold>comb. nov.</bold></p></sec><sec id="s04.06"><label/><title>Genus <italic>Rhyssoleptoneta</italic>
+<xref rid="bTong2007" ref-type="bibr">Tong &#x00026; Li, 2007</xref>
+</title><p>127. <italic>Rhyssoleptoneta latitarsa</italic>
+<xref rid="bTong2007" ref-type="bibr">Tong &#x00026; Li, 2007</xref>
+</p></sec></sec><sec id="s05"><label/><title>NOMENCLTURAL ACTS REGISTRATION</title><p>The electronic version of this article in portable document format represents a published work according to the International Commission on Zoological Nomenclature (ICZN), and hence the new names contained in the electronic version are effectively published under that Code from the electronic edition alone (see Articles 8.5, 8.6 of the Code). This published work and the nomenclatural acts it contains have been registered in ZooBank, the online registration system for the ICZN. The ZooBank LSIDs (Life Science Identifiers) can be resolved and the associated information can be viewed through any standard web browser by appending the LSID to the prefixhttp://zoobank.org/</p><p>Publication LSID: urn:lsid:zoobank.org:pub:A1D40E72-98FA-465D-8686-CE7AF0ADF154</p><p><italic>Falcileptoneta shuanglong</italic> LSID: urn:lsid:zoobank.org:act:3BBBC270-3E09-49D0-B5F5-91E89528A74A
+</p><p><italic>Jingneta</italic> LSID: urn:lsid:zoobank.org:act:C74764A4-5915-4C6E-8490-6808276AA27A
+</p><p><italic>Jingneta caoxian</italic> LSID: urn:lsid:zoobank.org:act:1BE9F7AE-457B-4F2B-98E3-33369A82FF45
+</p><p><italic>Jingneta jingdong</italic> LSID: urn:lsid:zoobank.org:act:D82DEC63-E4C0-4D4F-BAEA-CCFE6DD41944
+</p><p><italic>Longileptoneta gutan</italic> LSID: urn:lsid:zoobank.org:act:428F5FB9-C701-4E40-87DD-0CF5B6FC47E4
+</p><p><italic>Longileptoneta huangshan</italic> LSID: urn:lsid:zoobank.org:act:C34F9D4E-DA0E-4468-BFC1-BC69FBC0A684
+</p><p><italic>Longileptoneta shenxian</italic> LSID: urn:lsid:zoobank.org:act:1A172704-9841-46F1-A001-415F34105739
+</p><p><italic>Longileptoneta yeren</italic> LSID: urn:lsid:zoobank.org:act:562929A0-F7F5-4100-9E5F-47540DD180EF
+</p><p><italic>Longileptoneta zhuxian</italic> LSID: urn:lsid:zoobank.org:act:CCC5B91A-5604-4488-8087-A257B67E57A6
+</p></sec><sec id="s06"><label/><title>SCIENTIFIC FIELD SURVEY PERMISSION INFORMATION</title><p>Permission for field surveys in Anhui, Beijing, Hebei, Jiangxi, and Zhejiang was granted by the National Forestry and Grassland Administration.</p></sec><sec id="s07"><title>SUPPLEMENTARY DATA</title><supplementary-material content-type="local-data" id="S1"><caption><p>Supplementary data to this article can be found online.</p></caption><media xlink:href="zr-41-6-684-S1.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec><sec id="s08"><label/><title>COMPETING INTERESTS</title><p>The authors declare that they have no competing interests.</p></sec><sec id="s09"><label/><title>AUTHORS&#x02019; CONTRIBUTIONS</title><p>S.Q.L. designed the study. C.X.W. performed molecular experiments and data analyses. C.X.W. and W.H.Z. performed morphological experiments. C.X.W., S.Q.L., and W.H.Z. wrote the manuscript. S.Q.L. revised the manuscript. All authors read and approved the final version of the manuscript.</p></sec><sec id="s10"><label/><title>ACKNOWLEDGEMENTS</title><p>The manuscript benefited greatly from comments by Yuri M. Marusik, Facundo M. Labarque, Yan-Feng Tong, and an anonymous referee. Ming-Jie Xu helped prepare the manuscript. Theo Blick checked etymology. Sarah Crews kindly checked the language.</p></sec></body><back><ref-list><title>References</title><ref id="bChen2000"><label>1</label><element-citation publication-type="journal"><person-group person-group-type="author">Chen HM, Gao L, Zhu MS</person-group><article-title>Two new species of the genus <italic>Leptoneta</italic> (Araneae: Leptonetidae) from China
+</article-title><source>Acta Arachnologica Sinica</source><year>2000</year><volume>9</volume><issue>1</issue><fpage>10</fpage><lpage>13</lpage></element-citation></ref><ref id="bChen2010"><label>2</label><element-citation publication-type="journal"><person-group person-group-type="author">Chen HM, Jia Q, Wang SJ</person-group><article-title>A revision of the genus <italic>Qianleptoneta</italic> (Araneae: Leptonetidae)
+</article-title><source>Journal of Natural History</source><year>2010</year><volume>44</volume><issue>47&#x02212;48</issue><fpage>2873</fpage><lpage>2915</lpage><pub-id pub-id-type="doi">10.1080/00222933.2010.512397</pub-id></element-citation></ref><ref id="bChen1984"><label>3</label><element-citation publication-type="journal"><person-group person-group-type="author">Chen ZF, Shen YC, Gao F</person-group><article-title>Description of the new species of the genus <italic>Leptoneta</italic> (Araneae, Leptonetidae) from caves of Zhejiang
+</article-title><source>Journal of Hangzhou Teachers College (Humanities and Social Sciences)</source><year>1984</year><issue>S1</issue><fpage>8</fpage><lpage>13</lpage></element-citation></ref><ref id="bChen1991"><label>4</label><note><p>Chen ZF, Zhang ZH. 1991. Fauna of Zhejiang: Araneida. Hangzhou: Zhejiang Science and Technology Publishing House, 1-356. (in Chinese)</p></note></ref><ref id="bChen1993"><label>5</label><note><p>Chen ZF, Zhang ZH. 1993. Study on the Genus <italic>Leptoneta</italic> in Karst Caves in Zhejiang Province, China (Araneae: Leptonetidae). Beijing: China Environmental Science Press, 216-220.
+</p></note></ref><ref id="bChen1982"><label>6</label><element-citation publication-type="journal"><person-group person-group-type="author">Chen ZF, Zhang ZH, Song DX</person-group><article-title>A new species of the genus <italic>Leptoneta</italic> (Araneae) from China
+</article-title><source>Journal of Hangzhou University</source><year>1982</year><volume>9</volume><issue>2</issue><fpage>204</fpage><lpage>206</lpage></element-citation></ref><ref id="bChen1986"><label>7</label><element-citation publication-type="journal"><person-group person-group-type="author">Chen ZF, Zhang ZH, Song DX</person-group><article-title>A new species of the genus <italic>Leptoneta</italic> from Zhejiang Province (Araneae: Leptonetidae)
+</article-title><source>Acta Zootaxonomica Sinica</source><year>1986</year><volume>11</volume><issue>1</issue><fpage>40</fpage><lpage>42</lpage></element-citation></ref><ref id="d39e4593"><label>8</label><element-citation publication-type="journal"><person-group person-group-type="author">Fern&#x000e1;ndez R, Kallal RJ, Dimitrov D, Ballesteros JA, Arnedo MA, Giribet G, et al</person-group><article-title>Phylogenomics, diversification dynamics, and comparative transcriptomics across the spider tree of life</article-title><source>Current Biology</source><year>2018</year><volume>28</volume><issue>1</issue><fpage>1</fpage><lpage>9</lpage><pub-id pub-id-type="doi">10.1016/j.cub.2017.11.007</pub-id><pub-id pub-id-type="pmid">29249662</pub-id></element-citation></ref><ref id="bHe2019"><label>9</label><element-citation publication-type="journal"><person-group person-group-type="author">He AL, Liu JX, Xu XA, Yin HQ, Peng XJ</person-group><article-title>Description of three new species of spider genus <italic>Leptonetela</italic> Kratochv&#x000ed;l, 1978 from caves of Hunan Province, China (Araneae, Leptonetidae)
+</article-title><source>Zootaxa</source><year>2019</year><volume>4554</volume><issue>2</issue><fpage>584</fpage><lpage>600</lpage><pub-id pub-id-type="doi">10.11646/zootaxa.4554.2.10</pub-id><pub-id pub-id-type="pmid">30790978</pub-id></element-citation></ref><ref id="bHu1984"><label>10</label><note><p>Hu JL. 1984. The Chinese Spiders Collected from the Fields and the Forests. Tianjin: Tianjin Science and Technology Press, 1&#x02212;482. (in Chinese)</p></note></ref><ref id="bIrie2009"><label>11</label><note><p>Irie T, Ono H. 2009. Leptonetidae. <italic>In</italic>: Ono H. The Spiders of Japan with Keys to the Families and Genera and Illustrations of the Species. Kanagawa: Tokai University Press, 113&#x02212;120.
+</p></note></ref><ref id="bKatoh2013"><label>12</label><element-citation publication-type="journal"><person-group person-group-type="author">Katoh K, Standley DM</person-group><article-title>MAFFT multiple sequence alignment software version 7: improvements in performance and usability</article-title><source>Molecular Biology and Evolution</source><year>2013</year><volume>30</volume><issue>4</issue><fpage>772</fpage><lpage>780</lpage><pub-id pub-id-type="doi">10.1093/molbev/mst010</pub-id><pub-id pub-id-type="pmid">23329690</pub-id></element-citation></ref><ref id="bKomatsu1942"><label>13</label><element-citation publication-type="journal"><person-group person-group-type="author">Komatsu T</person-group><article-title>Spiders from Saisho-do caves</article-title><source>Acta Arachnologica</source><year>1942</year><volume>7</volume><issue>2</issue><fpage>54</fpage><lpage>70</lpage><pub-id pub-id-type="doi">10.2476/asjaa.7.54</pub-id></element-citation></ref><ref id="bKomatsu1970"><label>14</label><element-citation publication-type="journal"><person-group person-group-type="author">Komatsu T</person-group><article-title>A new genus and a new species of Japanese spiders (<italic>Falcileptoneta</italic> n. g. and <italic>Sarutana kawasawai</italic> n. sp., Leptonetidae)
+</article-title><source>Acta Arachnologica</source><year>1970</year><volume>23</volume><fpage>1</fpage><lpage>12</lpage><pub-id pub-id-type="doi">10.2476/asjaa.23.1</pub-id></element-citation></ref><ref id="d39e4726"><label>15</label><element-citation publication-type="journal"><person-group person-group-type="author">Kratochv&#x000ed;l J</person-group><article-title>Araign&#x000e9;es cavernicoles des &#x000ee;les Dalmates</article-title><source>P&#x00159;&#x000ed;rodov&#x0011b;dn&#x000e9; pr&#x000e1;ce &#x000fa;stav&#x0016f; &#x0010c;eskoslovensk&#x000e9; Akademie V&#x0011b;d v Brn&#x0011b;</source><year>1978</year><volume>12</volume><issue>4</issue><fpage>1</fpage><lpage>59</lpage></element-citation></ref><ref id="bLanfear2012"><label>16</label><element-citation publication-type="journal"><person-group person-group-type="author">Lanfear R, Calcott B, Ho SYW, Guindon S</person-group><article-title>PartitionFinder: combined selection of partitioning schemes and substitution models for phylogenetic analyses</article-title><source>Molecular Biology and Evolution</source><year>2012</year><volume>29</volume><issue>6</issue><fpage>1695</fpage><lpage>1701</lpage><pub-id pub-id-type="doi">10.1093/molbev/mss020</pub-id><pub-id pub-id-type="pmid">22319168</pub-id></element-citation></ref><ref id="bLe2011"><label>17</label><element-citation publication-type="journal"><person-group person-group-type="author">Le Peru B</person-group><article-title>The spiders of Europe, a synthesis of data. Vol. 1. Atypidae to Theridiidae</article-title><source>M&#x000e9;moires de la Soci&#x000e9;t&#x000e9; Linn&#x000e9;enne de Lyon</source><year>2011</year><volume>2</volume><fpage>1</fpage><lpage>522</lpage></element-citation></ref><ref id="bLi2020"><label>18</label><element-citation publication-type="journal"><person-group person-group-type="author">Li SQ</person-group><article-title>Spider taxonomy for an advanced China</article-title><source>Zoological Systematics</source><year>2020</year><volume>45</volume><issue>2</issue><fpage>73</fpage><lpage>77</lpage></element-citation></ref><ref id="bLin2010"><label>19</label><element-citation publication-type="journal"><person-group person-group-type="author">Lin YH, Li SQ</person-group><article-title>Leptonetid spiders from caves of the Yunnan-Guizhou plateau, China (Araneae: Leptonetidae)</article-title><source>Zootaxa</source><year>2010</year><volume>2587</volume><issue>1</issue><fpage>1</fpage><lpage>93</lpage><pub-id pub-id-type="doi">10.11646/zootaxa.2587.1.1</pub-id></element-citation></ref><ref id="bRambaut2014"><label>20</label><note><p>Rambaut A, Suchard MA, Xie W, Drummond AJ. 2014. Tracer v1.6. Software package.
+<ext-link ext-link-type="uri" xlink:href="http://beast.bio.ed.ac.uk/Tracer">http://beast.bio.ed.ac.uk/Tracer</ext-link>.
+</p></note></ref><ref id="bRonquist2012"><label>21</label><element-citation publication-type="journal"><person-group person-group-type="author">Ronquist F, Teslenko M, van der Mark P, Ayres DL, Darling A, H&#x000f6;hna S, et al</person-group><article-title>MrBayes 3.2: Efficient bayesian phylogenetic inference and model choice across a large model space</article-title><source>Systematic Biology</source><year>2012</year><volume>61</volume><issue>3</issue><fpage>539</fpage><lpage>542</lpage><pub-id pub-id-type="doi">10.1093/sysbio/sys029</pub-id><pub-id pub-id-type="pmid">22357727</pub-id></element-citation></ref><ref id="bSeo2015"><label>22</label><element-citation publication-type="journal"><person-group person-group-type="author">Seo BK</person-group><article-title>Four new species of the genera Masirana and Longileptoneta (Araneae, Leptonetidae) from Korea</article-title><source>Korean Journal of Environmental Biology</source><year>2015</year><volume>33</volume><issue>3</issue><fpage>306</fpage><lpage>313</lpage><pub-id pub-id-type="doi">10.11626/KJEB.2015.33.3.306</pub-id></element-citation></ref><ref id="bSimon1890"><label>23</label><note><p>Simon E. 1890. Etudes arachnologiques. 22e M&#x000e9;moire. XXXIV. <italic>Etude sur les arachnides de l'Yemen. Annales de la Soci&#x000e9;t&#x000e9; Entomologique de France</italic>, <bold>10</bold>(6): 77&#x02212;124.
+</p></note></ref><ref id="bSong1987"><label>24</label><note><p>Song DX. 1987. Spiders from Agricultural Regions of China (Arachnida: Araneae). Beijing: Agriculture Publishing House, 1&#x02212;376. (in Chinese)</p></note></ref><ref id="bSong1991"><label>25</label><element-citation publication-type="journal"><person-group person-group-type="author">Song DX, Kim JP</person-group><article-title>On some species of spiders from Mount West Tianmu, Zhejiang, China (Araneae)</article-title><source>Korean Arachnology</source><year>1991</year><volume>7</volume><fpage>19</fpage><lpage>27</lpage></element-citation></ref><ref id="bSong1986"><label>26</label><element-citation publication-type="journal"><person-group person-group-type="author">Song DX, Xu YJ</person-group><article-title>Some species of oonopids and leptonetids from Anhui Province, China (Arachnida: Araneae)</article-title><source>Sinozoologia</source><year>1986</year><volume>4</volume><fpage>83</fpage><lpage>88</lpage></element-citation></ref><ref id="bSong1999"><label>27</label><note><p>Song DX, Zhu MS, Chen J. 1999. The Spiders of China. Shijiazhuang: Hebei Science and Technology Publishing House, 1&#x02212;640.</p></note></ref><ref id="bStamatakis2014"><label>28</label><element-citation publication-type="journal"><person-group person-group-type="author">Stamatakis A</person-group><article-title>RAxML version 8: a tool for phylogenetic analysis and post-analysis of large phylogenies</article-title><source>Bioinformatics</source><year>2014</year><volume>30</volume><issue>9</issue><fpage>1312</fpage><lpage>1313</lpage><pub-id pub-id-type="doi">10.1093/bioinformatics/btu033</pub-id><pub-id pub-id-type="pmid">24451623</pub-id></element-citation></ref><ref id="bTamura2011"><label>29</label><element-citation publication-type="journal"><person-group person-group-type="author">Tamura K, Peterson D, Peterson N, Stecher G, Nei M, Kumar S</person-group><article-title>MEGA5: molecular evolutionary genetics analysis using maximum likelihood, evolutionary distance, and maximum parsimony methods</article-title><source>Molecular Biology and Evolution</source><year>2011</year><volume>28</volume><issue>10</issue><fpage>2731</fpage><lpage>2739</lpage><pub-id pub-id-type="doi">10.1093/molbev/msr121</pub-id><pub-id pub-id-type="pmid">21546353</pub-id></element-citation></ref><ref id="bTong2007"><label>30</label><element-citation publication-type="journal"><person-group person-group-type="author">Tong YF, Li SQ</person-group><article-title>Description of <italic>Rhyssoleptoneta latitarsa</italic> gen. nov. et sp. nov. (Araneae, Leptonetidae) from Hebei Province, China
+</article-title><source>Acta Zootaxonomica Sinica</source><year>2007</year><volume>32</volume><issue>1</issue><fpage>35</fpage><lpage>37</lpage></element-citation></ref><ref id="bTong2008"><label>31</label><element-citation publication-type="journal"><person-group person-group-type="author">Tong YF, Li SQ</person-group><article-title>Six new cave-dwelling species of <italic>Leptoneta</italic> (Arachnida, Araneae, Leptonetidae) from Beijing and adjacent regions, China
+</article-title><source>Zoosystema</source><year>2008</year><volume>30</volume><issue>2</issue><fpage>371</fpage><lpage>386</lpage></element-citation></ref><ref id="bWang2011"><label>32</label><element-citation publication-type="journal"><person-group person-group-type="author">Wang CX, Li SQ</person-group><article-title>A further study on the species of the spider genus <italic>Leptonetela</italic> (Araneae: Leptonetidae)
+</article-title><source>Zootaxa</source><year>2011</year><volume>2841</volume><issue>1</issue><fpage>1</fpage><lpage>90</lpage><pub-id pub-id-type="doi">10.11646/zootaxa.2841.1.1</pub-id></element-citation></ref><ref id="bWang2017"><label>33</label><element-citation publication-type="journal"><person-group person-group-type="author">Wang CX, Xu X, Li SQ</person-group><article-title>Integrative taxonomy of <italic>Leptonetela</italic> spiders (Araneae, Leptonetidae), with descriptions of 46 new species
+</article-title><source>Zoological Research</source><year>2017</year><volume>38</volume><issue>6</issue><fpage>321</fpage><lpage>448</lpage><pub-id pub-id-type="doi">10.24272/j.issn.2095-8137.2017.076</pub-id><pub-id pub-id-type="pmid">29280363</pub-id></element-citation></ref><ref id="bWSC2020"><label>34</label><note><p>WSC. 2020. World spider catalog. Version 21.5. Natural history museum Bern. [2020-01-15]. http://wsc.nmbe.ch.</p></note></ref><ref id="bYin2012"><label>35</label><note><p>Yin CM, Peng XJ, Yan HM, Bao YH, Xu X, Tang G, et al. 2012. Fauna Hunan: Araneae in Hunan, China. Changsha: Hunan Science and Technology Press, 1&#x02212;1590.</p></note></ref><ref id="bYin1984"><label>36</label><element-citation publication-type="journal"><person-group person-group-type="author">Yin CM, Wang JF, Wang ZT</person-group><article-title>Three new species of the genus <italic>Leptoneta</italic> from China (Araneae: Leptonetidae)
+</article-title><source>Acta Zootaxonomica Sinica</source><year>1984</year><volume>9</volume><issue>4</issue><fpage>364</fpage><lpage>370</lpage></element-citation></ref><ref id="bZhang2014"><label>37</label><element-citation publication-type="journal"><person-group person-group-type="author">Zhang YY, Li SQ</person-group><article-title>A spider species complex revealed high cryptic diversity in South China caves</article-title><source>Molecular Phylogenetics and Evolution</source><year>2014</year><volume>79</volume><fpage>353</fpage><lpage>358</lpage><pub-id pub-id-type="doi">10.1016/j.ympev.2014.05.017</pub-id><pub-id pub-id-type="pmid">24994029</pub-id></element-citation></ref><ref id="bZhu2002"><label>38</label><element-citation publication-type="journal"><person-group person-group-type="author">Zhu MS, Tso IM</person-group><article-title>Four new species of the genus <italic>Leptoneta</italic> (Araneae, Leptonetidae) from Taiwan
+</article-title><source>The Journal of Arachnology</source><year>2002</year><volume>30</volume><issue>3</issue><fpage>563</fpage><lpage>570</lpage><pub-id pub-id-type="doi">10.1636/0161-8202(2002)030[0563:FNSOTG]2.0.CO;2</pub-id></element-citation></ref></ref-list></back></article>

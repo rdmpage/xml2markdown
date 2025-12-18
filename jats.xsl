@@ -1,7 +1,19 @@
 <?xml version='1.0' encoding='utf-8'?>
 <xsl:stylesheet version='1.0' xmlns:xsl='http://www.w3.org/1999/XSL/Transform' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:tp="http://www.plazi.org/taxpub">
-  <xsl:output method='html' version='1.0' encoding='utf-8' indent='yes' />
-  <xsl:param name="path" />
+  <xsl:output method='text' version='1.0' encoding='utf-8'  />
+  <xsl:strip-space elements="*"/>
+  
+  <!--
+<xsl:template match="text()">
+  <xsl:value-of select="concat('[', ., ']')"/>
+</xsl:template>  
+-->
+
+<xsl:template match="text()">
+  <xsl:value-of select="normalize-space(.)"/>
+  <!-- <xsl:text> </xsl:text>-->
+</xsl:template>
+  
   <!-- ChatGPT start -->
   <xsl:template name="colcount">
     <xsl:param name="cells" />
@@ -37,11 +49,6 @@
   </xsl:template>
   <!-- ChatGPT end -->
   <xsl:template match="/">
-    <html>
-      <head>
-        <style type="text/css">body { padding:3em; font-size:1.2em; font-family:monospace; }</style>
-      </head>
-      <body>
         <xsl:apply-templates select="//article-meta" />
         <xsl:apply-templates select="//abstract" />
         <!-- scan specific stuff -->
@@ -50,8 +57,6 @@
         <xsl:apply-templates select="//back" />
         <!-- Biodiversity Data Journal -->
         <xsl:apply-templates select="//floats-group" />
-      </body>
-    </html>
   </xsl:template>
   <xsl:template match="//article-meta">
     <!-- why do we have different ways of doing this? -->
@@ -68,69 +73,43 @@
           <xsl:text>January</xsl:text>
         </xsl:when>
         <xsl:when test="//article-meta/pub-date/month = 2">
-          <xsl:text>
-February
-</xsl:text>
+          <xsl:text>February</xsl:text>
         </xsl:when>
         <xsl:when test="//article-meta/pub-date/month = 3">
-          <xsl:text>
-March
-</xsl:text>
+          <xsl:text>March</xsl:text>
         </xsl:when>
         <xsl:when test="//article-meta/pub-date/month = 4">
-          <xsl:text>
-April
-</xsl:text>
+          <xsl:text>April</xsl:text>
         </xsl:when>
         <xsl:when test="//article-meta/pub-date/month = 5">
-          <xsl:text>
-May
-</xsl:text>
+          <xsl:text>May</xsl:text>
         </xsl:when>
         <xsl:when test="//article-meta/pub-date/month = 6">
-          <xsl:text>
-June
-</xsl:text>
+          <xsl:text>June</xsl:text>
         </xsl:when>
         <xsl:when test="//article-meta/pub-date/month = 7">
-          <xsl:text>
-July
-</xsl:text>
+          <xsl:text>July</xsl:text>
         </xsl:when>
         <xsl:when test="//article-meta/pub-date/month = 8">
-          <xsl:text>
-August
-</xsl:text>
+          <xsl:text>August</xsl:text>
         </xsl:when>
         <xsl:when test="//article-meta/pub-date/month = 9">
-          <xsl:text>
-September
-</xsl:text>
+          <xsl:text>September</xsl:text>
         </xsl:when>
         <xsl:when test="//article-meta/pub-date/month = 10">
-          <xsl:text>
-October
-</xsl:text>
+          <xsl:text>October</xsl:text>
         </xsl:when>
         <xsl:when test="//article-meta/pub-date/month = 11">
-          <xsl:text>
-November
-</xsl:text>
+          <xsl:text>November</xsl:text>
         </xsl:when>
         <xsl:when test="//article-meta/pub-date/month = 12">
-          <xsl:text>
-December
-</xsl:text>
+          <xsl:text>December</xsl:text>
         </xsl:when>
       </xsl:choose>
-      <xsl:text>
- 
-</xsl:text>
+      <xsl:text> </xsl:text>
     </xsl:if>
     <xsl:value-of select="//article-meta/pub-date/year" />
-    <xsl:text>
- 
-</xsl:text>
+    <xsl:text> </xsl:text>
     <xsl:value-of select="//article-meta/volume" />
     <xsl:if test="//article-meta/issue">
       <xsl:text>(</xsl:text>
@@ -146,10 +125,10 @@ December
     <xsl:if test="//article-meta/elocation-id">
       <xsl:value-of select="//article-meta/elocation-id" />
     </xsl:if>
-    <br />
+    <xsl:text>&#xa;</xsl:text>
     <xsl:text># </xsl:text>
-    <xsl:value-of select="//article-title" />
-    <br />
+    <xsl:apply-templates select="//article-meta/title-group/article-title" />
+    <xsl:text>&#xa;</xsl:text>
     <xsl:apply-templates select="//contrib-group" />
     <xsl:apply-templates select="//article-id" />
     <xsl:apply-templates select="//self-uri[@content-type='lsid']" />
@@ -160,19 +139,19 @@ December
         <xsl:text>- </xsl:text>
         <xsl:text>DOI:</xsl:text>
         <xsl:value-of select="." />
-        <br />
+        <xsl:text>&#xa;</xsl:text>
       </xsl:when>
       <xsl:when test="@pub-id-type='pmid'">
         <xsl:text>- </xsl:text>
         <xsl:text>PMID:</xsl:text>
         <xsl:value-of select="." />
-        <br />
+        <xsl:text>&#xa;</xsl:text>
       </xsl:when>
       <xsl:when test="@pub-id-type='pmc'">
         <xsl:text>- </xsl:text>
         <xsl:text>PMC</xsl:text>
         <xsl:value-of select="." />
-        <br />
+        <xsl:text>&#xa;</xsl:text>
       </xsl:when>
       <xsl:otherwise />
     </xsl:choose>
@@ -185,7 +164,7 @@ December
   <!-- authors -->
   <xsl:template match="//contrib-group">
     <xsl:apply-templates select="contrib[@contrib-type='author']" />
-    <br />
+    <xsl:text>&#xa;</xsl:text>
   </xsl:template>
   <!-- need to include only authors -->
   <xsl:template match="contrib[@contrib-type='author']">
@@ -200,9 +179,7 @@ December
       </xsl:choose>
     </xsl:if>
     <xsl:value-of select="name/given-names" />
-    <xsl:text>
- 
-</xsl:text>
+    <xsl:text> </xsl:text>
     <xsl:value-of select="name/surname" />
   </xsl:template>
   <xsl:template match="//abstract">
@@ -221,7 +198,7 @@ December
   <!-- basic elements -->
   <xsl:template match="p">
      <xsl:apply-templates />
-    <br />
+    <xsl:text>&#xa;</xsl:text>
   </xsl:template>
   <xsl:template match="italic">
   <xsl:text> _</xsl:text>
@@ -244,7 +221,7 @@ December
     <xsl:if test="p">
       <xsl:value-of select="p" />
     </xsl:if>
-    <br />
+    <xsl:text>&#xa;</xsl:text>
   </xsl:template>
   <!-- citations -->
   <xsl:template match="xref">
@@ -321,38 +298,39 @@ December
   </xsl:template>
   <!-- label -->
   <xsl:template match="label">
-  <xsl:text>**</xsl:text>
-  <!-- <xsl:apply-templates /> -->
-  <xsl:value-of select="normalize-space()"/>
-  <xsl:text>**</xsl:text>
+    <xsl:if test="normalize-space(.)">
+      <xsl:text>**</xsl:text>
+	  <xsl:value-of select="normalize-space()"/>
+      <xsl:text>**</xsl:text>
+    </xsl:if>
   </xsl:template>
   <!-- title -->
   <xsl:template match="sec/title">
     <!-- heading level based on depth of sec tag -->
     <xsl:choose>
       <xsl:when test="count(ancestor-or-self::sec)=1">
-        <br />
+        <xsl:text>&#xa;</xsl:text>
         <xsl:text>## </xsl:text>
         <xsl:apply-templates />
-        <br />
+        <xsl:text>&#xa;</xsl:text>
       </xsl:when>
       <xsl:when test="count(ancestor-or-self::sec)=2">
-        <br />
+        <xsl:text>&#xa;</xsl:text>
         <xsl:text>### </xsl:text>
         <xsl:apply-templates />
-        <br />
+        <xsl:text>&#xa;</xsl:text>
       </xsl:when>
       <xsl:when test="count(ancestor-or-self::sec)=3">
-        <br />
+        <xsl:text>&#xa;</xsl:text>
         <xsl:text>#### </xsl:text>
         <xsl:apply-templates />
-        <br />
+        <xsl:text>&#xa;</xsl:text>
       </xsl:when>
       <xsl:otherwise>
-        <br />
+        <xsl:text>&#xa;</xsl:text>
         <xsl:text>#### </xsl:text>
         <xsl:apply-templates />
-        <br />
+        <xsl:text>&#xa;</xsl:text>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
@@ -363,11 +341,11 @@ December
   <xsl:text>**</xsl:text></xsl:template>
   <!-- table -->
   <xsl:template match="table-wrap">
-    <br />
+    <xsl:text>&#xa;</xsl:text>
     <xsl:apply-templates />
   </xsl:template>
   <xsl:template match="table">
-    <br />
+    <xsl:text>&#xa;</xsl:text>
     <!-- first row in the table (thead first, else tbody) -->
     <xsl:variable name="firstRow" select="(thead/tr | tbody/tr | tr)[1]" />
     <xsl:variable name="cols">
@@ -377,15 +355,13 @@ December
     </xsl:variable>
     <xsl:apply-templates select="thead" />
     <!-- output separator line -->
-    <xsl:text>
-|
-</xsl:text>
+    <xsl:text>| </xsl:text>
     <xsl:call-template name="separator">
       <xsl:with-param name="n" select="number($cols)" />
     </xsl:call-template>
-    <br />
+    <xsl:text>&#xa;</xsl:text>
     <xsl:apply-templates select="tbody" />
-    <br />
+    <xsl:text>&#xa;</xsl:text>
   </xsl:template>
   <xsl:template match="thead">
     <xsl:apply-templates />
@@ -395,7 +371,7 @@ December
   </xsl:template>
   <xsl:template match="tr">
     <xsl:apply-templates />
-    <br />
+    <xsl:text>&#xa;</xsl:text>
   </xsl:template>
   <xsl:template match="th">
     <xsl:if test="not(preceding-sibling::th)">
@@ -479,7 +455,7 @@ December
   </xsl:template>
   <!-- figure -->
   <xsl:template match="fig">
-    <br />
+    <xsl:text>&#xa;</xsl:text>
     <xsl:text>![]</xsl:text>
     <xsl:text>(</xsl:text>
     <!--            <xsl:text>https://journals.plos.org/plosone/article/figure/image?size=large&amp;id=</xsl:text> 
@@ -510,15 +486,15 @@ December
       </xsl:otherwise>
     </xsl:choose>
     <xsl:text>)</xsl:text>
-    <br />
+    <xsl:text>&#xa;</xsl:text>
     <xsl:apply-templates />
-    <br />
+    <xsl:text>&#xa;</xsl:text>
   </xsl:template>
   <!-- references -->
   <xsl:template match="ref-list">
     <xsl:text>## </xsl:text>
     <xsl:value-of select="title" />
-    <br />
+    <xsl:text>&#xa;</xsl:text>
     <!-- Kew JATS is broken and has ref-list twice(!) -->
     <xsl:apply-templates />
   </xsl:template>
@@ -537,7 +513,7 @@ December
     <xsl:apply-templates select="element-citation" />
     <!-- Frontiers  -->
     <xsl:apply-templates select="citation" />
-    <br />
+    <xsl:text>&#xa;</xsl:text>
   </xsl:template>
   <!-- authors -->
   <xsl:template match="//person-group">
@@ -553,7 +529,7 @@ December
   </xsl:template>
   <xsl:template match="article-title">
     <xsl:text>**</xsl:text>
-    <xsl:value-of select="." />
+    <xsl:apply-templates />
     <xsl:text>**</xsl:text>
   </xsl:template>
   <xsl:template match="chapter-title">

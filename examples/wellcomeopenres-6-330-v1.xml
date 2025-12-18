@@ -1,0 +1,1338 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.2 20190208//EN" "http://jats.nlm.nih.gov/publishing/1.2/JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         article-type="data-paper"
+         dtd-version="1.2"
+         xml:lang="en">
+    <front>
+        <journal-meta>
+            <journal-id journal-id-type="pmc">Wellcome Open Res</journal-id>
+            <journal-title-group>
+                <journal-title>Wellcome Open Research</journal-title>
+            </journal-title-group>
+            <issn pub-type="epub">2398-502X</issn>
+            <publisher>
+                <publisher-name>F1000 Research Limited</publisher-name>
+                <publisher-loc>London, UK</publisher-loc>
+            </publisher>
+        </journal-meta>
+        <article-meta>
+            <article-id pub-id-type="doi">10.12688/wellcomeopenres.17355.1</article-id>
+            <article-categories>
+                <subj-group subj-group-type="heading">
+                    <subject>Data Note</subject>
+                </subj-group>
+                <subj-group>
+                    <subject>Articles</subject>
+                </subj-group>
+            </article-categories>
+            <title-group>
+                <article-title>The genome sequence of the spectacle, 
+                    <italic>Abrostola tripartita </italic>Hufnagel, 1766</article-title>
+                <fn-group content-type="pub-status">
+                    <fn>
+                        <p>[version 1; peer review: 3 approved]</p>
+                    </fn>
+                </fn-group>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author" corresp="no" deceased="yes">
+                    <name>
+                        <surname>Boyes</surname>
+                        <given-names>Douglas</given-names>
+                    </name>
+                    <role content-type="http://credit.niso.org/">Investigation</role>
+                    <role content-type="http://credit.niso.org/">Resources</role>
+                    <xref ref-type="aff" rid="a1">1</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="no">
+                    <name>
+                        <surname>Crowley</surname>
+                        <given-names>Liam M.</given-names>
+                    </name>
+                    <role content-type="http://credit.niso.org/">Writing &#x2013; Original Draft Preparation</role>
+                    <role content-type="http://credit.niso.org/">Writing &#x2013; Review &amp; Editing</role>
+                    <uri content-type="orcid">https://orcid.org/0000-0001-6380-0329</uri>
+                    <xref ref-type="aff" rid="a2">2</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="no">
+                    <name>
+                        <surname>Holland</surname>
+                        <given-names>Peter W.H.</given-names>
+                    </name>
+                    <role content-type="http://credit.niso.org/">Supervision</role>
+                    <role content-type="http://credit.niso.org/">Writing &#x2013; Original Draft Preparation</role>
+                    <role content-type="http://credit.niso.org/">Writing &#x2013; Review &amp; Editing</role>
+                    <uri content-type="orcid">https://orcid.org/0000-0003-1533-9376</uri>
+                    <xref ref-type="aff" rid="a2">2</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="no">
+                    <collab>University of Oxford and Wytham Woods Genome Acquisition Lab</collab>
+                </contrib>
+                <contrib contrib-type="author" corresp="no">
+                    <collab>Darwin Tree of Life Barcoding collective</collab>
+                </contrib>
+                <contrib contrib-type="author" corresp="no">
+                    <collab>Wellcome Sanger Institute Tree of Life programme</collab>
+                </contrib>
+                <contrib contrib-type="author" corresp="no">
+                    <collab>Wellcome Sanger Institute Scientific Operations: DNA Pipelines collective</collab>
+                </contrib>
+                <contrib contrib-type="author" corresp="no">
+                    <collab>Tree of Life Core Informatics collective</collab>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes">
+                    <collab>Darwin Tree of Life Consortium</collab>
+                    <xref ref-type="corresp" rid="c1">a</xref>
+                </contrib>
+                <aff id="a1">
+                    <label>1</label>UK Centre for Ecology &amp; Hydrology, Wallingford, UK</aff>
+                <aff id="a2">
+                    <label>2</label>Department of Zoology, University of Oxford, Oxford, UK</aff>
+            </contrib-group>
+            <author-notes>
+                <corresp id="c1">
+                    <label>a</label>
+                    <email xlink:href="mailto:mark.blaxter@sanger.ac.uk">mark.blaxter@sanger.ac.uk</email>
+                </corresp>
+                <fn fn-type="conflict">
+                    <p>No competing interests were disclosed.</p>
+                </fn>
+            </author-notes>
+            <pub-date pub-type="epub">
+                <day>6</day>
+                <month>12</month>
+            <year>2021</year>
+            </pub-date>
+            <pub-date pub-type="collection">
+            <year>2021</year>
+            </pub-date>
+         <volume>6</volume>
+            <elocation-id>330</elocation-id>
+            <history>
+                <date date-type="accepted">
+                    <day>2</day>
+                    <month>11</month>
+               <year>2021</year>
+                </date>
+            </history>
+            <permissions>
+                <copyright-statement>Copyright: &#x00a9; 2021 Boyes D et al.</copyright-statement>
+                <copyright-year>2021</copyright-year>
+                <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                    <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution Licence, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+                </license>
+            </permissions>
+            <self-uri content-type="pdf"
+                   xlink:href="https://wellcomeopenresearch.org/articles/6-330/pdf"/>
+            <abstract>
+                <p>We present a genome assembly from an individual male 
+                    <italic toggle="yes">Abrostola tripartita</italic> (the spectacle; Arthropoda; Insecta; Lepidoptera; Noctuidae). The genome sequence is 381 megabases in span. The majority of the assembly (99.99%) is scaffolded into 31 chromosomal pseudomolecules, with the Z sex chromosome assembled.</p>
+            </abstract>
+            <kwd-group kwd-group-type="author">
+                <kwd>Abrostola tripartita</kwd>
+                <kwd>the spectacle</kwd>
+                <kwd>genome sequence</kwd>
+                <kwd>chromosomal</kwd>
+                <kwd>Lepidoptera</kwd>
+            </kwd-group>
+            <funding-group>
+                <award-group id="fund-1">
+                    <funding-source>Wellcome Trust</funding-source>
+                    <award-id>206194</award-id>
+                </award-group>
+                <award-group id="fund-2">
+                    <funding-source>Wellcome Trust</funding-source>
+                    <award-id>218328</award-id>
+                </award-group>
+                <funding-statement>This work was supported by the Wellcome Trust through core funding to the Wellcome Sanger Institute (206194) and the Darwin Tree of Life Discretionary Award (218328). </funding-statement>
+                <funding-statement>
+                    <italic>The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</italic>
+                </funding-statement>
+            </funding-group>
+        </article-meta>
+    </front>
+    <body>
+        <sec>
+            <title>Species taxonomy</title>
+            <p>Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta; Pterygota; Neoptera; Endopterygota; Lepidoptera; Glossata; Ditrysia; Noctuoidea; Noctuidae; Plusiinae; Abrostola; 
+                <italic toggle="yes">Abrostola tripartita</italic> Hufnagel, 1766 (NCBI:txid938171).</p>
+        </sec>
+        <sec>
+            <title>Background</title>
+            <p>
+                <italic toggle="yes">Abrostola tripartita</italic> (the spectacle) is a grey and white noctuid moth recorded from across the Palaearctic region. It is found commonly across the UK where it has increased significantly in abundance in recent decades (
+                <xref ref-type="bibr" rid="ref-11">Sterling &amp; Henwood, 2020</xref>). The common name derives from two rings of grey hairs on the thorax with the appearance of a pair of goggles, visible when the moth is viewed from anterior; these hairs are on the thorax and are not associated with the head or eyes. The larvae feed on nettle (
+                <italic toggle="yes">Urtica dioica</italic>) and may be found across any habitat where the food plant is in abundance. Adults often feed at flowers including red valerian (
+                <italic toggle="yes">Centranthus ruber)</italic> and sage (
+                <italic toggle="yes">Salvia</italic>). In the UK the adult flight period occurs as a single generation in the north (May to July) and as two generations in the south (May-July and July-September) (
+                <xref ref-type="bibr" rid="ref-13">Waring 
+                    <italic toggle="yes">et al.</italic>, 2003</xref>). Overwintering occurs as a pupa among plant litter on the ground or under bark.</p>
+        </sec>
+        <sec>
+            <title>Genome sequence report</title>
+            <p>The genome was sequenced from one male 
+                <italic toggle="yes">A. tripartita</italic> (
+                <xref ref-type="fig" rid="f1">Figure 1</xref>) collected from Wytham Woods, Oxfordshire (biological vice-county: Berkshire), UK (latitude 51.769, longitude -1.339). A total of 54-fold coverage in Pacific Biosciences single-molecule long reads and 102-fold coverage in 10X Genomics read clouds were generated. Primary assembly contigs were scaffolded with chromosome conformation Hi-C data. Manual assembly curation corrected 30 missing/misjoins and removed 3 haplotypic duplications, reducing the assembly size by 0.44% and the scaffold number by 20.00%.</p>
+            <fig fig-type="figure" id="f1" orientation="portrait" position="float">
+                <label>Figure 1. </label>
+                <caption>
+                    <title>Image of the ilAbrTrip1 specimen taken prior to preservation and processing.</title>
+                    <p>Specimen shown next to FluidX storage tube, 43.9 mm in length.</p>
+                </caption>
+                <graphic orientation="portrait" position="float"
+                     xlink:href="https://wellcomeopenresearch.s3.eu-west-1.amazonaws.com/manuscripts/19185/8e223020-3dcf-40f8-a3c5-c81d25a1d0a8_figure1.gif"/>
+            </fig>
+            <p>The final assembly has a total length of 381 Mb in 32 sequence scaffolds with a scaffold N50 of 13.6 Mb (
+                <xref ref-type="table" rid="T1">Table 1</xref>). The majority of the assembly sequence (99.99%) was assigned to 31 chromosomal-level scaffolds, representing 30 autosomes (numbered by sequence length), and the Z sex chromosome (
+                <xref ref-type="fig" rid="f2">Figure 2</xref>&#x2013;
+                <xref ref-type="fig" rid="f5">Figure 5</xref>; 
+                <xref ref-type="table" rid="T2">Table 2</xref>). The assembly has a BUSCO v5.1.2 (
+                <xref ref-type="bibr" rid="ref-9">Manni 
+                    <italic toggle="yes">et al.</italic>, 2021</xref>) completeness of 99.0% (single 98.8%, duplicated 0.2%) using the lepidoptera_odb10 reference set. While not fully phased, the assembly deposited is of one haplotype. Contigs corresponding to the second haplotype have also been deposited.</p>
+            <table-wrap id="T1" orientation="portrait" position="anchor">
+                <label>Table 1. </label>
+                <caption>
+                    <title>Genome data for 
+                        <italic toggle="yes">Abrostola tripartita</italic>, ilAbrTrip1.1.</title>
+                </caption>
+                <table content-type="article-table" frame="hsides">
+                    <thead>
+                        <tr>
+                            <th align="left" colspan="2" rowspan="1" valign="top">
+                                <italic toggle="yes">Project accession data</italic>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td align="left" colspan="1" rowspan="1" valign="top">Assembly identifier</td>
+                            <td align="left" colspan="1" rowspan="1" valign="top">ilAbrTrip1.1</td>
+                        </tr>
+                        <tr>
+                            <td align="left" colspan="1" rowspan="1" valign="top">Species</td>
+                            <td align="left" colspan="1" rowspan="1" valign="top">
+                                <italic toggle="yes">Abrostola tripartita</italic>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="left" colspan="1" rowspan="1" valign="top">Specimen</td>
+                            <td align="left" colspan="1" rowspan="1" valign="top">ilAbrTrip1</td>
+                        </tr>
+                        <tr>
+                            <td align="left" colspan="1" rowspan="1" valign="top">NCBI taxonomy ID</td>
+                            <td align="left" colspan="1" rowspan="1" valign="top">NCBI:txid938171</td>
+                        </tr>
+                        <tr>
+                            <td align="left" colspan="1" rowspan="1" valign="top">BioProject</td>
+                            <td align="left" colspan="1" rowspan="1" valign="top">PRJEB43740</td>
+                        </tr>
+                        <tr>
+                            <td align="left" colspan="1" rowspan="1" valign="top">BioSample ID</td>
+                            <td align="left" colspan="1" rowspan="1" valign="top">SAMEA7520667</td>
+                        </tr>
+                        <tr>
+                            <td align="left" colspan="1" rowspan="1" valign="top">Isolate information</td>
+                            <td align="left" colspan="1" rowspan="1" valign="top">Male, thorax (genome assembly), head (Hi-C), abdomen (RNA-Seq)</td>
+                        </tr>
+                        <tr>
+                            <th align="left" colspan="2" rowspan="1" valign="top">
+                                <italic toggle="yes">Raw data accessions</italic>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td align="left" colspan="1" rowspan="1" valign="top">PacificBiosciences SEQUEL II</td>
+                            <td align="left" colspan="1" rowspan="1" valign="top">ERR6412364</td>
+                        </tr>
+                        <tr>
+                            <td align="left" colspan="1" rowspan="1" valign="top">10X Genomics Illumina</td>
+                            <td align="left" colspan="1" rowspan="1" valign="top">ERR6054553-ERR6054556</td>
+                        </tr>
+                        <tr>
+                            <td align="left" colspan="1" rowspan="1" valign="top">Hi-C Illumina</td>
+                            <td align="left" colspan="1" rowspan="1" valign="top">ERR6054552</td>
+                        </tr>
+                        <tr>
+                            <td align="left" colspan="1" rowspan="1" valign="top">Illumina polyA RNA-Seq</td>
+                            <td align="left" colspan="1" rowspan="1" valign="top">ERR6054557</td>
+                        </tr>
+                        <tr>
+                            <th align="left" colspan="2" rowspan="1" valign="top">
+                                <italic toggle="yes">Genome assembly</italic>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td align="left" colspan="1" rowspan="1" valign="top">Assembly accession</td>
+                            <td align="left" colspan="1" rowspan="1" valign="top">GCA_905340225.1</td>
+                        </tr>
+                        <tr>
+                            <td align="left" colspan="1" rowspan="1" valign="top">Accession of alternate haplotype</td>
+                            <td align="left" colspan="1" rowspan="1" valign="top">GCA_905340255.1</td>
+                        </tr>
+                        <tr>
+                            <td align="left" colspan="1" rowspan="1" valign="top">Span (Mb)</td>
+                            <td align="left" colspan="1" rowspan="1" valign="top">381</td>
+                        </tr>
+                        <tr>
+                            <td align="left" colspan="1" rowspan="1" valign="top">Number of contigs</td>
+                            <td align="left" colspan="1" rowspan="1" valign="top">34</td>
+                        </tr>
+                        <tr>
+                            <td align="left" colspan="1" rowspan="1" valign="top">Contig N50 length (Mb)</td>
+                            <td align="left" colspan="1" rowspan="1" valign="top">13.6</td>
+                        </tr>
+                        <tr>
+                            <td align="left" colspan="1" rowspan="1" valign="top">Number of scaffolds</td>
+                            <td align="left" colspan="1" rowspan="1" valign="top">32</td>
+                        </tr>
+                        <tr>
+                            <td align="left" colspan="1" rowspan="1" valign="top">Scaffold N50 length (Mb)</td>
+                            <td align="left" colspan="1" rowspan="1" valign="top">13.6</td>
+                        </tr>
+                        <tr>
+                            <td align="left" colspan="1" rowspan="1" valign="top">Longest scaffold (Mb)</td>
+                            <td align="left" colspan="1" rowspan="1" valign="top">16.0</td>
+                        </tr>
+                        <tr>
+                            <td align="left" colspan="1" rowspan="1" valign="top">BUSCO
+                                <xref ref-type="other" rid="tf1">*</xref> genome score</td>
+                            <td align="left" colspan="1" rowspan="1" valign="top">C:99.0%[S:98.8%,D:0.2%],F:0.3%,M:0.7%,n:5286</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table-wrap-foot>
+                    <fn>
+                        <p id="tf1">*BUSCO scores based on the lepidoptera_odb10 BUSCO set using v5.1.2. C= complete [S= single copy, D=duplicated], F=fragmented, M=missing, n=number of orthologues in comparison. A full set of BUSCO scores is available at 
+                            <ext-link ext-link-type="uri"
+                               xlink:href="https://blobtoolkit.genomehubs.org/view/ilAbrTrip1.1/dataset/CAJPHX01/busco">https://blobtoolkit.genomehubs.org/view/ilAbrTrip1.1/dataset/CAJPHX01/busco</ext-link>.</p>
+                    </fn>
+                </table-wrap-foot>
+            </table-wrap>
+            <fig fig-type="figure" id="f2" orientation="portrait" position="float">
+                <label>Figure 2. </label>
+                <caption>
+                    <title>Genome assembly of 
+                        <italic toggle="yes">Abrostola tripartita</italic>, ilAbrTrip1.1: metrics.</title>
+                    <p>The BlobToolKit Snailplot shows N50 metrics and BUSCO gene completeness. The main plot is divided into 1,000 size-ordered bins around the circumference with each bin representing 0.1% of the 381,057,457 bp assembly. The distribution of chromosome lengths is shown in dark grey with the plot radius scaled to the longest chromosome present in the assembly (20,963,991 bp, shown in red). Orange and pale-orange arcs show the N50 and N90 chromosome lengths (13,645,312 and 8,916,110 bp), respectively. The pale grey spiral shows the cumulative chromosome count on a log scale with white scale lines showing successive orders of magnitude. The blue and pale-blue area around the outside of the plot shows the distribution of GC, AT and N percentages in the same bins as the inner plot. A summary of complete, fragmented, duplicated and missing BUSCO genes in the lepidoptera_odb10 set is shown in the top right. An interactive version of this figure is available at 
+                        <ext-link ext-link-type="uri"
+                            xlink:href="https://blobtoolkit.genomehubs.org/view/ilAbrTrip1.1/dataset/CAJPHX01/snail">https://blobtoolkit.genomehubs.org/view/ilAbrTrip1.1/dataset/CAJPHX01/snail</ext-link>.</p>
+                </caption>
+                <graphic orientation="portrait" position="float"
+                     xlink:href="https://wellcomeopenresearch.s3.eu-west-1.amazonaws.com/manuscripts/19185/8e223020-3dcf-40f8-a3c5-c81d25a1d0a8_figure2.gif"/>
+            </fig>
+            <fig fig-type="figure" id="f3" orientation="portrait" position="float">
+                <label>Figure 3. </label>
+                <caption>
+                    <title>Genome assembly of 
+                        <italic toggle="yes">Abrostola tripartita</italic>, ilAbrTrip1.1: GC coverage.</title>
+                    <p>BlobToolKit GC-coverage plot. Scaffolds are coloured by phylum. Circles are sized in proportion to scaffold length Histograms show the distribution of scaffold length sum along each axis. An interactive version of this figure is available at 
+                        <ext-link ext-link-type="uri"
+                            xlink:href="https://blobtoolkit.genomehubs.org/view/ilAbrTrip1.1/dataset/CAJPHX01/blob">https://blobtoolkit.genomehubs.org/view/ilAbrTrip1.1/dataset/CAJPHX01/blob</ext-link>.</p>
+                </caption>
+                <graphic orientation="portrait" position="float"
+                     xlink:href="https://wellcomeopenresearch.s3.eu-west-1.amazonaws.com/manuscripts/19185/8e223020-3dcf-40f8-a3c5-c81d25a1d0a8_figure3.gif"/>
+            </fig>
+            <fig fig-type="figure" id="f4" orientation="portrait" position="float">
+                <label>Figure 4. </label>
+                <caption>
+                    <title>Genome assembly of 
+                        <italic toggle="yes">Abrostola tripartita</italic>, ilAbrTrip1.1: cumulative sequence.</title>
+                    <p>BlobToolKit cumulative sequence plot. The grey line shows cumulative length for all scaffolds. Coloured lines show cumulative lengths of scaffolds assigned to each phylum using the buscogenes taxrule. An interactive version of this figure is available at 
+                        <ext-link ext-link-type="uri"
+                            xlink:href="https://blobtoolkit.genomehubs.org/view/ilAbrTrip1.1/dataset/CAJPHX01/cumulative">https://blobtoolkit.genomehubs.org/view/ilAbrTrip1.1/dataset/CAJPHX01/cumulative</ext-link>.</p>
+                </caption>
+                <graphic orientation="portrait" position="float"
+                     xlink:href="https://wellcomeopenresearch.s3.eu-west-1.amazonaws.com/manuscripts/19185/8e223020-3dcf-40f8-a3c5-c81d25a1d0a8_figure4.gif"/>
+            </fig>
+            <fig fig-type="figure" id="f5" orientation="portrait" position="float">
+                <label>Figure 5. </label>
+                <caption>
+                    <title>Genome assembly of 
+                        <italic toggle="yes">Abrostola tripartita</italic>, ilAbrTrip1.1: Hi-C contact map.</title>
+                    <p>Hi-C contact map of the ilAbrTrip1.1 assembly, visualised in HiGlass.</p>
+                </caption>
+                <graphic orientation="portrait" position="float"
+                     xlink:href="https://wellcomeopenresearch.s3.eu-west-1.amazonaws.com/manuscripts/19185/8e223020-3dcf-40f8-a3c5-c81d25a1d0a8_figure5.gif"/>
+            </fig>
+            <table-wrap id="T2" orientation="portrait" position="anchor">
+                <label>Table 2. </label>
+                <caption>
+                    <title>Chromosomal pseudomolecules in the genome assembly of 
+                        <italic toggle="yes">Abrostola tripartita</italic>, ilAbrTrip1.1.</title>
+                </caption>
+                <table content-type="article-table" frame="hsides">
+                    <thead>
+                        <tr>
+                            <th align="center" colspan="1" rowspan="1" valign="top">INSDC accession</th>
+                            <th align="center" colspan="1" rowspan="1" valign="top">Chromosome</th>
+                            <th align="center" colspan="1" rowspan="1" valign="top">Size (Mb)</th>
+                            <th align="center" colspan="1" rowspan="1" valign="top">GC%</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td align="center" colspan="1" rowspan="1" valign="top">HG996487.1</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">1</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">15.98</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">36.7</td>
+                        </tr>
+                        <tr>
+                            <td align="center" colspan="1" rowspan="1" valign="top">HG996488.1</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">2</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">15.59</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">36.8</td>
+                        </tr>
+                        <tr>
+                            <td align="center" colspan="1" rowspan="1" valign="top">HG996489.1</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">3</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">15.22</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">37</td>
+                        </tr>
+                        <tr>
+                            <td align="center" colspan="1" rowspan="1" valign="top">HG996490.1</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">4</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">15.13</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">36.7</td>
+                        </tr>
+                        <tr>
+                            <td align="center" colspan="1" rowspan="1" valign="top">HG996491.1</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">5</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">14.91</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">36.8</td>
+                        </tr>
+                        <tr>
+                            <td align="center" colspan="1" rowspan="1" valign="top">HG996492.1</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">6</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">14.74</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">36.3</td>
+                        </tr>
+                        <tr>
+                            <td align="center" colspan="1" rowspan="1" valign="top">HG996493.1</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">7</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">14.47</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">36.5</td>
+                        </tr>
+                        <tr>
+                            <td align="center" colspan="1" rowspan="1" valign="top">HG996494.1</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">8</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">14.45</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">36.3</td>
+                        </tr>
+                        <tr>
+                            <td align="center" colspan="1" rowspan="1" valign="top">HG996495.1</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">9</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">14.04</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">36.6</td>
+                        </tr>
+                        <tr>
+                            <td align="center" colspan="1" rowspan="1" valign="top">HG996496.1</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">10</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">13.84</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">36.3</td>
+                        </tr>
+                        <tr>
+                            <td align="center" colspan="1" rowspan="1" valign="top">HG996497.1</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">11</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">13.71</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">36.7</td>
+                        </tr>
+                        <tr>
+                            <td align="center" colspan="1" rowspan="1" valign="top">HG996498.1</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">12</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">13.65</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">36.3</td>
+                        </tr>
+                        <tr>
+                            <td align="center" colspan="1" rowspan="1" valign="top">HG996499.1</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">13</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">13.10</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">36.7</td>
+                        </tr>
+                        <tr>
+                            <td align="center" colspan="1" rowspan="1" valign="top">HG996500.1</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">14</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">12.99</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">36.7</td>
+                        </tr>
+                        <tr>
+                            <td align="center" colspan="1" rowspan="1" valign="top">HG996501.1</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">15</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">12.52</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">36.5</td>
+                        </tr>
+                        <tr>
+                            <td align="center" colspan="1" rowspan="1" valign="top">HG996502.1</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">16</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">12.52</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">36.9</td>
+                        </tr>
+                        <tr>
+                            <td align="center" colspan="1" rowspan="1" valign="top">HG996503.1</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">17</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">12.43</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">37.2</td>
+                        </tr>
+                        <tr>
+                            <td align="center" colspan="1" rowspan="1" valign="top">HG996504.1</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">18</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">12.03</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">37.2</td>
+                        </tr>
+                        <tr>
+                            <td align="center" colspan="1" rowspan="1" valign="top">HG996505.1</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">19</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">11.91</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">37.5</td>
+                        </tr>
+                        <tr>
+                            <td align="center" colspan="1" rowspan="1" valign="top">HG996506.1</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">20</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">11.64</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">37.1</td>
+                        </tr>
+                        <tr>
+                            <td align="center" colspan="1" rowspan="1" valign="top">HG996507.1</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">21</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">11.29</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">37.3</td>
+                        </tr>
+                        <tr>
+                            <td align="center" colspan="1" rowspan="1" valign="top">HG996508.1</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">22</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">10.01</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">37.4</td>
+                        </tr>
+                        <tr>
+                            <td align="center" colspan="1" rowspan="1" valign="top">HG996509.1</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">23</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">9.94</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">37.8</td>
+                        </tr>
+                        <tr>
+                            <td align="center" colspan="1" rowspan="1" valign="top">HG996510.1</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">24</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">9.43</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">37.3</td>
+                        </tr>
+                        <tr>
+                            <td align="center" colspan="1" rowspan="1" valign="top">HG996511.1</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">25</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">8.92</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">37.2</td>
+                        </tr>
+                        <tr>
+                            <td align="center" colspan="1" rowspan="1" valign="top">HG996512.1</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">26</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">8.52</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">37.5</td>
+                        </tr>
+                        <tr>
+                            <td align="center" colspan="1" rowspan="1" valign="top">HG996513.1</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">27</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">7.37</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">40.5</td>
+                        </tr>
+                        <tr>
+                            <td align="center" colspan="1" rowspan="1" valign="top">HG996514.1</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">28</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">7.24</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">38.7</td>
+                        </tr>
+                        <tr>
+                            <td align="center" colspan="1" rowspan="1" valign="top">HG996515.1</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">29</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">6.58</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">39.5</td>
+                        </tr>
+                        <tr>
+                            <td align="center" colspan="1" rowspan="1" valign="top">HG996516.1</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">30</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">5.91</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">39.2</td>
+                        </tr>
+                        <tr>
+                            <td align="center" colspan="1" rowspan="1" valign="top">HG996486.1</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">Z</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">20.96</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">36.4</td>
+                        </tr>
+                        <tr>
+                            <td align="center" colspan="1" rowspan="1" valign="top">HG996517.1</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">MT</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">0.02</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">19.9</td>
+                        </tr>
+                        <tr>
+                            <td align="center" colspan="1" rowspan="1" valign="top">-</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">Unplaced</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">0.03</td>
+                            <td align="center" colspan="1" rowspan="1" valign="top">38.5</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </table-wrap>
+        </sec>
+        <sec sec-type="methods">
+            <title>Methods</title>
+            <p>A single male 
+                <italic toggle="yes">A. tripartita</italic> (ilAbrTrip1) was collected from Wytham Woods, Oxfordshire (biological vice-county: Berkshire), UK (latitude 51.769, longitude -1.339) by Douglas Boyes, UKCEH, using a light trap. The sample was identified by the same individual, and preserved on dry ice.</p>
+            <p>DNA was extracted at the Tree of Life laboratory, Wellcome Sanger Institute. The ilAbrTrip1 sample was weighed and dissected on dry ice with tissue set aside for Hi-C and RNA sequencing. Thorax tissue was cryogenically disrupted to a fine powder using a Covaris cryoPREP Automated Dry Pulveriser, receiving multiple impacts. Fragment size analysis of 0.01-0.5 ng of DNA was then performed using an Agilent FemtoPulse. High molecular weight (HMW) DNA was extracted using the Qiagen MagAttract HMW DNA extraction kit. Low molecular weight DNA was removed from a 200-ng aliquot of extracted DNA using 0.8X AMpure XP purification kit prior to 10X Chromium sequencing; a minimum of 50 ng DNA was submitted for 10X sequencing. HMW DNA was sheared into an average fragment size between 12&#x2013;20 kb in a Megaruptor 3 system with speed setting 30. Sheared DNA was purified by solid-phase reversible immobilisation using AMPure PB beads with a 1.8X ratio of beads to sample to remove the shorter fragments and concentrate the DNA sample. The concentration of the sheared and purified DNA was assessed using a Nanodrop spectrophotometer and Qubit Fluorometer and Qubit dsDNA High Sensitivity Assay kit. Fragment size distribution was evaluated by running the sample on the FemtoPulse system.</p>
+            <p>RNA was extracted from abdomen tissue in the Tree of Life Laboratory at the WSI using TRIzol (Invitrogen), according to the manufacturer&#x2019;s instructions. RNA was then eluted in 50 &#x03bc;l RNAse-free water and its concentration assessed using a Nanodrop spectrophotometer and Qubit Fluorometer using the Qubit RNA Broad-Range (BR) Assay kit. Analysis of the integrity of the RNA was done using Agilent RNA 6000 Pico Kit and Eukaryotic Total RNA assay.</p>
+            <sec>
+                <title>Sequencing</title>
+                <p>Pacific Biosciences HiFi circular consensus and 10X Genomics Chromium read cloud sequencing libraries were constructed according to the manufacturers&#x2019; instructions. Poly(A) RNA-Seq libraries were constructed using the NEB Ultra II RNA Library Prep kit. Sequencing was performed by the Scientific Operations core at the Wellcome Sanger Institute on Pacific Biosciences SEQUEL II (HiFi), Illumina HiSeq X (10X) and Illumina HiSeq 4000 (RNA-Seq) instruments. Hi-C data were generated from head tissue using the Arima Hi-C+ kit and sequenced on HiSeq X.</p>
+            </sec>
+            <sec>
+                <title>Genome assembly</title>
+                <p>Assembly was carried out with Hifiasm (
+                    <xref ref-type="bibr" rid="ref-2">Cheng 
+                        <italic toggle="yes">et al.</italic>, 2021</xref>); haplotypic duplication was identified and removed with purge_dups (
+                    <xref ref-type="bibr" rid="ref-6">Guan 
+                        <italic toggle="yes">et al.</italic>, 2020</xref>). One round of polishing was performed by aligning 10X Genomics read data to the assembly with longranger align, calling variants with freebayes (
+                    <xref ref-type="bibr" rid="ref-4">Garrison &amp; Marth, 2012</xref>). The assembly was then scaffolded with Hi-C data (
+                    <xref ref-type="bibr" rid="ref-10">Rao 
+                        <italic toggle="yes">et al.</italic>, 2014</xref>) using SALSA2 (
+                    <xref ref-type="bibr" rid="ref-5">Ghurye 
+                        <italic toggle="yes">et al.</italic>, 2019</xref>). The assembly was checked for contamination and corrected using the gEVAL system (
+                    <xref ref-type="bibr" rid="ref-3">Chow 
+                        <italic toggle="yes">et al.</italic>, 2016</xref>) as described previously (
+                    <xref ref-type="bibr" rid="ref-7">Howe 
+                        <italic toggle="yes">et al.</italic>, 2021</xref>). Manual curation (
+                    <xref ref-type="bibr" rid="ref-7">Howe 
+                        <italic toggle="yes">et al.</italic>, 2021</xref>) was performed using gEVAL, HiGlass (
+                    <xref ref-type="bibr" rid="ref-8">Kerpedjiev 
+                        <italic toggle="yes">et al.</italic>, 2018</xref>) and 
+                    <ext-link ext-link-type="uri" xlink:href="https://github.com/wtsi-hpag/PretextView">Pretext</ext-link>. The mitochondrial genome was assembled using MitoHiFi (
+                    <xref ref-type="bibr" rid="ref-12">Uliano-Silva 
+                        <italic toggle="yes">et al.</italic>, 2021</xref>). The genome was analysed and BUSCO scores generated within the BlobToolKit environment (
+                    <xref ref-type="bibr" rid="ref-1">Challis 
+                        <italic toggle="yes">et al.</italic>, 2020</xref>). 
+                    <xref ref-type="table" rid="T3">Table 3</xref> contains a list of all software tool versions used, where appropriate.</p>
+                <table-wrap id="T3" orientation="portrait" position="anchor">
+                    <label>Table 3. </label>
+                    <caption>
+                        <title>Software tools used.</title>
+                    </caption>
+                    <table content-type="article-table" frame="hsides">
+                        <thead>
+                            <tr>
+                                <th align="left" colspan="1" rowspan="1" valign="top">Software tool</th>
+                                <th align="left" colspan="1" rowspan="1" valign="top">Version</th>
+                                <th align="left" colspan="1" rowspan="1" valign="top">Source</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td align="left" colspan="1" rowspan="1" valign="top">Hifiasm</td>
+                                <td align="left" colspan="1" rowspan="1" valign="top">0.142</td>
+                                <td align="left" colspan="1" rowspan="1" valign="top">
+                                    <xref ref-type="bibr" rid="ref-2">Cheng 
+                                        <italic toggle="yes">et al.</italic>, 2021</xref>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="left" colspan="1" rowspan="1" valign="top">purge_dups</td>
+                                <td align="left" colspan="1" rowspan="1" valign="top">1.2.3</td>
+                                <td align="left" colspan="1" rowspan="1" valign="top">
+                                    <xref ref-type="bibr" rid="ref-6">Guan 
+                                        <italic toggle="yes">et al.</italic>, 2020</xref>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="left" colspan="1" rowspan="1" valign="top">SALSA2</td>
+                                <td align="left" colspan="1" rowspan="1" valign="top">2.2</td>
+                                <td align="left" colspan="1" rowspan="1" valign="top">
+                                    <xref ref-type="bibr" rid="ref-5">Ghurye 
+                                        <italic toggle="yes">et al.</italic>, 2019</xref>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="left" colspan="1" rowspan="1" valign="top">longranger align</td>
+                                <td align="left" colspan="1" rowspan="1" valign="top">2.2.2</td>
+                                <td align="left" colspan="1" rowspan="1" valign="top">
+                                    <ext-link ext-link-type="uri"
+                                     xlink:href="https://support.10xgenomics.com/genome-exome/software/pipelines/latest/advanced/other-pipelines">https://support.10xgenomics.com/genome-exome/software/pipelines/latest/advanced/other-pipelines</ext-link> 
+                        </td>
+                            </tr>
+                            <tr>
+                                <td align="left" colspan="1" rowspan="1" valign="top">freebayes</td>
+                                <td align="left" colspan="1" rowspan="1" valign="top">1.3.1-17-gaa2ace8</td>
+                                <td align="left" colspan="1" rowspan="1" valign="top">
+                                    <xref ref-type="bibr" rid="ref-4">Garrison &amp; Marth, 2012</xref>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="left" colspan="1" rowspan="1" valign="top">MitoHiFi</td>
+                                <td align="left" colspan="1" rowspan="1" valign="top">1.0</td>
+                                <td align="left" colspan="1" rowspan="1" valign="top">
+                                    <xref ref-type="bibr" rid="ref-12">Uliano-Silva 
+                                        <italic toggle="yes">et al.</italic>, 2021</xref>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="left" colspan="1" rowspan="1" valign="top">gEVAL</td>
+                                <td align="left" colspan="1" rowspan="1" valign="top">N/A</td>
+                                <td align="left" colspan="1" rowspan="1" valign="top">
+                                    <xref ref-type="bibr" rid="ref-3">Chow 
+                                        <italic toggle="yes">et al.</italic>, 2016</xref>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="left" colspan="1" rowspan="1" valign="top">HiGlass</td>
+                                <td align="left" colspan="1" rowspan="1" valign="top">1.11.6</td>
+                                <td align="left" colspan="1" rowspan="1" valign="top">
+                                    <xref ref-type="bibr" rid="ref-8">Kerpedjiev 
+                                        <italic toggle="yes">et al.</italic>, 2018</xref>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="left" colspan="1" rowspan="1" valign="top">PretextView</td>
+                                <td align="left" colspan="1" rowspan="1" valign="top">0.1.x</td>
+                                <td align="left" colspan="1" rowspan="1" valign="top">
+                                    <ext-link ext-link-type="uri" xlink:href="https://github.com/wtsi-hpag/PretextView">https://github.com/wtsi-hpag/PretextView</ext-link> 
+                        </td>
+                            </tr>
+                            <tr>
+                                <td align="left" colspan="1" rowspan="1" valign="top">BlobToolKit</td>
+                                <td align="left" colspan="1" rowspan="1" valign="top">2.6.2</td>
+                                <td align="left" colspan="1" rowspan="1" valign="top">
+                                    <xref ref-type="bibr" rid="ref-1">Challis 
+                                        <italic toggle="yes">et al.</italic>, 2020</xref>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </table-wrap>
+            </sec>
+        </sec>
+        <sec>
+            <title>Ethics/compliance issues</title>
+            <p>The materials that have contributed to this genome note have been supplied by a Darwin Tree of Life Partner. The submission of materials by a Darwin Tree of Life Partner is subject to the 
+                <ext-link ext-link-type="uri"
+                      xlink:href="https://www.darwintreeoflife.org/wp-content/uploads/2021/03/DToL-Sampling-Code-of-Practice.pdf">Darwin Tree of Life Project Sampling Code of Practice</ext-link>. By agreeing with and signing up to the Sampling Code of Practice, the Darwin Tree of Life Partner agrees they will meet the legal and ethical requirements and standards set out within this document in respect of all samples acquired for, and supplied to, the Darwin Tree of Life Project. Each transfer of samples is further undertaken according to a Research Collaboration Agreement or Material Transfer Agreement entered into by the Darwin Tree of Life Partner, Genome Research Limited (operating as the Wellcome Sanger Institute), and in some circumstances other Darwin Tree of Life collaborators.</p>
+        </sec>
+        <sec>
+            <title>Data availability</title>
+            <p>European Nucleotide Archive: Abrostola tripartita (the spectacle). Accession number 
+                <ext-link ext-link-type="uri"
+                      xlink:href="https://www.ebi.ac.uk/ena/browser/view/PRJEB43740">PRJEB43740</ext-link>; 
+                <ext-link ext-link-type="uri" xlink:href="https://identifiers.org/ena.embl/PRJEB43740">https://identifiers.org/ena.embl/PRJEB43740</ext-link>.</p>
+            <p>The genome sequence is released openly for reuse. The 
+                <italic toggle="yes">A. tripartita</italic> genome sequencing initiative is part of the 
+                <ext-link ext-link-type="uri" xlink:href="https://www.darwintreeoflife.org/">Darwin Tree of Life</ext-link> (DToL) project. All raw sequence data and the assembly have been deposited in INSDC databases. The genome will be annotated using the RNA-Seq data and presented through the 
+                <ext-link ext-link-type="uri" xlink:href="https://www.ensembl.org/">Ensembl</ext-link> pipeline at the European Bioinformatics Institute. Raw data and assembly accession identifiers are reported in 
+                <xref ref-type="table" rid="T1">Table 1</xref>.</p>
+        </sec>
+    </body>
+    <back>
+        <sec>
+            <title>Author information</title>
+            <p>Members of the University of Oxford and Wytham Woods Genome Acquisition Lab are listed here: 
+                <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5281/zenodo.4789929">https://doi.org/10.5281/zenodo.4789929</ext-link>.</p>
+            <p>Members of the Darwin Tree of Life Barcoding collective are listed here: 
+                <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5281/zenodo.4893704">https://doi.org/10.5281/zenodo.4893704</ext-link>.</p>
+            <p>Members of the Wellcome Sanger Institute Tree of Life programme collective are listed here: 
+                <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5281/zenodo.5377053">https://doi.org/10.5281/zenodo.5377053</ext-link>.</p>
+            <p>Members of Wellcome Sanger Institute Scientific Operations: DNA Pipelines collective are listed here: 
+                <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5281/zenodo.4790456">https://doi.org/10.5281/zenodo.4790456</ext-link>.</p>
+            <p>Members of the Tree of Life Core Informatics collective are listed here: 
+                <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5281/zenodo.5013542">https://doi.org/10.5281/zenodo.5013542</ext-link>.</p>
+            <p>Members of the Darwin Tree of Life Consortium are listed here: 
+                <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5281/zenodo.4783559">https://doi.org/10.5281/zenodo.4783559</ext-link>.</p>
+        </sec>
+        <ref-list>
+            <ref id="ref-1">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name name-style="western">
+                            <surname>Challis</surname>
+                            <given-names>R</given-names>
+                        </name>
+
+                        <name name-style="western">
+                            <surname>Richards</surname>
+                            <given-names>E</given-names>
+                        </name>
+
+                        <name name-style="western">
+                            <surname>Rajan</surname>
+                            <given-names>J</given-names>
+                        </name>
+
+                        <etal/>
+               </person-group>:
+                    <article-title>BlobToolKit - Interactive Quality Assessment of Genome Assemblies.</article-title>
+                    <source>
+
+                        <italic toggle="yes">G3 (Bethesda).</italic>
+               </source>
+               <year>2020</year>;<volume>10</volume>(<issue>4</issue>):<fpage>1361</fpage>&#x2013;<lpage>74</lpage>.
+                    <pub-id pub-id-type="pmid">32071071</pub-id>
+                    <pub-id pub-id-type="doi">10.1534/g3.119.400908</pub-id>
+                    <pub-id pub-id-type="pmcid">7144090</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-2">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name name-style="western">
+                            <surname>Cheng</surname>
+                            <given-names>H</given-names>
+                        </name>
+
+                        <name name-style="western">
+                            <surname>Concepcion</surname>
+                            <given-names>GT</given-names>
+                        </name>
+
+                        <name name-style="western">
+                            <surname>Feng</surname>
+                            <given-names>X</given-names>
+                        </name>
+
+                        <etal/>
+               </person-group>:
+                    <article-title>Haplotype-Resolved 
+                        <italic toggle="yes">de Novo</italic> Assembly Using Phased Assembly Graphs with Hifiasm.</article-title>
+                    <source>
+
+                        <italic toggle="yes">Nat Methods.</italic>
+               </source>
+               <year>2021</year>;<volume>18</volume>(<issue>2</issue>):<fpage>170</fpage>&#x2013;<lpage>75</lpage>.
+                    <pub-id pub-id-type="pmid">33526886</pub-id>
+                    <pub-id pub-id-type="doi">10.1038/s41592-020-01056-5</pub-id>
+                    <pub-id pub-id-type="pmcid">7961889</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-3">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name name-style="western">
+                            <surname>Chow</surname>
+                            <given-names>W</given-names>
+                        </name>
+
+                        <name name-style="western">
+                            <surname>Brugger</surname>
+                            <given-names>K</given-names>
+                        </name>
+
+                        <name name-style="western">
+                            <surname>Caccamo</surname>
+                            <given-names>M</given-names>
+                        </name>
+
+                        <etal/>
+               </person-group>:
+                    <article-title>gEVAL - a web-based browser for evaluating genome assemblies.</article-title>
+                    <source>
+
+                        <italic toggle="yes">Bioinformatics.</italic>
+               </source>
+               <year>2016</year>;<volume>32</volume>(<issue>16</issue>):<fpage>2508</fpage>&#x2013;<lpage>10</lpage>.
+                    <pub-id pub-id-type="pmid">27153597</pub-id>
+                    <pub-id pub-id-type="doi">10.1093/bioinformatics/btw159</pub-id>
+                    <pub-id pub-id-type="pmcid">4978925</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-4">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name name-style="western">
+                            <surname>Garrison</surname>
+                            <given-names>E</given-names>
+                        </name>
+
+                        <name name-style="western">
+                            <surname>Marth</surname>
+                            <given-names>G</given-names>
+                        </name>
+               </person-group>:
+                    <article-title>Haplotype-Based Variant Detection from Short-Read Sequencing</article-title>. arXiv: 1207.3907.<year> 2012</year>.
+                    <ext-link ext-link-type="uri" xlink:href="https://arxiv.org/abs/1207.3907v2">Reference Source</ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-5">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name name-style="western">
+                            <surname>Ghurye</surname>
+                            <given-names>J</given-names>
+                        </name>
+
+                        <name name-style="western">
+                            <surname>Rhie</surname>
+                            <given-names>A</given-names>
+                        </name>
+
+                        <name name-style="western">
+                            <surname>Walenz</surname>
+                            <given-names>BP</given-names>
+                        </name>
+
+                        <etal/>
+               </person-group>:
+                    <article-title>Integrating Hi-C Links with Assembly Graphs for Chromosome-Scale Assembly.</article-title>
+                    <source>
+
+                        <italic toggle="yes">PLoS Comput Biol.</italic>
+               </source>
+               <year>2019</year>;<volume>15</volume>(<issue>8</issue>):<fpage>e1007273</fpage>.
+                    <pub-id pub-id-type="pmid">31433799</pub-id>
+                    <pub-id pub-id-type="doi">10.1371/journal.pcbi.1007273</pub-id>
+                    <pub-id pub-id-type="pmcid">6719893</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-6">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name name-style="western">
+                            <surname>Guan</surname>
+                            <given-names>D</given-names>
+                        </name>
+
+                        <name name-style="western">
+                            <surname>McCarthy</surname>
+                            <given-names>SA</given-names>
+                        </name>
+
+                        <name name-style="western">
+                            <surname>Wood</surname>
+                            <given-names>J</given-names>
+                        </name>
+
+                        <etal/>
+               </person-group>:
+                    <article-title>Identifying and Removing Haplotypic Duplication in Primary Genome Assemblies.</article-title>
+                    <source>
+
+                        <italic toggle="yes">Bioinformatics.</italic>
+               </source>
+               <year>2020</year>;<volume>36</volume>(<issue>9</issue>):<fpage>2896</fpage>&#x2013;<lpage>98</lpage>.
+                    <pub-id pub-id-type="pmid">31971576</pub-id>
+                    <pub-id pub-id-type="doi">10.1093/bioinformatics/btaa025</pub-id>
+                    <pub-id pub-id-type="pmcid">7203741</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-7">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name name-style="western">
+                            <surname>Howe</surname>
+                            <given-names>K</given-names>
+                        </name>
+
+                        <name name-style="western">
+                            <surname>Chow</surname>
+                            <given-names>W</given-names>
+                        </name>
+
+                        <name name-style="western">
+                            <surname>Collins</surname>
+                            <given-names>J</given-names>
+                        </name>
+
+                        <etal/>
+               </person-group>:
+                    <article-title>Significantly Improving the Quality of Genome Assemblies through Curation.</article-title>
+                    <source>
+
+                        <italic toggle="yes">Gigascience.</italic>
+               </source>
+               <year>2021</year>;<volume>10</volume>(<issue>1</issue>):<fpage>giaa153</fpage>.
+                    <pub-id pub-id-type="pmid">33420778</pub-id>
+                    <pub-id pub-id-type="doi">10.1093/gigascience/giaa153</pub-id>
+                    <pub-id pub-id-type="pmcid">7794651</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-8">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name name-style="western">
+                            <surname>Kerpedjiev</surname>
+                            <given-names>P</given-names>
+                        </name>
+
+                        <name name-style="western">
+                            <surname>Abdennur</surname>
+                            <given-names>N</given-names>
+                        </name>
+
+                        <name name-style="western">
+                            <surname>Lekschas</surname>
+                            <given-names>F</given-names>
+                        </name>
+
+                        <etal/>
+               </person-group>:
+                    <article-title>HiGlass: Web-Based Visual Exploration and Analysis of Genome Interaction Maps.</article-title>
+                    <source>
+
+                        <italic toggle="yes">Genome Biol.</italic>
+               </source>
+               <year>2018</year>;<volume>19</volume>(<issue>1</issue>):<fpage>125</fpage>.
+                    <pub-id pub-id-type="pmid">30143029</pub-id>
+                    <pub-id pub-id-type="doi">10.1186/s13059-018-1486-1</pub-id>
+                    <pub-id pub-id-type="pmcid">6109259</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-9">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name name-style="western">
+                            <surname>Manni</surname>
+                            <given-names>M</given-names>
+                        </name>
+
+                        <name name-style="western">
+                            <surname>Berkeley</surname>
+                            <given-names>MR</given-names>
+                        </name>
+
+                        <name name-style="western">
+                            <surname>Seppey</surname>
+                            <given-names>M</given-names>
+                        </name>
+
+                        <etal/>
+               </person-group>:
+                    <article-title>BUSCO Update: Novel and Streamlined Workflows along with Broader and Deeper Phylogenetic Coverage for Scoring of Eukaryotic, Prokaryotic, and Viral Genomes.</article-title>
+                    <source>
+
+                        <italic toggle="yes">Mol Biol Evol.</italic>
+               </source>
+               <year>2021</year>;<volume>38</volume>(<issue>10</issue>):<fpage>4647</fpage>&#x2013;<lpage>54</lpage>.
+                    <pub-id pub-id-type="pmid">34320186</pub-id>
+                    <pub-id pub-id-type="doi">10.1093/molbev/msab199</pub-id>
+                    <pub-id pub-id-type="pmcid">8476166</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-10">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name name-style="western">
+                            <surname>Rao</surname>
+                            <given-names>SSP</given-names>
+                        </name>
+
+                        <name name-style="western">
+                            <surname>Huntley</surname>
+                            <given-names>MH</given-names>
+                        </name>
+
+                        <name name-style="western">
+                            <surname>Durand</surname>
+                            <given-names>NC</given-names>
+                        </name>
+
+                        <etal/>
+               </person-group>:
+                    <article-title>A 3D Map of the Human Genome at Kilobase Resolution Reveals Principles of Chromatin Looping.</article-title>
+                    <source>
+
+                        <italic toggle="yes">Cell.</italic>
+               </source>
+               <year>2014</year>;<volume>159</volume>(<issue>7</issue>):<fpage>1665</fpage>&#x2013;<lpage>80</lpage>.
+                    <pub-id pub-id-type="pmid">25497547</pub-id>
+                    <pub-id pub-id-type="doi">10.1016/j.cell.2014.11.021</pub-id>
+                    <pub-id pub-id-type="pmcid">5635824</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-11">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name name-style="western">
+                            <surname>Sterling</surname>
+                            <given-names>P</given-names>
+                        </name>
+
+                        <name name-style="western">
+                            <surname>Henwood</surname>
+                            <given-names>B</given-names>
+                        </name>
+               </person-group>:
+                    <article-title>Field Guide to the Caterpillars of Great Britain and Ireland.</article-title>Bloomsbury Publishing.<year> 2020</year>.
+                    <ext-link ext-link-type="uri"
+                         xlink:href="https://www.bloomsbury.com/uk/field-guide-to-the-caterpillars-of-great-britain-and-ireland-9781472933560/">Reference Source</ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-12">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name name-style="western">
+                            <surname>Uliano-Silva</surname>
+                            <given-names>M</given-names>
+                        </name>
+
+                        <name name-style="western">
+                            <surname>Nunes</surname>
+                            <given-names>JGF</given-names>
+                        </name>
+
+                        <name name-style="western">
+                            <surname>Krasheninnikova</surname>
+                            <given-names>K</given-names>
+                        </name>
+
+                        <etal/>
+               </person-group>:
+                    <article-title>marcelauliano/MitoHiFi: mitohifi_v2.0.</article-title>
+               <year> 2021</year>.
+                    <pub-id pub-id-type="doi">10.5281/zenodo.5205678</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-13">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name name-style="western">
+                            <surname>Waring</surname>
+                            <given-names>P</given-names>
+                        </name>
+
+                        <name name-style="western">
+                            <surname>Townsend</surname>
+                            <given-names>M</given-names>
+                        </name>
+
+                        <name name-style="western">
+                            <surname>Lewington</surname>
+                            <given-names>R</given-names>
+                        </name>
+               </person-group>:
+                    <article-title>Field Guide to the Moths of Great Britain and Ireland.</article-title>British Wildlife Publishing, Hampshire.<year> 2003</year>.
+                    <ext-link ext-link-type="uri"
+                         xlink:href="https://www.abebooks.co.uk/servlet/BookDetailsPL?bi=30982846710&amp;searchurl=an=waring+paul+townsend+martin&amp;sortby=17&amp;tn=field+guide=to+the+moths+of+great+britain+and+ireland&amp;cm_sp=snippet-_-srp1-_-title2">Reference Source</ext-link>
+                </mixed-citation>
+            </ref>
+        </ref-list>
+    </back>
+    <sub-article article-type="reviewer-report" id="report47467">
+        <front-stub>
+            <article-id pub-id-type="doi">10.21956/wellcomeopenres.19185.r47467</article-id>
+            <title-group>
+                <article-title>Reviewer response for version 1</article-title>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Rao</surname>
+                        <given-names>Uma</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="r47467a1">1</xref>
+                    <role>Referee</role>
+                </contrib>
+                <aff id="r47467a1">
+                    <label>1</label>Division of Nematology, ICAR- Indian Agricultural Research Institute, New Delhi, Delhi, India</aff>
+            </contrib-group>
+            <author-notes>
+                <fn fn-type="conflict">
+                    <p>
+                        <bold>Competing interests: </bold>No competing interests were disclosed.</p>
+                </fn>
+            </author-notes>
+            <pub-date pub-type="epub">
+                <day>25</day>
+                <month>1</month>
+            <year>2022</year>
+            </pub-date>
+            <permissions>
+                <copyright-statement>Copyright: &#x00a9; 2022 Rao U</copyright-statement>
+                <copyright-year>2022</copyright-year>
+                <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                    <license-p>This is an open access peer review report distributed under the terms of the Creative Commons Attribution Licence, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+                </license>
+            </permissions>
+            <related-article ext-link-type="doi" id="relatedArticleReport47467"
+                          related-article-type="peer-reviewed-article"
+                          xlink:href="10.12688/wellcomeopenres.17355.1"/>
+            <custom-meta-group>
+                <custom-meta>
+                    <meta-name>recommendation</meta-name>
+                    <meta-value>approve</meta-value>
+                </custom-meta>
+            </custom-meta-group>
+        </front-stub>
+        <body>
+            <p>The paper is an announcement and is written succinctly. All methods are adequate and results are sufficient to explain the findings. It is recommend for indexing with one minor edit:</p>
+            <p> </p>
+            <p> There is one mismatch between data in text and figure.&#x00a0;Table 1 and text report the longest scaffold as 16.0 Mb, whereas figure 2 shows it as 21 Mb, which should be corrected.</p>
+            <p>Are sufficient details of methods and materials provided to allow replication by others?</p>
+            <p>Yes</p>
+            <p>Is the rationale for creating the dataset(s) clearly described?</p>
+            <p>Yes</p>
+            <p>Are the datasets clearly presented in a useable and accessible format?</p>
+            <p>Yes</p>
+            <p>Are the protocols appropriate and is the work technically sound?</p>
+            <p>Yes</p>
+            <p>Reviewer Expertise:</p>
+            <p>Plant nematode interactions, genomics, transgenics</p>
+            <p>I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard.</p>
+        </body>
+    </sub-article>
+    <sub-article article-type="reviewer-report" id="report47462">
+        <front-stub>
+            <article-id pub-id-type="doi">10.21956/wellcomeopenres.19185.r47462</article-id>
+            <title-group>
+                <article-title>Reviewer response for version 1</article-title>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Zhang</surname>
+                        <given-names>Xingtan</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="r47462a1">1</xref>
+                    <role>Referee</role>
+                    <uri content-type="orcid">https://orcid.org/0000-0002-5207-0882</uri>
+                </contrib>
+                <aff id="r47462a1">
+                    <label>1</label>State Key Laboratory of Ecological Pest Control for Fujian and Taiwan Crops, Institute of Applied Ecology, College of Plant Protection, Fujian Agriculture and Forestry University, Fuzhou, China</aff>
+            </contrib-group>
+            <author-notes>
+                <fn fn-type="conflict">
+                    <p>
+                        <bold>Competing interests: </bold>No competing interests were disclosed.</p>
+                </fn>
+            </author-notes>
+            <pub-date pub-type="epub">
+                <day>11</day>
+                <month>1</month>
+            <year>2022</year>
+            </pub-date>
+            <permissions>
+                <copyright-statement>Copyright: &#x00a9; 2022 Zhang X</copyright-statement>
+                <copyright-year>2022</copyright-year>
+                <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                    <license-p>This is an open access peer review report distributed under the terms of the Creative Commons Attribution Licence, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+                </license>
+            </permissions>
+            <related-article ext-link-type="doi" id="relatedArticleReport47462"
+                          related-article-type="peer-reviewed-article"
+                          xlink:href="10.12688/wellcomeopenres.17355.1"/>
+            <custom-meta-group>
+                <custom-meta>
+                    <meta-name>recommendation</meta-name>
+                    <meta-value>approve</meta-value>
+                </custom-meta>
+            </custom-meta-group>
+        </front-stub>
+        <body>
+            <p>The authors provide a high-quality chromosome-scale genome assembly of 
+                <italic>Abrostola tripartita</italic>. I believe these resources will be useful for the community. I only have two comments on this manuscript: 
+                <list list-type="order">
+                    <list-item>
+                        <p>The authors used Arima Hi-C+ kit to construct the Hi-C but provide limited methods. What is the difference between Arima Hi-C and other related Hi-C methods? Similarly, the SALSA scaffolder was used without details. More information should be added.</p>
+                    </list-item>
+                    <list-item>
+                        <p>The quality of genome assembly was only accessed using BUSCO and heatmap. I recommend adding more analysis to valid the genome assembly. For instance, the authors could map sequencing reads to their assembly and check the distribution of coverage along each chromosome.</p>
+                    </list-item>
+                </list>
+            </p>
+            <p>Are sufficient details of methods and materials provided to allow replication by others?</p>
+            <p>Partly</p>
+            <p>Is the rationale for creating the dataset(s) clearly described?</p>
+            <p>Yes</p>
+            <p>Are the datasets clearly presented in a useable and accessible format?</p>
+            <p>Yes</p>
+            <p>Are the protocols appropriate and is the work technically sound?</p>
+            <p>Yes</p>
+            <p>Reviewer Expertise:</p>
+            <p>Genomics</p>
+            <p>I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard.</p>
+        </body>
+    </sub-article>
+    <sub-article article-type="reviewer-report" id="report47465">
+        <front-stub>
+            <article-id pub-id-type="doi">10.21956/wellcomeopenres.19185.r47465</article-id>
+            <title-group>
+                <article-title>Reviewer response for version 1</article-title>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Yang</surname>
+                        <given-names>Youngik</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="r47465a1">1</xref>
+                    <role>Referee</role>
+                    <uri content-type="orcid">https://orcid.org/0000-0003-3219-4471</uri>
+                </contrib>
+                <aff id="r47465a1">
+                    <label>1</label>National Marine Biodiversity Institute of Korea, Janghang-eup, South Korea</aff>
+            </contrib-group>
+            <author-notes>
+                <fn fn-type="conflict">
+                    <p>
+                        <bold>Competing interests: </bold>No competing interests were disclosed.</p>
+                </fn>
+            </author-notes>
+            <pub-date pub-type="epub">
+                <day>5</day>
+                <month>1</month>
+            <year>2022</year>
+            </pub-date>
+            <permissions>
+                <copyright-statement>Copyright: &#x00a9; 2022 Yang Y</copyright-statement>
+                <copyright-year>2022</copyright-year>
+                <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                    <license-p>This is an open access peer review report distributed under the terms of the Creative Commons Attribution Licence, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+                </license>
+            </permissions>
+            <related-article ext-link-type="doi" id="relatedArticleReport47465"
+                          related-article-type="peer-reviewed-article"
+                          xlink:href="10.12688/wellcomeopenres.17355.1"/>
+            <custom-meta-group>
+                <custom-meta>
+                    <meta-name>recommendation</meta-name>
+                    <meta-value>approve</meta-value>
+                </custom-meta>
+            </custom-meta-group>
+        </front-stub>
+        <body>
+            <p>The data note by Boyes 
+                <italic>et al.</italic> presented a high-quality genome assembly of&#x00a0;
+                <italic>Abrostola tripartita</italic>, a grey and white noctuid moth. They applied state-of-the-art sequencing technologies and bioinformatics methods. The resulting assembly contained 32 pseudo-chromosomes and BUSCO was 99%. I believe that this high-quality chromosome-level assembly will be a valuable resource for further studies of this species as well as comparative studies with other species.</p>
+            <p> </p>
+            <p> I have some recommendations for improving the article. 
+                <list list-type="order">
+                    <list-item>
+                        <p>Specimen image would be better to be shown next to the ruler not the FluidX storage.&#x00a0;</p>
+                    </list-item>
+                    <list-item>
+                        <p>Please, provide the exact number of chromosomes and references if available.&#x00a0;</p>
+                    </list-item>
+                    <list-item>
+                        <p>MitoHiFi requires a close-related species for input. Please, provide what it was.&#x00a0;</p>
+                    </list-item>
+                    <list-item>
+                        <p>Figure 2 and 3 are not very informative in my opinion. The information in the figures can be combined in table 2.&#x00a0;</p>
+                    </list-item>
+                </list>
+            </p>
+            <p>Are sufficient details of methods and materials provided to allow replication by others?</p>
+            <p>Yes</p>
+            <p>Is the rationale for creating the dataset(s) clearly described?</p>
+            <p>Yes</p>
+            <p>Are the datasets clearly presented in a useable and accessible format?</p>
+            <p>Yes</p>
+            <p>Are the protocols appropriate and is the work technically sound?</p>
+            <p>Yes</p>
+            <p>Reviewer Expertise:</p>
+            <p>Bioinformatics, Genomics</p>
+            <p>I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard.</p>
+        </body>
+    </sub-article>
+</article>
