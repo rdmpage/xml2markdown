@@ -3,7 +3,45 @@
   <xsl:output method='text' version='1.0' encoding='utf-8'  />
   <xsl:strip-space elements="*"/>
   
-  <!--
+
+<!-- 1) Replace ALL occurrences of one substring with another (XSLT 1.0) -->
+<xsl:template name="replace-all">
+  <xsl:param name="text"/>
+  <xsl:param name="find"/>
+  <xsl:param name="repl"/>
+
+  <xsl:choose>
+    <xsl:when test="contains($text, $find)">
+      <xsl:value-of select="substring-before($text, $find)"/>
+      <xsl:value-of select="$repl"/>
+      <xsl:call-template name="replace-all">
+        <xsl:with-param name="text" select="substring-after($text, $find)"/>
+        <xsl:with-param name="find" select="$find"/>
+        <xsl:with-param name="repl" select="$repl"/>
+      </xsl:call-template>
+    </xsl:when>
+    <xsl:otherwise>
+      <xsl:value-of select="$text"/>
+    </xsl:otherwise>
+  </xsl:choose>
+</xsl:template>
+
+<!-- 2) Encode DOI the way SpringerNature needs: '/' -> %2F (and optionally ':' -> %3A) -->
+<xsl:template name="encode-doi-for-springer">
+  <xsl:param name="doi"/>
+
+  <!-- DOIs normally contain '/', so encode that -->
+  <xsl:call-template name="replace-all">
+    <xsl:with-param name="text" select="$doi"/>
+    <xsl:with-param name="find" select="'/'"/>
+    <xsl:with-param name="repl" select="'%2F'"/>
+  </xsl:call-template>
+</xsl:template>
+
+
+
+  
+<!--
 <xsl:template match="text()">
   <xsl:value-of select="concat('[', ., ']')"/>
 </xsl:template>  
@@ -198,7 +236,7 @@
   <!-- basic elements -->
   <xsl:template match="p">
      <xsl:apply-templates />
-    <xsl:text>&#xa;</xsl:text>
+    <xsl:text>&#xa;&#xa;</xsl:text>
   </xsl:template>
   <xsl:template match="italic">
   <xsl:text> _</xsl:text>
@@ -453,6 +491,7 @@
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
+  
   <!-- figure -->
   <xsl:template match="fig">
     <xsl:text>&#xa;</xsl:text>
@@ -481,6 +520,30 @@
         <xsl:value-of select="concat('PMC', //article-id[@pub-id-type='pmc'], '/', graphic/@xlink:href, '.jpg')" /> 
       </xsl:when>
       
+       <!-- Springer -->
+      <xsl:when test="contains(graphic/@xlink:href, 'MediaObjects')">
+   		<xsl:variable name="doi" select="//article-id[@pub-id-type='doi'][1]"/>
+  		
+		  <xsl:variable name="doiEncoded">
+			<xsl:call-template name="encode-doi-for-springer">
+			  <xsl:with-param name="doi" select="normalize-space($doi)"/>
+			</xsl:call-template>
+		  </xsl:variable>
+				
+			  
+		  <xsl:value-of
+			select="concat(
+			  'https://media.springernature.com/full/springer-static/image/',
+			  'art%3A', string($doiEncoded),
+			  '/',
+			  graphic/@xlink:href
+			)"/>
+   
+
+      </xsl:when>
+ 
+      
+
       <xsl:otherwise>
        <xsl:value-of select="graphic/@xlink:href" />
       </xsl:otherwise>
@@ -490,6 +553,7 @@
     <xsl:apply-templates />
     <xsl:text>&#xa;</xsl:text>
   </xsl:template>
+  
   <!-- references -->
   <xsl:template match="ref-list">
     <xsl:text>## </xsl:text>

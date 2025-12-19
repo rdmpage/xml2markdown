@@ -1,7 +1,13 @@
 <?php
 
-$filename = '2847.xml';
+$filename = 'examples/2847.xml';
 //$filename = 'wellcomeopenres-6-330-v1.xml';
+
+//$filename = 'examples/f1000research-12-1327-v1.xml';
+
+//$filename = 'fmars-09-00955.xml';
+
+$filename = 'examples/kew12225.xml';
 
 // XML
 $xml = new DOMDocument();

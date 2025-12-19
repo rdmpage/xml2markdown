@@ -1,0 +1,1056 @@
+        <article dtd-version="1.2" article-type="research-article" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <front>
+                <journal-meta>
+                    <journal-id journal-id-type="publisher-id">12225</journal-id>
+                    <journal-id journal-id-type="doi">10.1007/12225.1874-933X</journal-id>
+                    <journal-title-group>
+                        <journal-title>Kew Bulletin</journal-title>
+                        <journal-subtitle>Official Journal of the Royal Botanic Gardens, Kew</journal-subtitle>
+                        <abbrev-journal-title abbrev-type="publisher">Kew Bull</abbrev-journal-title>
+                    </journal-title-group>
+                    <issn pub-type="ppub">0075-5974</issn>
+                    <issn pub-type="epub">1874-933X</issn>
+                    <publisher>
+                        <publisher-name>Springer London</publisher-name>
+                        <publisher-loc>London</publisher-loc>
+                    </publisher>
+                </journal-meta>
+                <article-meta>
+                    <article-id pub-id-type="publisher-id">s12225-024-10177-5</article-id>
+                    <article-id pub-id-type="manuscript">10177</article-id>
+                    <article-id pub-id-type="doi">10.1007/s12225-024-10177-5</article-id>
+                    <article-categories>
+                        <subj-group subj-group-type="heading">
+                            <subject>Original Article</subject>
+                        </subj-group>
+                    </article-categories>
+                    <title-group>
+                        <article-title xml:lang="en">
+                            <italic>Clusia salicifolia</italic>
+                             (Clusiaceae), a new hemiepiphyte species from Costa Rica and Panama
+                        </article-title>
+                        <trans-title-group>
+                            <trans-title xml:lang="es">
+                                <italic>Clusia salicifolia</italic>
+                                 (Clusiaceae), una nueva especie hemiepifita de Costa Rica y Panamá
+                            </trans-title>
+                        </trans-title-group>
+                        <alt-title alt-title-type="running-title">
+                            <italic>Clusia salicifolia</italic>
+                             (Clusiaceae), a new hemiepiphyte species from Costa Rica and Panama
+                        </alt-title>
+                        <alt-title alt-title-type="running-author">E. A. Wodcke et al.</alt-title>
+                    </title-group>
+                    <contrib-group>
+                        <contrib contrib-type="author" id="Au1">
+                            <name name-style="western">
+                                <surname>Wodcke</surname>
+                                <given-names>Emma A.</given-names>
+                            </name>
+                            <xref ref-type="aff" rid="Aff1">1</xref>
+                        </contrib>
+                        <contrib contrib-type="author" corresp="yes" id="Au2">
+                            <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-6822-7269</contrib-id>
+                            <name name-style="western">
+                                <surname>Luján</surname>
+                                <given-names>Manuel</given-names>
+                            </name>
+                            <address>
+                                <email>m.lujan@kew.org</email>
+                            </address>
+                            <xref ref-type="aff" rid="Aff1">1</xref>
+                            <xref ref-type="corresp" rid="IDs12225024101775_cor2">b</xref>
+                        </contrib>
+                        <contrib contrib-type="author" id="Au3">
+                            <name name-style="western">
+                                <surname>Hammel</surname>
+                                <given-names>Barry</given-names>
+                            </name>
+                            <xref ref-type="aff" rid="Aff2">2</xref>
+                        </contrib>
+                        <aff id="Aff1">
+                            <label>1</label>
+                            <institution-wrap>
+                                <institution-id institution-id-type="ROR">https://ror.org/00ynnr806</institution-id>
+                                <institution-id institution-id-type="GRID">grid.4903.e</institution-id>
+                                <institution-id institution-id-type="ISNI">0000 0001 2097 4353</institution-id>
+                                <institution content-type="org-name">Royal Botanic Gardens, Kew</institution>
+                            </institution-wrap>
+                            <addr-line content-type="postcode">TW9 3AE</addr-line>
+                            <addr-line content-type="city">Richmond</addr-line>
+                            <country country="GB">UK</country>
+                        </aff>
+                        <aff id="Aff2">
+                            <label>2</label>
+                            <institution-wrap>
+                                <institution-id institution-id-type="ROR">https://ror.org/04tzy5g14</institution-id>
+                                <institution-id institution-id-type="GRID">grid.190697.0</institution-id>
+                                <institution-id institution-id-type="ISNI">0000 0004 0466 5325</institution-id>
+                                <institution content-type="org-name">Missouri Botanical Garden</institution>
+                            </institution-wrap>
+                            <addr-line content-type="postbox">P.O. Box 299</addr-line>
+                            <addr-line content-type="postcode">63166-0299</addr-line>
+                            <addr-line content-type="city">St. Louis</addr-line>
+                            <addr-line content-type="state">Missouri</addr-line>
+                            <country country="US">USA</country>
+                        </aff>
+                    </contrib-group>
+                    <author-notes>
+                        <corresp id="IDs12225024101775_cor2">
+                            <label>b</label>
+                            <email>m.lujan@kew.org</email>
+                        </corresp>
+                    </author-notes>
+                    <pub-date date-type="pub" publication-format="electronic">
+                        <day>25</day>
+                        <month>4</month>
+                        <year>2024</year>
+                    </pub-date>
+                    <pub-date date-type="pub" publication-format="print">
+                        <month>6</month>
+                        <year>2024</year>
+                    </pub-date>
+                    <volume>79</volume>
+                    <issue seq="2">2</issue>
+                    <fpage>185</fpage>
+                    <lpage>190</lpage>
+                    <history>
+                        <date date-type="registration">
+                            <day>7</day>
+                            <month>2</month>
+                            <year>2024</year>
+                        </date>
+                        <date date-type="accepted">
+                            <day>6</day>
+                            <month>2</month>
+                            <year>2024</year>
+                        </date>
+                        <date date-type="online">
+                            <day>25</day>
+                            <month>4</month>
+                            <year>2024</year>
+                        </date>
+                    </history>
+                    <permissions>
+                        <copyright-statement content-type="compact">© The Author(s) 2024</copyright-statement>
+                        <copyright-year>2024</copyright-year>
+                        <copyright-holder>The Author(s)</copyright-holder>
+                        <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                            <license-p>
+                                <bold>Open Access</bold>
+                                 This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit 
+                                <ext-link xlink:href="http://creativecommons.org/licenses/by/4.0/" ext-link-type="uri">http://creativecommons.org/licenses/by/4.0/</ext-link>
+                                .
+                            </license-p>
+                        </license>
+                    </permissions>
+                    <abstract xml:lang="en" id="Abs1">
+                        <title>Summary</title>
+                        <p id="Par1">
+                            We describe and illustrate 
+                            <italic>Clusia salicifolia</italic>
+                             (Clusiaceae) a new species from Central America. This new species is different to all related species for its hemiepiphytic habit, narrow leaves with acute to acuminate apex, reticulate resin canals, staminate flowers with quadrangular androecium with 30 – 47 free stamens, and pistillate flowers with 4 stigmas and 4 pairs of stamen-like staminodia. The species is known from a limited number of localities in lowland wet forests in Costa Rica and Panama and is here assessed as endangered under the IUCN criteria.
+                        </p>
+                    </abstract>
+                    <trans-abstract xml:lang="es" id="Abs2">
+                        <title>Resumen</title>
+                        <p id="Par2">
+                            Describimos e ilustramos 
+                            <italic>Clusia salicifolia</italic>
+                             (Clusiaceae) una nueva especie de América Central. Esta nueva especie se distingue por su hábito hemiepifítico, hojas delgadas con ápice agudo a acuminado, canales resiníferos reticulados, flores estaminadas con androceo cuadrangular con 30 – 47 estambres libres, y flores pistiladas con 4 estigmas y 4 pares de estaminodios parecidos a estambres. La especie se conoce de un reducido número de localidades en las selvas húmedas de tierras bajas en Costa Rica y Panamá, y se considera amenazada de acuerdo a los criterios de la IUCN.
+                        </p>
+                    </trans-abstract>
+                    <kwd-group xml:lang="en">
+                        <title>Key Words</title>
+                        <kwd>Central America</kwd>
+                        <kwd>endangered species</kwd>
+                        <kwd>herbarium</kwd>
+                        <kwd>Neotropics</kwd>
+                        <kwd>taxonomy</kwd>
+                        <kwd>trees.</kwd>
+                    </kwd-group>
+                    <kwd-group kwd-group-type="hierarchical" vocab="FoR" vocab-identifier="ANZSRC 2008">
+                        <kwd content-type="term" vocab-term-identifier="05">Environmental Sciences</kwd>
+                        <nested-kwd>
+                            <kwd content-type="term" vocab-term-identifier="0502">Environmental Science and Management</kwd>
+                        </nested-kwd>
+                    </kwd-group>
+                    <custom-meta-group>
+                        <custom-meta>
+                            <meta-name>publisher-imprint-name</meta-name>
+                            <meta-value>Springer</meta-value>
+                        </custom-meta>
+                        <custom-meta>
+                            <meta-name>volume-issue-count</meta-name>
+                            <meta-value>4</meta-value>
+                        </custom-meta>
+                        <custom-meta>
+                            <meta-name>issue-article-count</meta-name>
+                            <meta-value>23</meta-value>
+                        </custom-meta>
+                        <custom-meta>
+                            <meta-name>issue-toc-levels</meta-name>
+                            <meta-value>0</meta-value>
+                        </custom-meta>
+                        <custom-meta>
+                            <meta-name>issue-pricelist-year</meta-name>
+                            <meta-value>2024</meta-value>
+                        </custom-meta>
+                        <custom-meta>
+                            <meta-name>issue-copyright-holder</meta-name>
+                            <meta-value>The Board of Trustees of the Royal Botanic Gardens, Kew</meta-value>
+                        </custom-meta>
+                        <custom-meta>
+                            <meta-name>issue-copyright-year</meta-name>
+                            <meta-value>2024</meta-value>
+                        </custom-meta>
+                        <custom-meta>
+                            <meta-name>article-contains-esm</meta-name>
+                            <meta-value>No</meta-value>
+                        </custom-meta>
+                        <custom-meta>
+                            <meta-name>article-numbering-style</meta-name>
+                            <meta-value>Unnumbered</meta-value>
+                        </custom-meta>
+                        <custom-meta>
+                            <meta-name>article-registration-date-year</meta-name>
+                            <meta-value>2024</meta-value>
+                        </custom-meta>
+                        <custom-meta>
+                            <meta-name>article-registration-date-month</meta-name>
+                            <meta-value>2</meta-value>
+                        </custom-meta>
+                        <custom-meta>
+                            <meta-name>article-registration-date-day</meta-name>
+                            <meta-value>7</meta-value>
+                        </custom-meta>
+                        <custom-meta>
+                            <meta-name>article-toc-levels</meta-name>
+                            <meta-value>0</meta-value>
+                        </custom-meta>
+                        <custom-meta>
+                            <meta-name>toc-levels</meta-name>
+                            <meta-value>0</meta-value>
+                        </custom-meta>
+                        <custom-meta>
+                            <meta-name>volume-type</meta-name>
+                            <meta-value>Regular</meta-value>
+                        </custom-meta>
+                        <custom-meta>
+                            <meta-name>journal-product</meta-name>
+                            <meta-value>NonStandardArchiveJournal</meta-value>
+                        </custom-meta>
+                        <custom-meta>
+                            <meta-name>numbering-style</meta-name>
+                            <meta-value>Unnumbered</meta-value>
+                        </custom-meta>
+                        <custom-meta>
+                            <meta-name>article-grants-type</meta-name>
+                            <meta-value>OpenChoice</meta-value>
+                        </custom-meta>
+                        <custom-meta>
+                            <meta-name>metadata-grant</meta-name>
+                            <meta-value>OpenAccess</meta-value>
+                        </custom-meta>
+                        <custom-meta>
+                            <meta-name>abstract-grant</meta-name>
+                            <meta-value>OpenAccess</meta-value>
+                        </custom-meta>
+                        <custom-meta>
+                            <meta-name>bodypdf-grant</meta-name>
+                            <meta-value>OpenAccess</meta-value>
+                        </custom-meta>
+                        <custom-meta>
+                            <meta-name>bodyhtml-grant</meta-name>
+                            <meta-value>OpenAccess</meta-value>
+                        </custom-meta>
+                        <custom-meta>
+                            <meta-name>bibliography-grant</meta-name>
+                            <meta-value>OpenAccess</meta-value>
+                        </custom-meta>
+                        <custom-meta>
+                            <meta-name>esm-grant</meta-name>
+                            <meta-value>OpenAccess</meta-value>
+                        </custom-meta>
+                        <custom-meta>
+                            <meta-name>online-first</meta-name>
+                            <meta-value>false</meta-value>
+                        </custom-meta>
+                        <custom-meta>
+                            <meta-name>pdf-file-reference</meta-name>
+                            <meta-value>BodyRef/PDF/12225_2024_Article_10177.pdf</meta-value>
+                        </custom-meta>
+                        <custom-meta>
+                            <meta-name>pdf-type</meta-name>
+                            <meta-value>Typeset</meta-value>
+                        </custom-meta>
+                        <custom-meta>
+                            <meta-name>target-type</meta-name>
+                            <meta-value>OnlinePDF</meta-value>
+                        </custom-meta>
+                        <custom-meta>
+                            <meta-name>issue-online-date-year</meta-name>
+                            <meta-value>2024</meta-value>
+                        </custom-meta>
+                        <custom-meta>
+                            <meta-name>issue-online-date-month</meta-name>
+                            <meta-value>5</meta-value>
+                        </custom-meta>
+                        <custom-meta>
+                            <meta-name>issue-online-date-day</meta-name>
+                            <meta-value>28</meta-value>
+                        </custom-meta>
+                        <custom-meta>
+                            <meta-name>issue-print-date-year</meta-name>
+                            <meta-value>2024</meta-value>
+                        </custom-meta>
+                        <custom-meta>
+                            <meta-name>issue-print-date-month</meta-name>
+                            <meta-value>5</meta-value>
+                        </custom-meta>
+                        <custom-meta>
+                            <meta-name>issue-print-date-day</meta-name>
+                            <meta-value>28</meta-value>
+                        </custom-meta>
+                        <custom-meta>
+                            <meta-name>issue-type</meta-name>
+                            <meta-value>Regular</meta-value>
+                        </custom-meta>
+                        <custom-meta>
+                            <meta-name>article-type</meta-name>
+                            <meta-value>OriginalPaper</meta-value>
+                        </custom-meta>
+                        <custom-meta>
+                            <meta-name>journal-subject-primary</meta-name>
+                            <meta-value>Life Sciences</meta-value>
+                        </custom-meta>
+                        <custom-meta>
+                            <meta-name>journal-subject-secondary</meta-name>
+                            <meta-value>Plant Systematics/Taxonomy/Biogeography</meta-value>
+                        </custom-meta>
+                        <custom-meta>
+                            <meta-name>journal-subject-secondary</meta-name>
+                            <meta-value>Plant Sciences</meta-value>
+                        </custom-meta>
+                        <custom-meta>
+                            <meta-name>journal-subject-secondary</meta-name>
+                            <meta-value>Plant Ecology</meta-value>
+                        </custom-meta>
+                        <custom-meta>
+                            <meta-name>journal-subject-secondary</meta-name>
+                            <meta-value>Life Sciences, general</meta-value>
+                        </custom-meta>
+                        <custom-meta>
+                            <meta-name>journal-subject-collection</meta-name>
+                            <meta-value>Biomedical and Life Sciences</meta-value>
+                        </custom-meta>
+                        <custom-meta>
+                            <meta-name>open-access</meta-name>
+                            <meta-value>true</meta-value>
+                        </custom-meta>
+                    </custom-meta-group>
+                </article-meta>
+            </front>
+            <body>
+                <sec id="Sec1">
+                    <title>Introduction</title>
+                    <p id="Par3">
+                        The neotropical genus 
+                        <italic>Clusia</italic>
+                         L. comprises 300 – 400 species, making it the largest genus of Clusiaceae in the region. Within Central America, 19 species of 
+                        <italic>Clusia</italic>
+                         have been preliminarily reported in Panama (Woodson 
+                        <italic>et al.</italic>
+                        <xref ref-type="bibr" rid="CR16">16</xref>
+                        ), however, this omits 
+                        <italic>C. cooperi</italic>
+                         Standl., as well as recently described species such as 
+                        <italic>C. guabalensis</italic>
+                         Luján &amp; Aranda (Luján 
+                        <italic>et al.</italic>
+                        <xref ref-type="bibr" rid="CR11">11</xref>
+                        ), so the number of described 
+                        <italic>Clusia</italic>
+                         species in Panama is at least 21. In Costa Rica, at least 32 species of 
+                        <italic>Clusia</italic>
+                         have been reported (Hammel 
+                        <xref ref-type="bibr" rid="CR7">7</xref>
+                        ). The taxonomic understanding of 
+                        <italic>Clusia,</italic>
+                         nevertheless
+                        <italic>,</italic>
+                         remains incomplete, with many species remaining either undescribed or poorly documented. This gap can be largely attributed to the dioecy exhibited within the genus, with many species displaying very similar vegetative morphologies. Despite this lack of taxonomic clarity, the genus is well known for displaying a number of unusual characteristics, such as the ability to undergo CAM photosynthesis (Tinoco-Ojanguren &amp; Vázquez-Yanes 
+                        <xref ref-type="bibr" rid="CR15">15</xref>
+                        ; Luján 
+                        <italic>et al.</italic>
+                        <xref ref-type="bibr" rid="CR12">12</xref>
+                        ) and the production of flower resins as a pollinator reward in some species (Gustafsson &amp; Bittrich 
+                        <xref ref-type="bibr" rid="CR4">4</xref>
+                        ). Recent advances in molecular analysis have provided support for 
+                        <italic>Clusia</italic>
+                         to be identified as a monophyletic group (Gustafsson &amp; Bittrich 
+                        <xref ref-type="bibr" rid="CR4">4</xref>
+                        ; Gustafsson 
+                        <italic>et al.</italic>
+                        <xref ref-type="bibr" rid="CR5">5</xref>
+                        ; Luján 
+                        <xref ref-type="bibr" rid="CR10">10</xref>
+                        ), however, deep evolutionary relationships within the genus remain largely unresolved. Here we provide a description of one recently recognised, new species and discuss its affinities, distribution and conservation status.
+                    </p>
+                </sec>
+                <sec id="Sec2" sec-type="methods">
+                    <title>Methods</title>
+                    <p id="Par4">
+                        Herbarium specimens were studied at CR, K, MO and USJ (acronyms follow Thiers 
+                        <xref ref-type="bibr" rid="CR14">14</xref>
+                        , continuously updated), using dissecting microscopes and following Beentje’s (
+                        <xref ref-type="bibr" rid="CR2">2</xref>
+                        ) terminology to describe morphological characters. The species conservation status was assessed following the IUCN (
+                        <xref ref-type="bibr" rid="CR9">9</xref>
+                        ) red list categories, criteria and guidelines, and the GeoCat tool (Bachman 
+                        <italic>et al.</italic>
+                        <xref ref-type="bibr" rid="CR1">1</xref>
+                        ) with a cell width of 2 × 2 km was used to estimate extent of occurrence (EOO) and area of occupancy (AOO).
+                    </p>
+                </sec>
+                <sec id="Sec3">
+                    <title>Taxonomic Treatment</title>
+                    <p id="Par5">
+                        <bold>Clusia salicifolia</bold>
+                        <italic>Wodcke &amp; Hammel</italic>
+                        <bold>sp. nov.</bold>
+                         Type: Costa Rica, Turrialba. Along the right hand bank of the Barbilla River, between the San Miguel and Jesús ravines, 400 m, 19 March 1996, 
+                        <italic>G. Herrera, E. Moya &amp; P. Kuss</italic>
+                         8812 (♂) (holotype K!, isotypes CR!, MO!).
+                    </p>
+                    <p id="Par6">
+                        <ext-link xlink:href="http://www.ipni.org//urn:lsid:ipni.org:names:77336762-1" ext-link-type="uri">http://www.ipni.org//urn:lsid:ipni.org:names:77336762-1</ext-link>
+                    </p>
+                    <p id="Par7">
+                        <italic>Hemiepiphytic tree</italic>
+                        ; dioecious; epidermis non exfoliating; resin colourless. 
+                        <italic>Leaves</italic>
+                         with petioles 0.9 – 1.7 cm, unwinged, the base excavated and forming a pit in the adaxial portion of the junction between the petiole and the stem; lamina drying yellowish-orange adaxially and greyish-brown abaxially, 9.2 – 15.4 × 0.9 – 2.5 cm, narrowly lanceolate or elliptic, sometimes falcate, base attenuate, apex acute to attenuate, margin slightly revolute; primary vein complete along entire length of lamina, the intramarginal vein 0.5 – 1 mm from the margin, secondary veins (8 –) 12 – 15 pairs, 0.3 – 0.8 cm irregularly spaced apart, 30° – 40° angle to primary vein, sometimes not visible, when visible prominent abaxially and flat to slightly prominent adaxially; resin ducts visible when dry in the abaxial surface, somewhat intermittent and reticulating, nigrescent lines. 
+                        <italic>Staminate inflorescences</italic>
+                         4 – 6 × 4.5 – 6.2 cm, compound dichasium with 2 ramifications per node and a total of approx. 9 – 20 flowers, peduncle 1 – 2.5 cm, cylindrical; 
+                        <italic>pistillate inflorescences</italic>
+                         1.7 – 2.3 cm, uniflorous, bearing 3 internodes, each subtended by a pair of bracts, peduncle 0.5 – 0.7 cm; staminate and pistillate inflorescences with paired bracts subtending the inflorescence branches and bracteoles subtending the flowers, 1 – 2 mm, deltate, apex acute, abaxially keeled; pedicels 4 – 8 mm long. 
+                        <italic>Flower buds</italic>
+                         4 – 5 mm in diam., green. 
+                        <italic>Staminate flowers</italic>
+                         non-resiniferous, the perianth differentiated into sepals and petals; sepals 4, 4 – 5 × 4 – 5 mm, concave, suborbicular; petals 4, 3 – 4 × 3 – 4 mm, pink – dark pink, obovate, imprint of stamens visible on the adaxial surface; androecium quadrangular 3 × 3.5 mm; stamens 30 – 47, arranged forming an X or a square with convex sides when viewed from the top; filaments &lt; 0.5 mm long in mature bud; anthers 0.6 – 1.5 mm, longitudinally dehiscent (Fig. 
+                        <xref rid="Fig1" ref-type="fig">1</xref>
+                        ). 
+                        <italic>Pistillate flowers</italic>
+                         non-resiniferous, the perianth as in staminate flowers; gynoecium with 4 pairs of stamen-like staminodia, the filaments of the paired staminodia connate only at the very base; stigmas apical, 4, discoid, sessile (Fig. 
+                        <xref rid="Fig2" ref-type="fig">2</xref>
+                        ). 
+                        <italic>Fruits</italic>
+                         with sepals persistent, 3 – 5.8 × 1.5 – 4.2 cm, ovoid or ellipsoid, smooth; seeds c. 5 mm, ellipsoid; aril pale greenish-yellow to yellow.
+                        <fig id="Fig1" position="float">
+                            <label>Fig. 1.</label>
+                            <caption xml:lang="en">
+                                <p>
+                                    <italic>Clusia salicifolia</italic>
+                                    . 
+                                    <bold>A</bold>
+                                     habit of flowering staminate branch; 
+                                    <bold>B</bold>
+                                     inflorescence; 
+                                    <bold>C</bold>
+                                     detail of abaxial surface of leaf showing resin canals; 
+                                    <bold>D</bold>
+                                     abaxial view of sepal; 
+                                    <bold>E</bold>
+                                     adaxial view of petal; 
+                                    <bold>F</bold>
+                                     stamens; 
+                                    <bold>G</bold>
+                                     lateral view of flower bud; 
+                                    <bold>H</bold>
+                                     view of androecium from above; 
+                                    <bold>J</bold>
+                                     lateral view of androecium showing anthers in compressed form; 
+                                    <bold>K</bold>
+                                     detail of inflorescence. 
+                                    <bold>A</bold>
+                                     – 
+                                    <bold>C</bold>
+                                     based on 
+                                    <italic>G. Herrera, E. Moya &amp; P. Kuss</italic>
+                                     8812 (♂) (holotype K); 
+                                    <bold>D</bold>
+                                     – 
+                                    <bold>K</bold>
+                                     based on 
+                                    <italic>L. Roselli</italic>
+                                     22 (♂) (USJ). 
+                                    <sc>drawn by juliet beentje</sc>
+                                    .
+                                </p>
+                            </caption>
+                            <graphic specific-use="web" mime-subtype="PNG" xlink:href="MediaObjects/12225_2024_10177_Fig1_HTML.png" id="MO1"/>
+                        </fig>
+                        <fig id="Fig2" position="float">
+                            <label>Fig. 2.</label>
+                            <caption xml:lang="en">
+                                <p>
+                                    <italic>Clusia salicifolia</italic>
+                                    . Mature pistillate flower showing staminodes around mature gynoecium, based on 
+                                    <italic>E. Mora &amp; E. Rojas</italic>
+                                     1613 (♀) (CR!, MO!).
+                                </p>
+                            </caption>
+                            <graphic specific-use="web" mime-subtype="PNG" xlink:href="MediaObjects/12225_2024_10177_Fig2_HTML.png" id="MO2"/>
+                        </fig>
+                    </p>
+                    <p id="Par8">
+                        <bold>
+                            <sc>recognition.</sc>
+                        </bold>
+                        <italic>Clusia salicifolia</italic>
+                         is distinctive from the majority of other 
+                        <italic>Clusia</italic>
+                         species due to its narrowly lanceolate or elliptic, sometimes falcate, leaves, with an acute to attenuate base and apex. The leaves of the closely related but allopatric 
+                        <italic>C. falcata</italic>
+                         Hammel have a similar shape and size to 
+                        <italic>C. salicifolia,</italic>
+                         however they display fewer secondary veins (5 – 8 vs 12 – 15 pairs) at a narrower angle to the primary vein (20° – 30° vs 30° – 40°). The layout of the resin canals in the lamina also differs between the two species, in 
+                        <italic>C. falcata</italic>
+                         the resin canals are more or less continuous, whereas in 
+                        <italic>C. salicifolia</italic>
+                         they are visible on the abaxial surface as mesh-like, reticulating and somewhat intermittent lines (Fig. 
+                        <xref rid="Fig1" ref-type="fig">1</xref>
+                        ). Additionally, 
+                        <italic>C. falcata</italic>
+                         produces greenish-white resin, whereas 
+                        <italic>C. salicifolia</italic>
+                         has colourless resin, and 
+                        <italic>C. falcata</italic>
+                         has fewer stamens (22 – 24 vs 30 – 47). The holotype of 
+                        <italic>C. salicifolia</italic>
+                         had been tentatively included as part of 
+                        <italic>C. dukei</italic>
+                         Maguire (Hammel 
+                        <xref ref-type="bibr" rid="CR7">7</xref>
+                        ) but is here separated from that species by its smaller flower buds (6 – 8 mm in 
+                        <italic>C. dukei</italic>
+                         vs 4 – 5 mm in 
+                        <italic>C. salicifolia</italic>
+                        ) and mostly narrower leaves (2.5 – 5.5 cm vs 0.9 – 2.5 cm). The fruit morphologies of 
+                        <italic>C. salicifolia</italic>
+                         and 
+                        <italic>C. torresii</italic>
+                         Standl. are similar, both having an ellipsoid to ovoid fruit shape with persistent sepals. However, fruits in 
+                        <italic>C. torresii</italic>
+                         have 6 stigmas while those of 
+                        <italic>C. salicifolia</italic>
+                         have 4. Furthermore, the two species can be readily distinguished by their leaf morphology, 
+                        <italic>C. torresii</italic>
+                         exhibiting elliptic to oblanceolate leaves with a broadly acute to obtuse or rounded apex, which are never as long and narrow as those of 
+                        <italic>C. salicifolia</italic>
+                        .
+                    </p>
+                    <p id="Par9">
+                        <bold>
+                            <sc>distribution.</sc>
+                        </bold>
+                        <italic>Clusia salicifolia</italic>
+                         is distributed in northeast Costa Rica and west Panama (Map 
+                        <xref rid="Fig3" ref-type="fig">1</xref>
+                        ).
+                        <fig id="Fig3" position="float">
+                            <label>Map 1.</label>
+                            <caption xml:lang="en">
+                                <p>
+                                    Distribution map of 
+                                    <italic>Clusia salicifolia</italic>
+                                    .
+                                </p>
+                            </caption>
+                            <graphic specific-use="web" mime-subtype="PNG" xlink:href="MediaObjects/12225_2024_10177_Fig3_HTML.png" id="MO3"/>
+                        </fig>
+                    </p>
+                    <p id="Par10">
+                        <bold>
+                            <sc>specimens examined. costa rica.</sc>
+                        </bold>
+                         Alajuela, San Carlos. Calle Damas, bosques aledaños al Río Aguas Zarcas, 600 – 700 m, 24 Sept. 1998, 
+                        <italic>A. Rodríguez, L. Vargas, P. Hurtado &amp; J. Mendez</italic>
+                         3615 (♂) (CR!, MO!); Cartago, Turrialba. P.N. Barbilla Cuenca del Matina, sendero principal hacia Barbilla 300 – 400 m, 18 Sept. 2000, 
+                        <italic>E. Mora &amp; E. Rojas</italic>
+                         1613 (♀) (CR!, MO!); Heredia, Canton of Sarapiqui, c. 8 km SW of Horquetas, from Finca El Plástico to c. 1.5 km NE thereof, 450 – 550 m, 14 Feb. 1986, 
+                        <italic>M. Grayum &amp; P. Sleeper</italic>
+                         6520 (♀) (CR!, MO!); c. 600 m, 21 April 1988, 
+                        <italic>B. Hammel &amp; R. Robles</italic>
+                         16711 (♀) (CR!, MO!); 
+                        <italic>B. Hammel &amp; R. Robles</italic>
+                         16712 (♂) (CR!, MO!); Finca el Plástico, 12 km SW of Horquetas de Sarapiqui, mature rainforest, 570 m, 21 Sept. 1987, 
+                        <italic>L. Roselli</italic>
+                         22 (♂) (USJ!); Rara Avis, c. 15 km SW of Horquetas, Cañon Road, near Atelopus River, 400 – 600 m, 11 Jan. 1989, 
+                        <italic>O. Vargas</italic>
+                         262 (♂) (CR CR1559892!, CR156924!, MO!); Limón, Pococí. P.N. Braulio Carillo, Quebrada González, por senderos Ceiba y de la estación, 400 – 500 m, 22 Aug. 2009, 
+                        <italic>B. Hammel &amp; I. Pérez</italic>
+                         25289 (st — fruits observed but not collected) (CR!); Talamanca. Camino entre Amubri y Soki; cabeceras del Río Ñabri, 280 m, 4 July 1989, 
+                        <italic>G. Herrera</italic>
+                         3133 (♀) (CR!, MO!). 
+                        <bold>
+                            <sc>panama.</sc>
+                        </bold>
+                         Bocas Del Toro, La Fortuna area; 6 miles N of continental divide; in forest along W side of highway, 600 m, 4 March 1986, 
+                        <italic>B. Hammel, G. McPherson &amp; L. Sanders</italic>
+                         14574 (♀) (MO!).
+                    </p>
+                    <p id="Par11">
+                        <bold>
+                            <sc>habitat.</sc>
+                        </bold>
+                        <italic>Clusia salicifolia</italic>
+                         grows on trees, often along rivers or streams, in tropical rainforests at 280 – 700 m.
+                    </p>
+                    <p id="Par12">
+                        <bold>
+                            <sc>conservation status.</sc>
+                        </bold>
+                         We estimate the EOO for 
+                        <italic>Clusia salicifolia</italic>
+                         to be 4,943 km
+                        <sup>2</sup>
+                         and the AOO to be 28 km
+                        <sup>2</sup>
+                        . Most of the collections from Costa Rica were made in Barbilla and Braulio Carrillo National Park or private reserves close-by, therefore, the stability and conservation of plant populations of 
+                        <italic>C. salicifolia</italic>
+                         in these areas should be ensured. The specimen from Panama was collected near a main highway in an area subject to recent clearing and forest loss (Potapov 
+                        <italic>et al.</italic>
+                        <xref ref-type="bibr" rid="CR13">13</xref>
+                        ). Given the small AOO, small number of locations, and continued estimated decline in quality of habitat of some populations, here we provisionally assess (IUCN 
+                        <xref ref-type="bibr" rid="CR9">9</xref>
+                        ) 
+                        <italic>C. salicifolia</italic>
+                         to be Endangered [EN B2ab(iii)].
+                    </p>
+                    <p id="Par13">
+                        <bold>
+                            <sc>phenology.</sc>
+                        </bold>
+                        <italic>Clusia salicifolia</italic>
+                         was collected with flowers and flower buds in January to April and September, and collected or observed (
+                        <italic>B. Hammel &amp; I. Pérez</italic>
+                         25289) with fruits in February to April and July.
+                    </p>
+                    <p id="Par14">
+                        <bold>
+                            <sc>etymology.</sc>
+                        </bold>
+                         The specific epithet 
+                        <italic>salicifolia</italic>
+                         refers to the leaf shape, which is similar to those of the genus 
+                        <italic>Salix</italic>
+                         (willow trees) and unusual for the genus 
+                        <italic>Clusia</italic>
+                        .
+                    </p>
+                    <p id="Par15">
+                        <bold>
+                            <sc>notes.</sc>
+                        </bold>
+                         The presence of non-resiniferous flowers with a quadrangular perianth, androecium bearing free stamens, gynoecium with staminodia that resemble anthers as well as the elongated pendant fruits, suggest that 
+                        <italic>Clusia salicifolia</italic>
+                         is part of the 
+                        <italic>Flava</italic>
+                         group, an informal infrageneric grouping of closely related species mostly distributed in Central America, with a few representatives in the Antilles (Hammel 
+                        <xref ref-type="bibr" rid="CR6">6</xref>
+                        ). Preliminary phylogenetic reconstructions based on molecular data suggest that the 
+                        <italic>Flava</italic>
+                         group is monophyletic, although species evolutionary relationships within the group remain unclear, mainly due to limited taxon sampling and low phylogenetic resolution (Gustafsson &amp; Bittrich 
+                        <xref ref-type="bibr" rid="CR4">4</xref>
+                        ; Herbert-Doctor 
+                        <italic>et al.</italic>
+                        <xref ref-type="bibr" rid="CR8">8</xref>
+                        ; Luján 
+                        <xref ref-type="bibr" rid="CR10">10</xref>
+                        ).
+                    </p>
+                    <p id="Par16">
+                        The earliest specimen of 
+                        <italic>Clusia salicifolia</italic>
+                         was collected 37 years ago, and the most recent is 14 years old. These plant materials have been stored in herbaria for decades and they now provide the fundamental resource to recognise a new species that can, therefore, be properly managed and conserved. The description of this new species from herbarium specimens demonstrates the critical importance of natural history collections as unmatched repositories of biodiversity data, which are fundamental to influence and inform conservation efforts. Furthermore, 
+                        <italic>C. salicifolia</italic>
+                         is here assessed as an endangered species, which highlights how species could go extinct even before being scientifically described. The extinction of undescribed species, also known as dark extinctions (Boehm &amp; Cronk 
+                        <xref ref-type="bibr" rid="CR3">3</xref>
+                        ), reveals that we are inadvertently losing potential key pieces of nature-based solutions to addressing ongoing and future challenges to human livelihoods. We argue that supporting field campaigns aiming to collect biological specimens and their associated data is urgent, as these collections may provide the only pieces of evidence of the existence of many organisms that likely will go extinct in the near future, given the current pace of global biodiversity loss.
+                    </p>
+                </sec>
+                <sec id="Sec4">
+                    <title>
+                        Key to 
+                        <italic>Clusia salicifolia</italic>
+                         and related narrowed leaf species in Central America
+                    </title>
+                    <p id="Par17">
+                        <list list-type="bullet">
+                            <list-item>
+                                <p id="Par18">
+                                    1a.Leaves with resin canals more or less continuous and parallel to secondary veins, endemic to Chiapas, Mexico ..... 
+                                    <italic>C. falcata</italic>
+                                </p>
+                            </list-item>
+                            <list-item>
+                                <p id="Par19">1b.Leaves with resin canals intermittent, branching to mesh-like, distributed in Southern Central America ........ 2</p>
+                            </list-item>
+                            <list-item>
+                                <p id="Par20">
+                                    2a.Leaf apex broadly acute to obtuse or rounded ..... 
+                                    <italic>C. torresii</italic>
+                                </p>
+                            </list-item>
+                            <list-item>
+                                <p id="Par21">2b.Leaf apex acute to acuminate .... 3</p>
+                            </list-item>
+                            <list-item>
+                                <p id="Par22">
+                                    3a.Distributed at elevations 1300 – 2000 m in Costa Rica and Panama, leaves elliptic to narrowly lanceolate and (sometimes) falcate .... 
+                                    <italic>C. dukei</italic>
+                                </p>
+                            </list-item>
+                            <list-item>
+                                <p id="Par23">
+                                    3b.Distributed mostly at elevations 250 – 600 (– 1800 m) in Costa Rica and Panama, leaves narrowly lanceolate .. 
+                                    <italic>C. salicifolia</italic>
+                                </p>
+                            </list-item>
+                        </list>
+                    </p>
+                </sec>
+            </body>
+            <back>
+                <ack>
+                    <title>Acknowledgements</title>
+                    <p>The authors would like to thank Mario A. Blanco and Rafael Acuña-Castillo (USJ) and Armando Estrada and Silvia Lobo (CR), for their kind assistance during visits to herbarium collections in Costa Rica. Two anonymous reviewers provided valuable comments that significantly improved this manuscript.</p>
+                </ack>
+                <sec sec-type="ethics-statement">
+                    <title>Declarations</title>
+                    <sec id="FPar1" sec-type="COI-statement">
+                        <title>Conflict of Interest</title>
+                        <p id="Par24">The authors declare to have no conflict of interests.</p>
+                    </sec>
+                </sec>
+                <ref-list id="Bib1">
+                    <title>References</title>
+                    <ref-list>
+                        <ref id="CR1">
+                            <mixed-citation publication-type="other">
+                                Bachman, S., Moat, J., Hill, A., de la Torre, J. &amp; Scott, B. (2011). Supporting Red List threat assessments with GeoCAT: geospatial conservation assessment tool. 
+                                <italic>ZooKeys</italic>
+                                 150: 117 – 126. 
+                                <ext-link xlink:href="10.3897/zookeys.150.2109" ext-link-type="doi">https://doi.org/10.3897/zookeys.150.2109</ext-link>
+                                .
+                            </mixed-citation>
+                        </ref>
+                        <ref id="CR2">
+                            <mixed-citation publication-type="book">
+                                <person-group person-group-type="author">
+                                    <name>
+                                        <surname>Beentje</surname>
+                                        <given-names>H</given-names>
+                                    </name>
+                                </person-group>
+                                <source>The Kew Plant Glossary an illustrated dictionary of plant terms</source>
+                                <year>2016</year>
+                                <edition>2</edition>
+                                <publisher-loc>Kew</publisher-loc>
+                                <publisher-name>Royal Botanic Gardens</publisher-name>
+                            </mixed-citation>
+                        </ref>
+                        <ref id="CR3">
+                            <mixed-citation publication-type="other">
+                                Boehm, M. M. &amp; Cronk, Q. C. (2021). Dark extinction: the problem of unknown historical extinctions. 
+                                <italic>Biol. Lett</italic>
+                                . 17: 20210007. 
+                                <ext-link xlink:href="10.1098/rsbl.2021.0007" ext-link-type="doi">https://doi.org/10.1098/rsbl.2021.0007</ext-link>
+                                .
+                            </mixed-citation>
+                        </ref>
+                        <ref id="CR4">
+                            <mixed-citation publication-type="other">
+                                Gustafsson, M. H. &amp; Bittrich, V. (2002). Evolution of morphological diversity and resin secretion in flowers of 
+                                <italic>Clusia</italic>
+                                 (Clusiaceae): insights from ITS sequence variation. 
+                                <italic>Nord. J. Bot.</italic>
+                                 22: 183 – 203. 
+                                <ext-link xlink:href="10.1111/j.1756-1051.2002.tb01364.x" ext-link-type="doi">https://doi.org/10.1111/j.1756-1051.2002.tb01364.x</ext-link>
+                                .
+                            </mixed-citation>
+                        </ref>
+                        <ref id="CR5">
+                            <mixed-citation publication-type="book">
+                                <person-group person-group-type="author">
+                                    <name>
+                                        <surname>Gustafsson</surname>
+                                        <given-names>MH</given-names>
+                                    </name>
+                                    <name>
+                                        <surname>Winter</surname>
+                                        <given-names>K</given-names>
+                                    </name>
+                                    <name>
+                                        <surname>Bittrich</surname>
+                                        <given-names>V</given-names>
+                                    </name>
+                                </person-group>
+                                <person-group person-group-type="editor">
+                                    <name>
+                                        <surname>Luttge</surname>
+                                        <given-names>U</given-names>
+                                    </name>
+                                </person-group>
+                                <article-title xml:lang="en">
+                                    Diversity, Phylogeny and Classification of 
+                                    <italic>Clusia</italic>
+                                </article-title>
+                                <source>Clusia A Woody Neotropical Genus of Remarkable Plasticity and Diversity</source>
+                                <year>2007</year>
+                                <publisher-loc>Berlin, Heidelberg</publisher-loc>
+                                <publisher-name>Springer</publisher-name>
+                                <fpage>95</fpage>
+                                <lpage>116</lpage>
+                                <pub-id pub-id-type="doi">10.1007/978-3-540-37243-1_7</pub-id>
+                            </mixed-citation>
+                        </ref>
+                        <ref id="CR6">
+                            <mixed-citation publication-type="journal">
+                                <person-group person-group-type="author">
+                                    <name>
+                                        <surname>Hammel</surname>
+                                        <given-names>BE</given-names>
+                                    </name>
+                                </person-group>
+                                <article-title xml:lang="en">
+                                    New species of Clusiaceae from Central America with notes on 
+                                    <italic>Clusia</italic>
+                                     and synonymy in the tribe 
+                                    <italic>Clusieae</italic>
+                                </article-title>
+                                <source>Selbyana</source>
+                                <year>1986</year>
+                                <volume>9</volume>
+                                <fpage>112</fpage>
+                                <lpage>120</lpage>
+                                <comment>https://journals.flvc.org/selbyana/article/view/120799</comment>
+                            </mixed-citation>
+                        </ref>
+                        <ref id="CR7">
+                            <mixed-citation publication-type="other">
+                                ____ (2010). Clusiaceae. Pp. 1 – 54. In: B. E. Hammel, M. H. Grayum, C. Herrera &amp; N. Zamora (eds), Manual de plantas de Costa Rica Vol. V. 
+                                <italic>Monogr. Syst. Bot. Missouri Bot. Gard.</italic>
+                                 119: 1 – 970.
+                            </mixed-citation>
+                        </ref>
+                        <ref id="CR8">
+                            <mixed-citation publication-type="journal">
+                                <person-group person-group-type="author">
+                                    <name>
+                                        <surname>Herbert-Doctor</surname>
+                                        <given-names>LA</given-names>
+                                    </name>
+                                    <name>
+                                        <surname>Dzib</surname>
+                                        <given-names>G</given-names>
+                                    </name>
+                                    <name>
+                                        <surname>Hammel</surname>
+                                        <given-names>BE</given-names>
+                                    </name>
+                                    <name>
+                                        <surname>Chi-Manzanero</surname>
+                                        <given-names>BH</given-names>
+                                    </name>
+                                    <name>
+                                        <surname>Canto-Canché</surname>
+                                        <given-names>BB</given-names>
+                                    </name>
+                                    <name>
+                                        <surname>García-Sosa</surname>
+                                        <given-names>K</given-names>
+                                    </name>
+                                    <name>
+                                        <surname>Richomme</surname>
+                                        <given-names>P</given-names>
+                                    </name>
+                                    <name>
+                                        <surname>Derbré</surname>
+                                        <given-names>S</given-names>
+                                    </name>
+                                    <name>
+                                        <surname>Peña-Rodríguez</surname>
+                                        <given-names>LM</given-names>
+                                    </name>
+                                </person-group>
+                                <article-title xml:lang="en">
+                                    <italic>Clusia suborbicularis</italic>
+                                     is not a synonym of 
+                                    <italic>Clusia flava</italic>
+                                    : molecular and metabolomic evidence
+                                </article-title>
+                                <source>Taxon</source>
+                                <year>2021</year>
+                                <volume>70</volume>
+                                <fpage>1229</fpage>
+                                <lpage>1238</lpage>
+                                <pub-id pub-id-type="doi">10.1002/tax.12590</pub-id>
+                            </mixed-citation>
+                        </ref>
+                        <ref id="CR9">
+                            <mixed-citation publication-type="other">
+                                IUCN Standards and Petitions Committee (2022). 
+                                <italic>Guidelines for Using the IUCN Red List Categories and Criteria.</italic>
+                                 Version 15.1. Prepared by the Standards and Petitions Committee of the IUCN Species Survival Commission. Available from: 
+                                <ext-link xlink:href="http://www.iucnredlist.org/documents/RedListGuidelines.pdf" ext-link-type="uri">http://www.iucnredlist.org/documents/RedListGuidelines.pdf</ext-link>
+                                . [Accessed 31 May 2023].
+                            </mixed-citation>
+                        </ref>
+                        <ref id="CR10">
+                            <mixed-citation publication-type="journal">
+                                <person-group person-group-type="author">
+                                    <name>
+                                        <surname>Luján</surname>
+                                        <given-names>M</given-names>
+                                    </name>
+                                </person-group>
+                                <article-title xml:lang="en">
+                                    Playing the taxonomic cupid: matching pistillate and staminate conspecifics in dioecious C
+                                    <italic>lusia (</italic>
+                                    Clusiaceae)
+                                </article-title>
+                                <source>Syst. Bot.</source>
+                                <year>2019</year>
+                                <volume>44</volume>
+                                <fpage>548</fpage>
+                                <lpage>559</lpage>
+                                <pub-id pub-id-type="doi">10.1600/036364419X15620113920590</pub-id>
+                            </mixed-citation>
+                        </ref>
+                        <ref id="CR11">
+                            <mixed-citation publication-type="journal">
+                                <person-group person-group-type="author">
+                                    <name>
+                                        <surname>Luján</surname>
+                                        <given-names>M</given-names>
+                                    </name>
+                                    <name>
+                                        <surname>Aranda</surname>
+                                        <given-names>J</given-names>
+                                    </name>
+                                    <name>
+                                        <surname>Virgo</surname>
+                                        <given-names>A</given-names>
+                                    </name>
+                                    <name>
+                                        <surname>Winter</surname>
+                                        <given-names>K</given-names>
+                                    </name>
+                                </person-group>
+                                <article-title xml:lang="en">
+                                    <italic>Clusia guabalensis</italic>
+                                     (Clusiaceae), a new hemiepiphyte species with floral resins from the Atlantic wet forest in Panama
+                                </article-title>
+                                <source>Brittonia</source>
+                                <year>2018</year>
+                                <volume>70</volume>
+                                <fpage>412</fpage>
+                                <lpage>417</lpage>
+                                <pub-id pub-id-type="doi">10.1007/s12228-018-9538-0</pub-id>
+                            </mixed-citation>
+                        </ref>
+                        <ref id="CR12">
+                            <mixed-citation publication-type="journal">
+                                <person-group person-group-type="author">
+                                    <name>
+                                        <surname>Luján</surname>
+                                        <given-names>M</given-names>
+                                    </name>
+                                    <name>
+                                        <surname>Leverett</surname>
+                                        <given-names>A</given-names>
+                                    </name>
+                                    <name>
+                                        <surname>Winter</surname>
+                                        <given-names>K</given-names>
+                                    </name>
+                                </person-group>
+                                <article-title xml:lang="en">
+                                    Forty years of research into crassulacean acid metabolism in the genus 
+                                    <italic>Clusia</italic>
+                                    : anatomy, ecophysiology and evolution
+                                </article-title>
+                                <source>Ann. Bot. (Oxford)</source>
+                                <year>2023</year>
+                                <volume>132</volume>
+                                <issue>4</issue>
+                                <fpage>739</fpage>
+                                <lpage>752</lpage>
+                                <pub-id pub-id-type="doi">10.1093/aob/mcad039</pub-id>
+                            </mixed-citation>
+                        </ref>
+                        <ref id="CR13">
+                            <mixed-citation publication-type="other">
+                                Potapov, P., Hansen, M. C., Laestadius, L., Turubanova, S., Yaroshenko, A., Thies, C., Smith, W., Zhuravleva, I., Komarova, A., Minnemayer, S. &amp; Esipova, E. (2017). The last frontiers of wilderness: Tracking loss of intact forest landscapes from 2000 to 2013. 
+                                <italic>Science Advances</italic>
+                                 3: e1600821. 
+                                <ext-link xlink:href="10.1126/sciadv.1600821" ext-link-type="doi">https://doi.org/10.1126/sciadv.1600821</ext-link>
+                                .
+                            </mixed-citation>
+                        </ref>
+                        <ref id="CR14">
+                            <mixed-citation publication-type="other">
+                                Thiers, B. (2023, continuously updated). 
+                                <italic>Index Herbariorum: a global directory of public herbaria and associated staff. New York Botanical Garden’s virtual herbarium</italic>
+                                . Published at 
+                                <ext-link xlink:href="http://sweetgum.nybg.org/science/ih/" ext-link-type="uri">http://sweetgum.nybg.org/science/ih/</ext-link>
+                                . [Accessed 31 May 2023].
+                            </mixed-citation>
+                        </ref>
+                        <ref id="CR15">
+                            <mixed-citation publication-type="other">
+                                Tinoco-Ojanguren, C. &amp; Vázquez-Yanes, C. (1983). Especies CAM en la selva húmeda tropical de Los Tuxtlas, Veracruz. 
+                                <italic>Bol. Soc. Bot. México</italic>
+                                 45: 150 – 153. 
+                                <ext-link xlink:href="10.17129/botsci.1309" ext-link-type="doi">https://doi.org/10.17129/botsci.1309</ext-link>
+                                .
+                            </mixed-citation>
+                        </ref>
+                        <ref id="CR16">
+                            <mixed-citation publication-type="journal">
+                                <person-group person-group-type="author">
+                                    <name>
+                                        <surname>Woodson</surname>
+                                        <given-names>RE</given-names>
+                                    </name>
+                                    <name>
+                                        <surname>Schery</surname>
+                                        <given-names>RW</given-names>
+                                    </name>
+                                    <name>
+                                        <surname>D’Arcy</surname>
+                                        <given-names>WG</given-names>
+                                    </name>
+                                </person-group>
+                                <article-title xml:lang="en">Flora of Panama. Part VI. Family 123. Guttiferae</article-title>
+                                <source>Ann. Missouri Bot. Gard.</source>
+                                <year>1980</year>
+                                <volume>67</volume>
+                                <issue>4</issue>
+                                <fpage>969</fpage>
+                                <lpage>1043</lpage>
+                                <pub-id pub-id-type="doi">10.2307/2398964</pub-id>
+                            </mixed-citation>
+                        </ref>
+                    </ref-list>
+                </ref-list>
+                <notes notes-type="Misc">
+                    <title>Publisher's Note</title>
+                    <p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+                </notes>
+            </back>
+        </article>
+
