@@ -26,6 +26,7 @@
   </xsl:choose>
 </xsl:template>
 
+
 <!-- 2) Encode DOI the way SpringerNature needs: '/' -> %2F (and optionally ':' -> %3A) -->
 <xsl:template name="encode-doi-for-springer">
   <xsl:param name="doi"/>
@@ -38,19 +39,19 @@
   </xsl:call-template>
 </xsl:template>
 
-
-
   
 <!--
 <xsl:template match="text()">
   <xsl:value-of select="concat('[', ., ']')"/>
-</xsl:template>  
+</xsl:template>
+  
 -->
 
 <xsl:template match="text()">
   <xsl:value-of select="normalize-space(.)"/>
   <!-- <xsl:text> </xsl:text>-->
 </xsl:template>
+
   
   <!-- ChatGPT start -->
   <xsl:template name="colcount">
@@ -76,6 +77,7 @@
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
+
   <xsl:template name="separator">
     <xsl:param name="n" />
     <xsl:if test="$n &gt; 0">
@@ -85,7 +87,9 @@
       </xsl:call-template>
     </xsl:if>
   </xsl:template>
+
   <!-- ChatGPT end -->
+  
   <xsl:template match="/">
         <xsl:apply-templates select="//article-meta" />
         <xsl:apply-templates select="//abstract" />
@@ -96,6 +100,7 @@
         <!-- Biodiversity Data Journal -->
         <xsl:apply-templates select="//floats-group" />
   </xsl:template>
+
   <xsl:template match="//article-meta">
     <!-- why do we have different ways of doing this? -->
     <xsl:value-of select="//journal-meta/journal-title-group/journal-title" />
@@ -164,13 +169,16 @@
       <xsl:value-of select="//article-meta/elocation-id" />
     </xsl:if>
     <xsl:text>&#xa;</xsl:text>
+    <xsl:text>&#xa;</xsl:text>
     <xsl:text># </xsl:text>
     <xsl:apply-templates select="//article-meta/title-group/article-title" />
+    <xsl:text>&#xa;</xsl:text>
     <xsl:text>&#xa;</xsl:text>
     <xsl:apply-templates select="//contrib-group" />
     <xsl:apply-templates select="//article-id" />
     <xsl:apply-templates select="//self-uri[@content-type='lsid']" />
   </xsl:template>
+
   <xsl:template match="article-id">
     <xsl:choose>
       <xsl:when test="@pub-id-type='doi'">
@@ -194,16 +202,19 @@
       <xsl:otherwise />
     </xsl:choose>
   </xsl:template>
+
   <!-- ZooBank LSID for article -->
   <xsl:template match="//self-uri[@content-type='lsid']">
     <xsl:text>- </xsl:text>
     <xsl:value-of select="." />
   </xsl:template>
+
   <!-- authors -->
   <xsl:template match="//contrib-group">
     <xsl:apply-templates select="contrib[@contrib-type='author']" />
     <xsl:text>&#xa;</xsl:text>
   </xsl:template>
+
   <!-- need to include only authors -->
   <xsl:template match="contrib[@contrib-type='author']">
     <xsl:if test="position() != 1">
@@ -220,37 +231,48 @@
     <xsl:text> </xsl:text>
     <xsl:value-of select="name/surname" />
   </xsl:template>
+
   <xsl:template match="//abstract">
+  	<xsl:text>## Abstract</xsl:text>
+  	<xsl:text>&#xa;</xsl:text>
     <xsl:apply-templates />
   </xsl:template>
+
   <xsl:template match="//body">
     <xsl:apply-templates />
   </xsl:template>
+
   <xsl:template match="//back">
-    <xsl:apply-templates select="ack" />
-    <xsl:apply-templates select="ref-list" />
+    <xsl:apply-templates />
   </xsl:template>
+ 
   <xsl:template match="sec">
     <xsl:apply-templates />
   </xsl:template>
+
   <!-- basic elements -->
   <xsl:template match="p">
-     <xsl:apply-templates />
+    <xsl:text>&#xa;</xsl:text>
+    <xsl:apply-templates />
     <xsl:text>&#xa;&#xa;</xsl:text>
   </xsl:template>
+
   <xsl:template match="italic">
   <xsl:text> _</xsl:text>
   <xsl:apply-templates />
   <xsl:text>_ </xsl:text>
   </xsl:template>
+
   <xsl:template match="bold">
   <xsl:text>**</xsl:text>
   <xsl:apply-templates />
   <xsl:text>**</xsl:text>
   </xsl:template>
+
   <xsl:template match="list">
     <xsl:apply-templates />
   </xsl:template>
+
   <xsl:template match="list-item">
     <xsl:text>- </xsl:text>
     <xsl:if test="label">
@@ -261,6 +283,7 @@
     </xsl:if>
     <xsl:text>&#xa;</xsl:text>
   </xsl:template>
+
   <!-- citations -->
   <xsl:template match="xref">
     <xsl:choose>
@@ -278,6 +301,7 @@
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
+
   <!-- links to data -->
   <xsl:template match="ext-link">
     <xsl:choose>
@@ -293,6 +317,7 @@
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
+
   <!-- named content (typically special markup added by Pensoft)-->
   <xsl:template match="named-content">
     <xsl:choose>
@@ -334,6 +359,7 @@
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
+
   <!-- label -->
   <xsl:template match="label">
     <xsl:if test="normalize-space(.)">
@@ -342,6 +368,7 @@
       <xsl:text>**</xsl:text>
     </xsl:if>
   </xsl:template>
+
   <!-- title -->
   <xsl:template match="sec/title">
     <!-- heading level based on depth of sec tag -->
@@ -372,16 +399,20 @@
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
-  <!-- <xsl:template match="ack/title"><h2><xsl:apply-templates /></h2></xsl:template> -->
+
+  <!-- <xsl:template match="ack/title"><h2><xsl:apply-templates /></h2></xsl:template>
+ -->
   <xsl:template match="title">
   <xsl:text>**</xsl:text>
   <xsl:apply-templates />
   <xsl:text>**</xsl:text></xsl:template>
+
   <!-- table -->
   <xsl:template match="table-wrap">
     <xsl:text>&#xa;</xsl:text>
     <xsl:apply-templates />
   </xsl:template>
+
   <xsl:template match="table">
     <xsl:text>&#xa;</xsl:text>
     <!-- first row in the table (thead first, else tbody) -->
@@ -401,16 +432,20 @@
     <xsl:apply-templates select="tbody" />
     <xsl:text>&#xa;</xsl:text>
   </xsl:template>
+
   <xsl:template match="thead">
     <xsl:apply-templates />
   </xsl:template>
+
   <xsl:template match="tbody">
     <xsl:apply-templates />
   </xsl:template>
+
   <xsl:template match="tr">
     <xsl:apply-templates />
     <xsl:text>&#xa;</xsl:text>
   </xsl:template>
+
   <xsl:template match="th">
     <xsl:if test="not(preceding-sibling::th)">
       <xsl:text>| </xsl:text>
@@ -418,6 +453,7 @@
     <xsl:apply-templates />
     <xsl:text> |</xsl:text>
   </xsl:template>
+
   <xsl:template match="td">
     <xsl:if test="not(preceding-sibling::td)">
       <xsl:text>| </xsl:text>
@@ -425,6 +461,7 @@
     <xsl:apply-templates />
     <xsl:text> |</xsl:text>
   </xsl:template>
+
   <!-- tp -->
   <!--
           <tp:nomenclature>
@@ -443,22 +480,27 @@
   <xsl:template match="tp:nomenclature">
     <xsl:apply-templates />
   </xsl:template>
+
   <xsl:template match="tp:taxon-name">
     <xsl:apply-templates />
   </xsl:template>
+
   <xsl:template match="tp:taxon-authority">
     <xsl:apply-templates />
   </xsl:template>
+
   <xsl:template match="tp:nomenclature-citation-list">
     <ul>
       <xsl:apply-templates />
     </ul>
   </xsl:template>
+
   <xsl:template match="tp:nomenclature-citation-list/tp:taxon-authority">
     <li>
       <xsl:apply-templates />
     </li>
   </xsl:template>
+
   <xsl:template match="tp:taxon-name-part">
     <xsl:choose>
       <xsl:when test="@taxon-name-part-type='genus'">
@@ -491,9 +533,11 @@
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
+
   
   <!-- figure -->
   <xsl:template match="fig">
+    <xsl:text>&#xa;</xsl:text>
     <xsl:text>&#xa;</xsl:text>
     <xsl:text>![]</xsl:text>
     <xsl:text>(</xsl:text>
@@ -520,17 +564,14 @@
         <xsl:value-of select="concat('PMC', //article-id[@pub-id-type='pmc'], '/', graphic/@xlink:href, '.jpg')" /> 
       </xsl:when>
       
-       <!-- Springer -->
+      <!-- Springer -->
       <xsl:when test="contains(graphic/@xlink:href, 'MediaObjects')">
-   		<xsl:variable name="doi" select="//article-id[@pub-id-type='doi'][1]"/>
-  		
+   		<xsl:variable name="doi" select="//article-id[@pub-id-type='doi'][1]"/>  		
 		  <xsl:variable name="doiEncoded">
 			<xsl:call-template name="encode-doi-for-springer">
 			  <xsl:with-param name="doi" select="normalize-space($doi)"/>
 			</xsl:call-template>
-		  </xsl:variable>
-				
-			  
+		  </xsl:variable>				
 		  <xsl:value-of
 			select="concat(
 			  'https://media.springernature.com/full/springer-static/image/',
@@ -538,11 +579,7 @@
 			  '/',
 			  graphic/@xlink:href
 			)"/>
-   
-
       </xsl:when>
- 
-      
 
       <xsl:otherwise>
        <xsl:value-of select="graphic/@xlink:href" />
@@ -553,15 +590,23 @@
     <xsl:apply-templates />
     <xsl:text>&#xa;</xsl:text>
   </xsl:template>
+
   
   <!-- references -->
   <xsl:template match="ref-list">
-    <xsl:text>## </xsl:text>
-    <xsl:value-of select="title" />
-    <xsl:text>&#xa;</xsl:text>
-    <!-- Kew JATS is broken and has ref-list twice(!) -->
-    <xsl:apply-templates />
+    <xsl:choose>
+      <xsl:when test="title">
+        <xsl:text>## </xsl:text>
+        <xsl:value-of select="title" />
+        <xsl:text>&#xa;</xsl:text>
+      </xsl:when>
+      <xsl:otherwise>
+         <xsl:text>## References&#xa;</xsl:text>
+      </xsl:otherwise>
+    </xsl:choose>
+    <xsl:apply-templates select="ref" />
   </xsl:template>
+  
   <!-- Reference list -->
   <xsl:template match="ref">
     <xsl:text>- </xsl:text>
@@ -579,10 +624,12 @@
     <xsl:apply-templates select="citation" />
     <xsl:text>&#xa;</xsl:text>
   </xsl:template>
+
   <!-- authors -->
   <xsl:template match="//person-group">
     <xsl:apply-templates select="name" />
   </xsl:template>
+
   <xsl:template match="name">
     <xsl:if test="position() != 1">
       <xsl:text>, </xsl:text>
@@ -591,45 +638,64 @@
     <xsl:text>, </xsl:text>
     <xsl:value-of select="given-names" />
   </xsl:template>
+
   <xsl:template match="article-title">
+    <xsl:text> </xsl:text>
     <xsl:text>**</xsl:text>
     <xsl:apply-templates />
     <xsl:text>**</xsl:text>
   </xsl:template>
+
   <xsl:template match="chapter-title">
+    <xsl:text> </xsl:text>
     <xsl:text>**</xsl:text>
     <xsl:value-of select="." />
     <xsl:text>**</xsl:text>
   </xsl:template>
+
   <xsl:template match="source">
+    <xsl:text> </xsl:text>
     <xsl:apply-templates />
-    <xsl:text>, </xsl:text>
+    <!-- <xsl:text>, </xsl:text> -->
   </xsl:template>
+
   <xsl:template match="volume">
+    <xsl:text> </xsl:text>
     <xsl:value-of select="." />
-    <xsl:text>: </xsl:text>
+    <xsl:text>:</xsl:text>
   </xsl:template>
+
   <xsl:template match="fpage">
+    <xsl:text> </xsl:text>
     <xsl:value-of select="." />
   </xsl:template>
+
   <xsl:template match="lpage">
-    <xsl:text>-</xsl:text>
+    <!-- <xsl:text> - </xsl:text> -->
     <xsl:value-of select="." />
   </xsl:template>
+
   <xsl:template match="publisher-name">
+    <xsl:text> </xsl:text>
     <xsl:value-of select="." />
   </xsl:template>
+
   <xsl:template match="publisher-loc">
+    <xsl:text> </xsl:text>
     <xsl:value-of select="." />
   </xsl:template>
+
   <xsl:template match="size">
     <xsl:value-of select="." />
   </xsl:template>
+
   <xsl:template match="year">
     <!-- <xsl:text> (</xsl:text> -->
+    <xsl:text> </xsl:text>
     <xsl:value-of select="." />
     <!-- <xsl:text>) </xsl:text> -->
   </xsl:template>
+
   <!-- a citation -->
   <xsl:template match="mixed-citation | element-citation | nlm-citation | citation">
     <xsl:apply-templates />
@@ -637,52 +703,39 @@
     <xsl:for-each select="uri">
       <xsl:choose>
         <xsl:when test="@xlink:type='simple'">
+          <xsl:text> </xsl:text>
           <xsl:value-of select="." />
         </xsl:when>
         <xsl:otherwise></xsl:otherwise>
       </xsl:choose>
-    </xsl:for-each>
-    <!-- identifiers -->
-    <!--
-                <xsl:for-each select="ext-link">
-                        <xsl:choose>
-                                <xsl:when test="@ext-link-type='uri'">
-                                                <xsl:value-of select="." />
-                                </xsl:when>
-                                <xsl:when test="@ext-link-type='doi'">
-                                                <xsl:text> DOI:</xsl:text>
-                                                <xsl:value-of select="." />
-                                </xsl:when>
-                                
-                                <xsl:otherwise>
-                                </xsl:otherwise>
-                        </xsl:choose>
-                </xsl:for-each>
-                -->
-    <!--
-                <xsl:for-each select="pub-id">
-                        <xsl:choose>
-                                <xsl:when test="@pub-id-type='pmid'">
-                                                <xsl:text> PMID:</xsl:text>
-                                                <xsl:value-of select="." />
-                                </xsl:when>
-                                <xsl:when test="@pub-id-type='doi'">
-                                                <xsl:text> DOI:</xsl:text>
-                                                <xsl:value-of select="." />
-                                </xsl:when>
-                                
-                                <xsl:otherwise>
-                                </xsl:otherwise>
-                        </xsl:choose>
-                </xsl:for-each>
-                -->
+    </xsl:for-each>   
   </xsl:template>
+  
+  <xsl:template match="pub-id">
+    <xsl:choose>
+      <xsl:when test="@pub-id-type='pmid'">
+        <xsl:text> PMID:</xsl:text>
+		<xsl:value-of select="." />
+      </xsl:when>
+      <xsl:when test="@pub-id-type='doi'">
+        <xsl:text> DOI:</xsl:text>
+        <xsl:value-of select="." />
+      </xsl:when>
+      <xsl:otherwise>
+      </xsl:otherwise>
+     </xsl:choose>
+
+  </xsl:template>
+  
   <!-- 10.3897/phytokeys.61.7590 acknowledgements have def/p -->
   <xsl:template match="def/p">
     <xsl:value-of select="." />
   </xsl:template>
+
   <!-- eat this so it doesn't appear in figure captions-->
   <xsl:template match="object-id"></xsl:template>
+
   <!-- eat this so it doesn't appear in figure captions-->
   <xsl:template match="uri"></xsl:template>
+
 </xsl:stylesheet>
