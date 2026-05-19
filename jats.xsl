@@ -2,6 +2,9 @@
 <xsl:stylesheet version='1.0' xmlns:xsl='http://www.w3.org/1999/XSL/Transform' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:tp="http://www.plazi.org/taxpub">
   <xsl:output method='text' version='1.0' encoding='utf-8'  />
   <xsl:strip-space elements="*"/>
+  <!-- Keep whitespace-only text nodes between sibling <tp:taxon-name-part>
+       elements, otherwise "Denisia cryptica" collapses to "Denisiacryptica". -->
+  <xsl:preserve-space elements="tp:taxon-name"/>
   
 
 <!-- 1) Replace ALL occurrences of one substring with another (XSLT 1.0) -->
@@ -48,8 +51,26 @@
 -->
 
 <xsl:template match="text()">
-  <xsl:value-of select="normalize-space(.)"/>
-  <!-- <xsl:text> </xsl:text>-->
+  <!-- Collapse runs of internal whitespace, but keep a single leading/trailing
+       space if the original text node had one. This prevents word-joining
+       artefacts like "familyOecophoridae" or "21stcentury". A whitespace-only
+       text node (kept by xsl:preserve-space) collapses to a single space so
+       that "Denisia cryptica" stays separated. -->
+  <xsl:variable name="n" select="normalize-space(.)"/>
+  <xsl:choose>
+    <xsl:when test="$n = ''">
+      <xsl:text> </xsl:text>
+    </xsl:when>
+    <xsl:otherwise>
+      <xsl:if test="translate(substring(., 1, 1), ' &#9;&#10;&#13;', '') = ''">
+        <xsl:text> </xsl:text>
+      </xsl:if>
+      <xsl:value-of select="$n"/>
+      <xsl:if test="translate(substring(., string-length(.)), ' &#9;&#10;&#13;', '') = ''">
+        <xsl:text> </xsl:text>
+      </xsl:if>
+    </xsl:otherwise>
+  </xsl:choose>
 </xsl:template>
 
   
@@ -258,15 +279,31 @@
   </xsl:template>
 
   <xsl:template match="italic">
-  <xsl:text> _</xsl:text>
-  <xsl:apply-templates />
-  <xsl:text>_ </xsl:text>
+  <!-- Strip edge whitespace inside the markers so "_ text _" (which markdown
+       won't italicise) becomes "_text_". Any surrounding spacing comes from
+       neighbouring text nodes, not from inside the emphasis. -->
+  <xsl:variable name="content"><xsl:apply-templates /></xsl:variable>
+  <xsl:if test="normalize-space($content) != ''">
+    <xsl:text>_</xsl:text>
+    <xsl:value-of select="normalize-space($content)"/>
+    <xsl:text>_</xsl:text>
+  </xsl:if>
   </xsl:template>
 
   <xsl:template match="bold">
-  <xsl:text>**</xsl:text>
-  <xsl:apply-templates />
-  <xsl:text>**</xsl:text>
+  <!-- Add a separating space if we follow an <italic> sibling directly, so
+       "<italic>Denisia cryptica</italic><bold>sp. nov.</bold>" doesn't render
+       as the joined "_Denisia cryptica_**sp. nov.**". Also strip edge
+       whitespace inside the markers so "** text **" stays as "**text**". -->
+  <xsl:if test="preceding-sibling::node()[1][self::italic]">
+    <xsl:text> </xsl:text>
+  </xsl:if>
+  <xsl:variable name="content"><xsl:apply-templates /></xsl:variable>
+  <xsl:if test="normalize-space($content) != ''">
+    <xsl:text>**</xsl:text>
+    <xsl:value-of select="normalize-space($content)"/>
+    <xsl:text>**</xsl:text>
+  </xsl:if>
   </xsl:template>
 
   <xsl:template match="list">
@@ -403,9 +440,14 @@
   <!-- <xsl:template match="ack/title"><h2><xsl:apply-templates /></h2></xsl:template>
  -->
   <xsl:template match="title">
-  <xsl:text>**</xsl:text>
-  <xsl:apply-templates />
-  <xsl:text>**</xsl:text></xsl:template>
+  <!-- Strip edge whitespace so "** text **" (which markdown won't render as
+       bold) becomes "**text**". -->
+  <xsl:variable name="content"><xsl:apply-templates /></xsl:variable>
+  <xsl:if test="normalize-space($content) != ''">
+    <xsl:text>**</xsl:text>
+    <xsl:value-of select="normalize-space($content)"/>
+    <xsl:text>**</xsl:text>
+  </xsl:if></xsl:template>
 
   <!-- table -->
   <xsl:template match="table-wrap">
@@ -478,11 +520,51 @@
           </tp:nomenclature>
         -->
   <xsl:template match="tp:nomenclature">
-    <xsl:apply-templates />
+    <!-- The default apply-templates joined taxon-name, taxon-status and the
+         xref figure refs with no separators. Insert single spaces between
+         them, and bookend with blank lines so the next sibling (typically a
+         <tp:treatment-sec> title like "Material examined.") starts on its
+         own line. -->
+    <xsl:text>&#xa;</xsl:text>
+    <xsl:apply-templates select="tp:taxon-name"/>
+    <xsl:if test="tp:taxon-status">
+      <xsl:text> </xsl:text>
+      <xsl:apply-templates select="tp:taxon-status"/>
+    </xsl:if>
+    <xsl:if test="xref">
+      <xsl:text> </xsl:text>
+      <xsl:apply-templates select="xref"/>
+    </xsl:if>
+    <xsl:text>&#xa;&#xa;</xsl:text>
+  </xsl:template>
+
+  <!-- Render a <kwd-group> (e.g. the Taxon classification block) as
+       "**Label** item1, item2, item3" so the keywords don't collapse into
+       "AnimaliaLepidopteraOecophoridae". -->
+  <xsl:template match="kwd-group">
+    <xsl:text>&#xa;</xsl:text>
+    <xsl:if test="label">
+      <xsl:apply-templates select="label"/>
+      <xsl:text> </xsl:text>
+    </xsl:if>
+    <xsl:for-each select="kwd">
+      <xsl:if test="position() != 1">
+        <xsl:text>, </xsl:text>
+      </xsl:if>
+      <xsl:apply-templates select="."/>
+    </xsl:for-each>
+    <xsl:text>&#xa;&#xa;</xsl:text>
   </xsl:template>
 
   <xsl:template match="tp:taxon-name">
-    <xsl:apply-templates />
+    <!-- Collapse any pretty-print whitespace introduced around a suppressed
+         <object-id> child so we get "Denisia cryptica", not "  Denisia
+         cryptica  ". xsl:preserve-space keeps inter-sibling spaces; the
+         outer normalize-space squeezes runs and trims edges. -->
+    <xsl:variable name="content">
+      <xsl:apply-templates />
+    </xsl:variable>
+    <xsl:value-of select="normalize-space($content)"/>
   </xsl:template>
 
   <xsl:template match="tp:taxon-authority">
@@ -558,7 +640,11 @@
       <xsl:when test="contains(graphic/@xlink:href, 'ZooKeys')">
         <xsl:value-of select="graphic/uri" />
       </xsl:when>
-      
+
+      <xsl:when test="graphic/uri/@content-type='original_file'">
+        <xsl:value-of select="graphic/uri" />
+      </xsl:when>
+     
       <!-- PMC -->
       <xsl:when test="//article-id[@pub-id-type='pmc']">
         <xsl:value-of select="concat('PMC', //article-id[@pub-id-type='pmc'], '/', graphic/@xlink:href, '.jpg')" /> 
@@ -640,17 +726,24 @@
   </xsl:template>
 
   <xsl:template match="article-title">
-    <xsl:text> </xsl:text>
-    <xsl:text>**</xsl:text>
-    <xsl:apply-templates />
-    <xsl:text>**</xsl:text>
+    <!-- XML sometimes carries a leading space inside <article-title>
+         (e.g. "<article-title> Lessons from leeches</article-title>"). Without
+         trimming, the wrappers produce "** Lessons from leeches**" which
+         markdown will not render as bold. -->
+    <xsl:variable name="content"><xsl:apply-templates /></xsl:variable>
+    <xsl:if test="normalize-space($content) != ''">
+      <xsl:text> **</xsl:text>
+      <xsl:value-of select="normalize-space($content)"/>
+      <xsl:text>**</xsl:text>
+    </xsl:if>
   </xsl:template>
 
   <xsl:template match="chapter-title">
-    <xsl:text> </xsl:text>
-    <xsl:text>**</xsl:text>
-    <xsl:value-of select="." />
-    <xsl:text>**</xsl:text>
+    <xsl:if test="normalize-space(.) != ''">
+      <xsl:text> **</xsl:text>
+      <xsl:value-of select="normalize-space(.)" />
+      <xsl:text>**</xsl:text>
+    </xsl:if>
   </xsl:template>
 
   <xsl:template match="source">
