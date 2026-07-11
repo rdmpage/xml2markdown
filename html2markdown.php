@@ -19,7 +19,7 @@ $xml->load($filename);
 
 // XSL
 
-$xslt_filename = 'jats2markdown.xsl';
+$xslt_filename = 'html2markdown.xsl';
 
 $xsl = new DOMDocument();
 $xsl ->load($xslt_filename);
@@ -29,6 +29,8 @@ $proc = new XSLTProcessor();
 $proc->importStylesheet($xsl);
 
 $markdown = $proc->transformToXML($xml);
+
+echo $markdown;
 
 file_put_contents($xml_file_parts['filename'] . '.md', $markdown);
 
