@@ -79,8 +79,6 @@
      <xsl:apply-templates />
   </xsl:template>
 
-
-
 <xsl:template match="h1">
     <xsl:text>&#xa;</xsl:text>
     <xsl:text># </xsl:text>
@@ -228,6 +226,16 @@
     <xsl:text>&gt;</xsl:text>
   </xsl:template>
 
- 
+  <xsl:template match="img">
+    <xsl:text>&#xa;</xsl:text>
+    <xsl:text>&#xa;</xsl:text>
+    <xsl:text>![]</xsl:text>
+    <xsl:text>(</xsl:text>
+    <xsl:value-of select="@src"/>
+    <xsl:text>)</xsl:text>
+    <xsl:text>&#xa;</xsl:text>
+    <xsl:apply-templates />
+    <xsl:text>&#xa;</xsl:text>
+  </xsl:template>  
 
 </xsl:stylesheet>

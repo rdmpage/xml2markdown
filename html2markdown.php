@@ -30,8 +30,6 @@ $proc->importStylesheet($xsl);
 
 $markdown = $proc->transformToXML($xml);
 
-echo $markdown;
-
 file_put_contents($xml_file_parts['filename'] . '.md', $markdown);
 
 ?>
