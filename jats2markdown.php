@@ -19,7 +19,7 @@ $xml->load($filename);
 
 // XSL
 
-$xslt_filename = 'jats2markdown.xsl';
+$xslt_filename = dirname(__FILE__) . '/jats2markdown.xsl';
 
 $xsl = new DOMDocument();
 $xsl ->load($xslt_filename);

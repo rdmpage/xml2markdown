@@ -19,7 +19,7 @@ $xml->load($filename);
 
 // XSL
 
-$xslt_filename = dirname(__FILE__) . '/html2markdown.xsl';
+$xslt_filename = dirname(__FILE__) . '/plazi.xsl';
 
 $xsl = new DOMDocument();
 $xsl ->load($xslt_filename);

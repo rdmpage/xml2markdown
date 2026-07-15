@@ -93,14 +93,12 @@
     <xsl:text>&#xa;</xsl:text>
 </xsl:template> 
 
-
 <xsl:template match="h3">
     <xsl:text>&#xa;</xsl:text>
     <xsl:text>### </xsl:text>
     <xsl:apply-templates />
     <xsl:text>&#xa;</xsl:text>
 </xsl:template> 
-
 
 <xsl:template match="h4">
     <xsl:text>&#xa;</xsl:text>
