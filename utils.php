@@ -199,10 +199,18 @@ function get($url, $format = '')
 	curl_setopt($ch, CURLOPT_HEADER, 0);
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 	curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
+	// PHP curl sends no User-Agent by default, and some servers (e.g. Zenodo's
+	// WAF) 403 requests with no UA — and also block fake browser UAs. An honest
+	// tool UA is accepted. Without this, image fetches from Zenodo fail.
+	curl_setopt($ch, CURLOPT_USERAGENT, 'xml2markdown/1.0 (+https://github.com/rdmpage/xml2markdown)');
 	
 	if ($format != '')
 	{
-		curl_setopt($ch, CURLOPT_HTTPHEADER, array("Accept: " . $format));	
+		curl_setopt($ch, CURLOPT_HTTPHEADER, 
+			array("Accept: " . $format,
+			"Accept-Language: en-gb",
+			"User-agent: Mozilla/5.0 (iPad; U; CPU OS 3_2_1 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Mobile/7B405" 						
+			));	
 	}
 	
 	$response = curl_exec($ch);

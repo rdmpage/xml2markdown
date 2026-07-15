@@ -214,8 +214,8 @@ function process_xml_file($input_abs, $ROOT, $OUTPUT_DIR)
 			break;
 
 		case 'plazi':
-			// Plazi treatment -> Markdown (tables/images/refs to follow).
-			$scripts = ['plazi2markdown.php'];
+			// Plazi treatment -> Markdown + references (unstructured, CSL-ish JSON) + figure images.
+			$scripts = ['plazi2markdown.php', 'plazi-references.php', 'plazi-images.php'];
 			break;
 
 		default:
