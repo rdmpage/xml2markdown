@@ -181,7 +181,7 @@
     <xsl:text>&#xa;</xsl:text>
     <xsl:text>![]</xsl:text>
     <xsl:text>(</xsl:text>
-    <xsl:value-of select="@httpUri"/>
+    <xsl:value-of select="concat(@id, '.png')"/>
     <xsl:text>)</xsl:text>
     <xsl:text>&#xa;</xsl:text>
     <xsl:call-template name="tidy-punct">
