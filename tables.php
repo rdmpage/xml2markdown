@@ -164,11 +164,6 @@ else
 		$html = $dom->saveXML($table);
 		
 		html_table_to_csv($html, $table_filename);
-		
-		
 	}
-	
-	
-	
 
 }

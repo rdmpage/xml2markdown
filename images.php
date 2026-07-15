@@ -37,7 +37,7 @@ foreach ($xpath->query ('//fig/graphic') as $graphic_node)
 
 	$href = $graphic_node->getAttribute('xlink:href');
 	
-	echo "href=$href\n";
+	// echo "href=$href\n";
 	
 	foreach ($xpath->query ('uri', $graphic_node) as $uri_node)
 	{
@@ -118,34 +118,6 @@ foreach ($xpath->query ('//fig/graphic') as $graphic_node)
 		}
 	
 	}
-	
-	
-	print_r($graphic);
+		
+	// print_r($graphic);
 }
-
-
-/*
-      <!-- PLoS -->
-      <xsl:when test="contains(graphic/@xlink:href, 'journal.pone')">
-        <xsl:value-of select="concat('https://journals.plos.org/plosone/article/figure/image?size=large&amp;id=', graphic/@xlink:href)" />
-      </xsl:when>
-
-      <!-- Wellcome -->
-      <xsl:when test="contains(graphic/@xlink:href, 'wellcomeopenresearch.s3.eu-west-1.amazonaws.com')">
-        <xsl:value-of select="concat( substring-before(graphic/@xlink:href, 'wellcomeopenresearch.s3.eu-west-1.amazonaws.com'), 'wellcomeopenresearch-files.f1000.com', substring-after(graphic/@xlink:href, 'wellcomeopenresearch.s3.eu-west-1.amazonaws.com') )" />
-      </xsl:when>
- 
-      <!-- Pensoft -->
-      <xsl:when test="contains(graphic/@xlink:href, 'ZooKeys')">
-        <xsl:value-of select="graphic/uri" />
-      </xsl:when>
-
-      <xsl:when test="graphic/uri/@content-type='original_file'">
-        <xsl:value-of select="graphic/uri" />
-      </xsl:when>
-     
-      <!-- PMC -->
-      <xsl:when test="//article-id[@pub-id-type='pmc']">
-        <xsl:value-of select="concat('PMC', //article-id[@pub-id-type='pmc'], '/', graphic/@xlink:href, '.jpg')" /> 
-      </xsl:when>
-*/
