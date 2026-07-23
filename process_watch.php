@@ -291,6 +291,23 @@ function process_pdf_file($input_abs, $ROOT, $OUTPUT_DIR)
 	return [$ok, $out, true];
 }
 
+// Process a standalone .xlsx into output/<basename>/: copy it in and split each
+// worksheet to CSV (no datalab call needed). Returns [ok, output_dir, source_in_bundle].
+function process_excel_file($input_abs, $ROOT, $OUTPUT_DIR)
+{
+	$id  = pathinfo($input_abs, PATHINFO_FILENAME);
+	$out = $OUTPUT_DIR . '/' . $id;
+	if (!is_dir($out)) { mkdir($out, 0777, true); }
+
+	$xlsx_in_bundle = $out . '/' . basename($input_abs);
+	copy($input_abs, $xlsx_in_bundle);
+
+	echo "  excel2csv: " . basename($input_abs) . "\n";
+	$ok = run_tools(['excel2csv.php'], $xlsx_in_bundle, $out, $ROOT);
+
+	return [$ok, $out, true];
+}
+
 //----------------------------------------------------------------------------------------
 // Process a folder (OCR HTML + images, or an XML + images bundle).
 // The folder is copied to output/<name>/ and the tools run inside the copy.
@@ -308,7 +325,7 @@ function process_folder($src_abs, $ROOT, $OUTPUT_DIR)
 	// (non-open-access PMC: a main PDF plus Office supplementary files).
 	$html = find_by_ext($out, ['html', 'htm']);
 	$xmls = find_by_ext($out, ['xml', 'nxml']);
-	$docs = find_by_ext($out, ['pdf', 'docx', 'doc', 'pptx']);
+	$docs = find_by_ext($out, ['pdf', 'docx', 'doc', 'pptx', 'xlsx']);
 
 	$ok = true;
 
@@ -337,6 +354,14 @@ function process_folder($src_abs, $ROOT, $OUTPUT_DIR)
 		foreach ($docs as $doc)
 		{
 			$ext = strtolower(pathinfo($doc, PATHINFO_EXTENSION));
+
+			// Spreadsheets convert straight to CSV — no datalab call needed.
+			if ($ext === 'xlsx')
+			{
+				echo "  excel2csv: " . basename($doc) . "\n";
+				if (run_tools(['excel2csv.php'], $doc, $out, $ROOT)) { $converted++; }
+				continue;
+			}
 
 			// Word docs: only worth a datalab call if they actually have a table.
 			if ($ext === 'docx' && !docx_has_table($doc))
@@ -389,6 +414,10 @@ foreach ($entries as $entry)
 	else if ($ext === 'pdf')
 	{
 		list($ok, $out, $source_in_bundle) = process_pdf_file($path, $ROOT, $OUTPUT_DIR);
+	}
+	else if ($ext === 'xlsx')
+	{
+		list($ok, $out, $source_in_bundle) = process_excel_file($path, $ROOT, $OUTPUT_DIR);
 	}
 	else
 	{
