@@ -116,6 +116,11 @@ else
 
 $xml = file_get_contents($filename);
 
+// Strip C0 control chars (keeping tab/LF/CR) — datalab.to HTML can contain stray
+// NUL bytes (corrupted accented characters) that are illegal in XML and would
+// abort loadXML, leaving no tables extracted.
+$xml = preg_replace('/[\x00-\x08\x0B\x0C\x0E-\x1F]/', '', $xml);
+
 $xml_file_parts = pathinfo($filename);
 
 $dom= new DOMDocument;
