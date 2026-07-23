@@ -86,8 +86,13 @@ else
 
 $url = 'https://www.datalab.to/api/v1/convert';
 
-// output filename
-$json_filename = str_replace('.pdf', '.json', $upload_filename);
+// output filenames, derived from the input basename so this works for any input
+// type (.pdf, .docx, .pptx, ...), not just .pdf
+$parts = pathinfo($upload_filename);
+$base = (isset($parts['dirname']) && $parts['dirname'] !== '' && $parts['dirname'] !== '.')
+	? $parts['dirname'] . '/' . $parts['filename']
+	: $parts['filename'];
+$json_filename = $base . '.json';
 
 $output_format = 'html';
 //$output_format = 'markdown';
@@ -136,13 +141,13 @@ if ($result->status == "complete")
 	switch ($output_format)
 	{
 		case 'html':
-			$output_filename = str_replace('.pdf', ".html", $upload_filename);
+			$output_filename = $base . '.html';
 			file_put_contents($output_filename, $result->html);
 			break;
-	
+
 		case 'markdown':
 		default:
-			$output_filename = str_replace('.pdf', ".md", $upload_filename);
+			$output_filename = $base . '.md';
 			file_put_contents($output_filename, $result->markdown);
 			break;
 	}

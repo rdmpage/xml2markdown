@@ -238,6 +238,44 @@ function process_xml_file($input_abs, $ROOT, $OUTPUT_DIR)
 // working directory, so we copy the PDF into the bundle and run it there — that
 // lands every output in output/<id>/ and folds the source PDF in. The HTML is
 // then passed through tables.php. Returns [bool ok, string output_dir, bool source_in_bundle].
+// True if a .docx actually contains a table, so we only spend a datalab call on
+// Word docs worth extracting. A .docx is a zip; tables appear as <w:tbl...> in
+// word/document.xml.
+function docx_has_table($path)
+{
+	if (!class_exists('ZipArchive')) { return true; }   // can't inspect -> assume yes
+	$zip = new ZipArchive();
+	if ($zip->open($path) !== true) { return false; }
+	$doc = $zip->getFromName('word/document.xml');
+	$zip->close();
+	return $doc !== false && strpos($doc, '<w:tbl') !== false;
+}
+
+// Convert a document (PDF, Word, ...) that already sits in $out to HTML via
+// datalab, then Markdown + tables. datalab writes .html/.json next to the input
+// and images to the working dir, so with the doc in $out (cwd=$out) everything
+// lands in the bundle. datalab die()s on API errors (exit 0), so verify the
+// .html artefact rather than trust the exit code. Returns true on success.
+function convert_document($doc_abs, $out, $ROOT)
+{
+	echo "  datalab: " . basename($doc_abs) . "\n";
+	list($code, $stdout, $stderr) = run_tool($ROOT . '/datalab.php', $doc_abs, $out);
+	if ($stderr) { echo "    " . trim($stderr) . "\n"; }
+
+	$html = $out . '/' . pathinfo($doc_abs, PATHINFO_FILENAME) . '.html';
+	if (!is_file($html) || filesize($html) === 0)
+	{
+		echo "    ! no HTML for " . basename($doc_abs) . " (unsupported format / API error / no key).\n";
+		return false;
+	}
+	echo "    - ok (" . basename($html) . ")\n";
+
+	// Markdown + tables (CSV) from the HTML — roughly the JATS-equivalent output.
+	return run_tools(['html2markdown.php', 'tables.php'], $html, $out, $ROOT);
+}
+
+// Process a standalone PDF into output/<basename>/: copy it into the bundle and
+// convert it. Returns [bool ok, string output_dir, bool source_in_bundle].
 function process_pdf_file($input_abs, $ROOT, $OUTPUT_DIR)
 {
 	$id  = pathinfo($input_abs, PATHINFO_FILENAME);
@@ -248,22 +286,7 @@ function process_pdf_file($input_abs, $ROOT, $OUTPUT_DIR)
 	$pdf_in_bundle = $out . '/' . basename($input_abs);
 	copy($input_abs, $pdf_in_bundle);
 
-	echo "  datalab.php (PDF -> HTML) ...\n";
-	list($code, $stdout, $stderr) = run_tool($ROOT . '/datalab.php', $pdf_in_bundle, $out);
-	if ($stderr) { echo "    " . trim($stderr) . "\n"; }
-
-	// datalab uses die() on API errors (exits 0), so trust the artefact, not the
-	// exit code: require a non-empty .html before continuing.
-	$html = $out . '/' . $id . '.html';
-	if (!is_file($html) || filesize($html) === 0)
-	{
-		echo "    ! datalab produced no HTML (check DATALAB_API_KEY / env.php).\n";
-		return [false, $out, true];
-	}
-	echo "    - datalab ok (" . basename($html) . ")\n";
-
-	// Markdown + tables (CSV) from the HTML — roughly the JATS-equivalent output.
-	$ok = run_tools(['html2markdown.php', 'tables.php'], $html, $out, $ROOT);
+	$ok = convert_document($pdf_in_bundle, $out, $ROOT);
 
 	return [$ok, $out, true];
 }
@@ -281,9 +304,11 @@ function process_folder($src_abs, $ROOT, $OUTPUT_DIR)
 	copy_dir($src_abs, $out);
 	$source_in_bundle = true;
 
-	// Prefer HTML (OCR output); fall back to XML (e.g. a PMC folder).
+	// Prefer HTML (OCR output), then XML (open-access PMC), then documents
+	// (non-open-access PMC: a main PDF plus Office supplementary files).
 	$html = find_by_ext($out, ['html', 'htm']);
 	$xmls = find_by_ext($out, ['xml', 'nxml']);
+	$docs = find_by_ext($out, ['pdf', 'docx', 'doc', 'pptx']);
 
 	$ok = true;
 
@@ -303,9 +328,29 @@ function process_folder($src_abs, $ROOT, $OUTPUT_DIR)
 			$ok = run_tools(['jats2markdown.php', 'tables.php', 'references.php', 'images.php'], $x, $out, $ROOT) && $ok;
 		}
 	}
+	else if (count($docs) > 0)
+	{
+		// Convert each document via datalab. For Word docs only spend a call when
+		// the file actually contains a table (the reason we'd send it). The
+		// folder counts as processed if at least one document converted.
+		$converted = 0;
+		foreach ($docs as $doc)
+		{
+			$ext = strtolower(pathinfo($doc, PATHINFO_EXTENSION));
+
+			// Word docs: only worth a datalab call if they actually have a table.
+			if ($ext === 'docx' && !docx_has_table($doc))
+			{
+				echo "  skip (no table): " . basename($doc) . "\n";
+				continue;
+			}
+			if (convert_document($doc, $out, $ROOT)) { $converted++; }
+		}
+		$ok = ($converted > 0);
+	}
 	else
 	{
-		echo "  ! no HTML or XML found in folder — nothing to do.\n";
+		echo "  ! no HTML, XML, or convertible document found in folder.\n";
 		$ok = false;
 	}
 

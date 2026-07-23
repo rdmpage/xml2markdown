@@ -159,7 +159,8 @@ else
 		// Number tables from 1 to be consistent with how they are likely numbered in the document
 		$table_count++;
 		
-		$table_filename = sanitise_filename('table-' . $table_count . '.csv');
+		// Note that we include source filename as we may generate tables from multiple documents (e.g., supplementary files)
+		$table_filename = sanitise_filename($xml_file_parts['filename'] . '-table-' . $table_count . '.csv');
 		
 		$html = $dom->saveXML($table);
 		
