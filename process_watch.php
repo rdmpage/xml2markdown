@@ -321,16 +321,17 @@ function process_folder($src_abs, $ROOT, $OUTPUT_DIR)
 	copy_dir($src_abs, $out);
 	$source_in_bundle = true;
 
-	// Prefer HTML (OCR output), then XML (open-access PMC), then documents
-	// (non-open-access PMC: a main PDF plus Office supplementary files).
 	$html = find_by_ext($out, ['html', 'htm']);
 	$xmls = find_by_ext($out, ['xml', 'nxml']);
 	$docs = find_by_ext($out, ['pdf', 'docx', 'doc', 'pptx', 'xlsx']);
 
 	$ok = true;
+	$did_primary = false;
 
+	// Primary content: HTML (OCR output) or XML (open-access PMC).
 	if (count($html) > 0)
 	{
+		$did_primary = true;
 		foreach ($html as $h)
 		{
 			echo "  html: " . basename($h) . "\n";
@@ -339,44 +340,54 @@ function process_folder($src_abs, $ROOT, $OUTPUT_DIR)
 	}
 	else if (count($xmls) > 0)
 	{
+		$did_primary = true;
 		foreach ($xmls as $x)
 		{
 			echo "  xml: " . basename($x) . "\n";
 			$ok = run_tools(['jats2markdown.php', 'tables.php', 'references.php', 'images.php'], $x, $out, $ROOT) && $ok;
 		}
 	}
-	else if (count($docs) > 0)
+
+	// Documents. When there IS primary content these are supplementary files
+	// (e.g. a PMC OA article's Excel/Word/PDF supplements); when there ISN'T
+	// (non-OA PMC: a main PDF), they are the content itself. Either way, skip any
+	// document that is just the primary article in another format — i.e. shares a
+	// basename with an HTML/XML file (PMC11450381.1.pdf next to PMC11450381.1.xml).
+	$primary_stems = array();
+	foreach (array_merge($html, $xmls) as $p) { $primary_stems[pathinfo($p, PATHINFO_FILENAME)] = true; }
+
+	$converted = 0;
+	foreach ($docs as $doc)
 	{
-		// Convert each document via datalab. For Word docs only spend a call when
-		// the file actually contains a table (the reason we'd send it). The
-		// folder counts as processed if at least one document converted.
-		$converted = 0;
-		foreach ($docs as $doc)
+		if (isset($primary_stems[pathinfo($doc, PATHINFO_FILENAME)])) { continue; }
+
+		$ext = strtolower(pathinfo($doc, PATHINFO_EXTENSION));
+
+		// Spreadsheets convert straight to CSV — no datalab call needed.
+		if ($ext === 'xlsx')
 		{
-			$ext = strtolower(pathinfo($doc, PATHINFO_EXTENSION));
-
-			// Spreadsheets convert straight to CSV — no datalab call needed.
-			if ($ext === 'xlsx')
-			{
-				echo "  excel2csv: " . basename($doc) . "\n";
-				if (run_tools(['excel2csv.php'], $doc, $out, $ROOT)) { $converted++; }
-				continue;
-			}
-
-			// Word docs: only worth a datalab call if they actually have a table.
-			if ($ext === 'docx' && !docx_has_table($doc))
-			{
-				echo "  skip (no table): " . basename($doc) . "\n";
-				continue;
-			}
-			if (convert_document($doc, $out, $ROOT)) { $converted++; }
+			echo "  excel2csv: " . basename($doc) . "\n";
+			if (run_tools(['excel2csv.php'], $doc, $out, $ROOT)) { $converted++; }
+			continue;
 		}
-		$ok = ($converted > 0);
+
+		// Word docs: only worth a datalab call if they actually have a table.
+		if ($ext === 'docx' && !docx_has_table($doc))
+		{
+			echo "  skip (no table): " . basename($doc) . "\n";
+			continue;
+		}
+		if (convert_document($doc, $out, $ROOT)) { $converted++; }
 	}
-	else
+
+	// With no structured primary, the folder is processed iff a document converted.
+	if (!$did_primary)
 	{
-		echo "  ! no HTML, XML, or convertible document found in folder.\n";
-		$ok = false;
+		$ok = ($converted > 0);
+		if ($converted == 0)
+		{
+			echo "  ! no HTML, XML, or convertible document found in folder.\n";
+		}
 	}
 
 	return [$ok, $out, $source_in_bundle];
