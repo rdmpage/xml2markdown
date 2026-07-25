@@ -249,4 +249,48 @@ function sanitise_filename($filename)
 	return $filename;
 }
 
+//----------------------------------------------------------------------------------------
+// YAML double-quoted scalar: always quote and escape, so values with colons,
+// quotes, '#', etc. (e.g. article titles) stay valid. Whitespace is collapsed.
+function yaml_scalar($s)
+{
+	$s = preg_replace('/\s+/', ' ', trim((string) $s));
+	$s = str_replace('\\', '\\\\', $s);
+	$s = str_replace('"', '\\"', $s);
+	return '"' . $s . '"';
+}
+
+//----------------------------------------------------------------------------------------
+// Build a YAML front-matter block from an associative array. Scalars are quoted;
+// array values become block sequences; empty values are skipped. Returns the
+// block (including the --- fences) plus a trailing blank line, or '' if empty.
+function frontmatter($meta)
+{
+	$lines = array();
+	foreach ($meta as $key => $value)
+	{
+		if ($value === null || $value === '' || (is_array($value) && count($value) === 0)) { continue; }
+
+		if (is_array($value))
+		{
+			$items = array();
+			foreach ($value as $item)
+			{
+				if (trim((string) $item) !== '') { $items[] = '  - ' . yaml_scalar($item); }
+			}
+			if (count($items) == 0) { continue; }
+			$lines[] = $key . ':';
+			$lines = array_merge($lines, $items);
+		}
+		else
+		{
+			$lines[] = $key . ': ' . yaml_scalar($value);
+		}
+	}
+
+	if (count($lines) == 0) { return ''; }
+
+	return "---\n" . implode("\n", $lines) . "\n---\n\n";
+}
+
 ?>

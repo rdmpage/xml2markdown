@@ -123,74 +123,9 @@
   </xsl:template>
 
   <xsl:template match="//article-meta">
-    <!-- why do we have different ways of doing this? -->
-    <xsl:value-of select="//journal-meta/journal-title-group/journal-title" />
-    <xsl:value-of select="../journal-meta/journal-title" />
-    <xsl:text> </xsl:text>
-    <xsl:if test="//article-meta/pub-date/day">
-      <xsl:value-of select="//article-meta/pub-date/day" />
-      <xsl:text> </xsl:text>
-    </xsl:if>
-    <xsl:if test="//article-meta/pub-date/month">
-      <xsl:choose>
-        <xsl:when test="//article-meta/pub-date/month = 1">
-          <xsl:text>January</xsl:text>
-        </xsl:when>
-        <xsl:when test="//article-meta/pub-date/month = 2">
-          <xsl:text>February</xsl:text>
-        </xsl:when>
-        <xsl:when test="//article-meta/pub-date/month = 3">
-          <xsl:text>March</xsl:text>
-        </xsl:when>
-        <xsl:when test="//article-meta/pub-date/month = 4">
-          <xsl:text>April</xsl:text>
-        </xsl:when>
-        <xsl:when test="//article-meta/pub-date/month = 5">
-          <xsl:text>May</xsl:text>
-        </xsl:when>
-        <xsl:when test="//article-meta/pub-date/month = 6">
-          <xsl:text>June</xsl:text>
-        </xsl:when>
-        <xsl:when test="//article-meta/pub-date/month = 7">
-          <xsl:text>July</xsl:text>
-        </xsl:when>
-        <xsl:when test="//article-meta/pub-date/month = 8">
-          <xsl:text>August</xsl:text>
-        </xsl:when>
-        <xsl:when test="//article-meta/pub-date/month = 9">
-          <xsl:text>September</xsl:text>
-        </xsl:when>
-        <xsl:when test="//article-meta/pub-date/month = 10">
-          <xsl:text>October</xsl:text>
-        </xsl:when>
-        <xsl:when test="//article-meta/pub-date/month = 11">
-          <xsl:text>November</xsl:text>
-        </xsl:when>
-        <xsl:when test="//article-meta/pub-date/month = 12">
-          <xsl:text>December</xsl:text>
-        </xsl:when>
-      </xsl:choose>
-      <xsl:text> </xsl:text>
-    </xsl:if>
-    <xsl:value-of select="//article-meta/pub-date/year" />
-    <xsl:text> </xsl:text>
-    <xsl:value-of select="//article-meta/volume" />
-    <xsl:if test="//article-meta/issue">
-      <xsl:text>(</xsl:text>
-      <xsl:value-of select="//article-meta/issue" />
-      <xsl:text>)</xsl:text>
-    </xsl:if>
-    <xsl:text>: </xsl:text>
-    <xsl:if test="//article-meta/fpage">
-      <xsl:value-of select="//article-meta/fpage" />
-      <xsl:text>-</xsl:text>
-      <xsl:value-of select="//article-meta/lpage" />
-    </xsl:if>
-    <xsl:if test="//article-meta/elocation-id">
-      <xsl:value-of select="//article-meta/elocation-id" />
-    </xsl:if>
-    <xsl:text>&#xa;</xsl:text>
-    <xsl:text>&#xa;</xsl:text>
+    <!-- Citation line (journal / date / volume / pages) dropped — that metadata
+         now lives in the YAML front matter emitted by jats2markdown.php. The H1
+         title below is kept for readability. -->
     <xsl:text># </xsl:text>
     <xsl:apply-templates select="//article-meta/title-group/article-title" />
     <xsl:text>&#xa;</xsl:text>
