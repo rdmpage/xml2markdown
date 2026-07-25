@@ -231,7 +231,11 @@ function jats_to_csl($xml)
 			}
 		}
 	
-		// cleanup
+		// cleanup — omit empty author/editor arrays
+		if (count($citation->author) == 0)
+		{
+			unset($citation->author);
+		}
 		if (count($citation->editor) == 0)
 		{
 			unset($citation->editor);
