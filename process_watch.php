@@ -47,6 +47,13 @@ function detect_xml_type($xml)
 		return 'plazi';
 	}
 
+	// Elsevier full-text (svapi/ja/ce DTDs). Checked before the JATS <article>
+	// fallback, because Elsevier articles also contain an <article> element.
+	if (strpos($xml, 'elsevier.com/xml/ja') !== false)
+	{
+		return 'elsevier';
+	}
+
 	$head = substr($xml, 0, 4000);
 
 	$xml_types = [
@@ -218,6 +225,11 @@ function process_xml_file($input_abs, $ROOT, $OUTPUT_DIR)
 			$scripts = ['plazi2markdown.php', 'plazi-references.php', 'plazi-images.php'];
 			break;
 
+		case 'elsevier':
+			// Elsevier full-text -> Markdown + references (CSL-JSON) + figures/supplements.
+			$scripts = ['elsevier2markdown.php', 'references.php', 'elsevier-images.php'];
+			break;
+
 		default:
 			echo "  no handler for '$type' yet.\n";
 			return [false, null, false];
@@ -228,6 +240,13 @@ function process_xml_file($input_abs, $ROOT, $OUTPUT_DIR)
 	if (!is_dir($out)) { mkdir($out, 0777, true); }
 
 	$ok = run_tools($scripts, $input_abs, $out, $ROOT);
+
+	// Elsevier: elsevier-images.php has just downloaded the supplementary files
+	// into the bundle — convert them (xlsx -> CSV, Word-with-table -> datalab).
+	if ($type === 'elsevier')
+	{
+		convert_supplements($out, $ROOT);
+	}
 
 	return [$ok, $out, false];
 }
@@ -272,6 +291,41 @@ function convert_document($doc_abs, $out, $ROOT)
 
 	// Markdown + tables (CSV) from the HTML — roughly the JATS-equivalent output.
 	return run_tools(['html2markdown.php', 'tables.php'], $html, $out, $ROOT);
+}
+
+// Convert supplementary documents sitting in $dir: xlsx -> CSV, and Word/PDF/etc
+// -> datalab -> Markdown + tables (Word docs only when they contain a table).
+// Skips any document whose basename matches a primary file (the article in
+// another format). Returns the number converted.
+function convert_supplements($dir, $ROOT, $primary_stems = array())
+{
+	$docs = find_by_ext($dir, ['pdf', 'docx', 'doc', 'pptx', 'xlsx']);
+	$converted = 0;
+
+	foreach ($docs as $doc)
+	{
+		if (isset($primary_stems[pathinfo($doc, PATHINFO_FILENAME)])) { continue; }
+
+		$ext = strtolower(pathinfo($doc, PATHINFO_EXTENSION));
+
+		// Spreadsheets convert straight to CSV — no datalab call needed.
+		if ($ext === 'xlsx')
+		{
+			echo "  excel2csv: " . basename($doc) . "\n";
+			if (run_tools(['excel2csv.php'], $doc, $dir, $ROOT)) { $converted++; }
+			continue;
+		}
+
+		// Word docs: only worth a datalab call if they actually have a table.
+		if ($ext === 'docx' && !docx_has_table($doc))
+		{
+			echo "  skip (no table): " . basename($doc) . "\n";
+			continue;
+		}
+		if (convert_document($doc, $dir, $ROOT)) { $converted++; }
+	}
+
+	return $converted;
 }
 
 // Process a standalone PDF into output/<basename>/: copy it into the bundle and
@@ -323,7 +377,6 @@ function process_folder($src_abs, $ROOT, $OUTPUT_DIR)
 
 	$html = find_by_ext($out, ['html', 'htm']);
 	$xmls = find_by_ext($out, ['xml', 'nxml']);
-	$docs = find_by_ext($out, ['pdf', 'docx', 'doc', 'pptx', 'xlsx']);
 
 	$ok = true;
 	$did_primary = false;
@@ -356,29 +409,7 @@ function process_folder($src_abs, $ROOT, $OUTPUT_DIR)
 	$primary_stems = array();
 	foreach (array_merge($html, $xmls) as $p) { $primary_stems[pathinfo($p, PATHINFO_FILENAME)] = true; }
 
-	$converted = 0;
-	foreach ($docs as $doc)
-	{
-		if (isset($primary_stems[pathinfo($doc, PATHINFO_FILENAME)])) { continue; }
-
-		$ext = strtolower(pathinfo($doc, PATHINFO_EXTENSION));
-
-		// Spreadsheets convert straight to CSV — no datalab call needed.
-		if ($ext === 'xlsx')
-		{
-			echo "  excel2csv: " . basename($doc) . "\n";
-			if (run_tools(['excel2csv.php'], $doc, $out, $ROOT)) { $converted++; }
-			continue;
-		}
-
-		// Word docs: only worth a datalab call if they actually have a table.
-		if ($ext === 'docx' && !docx_has_table($doc))
-		{
-			echo "  skip (no table): " . basename($doc) . "\n";
-			continue;
-		}
-		if (convert_document($doc, $out, $ROOT)) { $converted++; }
-	}
+	$converted = convert_supplements($out, $ROOT, $primary_stems);
 
 	// With no structured primary, the folder is processed iff a document converted.
 	if (!$did_primary)
