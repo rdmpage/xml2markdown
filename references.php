@@ -1,6 +1,7 @@
 <?php
 
 require_once(dirname(__FILE__) . '/jats-to-csl.php');
+require_once(dirname(__FILE__) . '/elsevier-to-csl.php');
 
 $filename = '';
 if ($argc < 2)
@@ -17,7 +18,15 @@ $xml_file_parts = pathinfo($filename);
 
 $xml = file_get_contents($filename);
 
-$bibliography = jats_to_csl($xml);
+// Pick the extractor by format: Elsevier full-text (ja/ce DTDs) vs JATS.
+if (strpos($xml, 'elsevier.com/xml/ja') !== false)
+{
+	$bibliography = elsevier_to_csl($xml);
+}
+else
+{
+	$bibliography = jats_to_csl($xml);
+}
 
 //print_r($bibliography);
 
