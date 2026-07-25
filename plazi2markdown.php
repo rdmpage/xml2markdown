@@ -97,9 +97,11 @@ $proc->importStylesheet($xsl);
 
 $markdown = $proc->transformToXML($xml);
 
-// Prepend YAML front matter (the treatment heading is kept in the body).
+// Prepend YAML front matter (the treatment heading is kept in the body). ltrim
+// the transform output so the body starts cleanly at the first heading, rather
+// than after the stray whitespace the stylesheet emits ahead of the treatment.
 $front = frontmatter(plazi_metadata($xml));
 
-file_put_contents($xml_file_parts['filename'] . '.md', $front . $markdown);
+file_put_contents($xml_file_parts['filename'] . '.md', $front . ltrim($markdown));
 
 ?>
