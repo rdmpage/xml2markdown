@@ -1,5 +1,7 @@
 <?php
 
+require_once(dirname(__FILE__) . '/utils.php');
+
 $filename = '';
 if ($argc < 2)
 {
@@ -46,6 +48,24 @@ if ($markdown === false)
 	exit(1);
 }
 
-file_put_contents($xml_file_parts['filename'] . '.md', $markdown);
+// Minimal YAML front matter. datalab HTML carries no bibliographic metadata
+// beyond the first heading, so emit just the title (from <h1>) and the source —
+// and only when there IS a title, so data-supplement fragments (no heading) are
+// left without a spurious block.
+$meta = array();
+$h1 = $xml->getElementsByTagName('h1')->item(0);
+if ($h1)
+{
+	$title = trim(preg_replace('/\s+/', ' ', $h1->textContent));
+	if ($title !== '')
+	{
+		$meta['title']  = $title;
+		$meta['source'] = 'pdf';
+	}
+}
+
+$front = frontmatter($meta);
+
+file_put_contents($xml_file_parts['filename'] . '.md', $front . ltrim($markdown));
 
 ?>
