@@ -289,8 +289,10 @@ function convert_document($doc_abs, $out, $ROOT)
 	}
 	echo "    - ok (" . basename($html) . ")\n";
 
-	// Markdown + tables (CSV) from the HTML — roughly the JATS-equivalent output.
-	return run_tools(['html2markdown.php', 'tables.php'], $html, $out, $ROOT);
+	// Markdown + tables (CSV) + unstructured references from the HTML — roughly the
+	// JATS-equivalent output. md-references.php no-ops when there's no reference
+	// section (e.g. supplements), so it is safe to run for every converted doc.
+	return run_tools(['html2markdown.php', 'tables.php', 'md-references.php'], $html, $out, $ROOT);
 }
 
 // Convert supplementary documents sitting in $dir: xlsx -> CSV, and Word/PDF/etc
@@ -388,7 +390,7 @@ function process_folder($src_abs, $ROOT, $OUTPUT_DIR)
 		foreach ($html as $h)
 		{
 			echo "  html: " . basename($h) . "\n";
-			$ok = run_tools(['html2markdown.php', 'tables.php'], $h, $out, $ROOT) && $ok;
+			$ok = run_tools(['html2markdown.php', 'tables.php', 'md-references.php'], $h, $out, $ROOT) && $ok;
 		}
 	}
 	else if (count($xmls) > 0)
